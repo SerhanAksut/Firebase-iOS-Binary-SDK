@@ -19,9 +19,25 @@ let package = Package(
             targets: ["FirebaseFirestore"]
         ),
         .library(
+            name: "FirebaseInstallations",
+            targets: ["FirebaseInstallations"]
+        ),
+        .library(
             name: "FirebaseMessaging",
             targets: ["FirebaseMessaging"]
-        )
+        ),
+        .library(
+            name: "GoogleDataTransport",
+            targets: ["GoogleDataTransport"]
+        ),
+        .library(
+            name: "GoogleUtilities",
+            targets: ["GoogleUtilities"]
+        ),
+        .library(
+            name: "nanopb",
+            targets: ["nanopb"]
+        ),
     ],
     targets: [
         .binaryTarget(
@@ -33,8 +49,24 @@ let package = Package(
             path: "FirebaseFirestore.xcframework"
         ),
         .binaryTarget(
+            name: "FirebaseInstallations",
+            path: "FirebaseInstallations.xcframework"
+        ),
+        .binaryTarget(
             name: "FirebaseMessaging",
             path: "FirebaseMessaging.xcframework"
+        ),
+        .binaryTarget(
+            name: "GoogleDataTransport",
+            path: "GoogleDataTransport.xcframework"
+        ),
+        .binaryTarget(
+            name: "GoogleUtilities",
+            path: "GoogleUtilities.xcframework"
+        ),
+        .binaryTarget(
+            name: "nanopb",
+            path: "nanopb.xcframework"
         )
     ]
 )
