@@ -7,6 +7,7 @@ let package = Package(
     name: "FirebaseiOSSDK",
     platforms: [.iOS(.v13), .macOS(.v10_15)],
     products: [
+        .library(name: "abseil", targets: ["abseil"]),
         .library(name: "FirebaseCore", targets: ["FirebaseCore"]),
         .library(name: "FirebaseFirestore", targets: ["FirebaseFirestore"]),
         .library(name: "FirebaseInstallations", targets: ["FirebaseInstallations"]),
@@ -17,6 +18,7 @@ let package = Package(
         .library(name: "PromisesObjC", targets: ["PromisesObjC"])
     ],
     targets: [
+        .binaryTarget(name: "abseil", path: "abseil.xcframework"),
         .binaryTarget(name: "FirebaseCore", path: "FirebaseCore.xcframework"),
         .binaryTarget(name: "FirebaseFirestore", path: "FirebaseFirestore.xcframework"),
         .binaryTarget(name: "FirebaseInstallations", path: "FirebaseInstallations.xcframework"),
