@@ -1,0 +1,6 @@
+framework module FirebaseAnalyticsOnDeviceConversion {
+umbrella header "FirebaseAnalyticsOnDeviceConversion-umbrella.h"
+export *
+module * { export * }
+  link "c++"
+}
