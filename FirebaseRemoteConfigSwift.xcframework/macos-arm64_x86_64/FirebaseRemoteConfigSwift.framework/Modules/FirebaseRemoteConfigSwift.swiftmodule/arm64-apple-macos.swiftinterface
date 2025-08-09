@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-macos10.13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FirebaseRemoteConfigSwift
+import FirebaseCore
+import FirebaseRemoteConfig
+@_exported import FirebaseRemoteConfigSwift
+import FirebaseSharedSwift
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+public enum RemoteConfigValueCodableError : Swift.Error {
+  case unsupportedType(Swift.String)
+}
+extension FirebaseRemoteConfig.RemoteConfigValue {
+  public func decoded<Value>(asType: Value.Type = Value.self) throws -> Value where Value : Swift.Decodable
+}
+public enum RemoteConfigCodableError : Swift.Error {
+  case invalidSetDefaultsInput(Swift.String)
+}
+extension FirebaseRemoteConfig.RemoteConfig {
+  public func decoded<Value>(asType: Value.Type = Value.self) throws -> Value where Value : Swift.Decodable
+  public func setDefaults<Value>(from value: Value) throws where Value : Swift.Encodable
+}
+@available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+@propertyWrapper @_Concurrency.MainActor(unsafe) public struct RemoteConfigProperty<T> : SwiftUI.DynamicProperty where T : Swift.Decodable {
+  @_Concurrency.MainActor(unsafe) public let key: Swift.String
+  @_Concurrency.MainActor(unsafe) public var wrappedValue: T {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public init(key: Swift.String, fallback: T)
+}
+extension FirebaseRemoteConfig.RemoteConfig {
+  public subscript<T>(decodedValue key: Swift.String) -> T? where T : Swift.Decodable {
+    get
+  }
+  public subscript(jsonValue key: Swift.String) -> [Swift.String : Swift.AnyHashable]? {
+    get
+  }
+}

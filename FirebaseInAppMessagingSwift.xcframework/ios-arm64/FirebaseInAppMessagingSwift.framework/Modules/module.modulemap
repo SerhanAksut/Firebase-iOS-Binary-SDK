@@ -1,0 +1,11 @@
+framework module FirebaseInAppMessagingSwift {
+  umbrella header "FirebaseInAppMessagingSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FirebaseInAppMessagingSwift.Swift {
+    header "FirebaseInAppMessagingSwift-Swift.h"
+    requires objc
+}

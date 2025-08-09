@@ -8,7 +8,5 @@ module * { export * }
   link framework "LocalAuthentication"
   link framework "SafariServices"
   link framework "Security"
-  link framework "SystemConfiguration"
   link framework "UIKit"
-  link "z"
 }
