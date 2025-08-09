@@ -34,17 +34,15 @@ NS_ASSUME_NONNULL_BEGIN
 API_UNAVAILABLE(macCatalyst)
 @interface OIDExternalUserAgentIOS : NSObject<OIDExternalUserAgent>
 
-- (nullable instancetype)init API_AVAILABLE(ios(11))
+- (null_unspecified instancetype)init API_AVAILABLE(ios(11))
     __deprecated_msg("This method will not work on iOS 13, use "
                      "initWithPresentingViewController:presentingViewController");
 
 /*! @brief The designated initializer.
     @param presentingViewController The view controller from which to present the authentication UI.
     @discussion The specific authentication UI used depends on the iOS version and accessibility
-        options. iOS 8 uses the system browser, iOS 9-10 use @c SFSafariViewController, iOS 11 uses
-        @c SFAuthenticationSession
-        (unless Guided Access is on which does not work) or uses @c SFSafariViewController, and iOS
-        12+ uses @c ASWebAuthenticationSession (unless Guided Access is on).
+        options. iOS 12+ uses @c ASWebAuthenticationSession (unless Guided Access is on),
+        otherwise local browser is used.
  */
 - (nullable instancetype)initWithPresentingViewController:
     (UIViewController *)presentingViewController
