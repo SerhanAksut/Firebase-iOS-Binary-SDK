@@ -6,6 +6,6 @@ framework module FirebaseFunctions {
 }
 
 module FirebaseFunctions.Swift {
-    header "FirebaseFunctions-Swift.h"
-    requires objc
+  header "FirebaseFunctions-Swift.h"
+  requires objc
 }

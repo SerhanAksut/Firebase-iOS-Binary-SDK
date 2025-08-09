@@ -11,3 +11,7 @@ module * { export * }
   link "icucore"
   link "z"
 }
+module FirebaseDatabase.Swift {
+  header "FirebaseDatabase-Swift.h"
+  requires objc
+}
