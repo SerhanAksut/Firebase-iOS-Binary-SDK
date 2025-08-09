@@ -9,3 +9,7 @@ module * { export * }
   link "c++"
   link "z"
 }
+module FirebaseFirestore.Swift {
+  header "FirebaseFirestore-Swift.h"
+  requires objc
+}

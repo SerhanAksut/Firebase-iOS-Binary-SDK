@@ -8,3 +8,7 @@ module * { export * }
   link framework "UIKit"
   link "z"
 }
+module FirebaseAuth.Swift {
+  header "FirebaseAuth-Swift.h"
+  requires objc
+}

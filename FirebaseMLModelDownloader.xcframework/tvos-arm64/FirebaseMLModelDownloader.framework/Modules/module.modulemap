@@ -6,6 +6,6 @@ framework module FirebaseMLModelDownloader {
 }
 
 module FirebaseMLModelDownloader.Swift {
-    header "FirebaseMLModelDownloader-Swift.h"
-    requires objc
+  header "FirebaseMLModelDownloader-Swift.h"
+  requires objc
 }

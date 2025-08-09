@@ -16,10 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "FIRAuth.h"
-#import "FIRMultiFactorAssertion.h"
-#import "FIRMultiFactorInfo.h"
-#import "FIRMultiFactorSession.h"
+@class FIRMultiFactorSession;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -35,56 +32,17 @@ typedef void (^FIRMultiFactorSessionCallback)(FIRMultiFactorSession *_Nullable s
         API_UNAVAILABLE(macos, tvos, watchos);
 
 /**
-   @brief The string identifier for second factors. e.g. "phone".
+   @brief The string identifier for using phone as a second factor.
         This constant is available on iOS only.
 */
 extern NSString *const _Nonnull FIRPhoneMultiFactorID NS_SWIFT_NAME(PhoneMultiFactorID)
     API_UNAVAILABLE(macos, tvos, watchos);
 
-/** @class FIRMultiFactor
-    @brief The interface defining the multi factor related properties and operations pertaining to a
-        user.
-        This class is available on iOS only.
+/**
+   @brief The string identifier for using TOTP as a second factor.
+        This constant is available on iOS only.
 */
-NS_SWIFT_NAME(MultiFactor) API_UNAVAILABLE(macos, tvos, watchos) @interface FIRMultiFactor
-    : NSObject
-
-@property(nonatomic, readonly) NSArray<FIRMultiFactorInfo *> *enrolledFactors;
-
-/** @fn getSessionWithCompletion:
-    @brief Get a session for a second factor enrollment operation.
-    @param completion A block with the session identifier for a second factor enrollment operation.
-        This is used to identify the current user trying to enroll a second factor.
-*/
-- (void)getSessionWithCompletion:(nullable void (^)(FIRMultiFactorSession *_Nullable credential,
-                                                    NSError *_Nullable error))completion;
-
-/** @fn enrollWithAssertion:displayName:completion:
-    @brief Enrolls a second factor as identified by the `MultiFactorAssertion` parameter for the
-        current user.
-    @param displayName An optional display name associated with the multi factor to enroll.
-    @param completion The block invoked when the request is complete, or fails.
-*/
-- (void)enrollWithAssertion:(FIRMultiFactorAssertion *)assertion
-                displayName:(nullable NSString *)displayName
-                 completion:(nullable void (^)(NSError *_Nullable error))completion;
-
-/** @fn unenrollWithInfo:completion:
-    @brief Unenroll the given multi factor.
-    @param completion The block invoked when the request to send the verification email is complete,
-        or fails.
-*/
-- (void)unenrollWithInfo:(FIRMultiFactorInfo *)factorInfo
-              completion:(nullable void (^)(NSError *_Nullable error))completion;
-
-/** @fn unenrollWithFactorUID:completion:
-    @brief Unenroll the given multi factor.
-    @param completion The block invoked when the request to send the verification email is complete,
-        or fails.
-*/
-- (void)unenrollWithFactorUID:(NSString *)factorUID
-                   completion:(nullable void (^)(NSError *_Nullable error))completion;
-
-@end
+extern NSString *const _Nonnull FIRTOTPMultiFactorID NS_SWIFT_NAME(TOTPMultiFactorID)
+    API_UNAVAILABLE(macos, tvos, watchos);
 
 NS_ASSUME_NONNULL_END
