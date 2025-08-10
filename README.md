@@ -17,9 +17,13 @@ This repository wraps the official Firebase iOS SDK libraries as binary XCFramew
 
 ## Requirements
 
-- iOS 11.0+
-- Xcode 12.0+
-- Swift 5.3+
+- iOS 15.0+
+- macOS 10.15+
+- tvOS 15.0+
+- watchOS 7.0+
+- Mac Catalyst 15.0+
+- Xcode 14.0+
+- Swift 5.7+
 
 ## Installation
 
