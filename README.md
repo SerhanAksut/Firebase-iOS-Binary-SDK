@@ -96,7 +96,30 @@ Auth.auth().signIn(withEmail: email, password: password) { result, error in
 
 ## Configuration
 
+### GoogleService-Info.plist
+
 Don't forget to add your `GoogleService-Info.plist` file to your Xcode project, which you can download from the [Firebase Console](https://console.firebase.google.com/).
+
+### Firebase Crashlytics Build Script
+
+If you're using Firebase Crashlytics, you need to update your build script path in Xcode:
+
+1. Open your project in Xcode
+2. Select your target
+3. Go to **Build Phases** tab
+4. Find your existing Firebase Crashlytics run script (or create a new one if it doesn't exist)
+5. Update the script path from the official Firebase SDK path to:
+
+```bash
+"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/Firebase-iOS-Binary-SDK/Crashlytics/run"
+```
+
+**Note**: This replaces the standard Firebase iOS SDK script path:
+```bash
+"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run"
+```
+
+This change is necessary because you're now using the binary wrapper instead of the official Firebase iOS SDK package, so the script location has changed accordingly.
 
 ## Benefits of Using Binary Frameworks
 
