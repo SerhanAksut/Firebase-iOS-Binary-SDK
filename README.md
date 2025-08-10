@@ -1,2 +1,2 @@
-# Firebase-Cropped-iOS-SDK
- A cropped Firebase iOS SDK for side projects
+# Firebase-Binary-iOS-SDK
+ A wrapped Firebase iOS SDK dependencies as binaries with SPM.
