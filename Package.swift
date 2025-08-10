@@ -6,10 +6,11 @@ import PackageDescription
 let package = Package(
     name: "FirebaseiOSSDK",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v15),
+        .macCatalyst(.v15),
         .macOS(.v10_15),
-        .tvOS(.v12),
-        .watchOS(.v6)
+        .tvOS(.v15),
+        .watchOS(.v7)
     ],
     products: [
         .library(name: "absl", targets: ["absl"]),
