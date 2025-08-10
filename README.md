@@ -47,7 +47,7 @@ If you're using a Package.swift file, add the dependency:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK", from: "1.0.0")
+    .package(url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK", from: "2.3.1")
 ],
 targets: [
     .target(
