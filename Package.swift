@@ -5,7 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "FirebaseiOSSDK",
-    platforms: [.iOS(.v13), .macOS(.v10_15)],
+    platforms: [
+        .iOS(.v11),
+        .macOS(.v10_15),
+        .tvOS(.v12),
+        .watchOS(.v6)
+    ],
     products: [
         .library(name: "absl", targets: ["absl"]),
         .library(name: "AppAuth", targets: ["AppAuth"]),
