@@ -1370,6 +1370,134 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
 @end
 
+@class FIRMultiFactorInfo;
+@class FIRMultiFactorSession;
+@class FIRMultiFactorAssertion;
+
+/// The interface defining the multi factor related properties and operations pertaining to a
+/// user.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactor") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRMultiFactor : NSObject
+@property (nonatomic, copy) NSArray<FIRMultiFactorInfo *> * _Nonnull enrolledFactors;
+/// Get a session for a second factor enrollment operation.
+/// This is used to identify the current user trying to enroll a second factor.
+/// \param completion A block with the session identifier for a second factor enrollment
+/// operation.
+///
+- (void)getSessionWithCompletion:(void (^ _Nullable)(FIRMultiFactorSession * _Nullable, NSError * _Nullable))completion;
+/// Enrolls a second factor as identified by the <code>MultiFactorAssertion</code> parameter for the
+/// current user.
+/// \param assertion The <code>MultiFactorAssertion</code>.
+///
+/// \param displayName An optional display name associated with the multi factor to
+/// enroll.
+///
+/// \param completion The block invoked when the request is complete, or fails.
+///
+- (void)enrollWithAssertion:(FIRMultiFactorAssertion * _Nonnull)assertion displayName:(NSString * _Nullable)displayName completion:(void (^ _Nullable)(NSError * _Nullable))completion;
+/// Unenroll the given multi factor.
+/// \param factorInfo The second factor instance to unenroll.
+///
+/// \param completion The block invoked when the request to send the verification email is
+/// complete, or fails.
+///
+- (void)unenrollWithInfo:(FIRMultiFactorInfo * _Nonnull)factorInfo completion:(void (^ _Nullable)(NSError * _Nullable))completion;
+/// Unenroll the given multi factor.
+/// \param factorUID The unique identifier corresponding to the
+/// second factor being unenrolled.
+///
+/// \param completion The block invoked when the request to send the verification email is
+/// complete, or fails.
+///
+- (void)unenrollWithFactorUID:(NSString * _Nonnull)factorUID completion:(void (^ _Nullable)(NSError * _Nullable))completion;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRMultiFactor (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
+@end
+
+
+/// The base class for asserting ownership of a second factor. This is equivalent to the
+/// AuthCredential class.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactorAssertion")
+@interface FIRMultiFactorAssertion : NSObject
+/// The second factor identifier for this opaque object asserting a second factor.
+@property (nonatomic, copy) NSString * _Nonnull factorID;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Safe public structure used to represent a second factor entity from a client perspective.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactorInfo")
+@interface FIRMultiFactorInfo : NSObject
+/// The multi-factor enrollment ID.
+@property (nonatomic, readonly, copy) NSString * _Nonnull UID;
+/// The user friendly name of the current second factor.
+@property (nonatomic, readonly, copy) NSString * _Nullable displayName;
+/// The second factor enrollment date.
+@property (nonatomic, readonly, copy) NSDate * _Nonnull enrollmentDate;
+/// The identifier of the second factor.
+@property (nonatomic, readonly, copy) NSString * _Nonnull factorID;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+@interface FIRMultiFactorInfo (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
+@end
+
+
+/// The subclass of base class <code>MultiFactorAssertion</code>, used to assert ownership of a phone
+/// second factor.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactorResolver") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRMultiFactorResolver : NSObject
+/// The opaque session identifier for the current sign-in flow.
+@property (nonatomic, readonly, strong) FIRMultiFactorSession * _Nonnull session;
+/// The list of hints for the second factors needed to complete the sign-in for the current
+/// session.
+@property (nonatomic, readonly, copy) NSArray<FIRMultiFactorInfo *> * _Nonnull hints;
+/// The Auth reference for the current <code>MultiResolver</code>.
+@property (nonatomic, readonly, strong) FIRAuth * _Nonnull auth;
+/// A helper function to help users complete sign in with a second factor using a
+/// \param assertion The assertion confirming the user successfully
+/// completed the second factor challenge.
+///
+/// \param completion The block invoked when the request is complete, or fails.
+///
+- (void)resolveSignInWithAssertion:(FIRMultiFactorAssertion * _Nonnull)assertion completion:(void (^ _Nullable)(FIRAuthDataResult * _Nullable, NSError * _Nullable))completion;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Opaque object that identifies the current session to enroll a second factor or to
+/// complete sign in when previously enrolled.
+/// Identifies the current session to enroll a second factor
+/// or to complete sign in when previously enrolled. It contains additional context on the
+/// existing user, notably the confirmation that the user passed the first factor challenge.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactorSession") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRMultiFactorSession : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 /// Internal implementation of <code>AuthCredential</code> for generic credentials.
 SWIFT_CLASS_NAMED("OAuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
@@ -1512,6 +1640,124 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
+/// The subclass of base class FIRMultiFactorAssertion, used to assert ownership of a phone
+/// second factor.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("PhoneMultiFactorAssertion") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRPhoneMultiFactorAssertion : FIRMultiFactorAssertion
+@end
+
+
+/// The data structure used to help initialize an assertion for a second factor entity to the
+/// Firebase Auth/CICP server.
+/// Depending on the type of second factor, this will help generate the assertion.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("PhoneMultiFactorGenerator") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRPhoneMultiFactorGenerator : NSObject
+/// Initializes the MFA assertion to confirm ownership of the phone second factor.
+/// Note that this API is used for both enrolling and signing in with a phone second factor.
+/// \param phoneAuthCredential The phone auth credential used for multi factor flows.
+///
++ (FIRPhoneMultiFactorAssertion * _Nonnull)assertionWithCredential:(FIRPhoneAuthCredential * _Nonnull)phoneAuthCredential SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// Extends the MultiFactorInfo class for phone number second factors.
+/// The identifier of this second factor is “phone”.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("PhoneMultiFactorInfo")
+@interface FIRPhoneMultiFactorInfo : FIRMultiFactorInfo
+/// The string identifier for using phone as a second factor.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull FIRPhoneMultiFactorID;)
++ (NSString * _Nonnull)FIRPhoneMultiFactorID SWIFT_WARN_UNUSED_RESULT;
+/// The string identifier for using TOTP as a second factor.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull FIRTOTPMultiFactorID;)
++ (NSString * _Nonnull)FIRTOTPMultiFactorID SWIFT_WARN_UNUSED_RESULT;
+/// This is the phone number associated with the current second factor.
+@property (nonatomic, copy) NSString * _Nonnull phoneNumber;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+@end
+
+
+/// The subclass of base class MultiFactorAssertion, used to assert ownership of a TOTP
+/// (Time-based One Time Password) second factor.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("TOTPMultiFactorAssertion")
+@interface FIRTOTPMultiFactorAssertion : FIRMultiFactorAssertion
+@end
+
+@class FIRTOTPSecret;
+
+/// The data structure used to help initialize an assertion for a second factor entity to the
+/// Firebase Auth/CICP server. Depending on the type of second factor, this will help generate
+/// the assertion.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("TOTPMultiFactorGenerator") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRTOTPMultiFactorGenerator : NSObject
+/// Creates a TOTP secret as part of enrolling a TOTP second factor. Used for generating a
+/// QR code URL or inputting into a TOTP app. This method uses the auth instance corresponding
+/// to the user in the multiFactorSession.
+/// \param session The multiFactorSession instance.
+///
+/// \param completion Completion block
+///
++ (void)generateSecretWithMultiFactorSession:(FIRMultiFactorSession * _Nonnull)session completion:(void (^ _Nonnull)(FIRTOTPSecret * _Nullable, NSError * _Nullable))completion;
+/// Initializes the MFA assertion to confirm ownership of the TOTP second factor.
+/// This assertion is used to complete enrollment of TOTP as a second factor.
+/// \param secret The TOTP secret.
+///
+/// \param oneTimePassword One time password string.
+///
+///
+/// returns:
+/// The MFA assertion.
++ (FIRTOTPMultiFactorAssertion * _Nonnull)assertionForEnrollmentWithSecret:(FIRTOTPSecret * _Nonnull)secret oneTimePassword:(NSString * _Nonnull)oneTimePassword SWIFT_WARN_UNUSED_RESULT;
+/// Initializes the MFA assertion to confirm ownership of the TOTP second factor.
+/// This assertion is used to complete signIn with TOTP as a second factor.
+/// \param enrollmentID The ID that identifies the enrolled TOTP second factor.
+///
+/// \param oneTimePassword one time password string.
+///
+///
+/// returns:
+/// The MFA assertion.
++ (FIRTOTPMultiFactorAssertion * _Nonnull)assertionForSignInWithEnrollmentID:(NSString * _Nonnull)enrollmentID oneTimePassword:(NSString * _Nonnull)oneTimePassword SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// The subclass of base class MultiFactorAssertion, used to assert ownership of a TOTP
+/// (Time-based One Time Password) second factor.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("TOTPSecret")
+@interface FIRTOTPSecret : NSObject
+/// Returns the shared secret key/seed used to generate time-based one-time passwords.
+- (NSString * _Nonnull)sharedSecretKey SWIFT_WARN_UNUSED_RESULT;
+/// Returns a QRCode URL as described in
+/// https://github.com/google/google-authenticator/wiki/Key-Uri-Format.
+/// This can be displayed to the user as a QRCode to be scanned into a TOTP app like Google
+/// Authenticator.
+/// \param accountName The name of the account/app.
+///
+/// \param issuer Issuer of the TOTP(likely the app name).
+///
+///
+/// returns:
+/// A QRCode URL string.
+- (NSString * _Nonnull)generateQRCodeURLWithAccountName:(NSString * _Nonnull)accountName issuer:(NSString * _Nonnull)issuer SWIFT_WARN_UNUSED_RESULT;
+/// Opens the specified QR Code URL in a password manager like iCloud Keychain.
+/// See more details
+/// <a href="https://developer.apple.com/documentation/authenticationservices/securing_logins_with_icloud_keychain_verification_codes">here</a>
+- (void)openInOTPAppWithQRCodeURL:(NSString * _Nonnull)qrCodeURL;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 /// Utility class for constructing Twitter Sign In credentials.
 SWIFT_CLASS_NAMED("TwitterAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRTwitterAuthProvider : NSObject
@@ -1576,6 +1822,9 @@ SWIFT_CLASS_NAMED("User") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILAB
 @property (nonatomic, readonly, strong) FIRUserMetadata * _Nonnull metadata;
 /// The tenant ID of the current user. <code>nil</code> if none is available.
 @property (nonatomic, readonly, copy) NSString * _Nullable tenantID;
+/// Multi factor object associated with the user.
+/// This property is available on iOS and macOS.
+@property (nonatomic, readonly, strong) FIRMultiFactor * _Nonnull multiFactor;
 /// [Deprecated] Updates the email address for the user.
 /// On success, the cached user profile data is updated. Returns an error when
 /// <a href="https://cloud.google.com/identity-platform/docs/admin/email-enumeration-protection">Email Enumeration Protection</a>
@@ -3315,6 +3564,134 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
 @end
 
+@class FIRMultiFactorInfo;
+@class FIRMultiFactorSession;
+@class FIRMultiFactorAssertion;
+
+/// The interface defining the multi factor related properties and operations pertaining to a
+/// user.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactor") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRMultiFactor : NSObject
+@property (nonatomic, copy) NSArray<FIRMultiFactorInfo *> * _Nonnull enrolledFactors;
+/// Get a session for a second factor enrollment operation.
+/// This is used to identify the current user trying to enroll a second factor.
+/// \param completion A block with the session identifier for a second factor enrollment
+/// operation.
+///
+- (void)getSessionWithCompletion:(void (^ _Nullable)(FIRMultiFactorSession * _Nullable, NSError * _Nullable))completion;
+/// Enrolls a second factor as identified by the <code>MultiFactorAssertion</code> parameter for the
+/// current user.
+/// \param assertion The <code>MultiFactorAssertion</code>.
+///
+/// \param displayName An optional display name associated with the multi factor to
+/// enroll.
+///
+/// \param completion The block invoked when the request is complete, or fails.
+///
+- (void)enrollWithAssertion:(FIRMultiFactorAssertion * _Nonnull)assertion displayName:(NSString * _Nullable)displayName completion:(void (^ _Nullable)(NSError * _Nullable))completion;
+/// Unenroll the given multi factor.
+/// \param factorInfo The second factor instance to unenroll.
+///
+/// \param completion The block invoked when the request to send the verification email is
+/// complete, or fails.
+///
+- (void)unenrollWithInfo:(FIRMultiFactorInfo * _Nonnull)factorInfo completion:(void (^ _Nullable)(NSError * _Nullable))completion;
+/// Unenroll the given multi factor.
+/// \param factorUID The unique identifier corresponding to the
+/// second factor being unenrolled.
+///
+/// \param completion The block invoked when the request to send the verification email is
+/// complete, or fails.
+///
+- (void)unenrollWithFactorUID:(NSString * _Nonnull)factorUID completion:(void (^ _Nullable)(NSError * _Nullable))completion;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRMultiFactor (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
+@end
+
+
+/// The base class for asserting ownership of a second factor. This is equivalent to the
+/// AuthCredential class.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactorAssertion")
+@interface FIRMultiFactorAssertion : NSObject
+/// The second factor identifier for this opaque object asserting a second factor.
+@property (nonatomic, copy) NSString * _Nonnull factorID;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Safe public structure used to represent a second factor entity from a client perspective.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactorInfo")
+@interface FIRMultiFactorInfo : NSObject
+/// The multi-factor enrollment ID.
+@property (nonatomic, readonly, copy) NSString * _Nonnull UID;
+/// The user friendly name of the current second factor.
+@property (nonatomic, readonly, copy) NSString * _Nullable displayName;
+/// The second factor enrollment date.
+@property (nonatomic, readonly, copy) NSDate * _Nonnull enrollmentDate;
+/// The identifier of the second factor.
+@property (nonatomic, readonly, copy) NSString * _Nonnull factorID;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+@interface FIRMultiFactorInfo (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
+@end
+
+
+/// The subclass of base class <code>MultiFactorAssertion</code>, used to assert ownership of a phone
+/// second factor.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactorResolver") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRMultiFactorResolver : NSObject
+/// The opaque session identifier for the current sign-in flow.
+@property (nonatomic, readonly, strong) FIRMultiFactorSession * _Nonnull session;
+/// The list of hints for the second factors needed to complete the sign-in for the current
+/// session.
+@property (nonatomic, readonly, copy) NSArray<FIRMultiFactorInfo *> * _Nonnull hints;
+/// The Auth reference for the current <code>MultiResolver</code>.
+@property (nonatomic, readonly, strong) FIRAuth * _Nonnull auth;
+/// A helper function to help users complete sign in with a second factor using a
+/// \param assertion The assertion confirming the user successfully
+/// completed the second factor challenge.
+///
+/// \param completion The block invoked when the request is complete, or fails.
+///
+- (void)resolveSignInWithAssertion:(FIRMultiFactorAssertion * _Nonnull)assertion completion:(void (^ _Nullable)(FIRAuthDataResult * _Nullable, NSError * _Nullable))completion;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Opaque object that identifies the current session to enroll a second factor or to
+/// complete sign in when previously enrolled.
+/// Identifies the current session to enroll a second factor
+/// or to complete sign in when previously enrolled. It contains additional context on the
+/// existing user, notably the confirmation that the user passed the first factor challenge.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("MultiFactorSession") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRMultiFactorSession : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 /// Internal implementation of <code>AuthCredential</code> for generic credentials.
 SWIFT_CLASS_NAMED("OAuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
@@ -3457,6 +3834,124 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
+/// The subclass of base class FIRMultiFactorAssertion, used to assert ownership of a phone
+/// second factor.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("PhoneMultiFactorAssertion") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRPhoneMultiFactorAssertion : FIRMultiFactorAssertion
+@end
+
+
+/// The data structure used to help initialize an assertion for a second factor entity to the
+/// Firebase Auth/CICP server.
+/// Depending on the type of second factor, this will help generate the assertion.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("PhoneMultiFactorGenerator") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRPhoneMultiFactorGenerator : NSObject
+/// Initializes the MFA assertion to confirm ownership of the phone second factor.
+/// Note that this API is used for both enrolling and signing in with a phone second factor.
+/// \param phoneAuthCredential The phone auth credential used for multi factor flows.
+///
++ (FIRPhoneMultiFactorAssertion * _Nonnull)assertionWithCredential:(FIRPhoneAuthCredential * _Nonnull)phoneAuthCredential SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// Extends the MultiFactorInfo class for phone number second factors.
+/// The identifier of this second factor is “phone”.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("PhoneMultiFactorInfo")
+@interface FIRPhoneMultiFactorInfo : FIRMultiFactorInfo
+/// The string identifier for using phone as a second factor.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull FIRPhoneMultiFactorID;)
++ (NSString * _Nonnull)FIRPhoneMultiFactorID SWIFT_WARN_UNUSED_RESULT;
+/// The string identifier for using TOTP as a second factor.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull FIRTOTPMultiFactorID;)
++ (NSString * _Nonnull)FIRTOTPMultiFactorID SWIFT_WARN_UNUSED_RESULT;
+/// This is the phone number associated with the current second factor.
+@property (nonatomic, copy) NSString * _Nonnull phoneNumber;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureCoding;)
++ (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+@end
+
+
+/// The subclass of base class MultiFactorAssertion, used to assert ownership of a TOTP
+/// (Time-based One Time Password) second factor.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("TOTPMultiFactorAssertion")
+@interface FIRTOTPMultiFactorAssertion : FIRMultiFactorAssertion
+@end
+
+@class FIRTOTPSecret;
+
+/// The data structure used to help initialize an assertion for a second factor entity to the
+/// Firebase Auth/CICP server. Depending on the type of second factor, this will help generate
+/// the assertion.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("TOTPMultiFactorGenerator") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+@interface FIRTOTPMultiFactorGenerator : NSObject
+/// Creates a TOTP secret as part of enrolling a TOTP second factor. Used for generating a
+/// QR code URL or inputting into a TOTP app. This method uses the auth instance corresponding
+/// to the user in the multiFactorSession.
+/// \param session The multiFactorSession instance.
+///
+/// \param completion Completion block
+///
++ (void)generateSecretWithMultiFactorSession:(FIRMultiFactorSession * _Nonnull)session completion:(void (^ _Nonnull)(FIRTOTPSecret * _Nullable, NSError * _Nullable))completion;
+/// Initializes the MFA assertion to confirm ownership of the TOTP second factor.
+/// This assertion is used to complete enrollment of TOTP as a second factor.
+/// \param secret The TOTP secret.
+///
+/// \param oneTimePassword One time password string.
+///
+///
+/// returns:
+/// The MFA assertion.
++ (FIRTOTPMultiFactorAssertion * _Nonnull)assertionForEnrollmentWithSecret:(FIRTOTPSecret * _Nonnull)secret oneTimePassword:(NSString * _Nonnull)oneTimePassword SWIFT_WARN_UNUSED_RESULT;
+/// Initializes the MFA assertion to confirm ownership of the TOTP second factor.
+/// This assertion is used to complete signIn with TOTP as a second factor.
+/// \param enrollmentID The ID that identifies the enrolled TOTP second factor.
+///
+/// \param oneTimePassword one time password string.
+///
+///
+/// returns:
+/// The MFA assertion.
++ (FIRTOTPMultiFactorAssertion * _Nonnull)assertionForSignInWithEnrollmentID:(NSString * _Nonnull)enrollmentID oneTimePassword:(NSString * _Nonnull)oneTimePassword SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// The subclass of base class MultiFactorAssertion, used to assert ownership of a TOTP
+/// (Time-based One Time Password) second factor.
+/// This class is available on iOS and macOS.
+SWIFT_CLASS_NAMED("TOTPSecret")
+@interface FIRTOTPSecret : NSObject
+/// Returns the shared secret key/seed used to generate time-based one-time passwords.
+- (NSString * _Nonnull)sharedSecretKey SWIFT_WARN_UNUSED_RESULT;
+/// Returns a QRCode URL as described in
+/// https://github.com/google/google-authenticator/wiki/Key-Uri-Format.
+/// This can be displayed to the user as a QRCode to be scanned into a TOTP app like Google
+/// Authenticator.
+/// \param accountName The name of the account/app.
+///
+/// \param issuer Issuer of the TOTP(likely the app name).
+///
+///
+/// returns:
+/// A QRCode URL string.
+- (NSString * _Nonnull)generateQRCodeURLWithAccountName:(NSString * _Nonnull)accountName issuer:(NSString * _Nonnull)issuer SWIFT_WARN_UNUSED_RESULT;
+/// Opens the specified QR Code URL in a password manager like iCloud Keychain.
+/// See more details
+/// <a href="https://developer.apple.com/documentation/authenticationservices/securing_logins_with_icloud_keychain_verification_codes">here</a>
+- (void)openInOTPAppWithQRCodeURL:(NSString * _Nonnull)qrCodeURL;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 /// Utility class for constructing Twitter Sign In credentials.
 SWIFT_CLASS_NAMED("TwitterAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRTwitterAuthProvider : NSObject
@@ -3521,6 +4016,9 @@ SWIFT_CLASS_NAMED("User") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILAB
 @property (nonatomic, readonly, strong) FIRUserMetadata * _Nonnull metadata;
 /// The tenant ID of the current user. <code>nil</code> if none is available.
 @property (nonatomic, readonly, copy) NSString * _Nullable tenantID;
+/// Multi factor object associated with the user.
+/// This property is available on iOS and macOS.
+@property (nonatomic, readonly, strong) FIRMultiFactor * _Nonnull multiFactor;
 /// [Deprecated] Updates the email address for the user.
 /// On success, the cached user profile data is updated. Returns an error when
 /// <a href="https://cloud.google.com/identity-platform/docs/admin/email-enumeration-protection">Email Enumeration Protection</a>

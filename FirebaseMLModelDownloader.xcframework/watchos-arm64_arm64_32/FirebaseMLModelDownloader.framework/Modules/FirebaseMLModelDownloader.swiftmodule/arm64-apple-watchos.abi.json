@@ -387,20 +387,13 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftProtobuf",
+        "printedName": "SwiftProtobuf",
         "declKind": "Import",
         "moduleName": "FirebaseMLModelDownloader",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftProtobuf",
-        "printedName": "SwiftProtobuf",
-        "declKind": "Import",
-        "moduleName": "FirebaseMLModelDownloader"
       },
       {
         "kind": "Import",
@@ -1909,1925 +1902,1323 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 738,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 747,
       "length": 27,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 782,
       "length": 25,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 815,
       "length": 15,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 838,
       "length": 18,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 864,
       "length": 13,
       "value": "6"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 885,
       "length": 25,
       "value": "7"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 918,
       "length": 23,
       "value": "8"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 949,
       "length": 18,
       "value": "9"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 975,
       "length": 24,
       "value": "10"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1007,
       "length": 24,
       "value": "11"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1039,
       "length": 30,
       "value": "12"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1077,
       "length": 27,
       "value": "13"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1112,
       "length": 13,
       "value": "14"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1133,
       "length": 15,
       "value": "15"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1156,
       "length": 19,
       "value": "16"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1183,
       "length": 15,
       "value": "17"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1206,
       "length": 19,
       "value": "18"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1233,
       "length": 16,
       "value": "19"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1257,
       "length": 16,
       "value": "20"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1281,
       "length": 22,
       "value": "21"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1311,
       "length": 12,
       "value": "22"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1331,
       "length": 19,
       "value": "23"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1358,
       "length": 17,
       "value": "24"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1383,
       "length": 14,
       "value": "25"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1405,
       "length": 14,
       "value": "26"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1427,
       "length": 24,
       "value": "27"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1459,
       "length": 24,
       "value": "28"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1491,
       "length": 16,
       "value": "29"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1515,
       "length": 20,
       "value": "30"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1543,
       "length": 16,
       "value": "31"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1567,
       "length": 19,
       "value": "32"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1594,
       "length": 19,
       "value": "33"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1621,
       "length": 14,
       "value": "34"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1643,
       "length": 16,
       "value": "35"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1667,
       "length": 22,
       "value": "36"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1697,
       "length": 11,
       "value": "37"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1716,
       "length": 23,
       "value": "38"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1747,
       "length": 13,
       "value": "39"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1768,
       "length": 15,
       "value": "40"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1791,
       "length": 16,
       "value": "41"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1815,
       "length": 17,
       "value": "42"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1840,
       "length": 14,
       "value": "43"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1862,
       "length": 13,
       "value": "44"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1883,
       "length": 19,
       "value": "45"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1910,
       "length": 25,
       "value": "46"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1943,
       "length": 18,
       "value": "47"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 1969,
       "length": 9,
       "value": "48"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/DeviceLogger.swift",
       "kind": "StringLiteral",
       "offset": 2069,
       "length": 30,
       "value": "\"[Firebase\/MLModelDownloader]\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "BooleanLiteral",
-      "offset": 8979,
+      "offset": 8833,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10332,
+      "offset": 10196,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 10756,
+      "offset": 10620,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "IntegerLiteral",
-      "offset": 11330,
+      "offset": 11194,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "BooleanLiteral",
-      "offset": 14941,
+      "offset": 14753,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17495,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17511,
-      "length": 15,
-      "value": "\"UNKNOWN_EVENT\""
+      "offset": 17331,
+      "length": 114,
+      "value": "\"\u0000\u0002\u0000UNKNOWN_EVENT\u0000\u0002d\u0001MODEL_DOWNLOAD\u0000\u0001MODEL_UPDATE\u0000\u0002W\u0002REMOTE_MODEL_DELETE_ON_DEVICE\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17533,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17551,
-      "length": 16,
-      "value": "\"MODEL_DOWNLOAD\""
+      "offset": 17573,
+      "length": 287,
+      "value": "\"\u0000\u0002\u0000NO_ERROR\u0000\u0002e\u0001URI_EXPIRED\u0000\u0001NO_NETWORK_CONNECTION\u0000\u0002\u0002DOWNLOAD_FAILED\u0000\u0001MODEL_INFO_DOWNLOAD_UNSUCCESSFUL_HTTP_STATUS\u0000\u0001MODEL_INFO_DOWNLOAD_NO_HASH\u0000\u0001MODEL_INFO_DOWNLOAD_CONNECTION_FAILED\u0000\u0002\tMODEL_HASH_MISMATCH\u0000\u0002[Z\u0002UNKNOWN_ERROR\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17574,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 17592,
-      "length": 14,
-      "value": "\"MODEL_UPDATE\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17613,
-      "length": 3,
-      "value": "252"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 17631,
-      "length": 31,
-      "value": "\"REMOTE_MODEL_DELETE_ON_DEVICE\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17792,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 17808,
-      "length": 10,
-      "value": "\"NO_ERROR\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17825,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 17843,
-      "length": 13,
-      "value": "\"URI_EXPIRED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17863,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 17881,
-      "length": 23,
-      "value": "\"NO_NETWORK_CONNECTION\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17911,
-      "length": 3,
-      "value": "104"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 17929,
-      "length": 17,
-      "value": "\"DOWNLOAD_FAILED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17953,
-      "length": 3,
-      "value": "105"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 17971,
-      "length": 46,
-      "value": "\"MODEL_INFO_DOWNLOAD_UNSUCCESSFUL_HTTP_STATUS\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18024,
-      "length": 3,
-      "value": "106"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 18042,
-      "length": 29,
-      "value": "\"MODEL_INFO_DOWNLOAD_NO_HASH\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18078,
-      "length": 3,
-      "value": "107"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 18096,
-      "length": 39,
-      "value": "\"MODEL_INFO_DOWNLOAD_CONNECTION_FAILED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18142,
-      "length": 3,
-      "value": "116"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 18160,
-      "length": 21,
-      "value": "\"MODEL_HASH_MISMATCH\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18188,
-      "length": 4,
-      "value": "9999"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 18207,
-      "length": 15,
-      "value": "\"UNKNOWN_ERROR\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 18395,
+      "offset": 18028,
       "length": 12,
       "value": "\"SystemInfo\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18471,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 18491,
-      "length": 8,
-      "value": "\"app_id\""
+      "offset": 18107,
+      "length": 101,
+      "value": "\"\u0000\u0003app_id\u0000\u0003app_version\u0000\u0003firebase_project_id\u0000\u0003ml_sdk_version\u0000\u0004\u0003api_key\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18506,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 18526,
-      "length": 13,
-      "value": "\"app_version\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18546,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 18566,
-      "length": 21,
-      "value": "\"firebase_project_id\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18594,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 18614,
-      "length": 16,
-      "value": "\"ml_sdk_version\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18637,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 18657,
-      "length": 9,
-      "value": "\"api_key\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 20870,
+      "offset": 20407,
       "length": 11,
       "value": "\"ModelInfo\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20945,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 20961,
-      "length": 6,
-      "value": "\"name\""
+      "offset": 20485,
+      "length": 62,
+      "value": "\"\u0000\u0001name\u0000\u0001version\u0000\u0002\u0003hash\u0000\u0003model_type\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20974,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 20990,
-      "length": 9,
-      "value": "\"version\""
+      "offset": 22373,
+      "length": 38,
+      "value": "\"\u0000\u0002\u0000TYPE_UNKNOWN\u0000\u0001CUSTOM\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21006,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 21022,
-      "length": 6,
-      "value": "\"hash\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21035,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 21055,
-      "length": 12,
-      "value": "\"model_type\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22895,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 22911,
-      "length": 14,
-      "value": "\"TYPE_UNKNOWN\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22932,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 22948,
-      "length": 8,
-      "value": "\"CUSTOM\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 23131,
+      "offset": 22581,
       "length": 14,
       "value": "\"ModelOptions\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23209,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 23229,
-      "length": 12,
-      "value": "\"model_info\""
+      "offset": 22662,
+      "length": 56,
+      "value": "\"\u0000\u0003model_info\u0000\u0004\u0003is_model_update_enabled\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23248,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 23268,
-      "length": 25,
-      "value": "\"is_model_update_enabled\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 24751,
+      "offset": 24477,
       "length": 23,
       "value": "\"ModelDownloadLogEvent\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24838,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 24854,
-      "length": 9,
-      "value": "\"options\""
+      "offset": 24567,
+      "length": 153,
+      "value": "\"\u0000\u0001options\u0000\u0003rough_download_duration_ms\u0000\u0003error_code\u0000\u0003exact_download_duration_ms\u0000\u0003download_status\u0000\u0003download_failure_status\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24870,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 24890,
-      "length": 28,
-      "value": "\"rough_download_duration_ms\""
+      "offset": 27669,
+      "length": 243,
+      "value": "\"\u0000\u0002\u0000UNKNOWN_STATUS\u0000\u0001EXPLICITLY_REQUESTED\u0000\u0001IMPLICITLY_REQUESTED\u0000\u0001MODEL_INFO_RETRIEVAL_SUCCEEDED\u0000\u0001MODEL_INFO_RETRIEVAL_FAILED\u0000\u0001SCHEDULED\u0000\u0001DOWNLOADING\u0000\u0001SUCCEEDED\u0000\u0001FAILED\u0000\u0002\u0002UPDATE_AVAILABLE\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24925,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 24945,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24964,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 24984,
-      "length": 28,
-      "value": "\"exact_download_duration_ms\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25019,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 25039,
-      "length": 17,
-      "value": "\"download_status\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25063,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 25083,
-      "length": 25,
-      "value": "\"download_failure_status\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27753,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 27769,
-      "length": 16,
-      "value": "\"UNKNOWN_STATUS\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27792,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 27808,
-      "length": 22,
-      "value": "\"EXPLICITLY_REQUESTED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27837,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 27853,
-      "length": 22,
-      "value": "\"IMPLICITLY_REQUESTED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27882,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 27898,
-      "length": 32,
-      "value": "\"MODEL_INFO_RETRIEVAL_SUCCEEDED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27937,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 27953,
-      "length": 29,
-      "value": "\"MODEL_INFO_RETRIEVAL_FAILED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27989,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 28005,
-      "length": 11,
-      "value": "\"SCHEDULED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28023,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 28039,
-      "length": 13,
-      "value": "\"DOWNLOADING\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28059,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 28075,
-      "length": 11,
-      "value": "\"SUCCEEDED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28093,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 28109,
-      "length": 8,
-      "value": "\"FAILED\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28124,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 28141,
-      "length": 18,
-      "value": "\"UPDATE_AVAILABLE\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 28341,
+      "offset": 28089,
       "length": 21,
       "value": "\"DeleteModelLogEvent\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28426,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28446,
-      "length": 12,
-      "value": "\"model_type\""
+      "offset": 28177,
+      "length": 41,
+      "value": "\"\u0000\u0003model_type\u0000\u0003is_successful\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28465,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 28485,
-      "length": 15,
-      "value": "\"is_successful\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 29940,
+      "offset": 29653,
       "length": 20,
       "value": "\"FirebaseMlLogEvent\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30024,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
       "kind": "StringLiteral",
-      "offset": 30044,
-      "length": 13,
-      "value": "\"system_info\""
+      "offset": 29740,
+      "length": 100,
+      "value": "\"\u0000\u0003system_info\u0000\u0003event_name\u0000\u0003model_download_log_event\u0000\u0004%delete_model_log_event\u0000\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30064,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 30084,
-      "length": 12,
-      "value": "\"event_name\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30103,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 30123,
-      "length": 26,
-      "value": "\"model_download_log_event\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30156,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/proto\/firebase_ml_log_sdk.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 30177,
-      "length": 24,
-      "value": "\"delete_model_log_event\""
-    },
-    {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadConditions.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadConditions.swift",
       "kind": "BooleanLiteral",
       "offset": 940,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "IntegerLiteral",
       "offset": 2016,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "Dictionary",
       "offset": 2228,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "Dictionary",
       "offset": 2372,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 2478,
       "length": 27,
       "value": "\"downloadtask.serial.queue\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 24636,
       "length": 29,
       "value": "\"Expired model download URL.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 24871,
       "length": 68,
       "value": "\"Initialized with new downloader instance associated with this app.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 24987,
       "length": 73,
       "value": "\"Initialized with existing downloader instance associated with this app.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25100,
       "length": 56,
       "value": "\"Model downloader instance deleted due to app deletion.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25190,
       "length": 30,
       "value": "\"Found local model on device.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25258,
       "length": 36,
       "value": "\"Found and listed all local models.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25355,
       "length": 47,
       "value": "\"No local model info for model named: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25400,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25470,
       "length": 47,
       "value": "\"No local model file for model named: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25515,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25568,
       "length": 44,
       "value": "\"Downloaded latest model in the background.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25643,
       "length": 29,
       "value": "\"Model deleted successfully.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25706,
       "length": 38,
       "value": "\"Merging duplicate download requests.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25776,
       "length": 20,
       "value": "\"Retrying download.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25903,
       "length": 38,
       "value": "\"Default Firebase app not configured.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 25974,
       "length": 64,
       "value": "\"Unable to retrieve project ID and\/or API key for Firebase app.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26102,
       "length": 44,
       "value": "\"Model download failed with error: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26145,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26211,
       "length": 64,
       "value": "\"Model deletion failed due to no model found with name: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26274,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26351,
       "length": 50,
       "value": "\"Model info retrieval failed with error: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26400,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26450,
       "length": 39,
       "value": "\"Failed to update model in background.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26524,
       "length": 38,
       "value": "\"Unable to update expired model info.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26623,
       "length": 52,
       "value": "\"Unable to list models, failed with error: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26674,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26741,
       "length": 66,
       "value": "\"List models failed due to unexpected model file name at \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26805,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26875,
       "length": 78,
       "value": "\"List models failed due to no local model info for model file named: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 26951,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 27012,
       "length": 66,
       "value": "\"Model unavailable due to deleted local model info or model file.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 27120,
       "length": 66,
       "value": "\"List models failed due to outdated model paths in local storage.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 27250,
       "length": 44,
       "value": "\"Model deletion failed with error: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloader.swift",
       "kind": "StringLiteral",
       "offset": 27293,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 17530,
       "length": 49,
       "value": "\"Received a valid response from download server.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 17612,
       "length": 42,
       "value": "\"Model file saved successfully to device.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 17692,
       "length": 60,
       "value": "\"Downloaded model info saved successfully to user defaults.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 17786,
       "length": 40,
       "value": "\"Model download completed successfully.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 17952,
       "length": 57,
       "value": "\"Unable to resolve hostname or connect to host: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18008,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18053,
       "length": 51,
       "value": "\"Session invalidated due to failed pre-conditions.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18142,
       "length": 58,
       "value": "\"Could not get valid HTTP response for model downloading.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18244,
       "length": 31,
       "value": "\"Download already in progress.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18333,
       "length": 35,
       "value": "\"No model found with name: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18367,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18435,
       "length": 42,
       "value": "\"Invalid argument for model name: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18476,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18519,
       "length": 38,
       "value": "\"Unable to update expired model info.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18592,
       "length": 51,
       "value": "\"Invalid or missing permissions to download model.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18676,
       "length": 29,
       "value": "\"Not enough space on device.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18742,
       "length": 38,
       "value": "\"Unable to disable model file backup.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18816,
       "length": 47,
       "value": "\"Could not create directory for model storage.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18896,
       "length": 46,
       "value": "\"Unable to save downloaded remote model file.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 18981,
       "length": 48,
       "value": "\"Unable to download model due to unknown error.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 19090,
       "length": 53,
       "value": "\"Model download failed with HTTP error code: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelDownloadTask.swift",
       "kind": "StringLiteral",
       "offset": 19142,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 4,
       "value": "\"@@\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 801,
       "length": 12,
       "value": "\"fbml_model\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 852,
       "length": 8,
       "value": "\"tflite\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 5811,
       "length": 55,
       "value": "\"Could not retrieve model files in directory: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 5865,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 5929,
       "length": 43,
       "value": "\"Could not delete old model file: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 5971,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6033,
       "length": 37,
       "value": "\"Unable to save model file: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6069,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6134,
       "length": 49,
       "value": "\"Could not replace existing model file: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6182,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6293,
       "length": 54,
       "value": "\"Failed to check storage capacity on device: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6346,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6378,
       "length": 45,
       "value": "\"Failed to check storage capacity on device.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6492,
       "length": 67,
       "value": "\"Could not locate Application Support directory for model storage.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6620,
       "length": 44,
       "value": "\"Could not empty models directory: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelFileManager.swift",
       "kind": "StringLiteral",
       "offset": 6663,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 1699,
       "length": 13,
       "value": "\"downloadUri\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 1738,
       "length": 12,
       "value": "\"expireTime\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 1767,
       "length": 11,
       "value": "\"sizeBytes\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 27419,
       "length": 36,
       "value": "\"x-goog-firebase-installations-auth\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 27500,
       "length": 15,
       "value": "\"if-none-match\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 27559,
       "length": 25,
       "value": "\"x-ios-bundle-identifier\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 27653,
       "length": 6,
       "value": "\"Etag\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31152,
       "length": 29,
       "value": "\"Generated valid auth token.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31222,
       "length": 51,
       "value": "\"Received a valid response from model info server.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31311,
       "length": 37,
       "value": "\"Successfully downloaded model info.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31386,
       "length": 48,
       "value": "\"Local model info matches the latest on server.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31532,
       "length": 30,
       "value": "\"Error retrieving auth token.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31605,
       "length": 43,
       "value": "\"Unable to create URL to fetch model info.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31692,
       "length": 63,
       "value": "\"Could not get a valid HTTP response for model info retrieval.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31821,
       "length": 53,
       "value": "\"Server returned with HTTP error code: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31872,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 31916,
       "length": 51,
       "value": "\"Model hash missing in model info server response.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32003,
       "length": 30,
       "value": "\"Unexpected model hash value.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32079,
       "length": 38,
       "value": "\"Model info was deleted unexpectedly.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32175,
       "length": 35,
       "value": "\"No model found with name: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32209,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32277,
       "length": 42,
       "value": "\"Invalid argument for model name: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32318,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32361,
       "length": 56,
       "value": "\"Invalid or missing permissions to retrieve model info.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32453,
       "length": 46,
       "value": "\"Resource exhausted due to too many requests.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32565,
       "length": 59,
       "value": "\"Model info retrieval failed with HTTP error code: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32623,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32679,
       "length": 51,
       "value": "\"Unable to decode model info response from server.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32778,
       "length": 41,
       "value": "\"Invalid model download URL from server.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32854,
       "length": 33,
       "value": "\"Invalid model size from server.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 32945,
       "length": 47,
       "value": "\"Invalid download URL expiry time from server.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 33058,
       "length": 38,
       "value": "\"Failed to parse model info: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 33095,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 33173,
       "length": 41,
       "value": "\"Failed to retrieve model info: \""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/ModelInfoRetriever.swift",
       "kind": "StringLiteral",
       "offset": 33213,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 2099,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 2135,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 2195,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
       "kind": "StringLiteral",
       "offset": 3896,
       "length": 6,
       "value": "\"1326\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
       "kind": "StringLiteral",
       "offset": 8858,
       "length": 37,
       "value": "\"Unable to encode event for Firelog.\""
     },
     {
-      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-07-30T04-16-07\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
+      "filePath": "\/var\/folders\/y6\/nj790rtn62lfktb1sh__79hc0000gn\/T\/ZipRelease\/2025-10-02T04-01-21\/project-watchos\/Pods\/FirebaseMLModelDownloader\/FirebaseMLModelDownloader\/Sources\/TelemetryLogger.swift",
       "kind": "StringLiteral",
       "offset": 8933,
       "length": 36,

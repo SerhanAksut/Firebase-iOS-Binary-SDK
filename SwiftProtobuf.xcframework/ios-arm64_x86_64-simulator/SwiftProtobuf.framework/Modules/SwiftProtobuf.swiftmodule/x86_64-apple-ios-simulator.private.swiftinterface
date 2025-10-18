@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SwiftProtobuf
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SwiftProtobuf -package-name SwiftProtobuf
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Dispatch
 import Foundation
@@ -56,6 +56,7 @@ public struct Google_Protobuf_Api : Swift.Sendable {
   public mutating func clearSourceContext()
   public var mixins: [SwiftProtobuf.Google_Protobuf_Mixin]
   public var syntax: SwiftProtobuf.Google_Protobuf_Syntax
+  public var edition: Swift.String
   public var unknownFields: SwiftProtobuf.UnknownStorage
   public init()
 }
@@ -67,6 +68,7 @@ public struct Google_Protobuf_Method : Swift.Sendable {
   public var responseStreaming: Swift.Bool
   public var options: [SwiftProtobuf.Google_Protobuf_Option]
   public var syntax: SwiftProtobuf.Google_Protobuf_Syntax
+  public var edition: Swift.String
   public var unknownFields: SwiftProtobuf.UnknownStorage
   public init()
 }
@@ -1549,7 +1551,7 @@ public struct Google_Protobuf_MethodOptions : SwiftProtobuf.ExtensibleMessage, S
   public init()
   public var _protobuf_extensionFieldValues: SwiftProtobuf.ExtensionFieldValueSet
 }
-public struct Google_Protobuf_UninterpretedOption : @unchecked Swift.Sendable {
+public struct Google_Protobuf_UninterpretedOption : Swift.Sendable {
   public var name: [SwiftProtobuf.Google_Protobuf_UninterpretedOption.NamePart]
   public var identifierValue: Swift.String {
     get
@@ -3332,8 +3334,11 @@ public struct _NameMap : Swift.ExpressibleByDictionaryLiteral {
     case aliased(proto: Swift.StaticString, aliases: [Swift.StaticString])
   }
   public init()
+  @available(*, deprecated, message: "Please regenerate your .pb.swift files with the current version of the SwiftProtobuf protoc plugin.")
   public init(reservedNames: [Swift.String], reservedRanges: [Swift.Range<Swift.Int32>], numberNameMappings: Swift.KeyValuePairs<Swift.Int, SwiftProtobuf._NameMap.NameDescription>)
+  @available(*, deprecated, message: "Please regenerate your .pb.swift files with the current version of the SwiftProtobuf protoc plugin.")
   public init(dictionaryLiteral elements: (Swift.Int, SwiftProtobuf._NameMap.NameDescription)...)
+  public init(bytecode: Swift.StaticString)
   public typealias Key = Swift.Int
   public typealias Value = SwiftProtobuf._NameMap.NameDescription
 }
@@ -3972,7 +3977,7 @@ public struct Google_Protobuf_StringValue : Swift.Sendable {
   public var unknownFields: SwiftProtobuf.UnknownStorage
   public init()
 }
-public struct Google_Protobuf_BytesValue : @unchecked Swift.Sendable {
+public struct Google_Protobuf_BytesValue : Swift.Sendable {
   public var value: Foundation.Data
   public var unknownFields: SwiftProtobuf.UnknownStorage
   public init()

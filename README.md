@@ -13,6 +13,7 @@ This repository wraps the official Firebase iOS SDK libraries as binary XCFramew
 - ✅ Reduced compilation time
 - ✅ All major Firebase iOS SDK modules included
 - ✅ Regular updates aligned with official Firebase releases
+- ✅ Latest Firebase SDK binaries with newest features and fixes
 - ✅ Lightweight integration for side projects
 
 ## Requirements
@@ -47,7 +48,7 @@ If you're using a Package.swift file, add the dependency:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK", from: "2.3.1")
+    .package(url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK", from: "12.4.0")
 ],
 targets: [
     .target(
@@ -134,7 +135,7 @@ This change is necessary because you're now using the binary wrapper instead of 
 
 ## Version Compatibility
 
-This package aims to stay up-to-date with the latest stable Firebase iOS SDK releases. Check the [releases page](https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK/releases) for version information and changelog.
+This package aims to stay up-to-date with the latest stable Firebase iOS SDK releases. The current version includes updated binaries from the latest Firebase iOS SDK release, ensuring you have access to the newest features and bug fixes. Check the [releases page](https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK/releases) for detailed version information and changelog.
 
 ## Contributing
 
