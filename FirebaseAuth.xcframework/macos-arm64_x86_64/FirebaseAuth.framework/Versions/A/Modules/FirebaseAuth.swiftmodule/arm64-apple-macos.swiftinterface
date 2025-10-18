@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FirebaseAuth
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AppKit
 import CommonCrypto
 import FirebaseAppCheckInterop
 @_exported import FirebaseAuth
@@ -414,6 +415,61 @@ extension FirebaseAuth.AuthTokenResult : Foundation.NSSecureCoding {
   @objc override dynamic public init()
   @objc deinit
 }
+@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+extension FirebaseAuth.MultiFactor : Foundation.NSSecureCoding {
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+@objc(FIRMultiFactor) open class MultiFactor : ObjectiveC.NSObject {
+  @objc open var enrolledFactors: [FirebaseAuth.MultiFactorInfo]
+  @objc(getSessionWithCompletion:) open func getSessionWithCompletion(_ completion: ((FirebaseAuth.MultiFactorSession?, (any Swift.Error)?) -> Swift.Void)?)
+  @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+  open func session() async throws -> FirebaseAuth.MultiFactorSession
+  @objc(enrollWithAssertion:displayName:completion:) open func enroll(with assertion: FirebaseAuth.MultiFactorAssertion, displayName: Swift.String?, completion: (((any Swift.Error)?) -> Swift.Void)?)
+  @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+  open func enroll(with assertion: FirebaseAuth.MultiFactorAssertion, displayName: Swift.String?) async throws
+  @objc(unenrollWithInfo:completion:) open func unenroll(with factorInfo: FirebaseAuth.MultiFactorInfo, completion: (((any Swift.Error)?) -> Swift.Void)?)
+  @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+  open func unenroll(with factorInfo: FirebaseAuth.MultiFactorInfo) async throws
+  @objc(unenrollWithFactorUID:completion:) open func unenroll(withFactorUID factorUID: Swift.String, completion: (((any Swift.Error)?) -> Swift.Void)?)
+  @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+  open func unenroll(withFactorUID factorUID: Swift.String) async throws
+  @objc public static let supportsSecureCoding: Swift.Bool
+  @objc public func encode(with coder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(FIRMultiFactorAssertion) open class MultiFactorAssertion : ObjectiveC.NSObject {
+  @objc open var factorID: Swift.String
+  @objc deinit
+}
+extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
+}
+@_hasMissingDesignatedInitializers @objc(FIRMultiFactorInfo) open class MultiFactorInfo : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  @objc(UID) final public let uid: Swift.String
+  @objc final public let displayName: Swift.String?
+  @objc final public let enrollmentDate: Foundation.Date
+  @objc final public let factorID: Swift.String
+  @objc public class var supportsSecureCoding: Swift.Bool {
+    @objc get
+  }
+  @objc public func encode(with coder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+@objc(FIRMultiFactorResolver) open class MultiFactorResolver : ObjectiveC.NSObject {
+  @objc final public let session: FirebaseAuth.MultiFactorSession
+  @objc final public let hints: [FirebaseAuth.MultiFactorInfo]
+  @objc final public let auth: FirebaseAuth.Auth
+  @objc(resolveSignInWithAssertion:completion:) open func resolveSignIn(with assertion: FirebaseAuth.MultiFactorAssertion, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+  open func resolveSignIn(with assertion: FirebaseAuth.MultiFactorAssertion) async throws -> FirebaseAuth.AuthDataResult
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+@objc(FIRMultiFactorSession) open class MultiFactorSession : ObjectiveC.NSObject {
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIROAuthCredential) open class OAuthCredential : FirebaseAuth.AuthCredential, Foundation.NSSecureCoding, @unchecked Swift.Sendable {
   @objc(IDToken) final public let idToken: Swift.String?
@@ -465,6 +521,46 @@ extension FirebaseAuth.AuthTokenResult : Foundation.NSSecureCoding {
   @objc override dynamic public init()
   @objc deinit
 }
+@_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+@objc(FIRPhoneMultiFactorAssertion) open class PhoneMultiFactorAssertion : FirebaseAuth.MultiFactorAssertion {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+@objc(FIRPhoneMultiFactorGenerator) open class PhoneMultiFactorGenerator : ObjectiveC.NSObject {
+  @objc(assertionWithCredential:) open class func assertion(with phoneAuthCredential: FirebaseAuth.PhoneAuthCredential) -> FirebaseAuth.PhoneMultiFactorAssertion
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(FIRPhoneMultiFactorInfo) open class PhoneMultiFactorInfo : FirebaseAuth.MultiFactorInfo, @unchecked Swift.Sendable {
+  @objc(FIRPhoneMultiFactorID) public static let PhoneMultiFactorID: Swift.String
+  @objc(FIRTOTPMultiFactorID) public static let TOTPMultiFactorID: Swift.String
+  @objc open var phoneNumber: Swift.String
+  @objc override public class var supportsSecureCoding: Swift.Bool {
+    @objc get
+  }
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc override public func encode(with coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(FIRTOTPMultiFactorAssertion) open class TOTPMultiFactorAssertion : FirebaseAuth.MultiFactorAssertion {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+@objc(FIRTOTPMultiFactorGenerator) open class TOTPMultiFactorGenerator : ObjectiveC.NSObject {
+  @objc(generateSecretWithMultiFactorSession:completion:) open class func generateSecret(with session: FirebaseAuth.MultiFactorSession, completion: @escaping (FirebaseAuth.TOTPSecret?, (any Swift.Error)?) -> Swift.Void)
+  @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+  open class func generateSecret(with session: FirebaseAuth.MultiFactorSession) async throws -> FirebaseAuth.TOTPSecret
+  @objc(assertionForEnrollmentWithSecret:oneTimePassword:) open class func assertionForEnrollment(with secret: FirebaseAuth.TOTPSecret, oneTimePassword: Swift.String) -> FirebaseAuth.TOTPMultiFactorAssertion
+  @objc(assertionForSignInWithEnrollmentID:oneTimePassword:) open class func assertionForSignIn(withEnrollmentID enrollmentID: Swift.String, oneTimePassword: Swift.String) -> FirebaseAuth.TOTPMultiFactorAssertion
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(FIRTOTPSecret) open class TOTPSecret : ObjectiveC.NSObject {
+  @objc open func sharedSecretKey() -> Swift.String
+  @objc(generateQRCodeURLWithAccountName:issuer:) open func generateQRCodeURL(withAccountName accountName: Swift.String, issuer: Swift.String) -> Swift.String
+  @_Concurrency.MainActor @objc(openInOTPAppWithQRCodeURL:) open func openInOTPApp(withQRCodeURL qrCodeURL: Swift.String)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRTwitterAuthProvider) open class TwitterAuthProvider : ObjectiveC.NSObject {
   @objc public static let id: Swift.String
@@ -493,6 +589,9 @@ extension FirebaseAuth.User : Foundation.NSSecureCoding {
     get
   }
   @objc public var tenantID: Swift.String? {
+    get
+  }
+  @objc public var multiFactor: FirebaseAuth.MultiFactor {
     get
   }
   @available(*, deprecated, message: "`updateEmail` is deprecated and will be removed in a future release. Use sendEmailVerification(beforeUpdatingEmail:) instead.")

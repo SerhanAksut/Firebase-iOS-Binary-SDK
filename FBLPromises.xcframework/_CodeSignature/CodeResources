@@ -106,7 +106,7 @@
 		</data>
 		<key>ios-arm64/FBLPromises.framework/Modules/module.modulemap</key>
 		<data>
-		Fz4jNEpf09yl2xSCWDgrqH37o/A=
+		7qnOYQnniYs1+zPodmXFUTdXcfg=
 		</data>
 		<key>ios-arm64/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBLPromises.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		Fz4jNEpf09yl2xSCWDgrqH37o/A=
+		7qnOYQnniYs1+zPodmXFUTdXcfg=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FBLPromises.framework/Versions/A/PrivateHeaders/FBLPromisePrivate.h</key>
 		<data>
@@ -322,7 +322,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBLPromises.framework/Modules/module.modulemap</key>
 		<data>
-		Fz4jNEpf09yl2xSCWDgrqH37o/A=
+		7qnOYQnniYs1+zPodmXFUTdXcfg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
 		<data>
@@ -418,7 +418,7 @@
 		</data>
 		<key>macos-arm64_x86_64/FBLPromises.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		Fz4jNEpf09yl2xSCWDgrqH37o/A=
+		7qnOYQnniYs1+zPodmXFUTdXcfg=
 		</data>
 		<key>macos-arm64_x86_64/FBLPromises.framework/Versions/A/PrivateHeaders/FBLPromisePrivate.h</key>
 		<data>
@@ -538,7 +538,7 @@
 		</data>
 		<key>tvos-arm64/FBLPromises.framework/Modules/module.modulemap</key>
 		<data>
-		Fz4jNEpf09yl2xSCWDgrqH37o/A=
+		7qnOYQnniYs1+zPodmXFUTdXcfg=
 		</data>
 		<key>tvos-arm64/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
 		<data>
@@ -646,7 +646,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FBLPromises.framework/Modules/module.modulemap</key>
 		<data>
-		Fz4jNEpf09yl2xSCWDgrqH37o/A=
+		7qnOYQnniYs1+zPodmXFUTdXcfg=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
 		<data>
@@ -754,7 +754,7 @@
 		</data>
 		<key>watchos-arm64_arm64_32/FBLPromises.framework/Modules/module.modulemap</key>
 		<data>
-		Fz4jNEpf09yl2xSCWDgrqH37o/A=
+		7qnOYQnniYs1+zPodmXFUTdXcfg=
 		</data>
 		<key>watchos-arm64_arm64_32/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
 		<data>
@@ -862,7 +862,7 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FBLPromises.framework/Modules/module.modulemap</key>
 		<data>
-		Fz4jNEpf09yl2xSCWDgrqH37o/A=
+		7qnOYQnniYs1+zPodmXFUTdXcfg=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
 		<data>
@@ -1150,11 +1150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fz4jNEpf09yl2xSCWDgrqH37o/A=
+			7qnOYQnniYs1+zPodmXFUTdXcfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qBxo+WpOYzjU3WpYAtobsL/zCA3ll2oxNwP1QnBTtM=
+			GGKAsxlKCzF2XVE7Adx2GQJ2xQrBfH43IxShiBRpKv4=
 			</data>
 		</dict>
 		<key>ios-arm64/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
@@ -1439,11 +1439,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fz4jNEpf09yl2xSCWDgrqH37o/A=
+			7qnOYQnniYs1+zPodmXFUTdXcfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qBxo+WpOYzjU3WpYAtobsL/zCA3ll2oxNwP1QnBTtM=
+			GGKAsxlKCzF2XVE7Adx2GQJ2xQrBfH43IxShiBRpKv4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FBLPromises.framework/Versions/A/PrivateHeaders/FBLPromisePrivate.h</key>
@@ -1774,11 +1774,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fz4jNEpf09yl2xSCWDgrqH37o/A=
+			7qnOYQnniYs1+zPodmXFUTdXcfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qBxo+WpOYzjU3WpYAtobsL/zCA3ll2oxNwP1QnBTtM=
+			GGKAsxlKCzF2XVE7Adx2GQJ2xQrBfH43IxShiBRpKv4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
@@ -2063,11 +2063,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fz4jNEpf09yl2xSCWDgrqH37o/A=
+			7qnOYQnniYs1+zPodmXFUTdXcfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qBxo+WpOYzjU3WpYAtobsL/zCA3ll2oxNwP1QnBTtM=
+			GGKAsxlKCzF2XVE7Adx2GQJ2xQrBfH43IxShiBRpKv4=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FBLPromises.framework/Versions/A/PrivateHeaders/FBLPromisePrivate.h</key>
@@ -2398,11 +2398,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fz4jNEpf09yl2xSCWDgrqH37o/A=
+			7qnOYQnniYs1+zPodmXFUTdXcfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qBxo+WpOYzjU3WpYAtobsL/zCA3ll2oxNwP1QnBTtM=
+			GGKAsxlKCzF2XVE7Adx2GQJ2xQrBfH43IxShiBRpKv4=
 			</data>
 		</dict>
 		<key>tvos-arm64/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
@@ -2695,11 +2695,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fz4jNEpf09yl2xSCWDgrqH37o/A=
+			7qnOYQnniYs1+zPodmXFUTdXcfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qBxo+WpOYzjU3WpYAtobsL/zCA3ll2oxNwP1QnBTtM=
+			GGKAsxlKCzF2XVE7Adx2GQJ2xQrBfH43IxShiBRpKv4=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
@@ -2992,11 +2992,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fz4jNEpf09yl2xSCWDgrqH37o/A=
+			7qnOYQnniYs1+zPodmXFUTdXcfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qBxo+WpOYzjU3WpYAtobsL/zCA3ll2oxNwP1QnBTtM=
+			GGKAsxlKCzF2XVE7Adx2GQJ2xQrBfH43IxShiBRpKv4=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>
@@ -3289,11 +3289,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fz4jNEpf09yl2xSCWDgrqH37o/A=
+			7qnOYQnniYs1+zPodmXFUTdXcfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4qBxo+WpOYzjU3WpYAtobsL/zCA3ll2oxNwP1QnBTtM=
+			GGKAsxlKCzF2XVE7Adx2GQJ2xQrBfH43IxShiBRpKv4=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FBLPromises.framework/PrivateHeaders/FBLPromisePrivate.h</key>

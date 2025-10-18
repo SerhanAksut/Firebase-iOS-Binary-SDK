@@ -15,6 +15,11 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct AudioTranscriptionConfig : Swift.Sendable {
+  public init()
+}
 public struct Backend {
   public static func vertexAI(location: Swift.String = "us-central1") -> FirebaseAI.Backend
   public static func googleAI() -> FirebaseAI.Backend
@@ -33,6 +38,9 @@ final public class Chat : Swift.Sendable {
   final public func sendMessageStream(_ content: [FirebaseAI.ModelContent]) throws -> _Concurrency.AsyncThrowingStream<FirebaseAI.GenerateContentResponse, any Swift.Error>
   @objc deinit
 }
+public struct CodeExecution : Swift.Sendable, Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct CountTokensResponse : Swift.Sendable {
   public let totalTokens: Swift.Int
@@ -44,9 +52,12 @@ extension FirebaseAI.CountTokensResponse : Swift.Decodable {
 }
 @_hasMissingDesignatedInitializers @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 final public class FirebaseAI : Swift.Sendable {
-  public static func firebaseAI(app: FirebaseCore.FirebaseApp? = nil, backend: FirebaseAI.Backend = .googleAI()) -> FirebaseAI.FirebaseAI
+  public static func firebaseAI(app: FirebaseCore.FirebaseApp? = nil, backend: FirebaseAI.Backend = .googleAI(), useLimitedUseAppCheckTokens: Swift.Bool = false) -> FirebaseAI.FirebaseAI
   final public func generativeModel(modelName: Swift.String, generationConfig: FirebaseAI.GenerationConfig? = nil, safetySettings: [FirebaseAI.SafetySetting]? = nil, tools: [FirebaseAI.Tool]? = nil, toolConfig: FirebaseAI.ToolConfig? = nil, systemInstruction: FirebaseAI.ModelContent? = nil, requestOptions: FirebaseAI.RequestOptions = RequestOptions()) -> FirebaseAI.GenerativeModel
   final public func imagenModel(modelName: Swift.String, generationConfig: FirebaseAI.ImagenGenerationConfig? = nil, safetySettings: FirebaseAI.ImagenSafetySettings? = nil, requestOptions: FirebaseAI.RequestOptions = RequestOptions()) -> FirebaseAI.ImagenModel
+  @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+  @available(watchOS, unavailable)
+  final public func liveModel(modelName: Swift.String, generationConfig: FirebaseAI.LiveGenerationConfig? = nil, tools: [FirebaseAI.Tool]? = nil, toolConfig: FirebaseAI.ToolConfig? = nil, systemInstruction: FirebaseAI.ModelContent? = nil, requestOptions: FirebaseAI.RequestOptions = RequestOptions()) -> FirebaseAI.LiveGenerativeModel
   @objc deinit
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
@@ -62,15 +73,20 @@ public struct GenerateContentResponse : Swift.Sendable {
   public struct UsageMetadata : Swift.Sendable {
     public let promptTokenCount: Swift.Int
     public let candidatesTokenCount: Swift.Int
+    public let toolUsePromptTokenCount: Swift.Int
     public let thoughtsTokenCount: Swift.Int
     public let totalTokenCount: Swift.Int
     public let promptTokensDetails: [FirebaseAI.ModalityTokenCount]
     public let candidatesTokensDetails: [FirebaseAI.ModalityTokenCount]
+    public let toolUsePromptTokensDetails: [FirebaseAI.ModalityTokenCount]
   }
   public let candidates: [FirebaseAI.Candidate]
   public let promptFeedback: FirebaseAI.PromptFeedback?
   public let usageMetadata: FirebaseAI.GenerateContentResponse.UsageMetadata?
   public var text: Swift.String? {
+    get
+  }
+  public var thoughtSummary: Swift.String? {
     get
   }
   public var functionCalls: [FirebaseAI.FunctionCallPart] {
@@ -88,7 +104,8 @@ public struct Candidate : Swift.Sendable {
   public let finishReason: FirebaseAI.FinishReason?
   public let citationMetadata: FirebaseAI.CitationMetadata?
   public let groundingMetadata: FirebaseAI.GroundingMetadata?
-  public init(content: FirebaseAI.ModelContent, safetyRatings: [FirebaseAI.SafetyRating], finishReason: FirebaseAI.FinishReason?, citationMetadata: FirebaseAI.CitationMetadata?, groundingMetadata: FirebaseAI.GroundingMetadata? = nil)
+  public let urlContextMetadata: FirebaseAI.URLContextMetadata?
+  public init(content: FirebaseAI.ModelContent, safetyRatings: [FirebaseAI.SafetyRating], finishReason: FirebaseAI.FinishReason?, citationMetadata: FirebaseAI.CitationMetadata?, groundingMetadata: FirebaseAI.GroundingMetadata? = nil, urlContextMetadata: FirebaseAI.URLContextMetadata? = nil)
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct CitationMetadata : Swift.Sendable {
@@ -380,6 +397,126 @@ extension FirebaseAI.JSONValue : Swift.Encodable {
 extension FirebaseAI.JSONValue : Swift.Equatable {
   public static func == (a: FirebaseAI.JSONValue, b: FirebaseAI.JSONValue) -> Swift.Bool
 }
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveAudioTranscription : Swift.Sendable {
+  public var text: Swift.String? {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveGenerationConfig : Swift.Sendable {
+  public init(temperature: Swift.Float? = nil, topP: Swift.Float? = nil, topK: Swift.Int? = nil, candidateCount: Swift.Int? = nil, maxOutputTokens: Swift.Int? = nil, presencePenalty: Swift.Float? = nil, frequencyPenalty: Swift.Float? = nil, responseModalities: [FirebaseAI.ResponseModality]? = nil, speech: FirebaseAI.SpeechConfig? = nil, inputAudioTranscription: FirebaseAI.AudioTranscriptionConfig? = nil, outputAudioTranscription: FirebaseAI.AudioTranscriptionConfig? = nil)
+}
+@_hasMissingDesignatedInitializers @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+final public class LiveGenerativeModel {
+  final public func connect() async throws -> FirebaseAI.LiveSession
+  @objc deinit
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveServerContent : Swift.Sendable {
+  public var modelTurn: FirebaseAI.ModelContent? {
+    get
+  }
+  public var isTurnComplete: Swift.Bool {
+    get
+  }
+  public var wasInterrupted: Swift.Bool {
+    get
+  }
+  public var isGenerationComplete: Swift.Bool {
+    get
+  }
+  public var groundingMetadata: FirebaseAI.GroundingMetadata? {
+    get
+  }
+  public var inputAudioTranscription: FirebaseAI.LiveAudioTranscription? {
+    get
+  }
+  public var outputAudioTranscription: FirebaseAI.LiveAudioTranscription? {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveServerGoingAwayNotice : Swift.Sendable {
+  public var timeLeft: Foundation.TimeInterval? {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveServerMessage : Swift.Sendable {
+  public enum Payload : Swift.Sendable {
+    case content(FirebaseAI.LiveServerContent)
+    case toolCall(FirebaseAI.LiveServerToolCall)
+    case toolCallCancellation(FirebaseAI.LiveServerToolCallCancellation)
+    case goingAwayNotice(FirebaseAI.LiveServerGoingAwayNotice)
+  }
+  public let payload: FirebaseAI.LiveServerMessage.Payload
+  public var usageMetadata: FirebaseAI.GenerateContentResponse.UsageMetadata? {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+@available(watchOS, unavailable)
+public struct LiveServerToolCall : Swift.Sendable {
+  public var functionCalls: [FirebaseAI.FunctionCallPart]? {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveServerToolCallCancellation : Swift.Sendable {
+  public var ids: [Swift.String]? {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+@available(watchOS, unavailable)
+final public class LiveSession : Swift.Sendable {
+  final public var responses: _Concurrency.AsyncThrowingStream<FirebaseAI.LiveServerMessage, any Swift.Error> {
+    get
+  }
+  final public func sendFunctionResponses(_ responses: [FirebaseAI.FunctionResponsePart]) async
+  final public func sendAudioRealtime(_ audio: Foundation.Data) async
+  final public func sendTextRealtime(_ text: Swift.String) async
+  final public func sendContent(_ content: [FirebaseAI.ModelContent], turnComplete: Swift.Bool = false) async
+  final public func sendContent(_ parts: any FirebaseAI.PartsRepresentable..., turnComplete: Swift.Bool = false) async
+  final public func close() async
+  @objc deinit
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveSessionUnsupportedMessageError : Swift.Error, Swift.Sendable, Foundation.CustomNSError {
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveSessionLostConnectionError : Swift.Error, Swift.Sendable, Foundation.CustomNSError {
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveSessionUnexpectedClosureError : Swift.Error, Swift.Sendable, Foundation.CustomNSError {
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct LiveSessionSetupError : Swift.Error, Swift.Sendable, Foundation.CustomNSError {
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct ModalityTokenCount : Swift.Sendable {
   public let modality: FirebaseAI.ContentModality
@@ -420,10 +557,14 @@ extension FirebaseAI.ModelContent : Swift.Codable {
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public protocol Part : FirebaseAI.PartsRepresentable, Swift.Decodable, Swift.Encodable, Swift.Equatable, Swift.Sendable {
+  var isThought: Swift.Bool { get }
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct TextPart : FirebaseAI.Part {
   public let text: Swift.String
+  public var isThought: Swift.Bool {
+    get
+  }
   public init(_ text: Swift.String)
   public static func == (a: FirebaseAI.TextPart, b: FirebaseAI.TextPart) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -435,6 +576,9 @@ public struct InlineDataPart : FirebaseAI.Part {
     get
   }
   public var mimeType: Swift.String {
+    get
+  }
+  public var isThought: Swift.Bool {
     get
   }
   public init(data: Foundation.Data, mimeType: Swift.String)
@@ -450,6 +594,9 @@ public struct FileDataPart : FirebaseAI.Part {
   public var mimeType: Swift.String {
     get
   }
+  public var isThought: Swift.Bool {
+    get
+  }
   public init(uri: Swift.String, mimeType: Swift.String)
   public static func == (a: FirebaseAI.FileDataPart, b: FirebaseAI.FileDataPart) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -463,21 +610,83 @@ public struct FunctionCallPart : FirebaseAI.Part {
   public var args: FirebaseAI.JSONObject {
     get
   }
+  public var isThought: Swift.Bool {
+    get
+  }
+  public var functionId: Swift.String? {
+    get
+  }
   public init(name: Swift.String, args: FirebaseAI.JSONObject)
+  public init(name: Swift.String, args: FirebaseAI.JSONObject, id: Swift.String? = nil)
   public static func == (a: FirebaseAI.FunctionCallPart, b: FirebaseAI.FunctionCallPart) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct FunctionResponsePart : FirebaseAI.Part {
+  public var functionId: Swift.String? {
+    get
+  }
   public var name: Swift.String {
     get
   }
   public var response: FirebaseAI.JSONObject {
     get
   }
+  public var isThought: Swift.Bool {
+    get
+  }
   public init(name: Swift.String, response: FirebaseAI.JSONObject)
+  public init(name: Swift.String, response: FirebaseAI.JSONObject, functionId: Swift.String? = nil)
   public static func == (a: FirebaseAI.FunctionResponsePart, b: FirebaseAI.FunctionResponsePart) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+public struct ExecutableCodePart : FirebaseAI.Part {
+  public struct Language : Swift.Sendable, Swift.Equatable, Swift.CustomStringConvertible {
+    public static let python: FirebaseAI.ExecutableCodePart.Language
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: FirebaseAI.ExecutableCodePart.Language, b: FirebaseAI.ExecutableCodePart.Language) -> Swift.Bool
+  }
+  public var language: FirebaseAI.ExecutableCodePart.Language {
+    get
+  }
+  public var code: Swift.String {
+    get
+  }
+  public var isThought: Swift.Bool {
+    get
+  }
+  public init(language: FirebaseAI.ExecutableCodePart.Language, code: Swift.String)
+  public static func == (a: FirebaseAI.ExecutableCodePart, b: FirebaseAI.ExecutableCodePart) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+public struct CodeExecutionResultPart : FirebaseAI.Part {
+  public struct Outcome : Swift.Sendable, Swift.Equatable, Swift.CustomStringConvertible {
+    public static let ok: FirebaseAI.CodeExecutionResultPart.Outcome
+    public static let failed: FirebaseAI.CodeExecutionResultPart.Outcome
+    public static let deadlineExceeded: FirebaseAI.CodeExecutionResultPart.Outcome
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: FirebaseAI.CodeExecutionResultPart.Outcome, b: FirebaseAI.CodeExecutionResultPart.Outcome) -> Swift.Bool
+  }
+  public var outcome: FirebaseAI.CodeExecutionResultPart.Outcome {
+    get
+  }
+  public var output: Swift.String? {
+    get
+  }
+  public var isThought: Swift.Bool {
+    get
+  }
+  public init(outcome: FirebaseAI.CodeExecutionResultPart.Outcome, output: Swift.String)
+  public static func == (a: FirebaseAI.CodeExecutionResultPart, b: FirebaseAI.CodeExecutionResultPart) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -525,6 +734,7 @@ extension CoreImage.CIImage : FirebaseAI.PartsRepresentable {
 public struct ResponseModality : Swift.Sendable {
   public static let text: FirebaseAI.ResponseModality
   public static let image: FirebaseAI.ResponseModality
+  public static let audio: FirebaseAI.ResponseModality
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct SafetyRating : Swift.Equatable, Swift.Hashable, Swift.Sendable {
@@ -655,8 +865,13 @@ final public class Schema : Swift.Sendable {
 extension FirebaseAI.Schema : Swift.Encodable {
   final public func encode(to encoder: any Swift.Encoder) throws
 }
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
+@available(watchOS, unavailable)
+public struct SpeechConfig : Swift.Sendable {
+  public init(voiceName: Swift.String, languageCode: Swift.String? = nil)
+}
 public struct ThinkingConfig : Swift.Sendable {
-  public init(thinkingBudget: Swift.Int? = nil)
+  public init(thinkingBudget: Swift.Int? = nil, includeThoughts: Swift.Bool? = nil)
 }
 extension FirebaseAI.ThinkingConfig : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -673,6 +888,8 @@ public struct GoogleSearch : Swift.Sendable {
 public struct Tool : Swift.Sendable {
   public static func functionDeclarations(_ functionDeclarations: [FirebaseAI.FunctionDeclaration]) -> FirebaseAI.Tool
   public static func googleSearch(_ googleSearch: FirebaseAI.GoogleSearch = GoogleSearch()) -> FirebaseAI.Tool
+  public static func urlContext() -> FirebaseAI.Tool
+  public static func codeExecution() -> FirebaseAI.Tool
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct FunctionCallingConfig : Swift.Sendable {
@@ -705,6 +922,45 @@ extension FirebaseAI.ToolConfig : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+public struct URLContextMetadata : Swift.Sendable, Swift.Hashable {
+  public let urlMetadata: [FirebaseAI.URLMetadata]
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FirebaseAI.URLContextMetadata, b: FirebaseAI.URLContextMetadata) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+extension FirebaseAI.URLContextMetadata : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+public struct URLMetadata : Swift.Sendable, Swift.Hashable {
+  public struct URLRetrievalStatus : Swift.Hashable {
+    public static let success: FirebaseAI.URLMetadata.URLRetrievalStatus
+    public static let error: FirebaseAI.URLMetadata.URLRetrievalStatus
+    public static let paywall: FirebaseAI.URLMetadata.URLRetrievalStatus
+    public static let unsafe: FirebaseAI.URLMetadata.URLRetrievalStatus
+    public let rawValue: Swift.String
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: FirebaseAI.URLMetadata.URLRetrievalStatus, b: FirebaseAI.URLMetadata.URLRetrievalStatus) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let retrievedURL: Foundation.URL?
+  public let retrievalStatus: FirebaseAI.URLMetadata.URLRetrievalStatus
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FirebaseAI.URLMetadata, b: FirebaseAI.URLMetadata) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+extension FirebaseAI.URLMetadata : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 extension FirebaseAI.FinishReason : Swift.Decodable {}
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 extension FirebaseAI.PromptFeedback.BlockReason : Swift.Decodable {}
@@ -730,3 +986,7 @@ extension FirebaseAI.Schema.StringFormat : Swift.Encodable {}
 extension FirebaseAI.Schema.StringFormat : Swift.Sendable {}
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 extension FirebaseAI.Schema.IntegerFormat : Swift.Encodable {}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+extension FirebaseAI.URLMetadata.URLRetrievalStatus : Swift.Decodable {}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+extension FirebaseAI.URLMetadata.URLRetrievalStatus : Swift.Sendable {}

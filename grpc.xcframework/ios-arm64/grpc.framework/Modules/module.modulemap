@@ -1,4 +1,4 @@
-framework module gRPC-Core {
+framework module grpc {
 umbrella header "gRPC-Core-umbrella.h"
 export *
 module * { export * }
