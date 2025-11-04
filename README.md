@@ -48,7 +48,7 @@ If you're using a Package.swift file, add the dependency:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK", from: "12.4.0")
+    .package(url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK", from: "12.5.0")
 ],
 targets: [
     .target(
@@ -66,6 +66,8 @@ targets: [
 
 This package includes the following Firebase modules as XCFramework binaries:
 
+### Core Modules
+- **FirebaseCore** - Firebase Core SDK
 - **FirebaseAnalytics** - Google Analytics for Firebase
 - **FirebaseAuth** - Firebase Authentication
 - **FirebaseFirestore** - Cloud Firestore
@@ -76,8 +78,23 @@ This package includes the following Firebase modules as XCFramework binaries:
 - **FirebaseRemoteConfig** - Remote Config
 - **FirebasePerformance** - Performance Monitoring
 - **FirebaseFunctions** - Cloud Functions
-- **FirebaseDynamicLinks** - Dynamic Links
 - **FirebaseAppCheck** - App Check
+
+### Additional Modules
+- **FirebaseAI** - Firebase AI (Generative AI with Gemini)
+- **FirebaseABTesting** - A/B Testing
+- **FirebaseAppDistribution** - App Distribution
+- **FirebaseInAppMessaging** - In-App Messaging
+- **FirebaseInstallations** - Firebase Installations
+- **FirebaseMLModelDownloader** - ML Model Downloader
+
+### Supporting Libraries
+- **GoogleSignIn** - Google Sign-In SDK
+- **AppAuth** - OAuth and OpenID Connect client
+- **GTMAppAuth** - Google Toolbox for Mac - AppAuth
+- **FBLPromises** / **Promises** - Promises library
+- **SwiftProtobuf** - Protocol Buffers support
+- **GoogleUtilities** - Google Utilities
 
 *Note: Available modules may vary based on the version. Check the Package.swift file for the complete list.*
 

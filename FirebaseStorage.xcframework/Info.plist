@@ -8,33 +8,15 @@
 			<key>BinaryPath</key>
 			<string>FirebaseStorage.framework/FirebaseStorage</string>
 			<key>LibraryIdentifier</key>
-			<string>watchos-arm64_arm64_32</string>
+			<string>ios-arm64</string>
 			<key>LibraryPath</key>
 			<string>FirebaseStorage.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
-				<string>arm64_32</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>watchos</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>FirebaseStorage.framework/Versions/A/FirebaseStorage</string>
-			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-maccatalyst</string>
-			<key>LibraryPath</key>
-			<string>FirebaseStorage.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>maccatalyst</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -57,21 +39,7 @@
 			<key>BinaryPath</key>
 			<string>FirebaseStorage.framework/FirebaseStorage</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
-			<key>LibraryPath</key>
-			<string>FirebaseStorage.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>FirebaseStorage.framework/Versions/A/FirebaseStorage</string>
-			<key>LibraryIdentifier</key>
-			<string>macos-arm64_x86_64</string>
+			<string>watchos-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
 			<string>FirebaseStorage.framework</string>
 			<key>SupportedArchitectures</key>
@@ -80,7 +48,9 @@
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>macos</string>
+			<string>watchos</string>
+			<key>SupportedPlatformVariant</key>
+			<string>simulator</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -115,9 +85,9 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>FirebaseStorage.framework/FirebaseStorage</string>
+			<string>FirebaseStorage.framework/Versions/A/FirebaseStorage</string>
 			<key>LibraryIdentifier</key>
-			<string>watchos-arm64_x86_64-simulator</string>
+			<string>ios-arm64_x86_64-maccatalyst</string>
 			<key>LibraryPath</key>
 			<string>FirebaseStorage.framework</string>
 			<key>SupportedArchitectures</key>
@@ -126,9 +96,39 @@
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>watchos</string>
+			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
+			<string>maccatalyst</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>FirebaseStorage.framework/FirebaseStorage</string>
+			<key>LibraryIdentifier</key>
+			<string>watchos-arm64_arm64_32</string>
+			<key>LibraryPath</key>
+			<string>FirebaseStorage.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>arm64_32</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>watchos</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>FirebaseStorage.framework/Versions/A/FirebaseStorage</string>
+			<key>LibraryIdentifier</key>
+			<string>macos-arm64_x86_64</string>
+			<key>LibraryPath</key>
+			<string>FirebaseStorage.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>macos</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>
