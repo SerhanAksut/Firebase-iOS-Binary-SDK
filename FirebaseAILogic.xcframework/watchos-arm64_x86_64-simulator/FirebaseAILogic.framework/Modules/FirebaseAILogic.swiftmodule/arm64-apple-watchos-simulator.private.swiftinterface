@@ -55,6 +55,8 @@ final public class FirebaseAI : Swift.Sendable {
   public static func firebaseAI(app: FirebaseCore.FirebaseApp? = nil, backend: FirebaseAILogic.Backend = .googleAI(), useLimitedUseAppCheckTokens: Swift.Bool = false) -> FirebaseAILogic.FirebaseAI
   final public func generativeModel(modelName: Swift.String, generationConfig: FirebaseAILogic.GenerationConfig? = nil, safetySettings: [FirebaseAILogic.SafetySetting]? = nil, tools: [FirebaseAILogic.Tool]? = nil, toolConfig: FirebaseAILogic.ToolConfig? = nil, systemInstruction: FirebaseAILogic.ModelContent? = nil, requestOptions: FirebaseAILogic.RequestOptions = RequestOptions()) -> FirebaseAILogic.GenerativeModel
   final public func imagenModel(modelName: Swift.String, generationConfig: FirebaseAILogic.ImagenGenerationConfig? = nil, safetySettings: FirebaseAILogic.ImagenSafetySettings? = nil, requestOptions: FirebaseAILogic.RequestOptions = RequestOptions()) -> FirebaseAILogic.ImagenModel
+  final public func templateGenerativeModel() -> FirebaseAILogic.TemplateGenerativeModel
+  final public func templateImagenModel() -> FirebaseAILogic.TemplateImagenModel
   @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, *)
   @available(watchOS, unavailable)
   final public func liveModel(modelName: Swift.String, generationConfig: FirebaseAILogic.LiveGenerationConfig? = nil, tools: [FirebaseAILogic.Tool]? = nil, toolConfig: FirebaseAILogic.ToolConfig? = nil, systemInstruction: FirebaseAILogic.ModelContent? = nil, requestOptions: FirebaseAILogic.RequestOptions = RequestOptions()) -> FirebaseAILogic.LiveGenerativeModel
@@ -858,6 +860,17 @@ extension FirebaseAILogic.Schema : Swift.Encodable {
 @available(watchOS, unavailable)
 public struct SpeechConfig : Swift.Sendable {
   public init(voiceName: Swift.String, languageCode: Swift.String? = nil)
+}
+@_hasMissingDesignatedInitializers @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+final public class TemplateGenerativeModel : Swift.Sendable {
+  final public func generateContent(templateID: Swift.String, inputs: [Swift.String : Any], options: FirebaseAILogic.RequestOptions = RequestOptions()) async throws -> FirebaseAILogic.GenerateContentResponse
+  final public func generateContentStream(templateID: Swift.String, inputs: [Swift.String : Any], options: FirebaseAILogic.RequestOptions = RequestOptions()) throws -> _Concurrency.AsyncThrowingStream<FirebaseAILogic.GenerateContentResponse, any Swift.Error>
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+final public class TemplateImagenModel : Swift.Sendable {
+  final public func generateImages(templateID: Swift.String, inputs: [Swift.String : Any], options: FirebaseAILogic.RequestOptions = RequestOptions()) async throws -> FirebaseAILogic.ImagenGenerationResponse<FirebaseAILogic.ImagenInlineImage>
+  @objc deinit
 }
 public struct ThinkingConfig : Swift.Sendable {
   public init(thinkingBudget: Swift.Int? = nil, includeThoughts: Swift.Bool? = nil)
