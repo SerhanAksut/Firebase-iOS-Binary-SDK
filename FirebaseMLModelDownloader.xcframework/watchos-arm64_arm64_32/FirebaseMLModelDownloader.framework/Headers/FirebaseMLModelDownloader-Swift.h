@@ -281,7 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
-@import GoogleDataTransport;
 @import ObjectiveC;
 #endif
 
@@ -304,17 +303,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSData;
-
-/// Data object for Firelog event.
-SWIFT_CLASS("_TtC25FirebaseMLModelDownloader14FBMLDataObject")
-@interface FBMLDataObject : NSObject <GDTCOREventDataObject>
-/// Encode Firelog event for transport.
-- (NSData * _Nonnull)transportBytes SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 
 
 /// Downloader to get model files from server.
@@ -629,7 +617,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
-@import GoogleDataTransport;
 @import ObjectiveC;
 #endif
 
@@ -652,17 +639,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSData;
-
-/// Data object for Firelog event.
-SWIFT_CLASS("_TtC25FirebaseMLModelDownloader14FBMLDataObject")
-@interface FBMLDataObject : NSObject <GDTCOREventDataObject>
-/// Encode Firelog event for transport.
-- (NSData * _Nonnull)transportBytes SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 
 
 /// Downloader to get model files from server.

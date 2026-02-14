@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-watchos8.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FirebaseAILogic
+// swift-compiler-version: Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-watchos8.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name FirebaseAILogic
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import FirebaseAILogic
 import FirebaseAppCheckInterop
@@ -74,11 +74,13 @@ public struct GenerateContentResponse : Swift.Sendable {
   @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
   public struct UsageMetadata : Swift.Sendable {
     public let promptTokenCount: Swift.Int
+    public let cachedContentTokenCount: Swift.Int
     public let candidatesTokenCount: Swift.Int
     public let toolUsePromptTokenCount: Swift.Int
     public let thoughtsTokenCount: Swift.Int
     public let totalTokenCount: Swift.Int
     public let promptTokensDetails: [FirebaseAILogic.ModalityTokenCount]
+    public let cacheTokensDetails: [FirebaseAILogic.ModalityTokenCount]
     public let candidatesTokensDetails: [FirebaseAILogic.ModalityTokenCount]
     public let toolUsePromptTokensDetails: [FirebaseAILogic.ModalityTokenCount]
   }
@@ -874,6 +876,16 @@ final public class TemplateImagenModel : Swift.Sendable {
 }
 public struct ThinkingConfig : Swift.Sendable {
   public init(thinkingBudget: Swift.Int? = nil, includeThoughts: Swift.Bool? = nil)
+  public init(thinkingLevel: FirebaseAILogic.ThinkingConfig.ThinkingLevel, includeThoughts: Swift.Bool? = nil)
+}
+extension FirebaseAILogic.ThinkingConfig {
+  public struct ThinkingLevel : Swift.Equatable {
+    public static let minimal: FirebaseAILogic.ThinkingConfig.ThinkingLevel
+    public static let low: FirebaseAILogic.ThinkingConfig.ThinkingLevel
+    public static let medium: FirebaseAILogic.ThinkingConfig.ThinkingLevel
+    public static let high: FirebaseAILogic.ThinkingConfig.ThinkingLevel
+    public static func == (a: FirebaseAILogic.ThinkingConfig.ThinkingLevel, b: FirebaseAILogic.ThinkingConfig.ThinkingLevel) -> Swift.Bool
+  }
 }
 extension FirebaseAILogic.ThinkingConfig : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -988,6 +1000,8 @@ extension FirebaseAILogic.Schema.StringFormat : Swift.Encodable {}
 extension FirebaseAILogic.Schema.StringFormat : Swift.Sendable {}
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 extension FirebaseAILogic.Schema.IntegerFormat : Swift.Encodable {}
+extension FirebaseAILogic.ThinkingConfig.ThinkingLevel : Swift.Encodable {}
+extension FirebaseAILogic.ThinkingConfig.ThinkingLevel : Swift.Sendable {}
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 extension FirebaseAILogic.URLMetadata.URLRetrievalStatus : Swift.Decodable {}
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
