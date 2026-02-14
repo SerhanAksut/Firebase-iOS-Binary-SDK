@@ -61,8 +61,7 @@ let package = Package(
         .library(name: "nanopb", targets: ["nanopb"]),
         .library(name: "openssl_grpc", targets: ["openssl_grpc"]),
         .library(name: "Promises", targets: ["Promises"]),
-        .library(name: "RecaptchaInterop", targets: ["RecaptchaInterop"]),
-        .library(name: "SwiftProtobuf", targets: ["SwiftProtobuf"])
+        .library(name: "RecaptchaInterop", targets: ["RecaptchaInterop"])
     ],
     targets: [
         .binaryTarget(name: "absl", path: "absl.xcframework"),
@@ -113,7 +112,6 @@ let package = Package(
         .binaryTarget(name: "nanopb", path: "nanopb.xcframework"),
         .binaryTarget(name: "openssl_grpc", path: "openssl_grpc.xcframework"),
         .binaryTarget(name: "Promises", path: "Promises.xcframework"),
-        .binaryTarget(name: "RecaptchaInterop", path: "RecaptchaInterop.xcframework"),
-        .binaryTarget(name: "SwiftProtobuf", path: "SwiftProtobuf.xcframework")
+        .binaryTarget(name: "RecaptchaInterop", path: "RecaptchaInterop.xcframework")
     ]
 )

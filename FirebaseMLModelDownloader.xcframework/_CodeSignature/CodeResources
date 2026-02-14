@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/FirebaseMLModelDownloader</key>
 		<data>
-		6ViYXxtkWZx5KZCcMom+aDs3WEA=
+		uNagnBq+I5TGXrTWDW7f87lPucU=
 		</data>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Info.plist</key>
 		<data>
-		5xlGxREdoZmra8heYXsExzKsCHQ=
+		tfqxCWHcv87BfUT/+3IaSuU14hg=
 		</data>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		WsjB8AJESdeug2OLj37XuqyQFYY=
+		6fdf3aV7xiSzj2mxadvJ+BUewgI=
 		</data>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PLJorvj471lqXWUhWkyi0H2Ef+c=
+		Kn6ncjIdog+kJloyh/QFv64dvzo=
 		</data>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8KWhwO7yZWNCna/oZdlaHdEwo7E=
+		LT+kpzg8boVWKMdMySAvg+LPukw=
 		</data>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8KWhwO7yZWNCna/oZdlaHdEwo7E=
+		LT+kpzg8boVWKMdMySAvg+LPukw=
 		</data>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/FirebaseMLModelDownloader</key>
 		<data>
-		NgjBzMXtaNdQ+SEs+FxcnC1Z15Y=
+		RUuUL4AwBomcDtkOSTRmXvGENO0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-ios-macabi.swiftsourceinfo</key>
 		<data>
-		IogDHxd/crfdOOG+5lZcklNH5gg=
+		DsghaKVcGCkaBdx+tclIRHJrCt0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<data>
-		KHSdNO8MPDjBcj2+7ovlwRpj9ds=
+		F7Ux6nuftlkFbmpMLewBxIejvVA=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
-		m3rdVslPrzvra6pevuiEZPw6ZHk=
+		tJOBO3C6ciF29xYiOMvj+kO/oYE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		jH9R/7Ii+jpskxW85ci6LKhB0sM=
+		o0vEayflFGxXOAOn6xaHJtPkmiE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<data>
@@ -78,15 +78,15 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		jH9R/7Ii+jpskxW85ci6LKhB0sM=
+		o0vEayflFGxXOAOn6xaHJtPkmiE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<data>
-		m3rdVslPrzvra6pevuiEZPw6ZHk=
+		tJOBO3C6ciF29xYiOMvj+kO/oYE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		pp1dFw2fQnd6V0WQ+v9jYTV9Ejw=
+		9p+q+u4QrJvHF/8G9ke8IjXH64Y=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		pp1dFw2fQnd6V0WQ+v9jYTV9Ejw=
+		9p+q+u4QrJvHF/8G9ke8IjXH64Y=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		IQshueY1EemQwXxrladrzO5RWtM=
+		k2C9MXvsaj48IcwLsXsJLATmXj0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/FirebaseMLModelDownloader</key>
 		<data>
-		PpOeyvZn3DTLyaPOkqTcwd0iKY8=
+		IC0K7cumguKaluWWIJUg0Co8vug=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<data>
@@ -118,23 +118,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Info.plist</key>
 		<data>
-		jeUmUYQJX37t3d7Lgr/RylsXw3Y=
+		LswuH8COyLqVnBbSk4jtiDxzR8E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		dPtWwRkXMaP/eLyvqanrv2+Lp3o=
+		x5sV13EmWmj3J8PcFRITqVfTrN0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		gt9mMcglIzTJX+sUJIhfqB1bAcA=
+		vF/yyHqFWgFExWFygQ7sx/u1uos=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PLJorvj471lqXWUhWkyi0H2Ef+c=
+		Kn6ncjIdog+kJloyh/QFv64dvzo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kIIX44goqauQBfavfjyxYGAseKk=
+		/PgjNxeJrMyeGRo9na+eWdUiTho=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -142,15 +142,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kIIX44goqauQBfavfjyxYGAseKk=
+		/PgjNxeJrMyeGRo9na+eWdUiTho=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PLJorvj471lqXWUhWkyi0H2Ef+c=
+		Kn6ncjIdog+kJloyh/QFv64dvzo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ONPNQghcD7V/FNMGOe/qUxpMdVs=
+		H6CGybjoPK3Lt+700wh0dDWPw+M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ONPNQghcD7V/FNMGOe/qUxpMdVs=
+		H6CGybjoPK3Lt+700wh0dDWPw+M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/FirebaseMLModelDownloader</key>
 		<data>
-		/6m6TMYe+UNAnxfHPE6WmcJbhv8=
+		Q4Ktya8MmXzvrCiTk43rIoMEqfg=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<data>
@@ -178,19 +178,19 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo</key>
 		<data>
-		V9aywk6iHc+BLPpVKyYCj/fI0A4=
+		W1RFfYYmiHPdpFPHgjvEFqyarD0=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<data>
-		DwPbnNJeC5CxeOtVyltjc+SNtPM=
+		rhwWwpix5nxRnO2foy4DOeNx9Es=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-macos.abi.json</key>
 		<data>
-		IC57H1Kl4l/R7YAH3MRpc0PRt3s=
+		BHHIDT82LkczlTVIHvUgEVaWkrw=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<data>
-		UV+q9eZuefItaEu8l7cnVBR9tJo=
+		Zd7nn0uEXUvzQvpc+KIsXVVwRYs=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<data>
@@ -198,15 +198,15 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<data>
-		UV+q9eZuefItaEu8l7cnVBR9tJo=
+		Zd7nn0uEXUvzQvpc+KIsXVVwRYs=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<data>
-		IC57H1Kl4l/R7YAH3MRpc0PRt3s=
+		BHHIDT82LkczlTVIHvUgEVaWkrw=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<data>
-		WmKugaUp0WJFtsthBQaTV4DeuTE=
+		5S+yVvb5GUdtODScbAejR6GRKdI=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<data>
-		WmKugaUp0WJFtsthBQaTV4DeuTE=
+		5S+yVvb5GUdtODScbAejR6GRKdI=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
@@ -222,11 +222,11 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		K+mxIoxIVNzifrK9VDw4yEExsBM=
+		3rWTawu0eYmVV7W6e3PWYAUrSm4=
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/FirebaseMLModelDownloader</key>
 		<data>
-		mg3oLswMzz5PuH8xo+kLeoFaP4I=
+		itg17AenrxFtsT75x+2xqN3BrVI=
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<data>
@@ -238,19 +238,19 @@
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Info.plist</key>
 		<data>
-		5P+Tvv9pToLqUP5cuy1KjUZ6Vzc=
+		FHBQpF+fOt8xyjuIHLy7FXmWsNo=
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-tvos.swiftsourceinfo</key>
 		<data>
-		WCYx16QVmUB9StYHQH1VGAiKUbs=
+		+x76kuVtZlly4bUVhZYcGKnqUGE=
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		X1mzmGsKs+iG7LOhsNXbDuu8Iuo=
+		1luPB9d6kK9nwS32T9GNwDJpzX0=
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
-		adJBBfgmrD2Qn3ZY5Fz4ujCur2M=
+		bx0DTlNBQBZ6MUIpyBml7NwI7xM=
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<data>
@@ -258,7 +258,7 @@
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<data>
-		adJBBfgmrD2Qn3ZY5Fz4ujCur2M=
+		bx0DTlNBQBZ6MUIpyBml7NwI7xM=
 		</data>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/FirebaseMLModelDownloader</key>
 		<data>
-		Fdj1A6R7SIvAUfIGHUGozoRUv74=
+		QxQ3u9RFSWAm9hHnwt5ykC7j0sI=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<data>
@@ -278,23 +278,23 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Info.plist</key>
 		<data>
-		co1f6DXlwGjGk1yWj2VEo77HJog=
+		0h5ZDRjAT4oVuawYEwUYKwbiN98=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		P25yz0smEyBq/b3UoRhw1rmTZr4=
+		Fmvp3/WtKIv2FFfa3o+C3mEwWmY=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		C1QJac7o9Mwkq3ko4V+tnuNk45s=
+		t6KXDp0JrQF0p0pCJXxCdM7jQpE=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		X1mzmGsKs+iG7LOhsNXbDuu8Iuo=
+		1luPB9d6kK9nwS32T9GNwDJpzX0=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		H7xZZqLfxPDZSVnKG3E2ielDKdU=
+		xuSs4NMXWv85N0VWurlMzBvhWMU=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -302,15 +302,15 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		H7xZZqLfxPDZSVnKG3E2ielDKdU=
+		xuSs4NMXWv85N0VWurlMzBvhWMU=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		X1mzmGsKs+iG7LOhsNXbDuu8Iuo=
+		1luPB9d6kK9nwS32T9GNwDJpzX0=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		GtRJ9dO2K0JCuG1i1tgtP7doyuA=
+		CJG02qtJbuxByCFzIJHuns0/7w4=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -318,7 +318,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		GtRJ9dO2K0JCuG1i1tgtP7doyuA=
+		CJG02qtJbuxByCFzIJHuns0/7w4=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
 		<data>
@@ -326,11 +326,11 @@
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/FirebaseMLModelDownloader</key>
 		<data>
-		wE9KEe04YPkRDwTnvIc5HJ/s0sM=
+		1gr3eGmaFcBjA+l4AfmXMo3ix/U=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<data>
-		4MT483MBE6lbmd7gTxTCcQBrGOw=
+		4mWoiR0HvCNOXvEn4pwcMqavPRM=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-umbrella.h</key>
 		<data>
@@ -338,23 +338,23 @@
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Info.plist</key>
 		<data>
-		FP5biRRpjMFHTBQ0y4MAt+6bbc0=
+		rfZZERREA9lBPIJ597ne548128s=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-watchos.swiftsourceinfo</key>
 		<data>
-		/Euw2EZ3Tym3IGZYGUgtG+da1Ew=
+		lcDl/ptCTcD9sGrvTNT4PJuApyw=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64_32-apple-watchos.swiftsourceinfo</key>
 		<data>
-		h+GOh7HcAK3P0lseM4lsiN4e+io=
+		UUdWXPXDE0UFDjS9uDk12zzZUyw=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
-		jDQXPfocvL6qIGleOMr9z6jXIjE=
+		FQhK44jTJx7zSX5311RSG19nQzc=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<data>
-		QlOxIIvMWIIVnefV69+ilYBaumc=
+		Kge0nN2meF2PRVy10McTqaug3QE=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<data>
@@ -362,15 +362,15 @@
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<data>
-		QlOxIIvMWIIVnefV69+ilYBaumc=
+		Kge0nN2meF2PRVy10McTqaug3QE=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<data>
-		jDQXPfocvL6qIGleOMr9z6jXIjE=
+		FQhK44jTJx7zSX5311RSG19nQzc=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<data>
-		JeKWcDPrxMyBLf/MguAn09eAwng=
+		PFmXBqi54TjqaOBJZarYMbMtMVc=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<data>
@@ -378,7 +378,7 @@
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<data>
-		JeKWcDPrxMyBLf/MguAn09eAwng=
+		PFmXBqi54TjqaOBJZarYMbMtMVc=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
 		<data>
@@ -386,11 +386,11 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/FirebaseMLModelDownloader</key>
 		<data>
-		D/a0Q4UgfaE4wMtzTSE7LYWuajI=
+		Lku7UC8XdmSRU06YV7HSTWli8rY=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<data>
-		PxN1w4w2h/3Sk8ZelAia/h7jPZQ=
+		m7XAhmclwR4eliEoEnMc5toO3ns=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-umbrella.h</key>
 		<data>
@@ -398,23 +398,23 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Info.plist</key>
 		<data>
-		9xhQ0yteDKhPWuMqmf1yPP0+pUg=
+		H80DR8fvOVaM7QdgB3gOzqWALa4=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		UJgcKeRgnzNqfTrFvu6zMhYbyxA=
+		2PnNfN3TtL207Mzr8LP/efU7SxI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		/r9wTsQ0oJz11gUlUSMI01T3S6g=
+		OhjaF3RH64S1hRtvuiQmmYKK9A4=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		jDQXPfocvL6qIGleOMr9z6jXIjE=
+		FQhK44jTJx7zSX5311RSG19nQzc=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		ENDTBbOMviWSE0hcmzgApSMaqJ4=
+		d0M25yIEei+6NvdufWaF17O0rpk=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
@@ -422,15 +422,15 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		ENDTBbOMviWSE0hcmzgApSMaqJ4=
+		d0M25yIEei+6NvdufWaF17O0rpk=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		jDQXPfocvL6qIGleOMr9z6jXIjE=
+		FQhK44jTJx7zSX5311RSG19nQzc=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		HHzG2iD+boQkkDJ6f93N9MnnLEU=
+		dWtO/S8zxihZyOl0eY0IsVrtt1E=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
@@ -438,7 +438,7 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		HHzG2iD+boQkkDJ6f93N9MnnLEU=
+		dWtO/S8zxihZyOl0eY0IsVrtt1E=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
 		<data>
@@ -451,11 +451,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6ViYXxtkWZx5KZCcMom+aDs3WEA=
+			uNagnBq+I5TGXrTWDW7f87lPucU=
 			</data>
 			<key>hash2</key>
 			<data>
-			K6xNyO7k/CMuQcyKXiMPslxOXsxIbf03Eh62ajdI3OM=
+			0JKkF7m7L9OGnxDu8ZKDKf35ZPMDGYWg5PpirJU2PUE=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
@@ -484,44 +484,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5xlGxREdoZmra8heYXsExzKsCHQ=
+			tfqxCWHcv87BfUT/+3IaSuU14hg=
 			</data>
 			<key>hash2</key>
 			<data>
-			aYiqE98B2a8XocgT7OhRFfaLhWMZfloagxvELn7/uqY=
+			ggx32d/AFggOP7HE5ilQ2tTlKRn09Va8i4VLjsQlfaE=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WsjB8AJESdeug2OLj37XuqyQFYY=
+			6fdf3aV7xiSzj2mxadvJ+BUewgI=
 			</data>
 			<key>hash2</key>
 			<data>
-			zMz/GrDbBzyy4h5Kn+Z5RLt6qC1QqdeQB+2kwThxCgY=
+			/2DJTQcaKkLDw5L0y+JH125IUsBnWBgkW4xtS05u/Pc=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PLJorvj471lqXWUhWkyi0H2Ef+c=
+			Kn6ncjIdog+kJloyh/QFv64dvzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8cuppPb2fWDoRoOWLDpeU+4K/a4M8asnlQ6Lsoly068=
+			vc8SqnFl/Yno9f2RVJOIzJLOc1NYN+/AzNgrBe3Q7WE=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8KWhwO7yZWNCna/oZdlaHdEwo7E=
+			LT+kpzg8boVWKMdMySAvg+LPukw=
 			</data>
 			<key>hash2</key>
 			<data>
-			TupPghZnj0xc4NklMI7ct1lm58IELi00NIUDFkPbYcY=
+			DSxWf9Rm3xOaNmup/smDryvetAN2Fv3h5KNT7G7iBVo=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -539,11 +539,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8KWhwO7yZWNCna/oZdlaHdEwo7E=
+			LT+kpzg8boVWKMdMySAvg+LPukw=
 			</data>
 			<key>hash2</key>
 			<data>
-			TupPghZnj0xc4NklMI7ct1lm58IELi00NIUDFkPbYcY=
+			DSxWf9Rm3xOaNmup/smDryvetAN2Fv3h5KNT7G7iBVo=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
@@ -581,11 +581,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NgjBzMXtaNdQ+SEs+FxcnC1Z15Y=
+			RUuUL4AwBomcDtkOSTRmXvGENO0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BHqjuUI0mwjCFPq9fEXy+MrgYWO8qo85x2YW7i3qxwE=
+			SRb/SM9xN93RvtmUOKizIDfvAhkeh1Rv8fsHn4Dll9g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Headers/FirebaseMLModelDownloader-Swift.h</key>
@@ -614,44 +614,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IogDHxd/crfdOOG+5lZcklNH5gg=
+			DsghaKVcGCkaBdx+tclIRHJrCt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q/372Se0+8afuZjs+Hgf31PhEfNGEnOhSsOHwbrBNDw=
+			7GmOaN+SqcEMiiUps7m0s0UVX+UEIayfFKN/h0Y/AnA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KHSdNO8MPDjBcj2+7ovlwRpj9ds=
+			F7Ux6nuftlkFbmpMLewBxIejvVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			C3CQZZP6otWhxzZ82ThZs7vmc+BZixZMa5nfLE3KIoo=
+			Q1knB+9zVlOIEkdMCrR4H8gA8U26UAhEkk2Gsyf/ccM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m3rdVslPrzvra6pevuiEZPw6ZHk=
+			tJOBO3C6ciF29xYiOMvj+kO/oYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			CvcVDZGEy9xa54Mjy1aXjucaw6/D/e8emHhn05wFnA8=
+			G/mSQctQAPeuIDf3O9lBf+WtLyoQlb2hoS3gOsmepQ8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jH9R/7Ii+jpskxW85ci6LKhB0sM=
+			o0vEayflFGxXOAOn6xaHJtPkmiE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nxJal0zsWQcR1leaIPckVEzutsEl2WC9D1a8YjcB270=
+			JRiuxD3yu8TB+Ibb2b1JznkCT0TFGYIulU5tsBoCQHs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -669,33 +669,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jH9R/7Ii+jpskxW85ci6LKhB0sM=
+			o0vEayflFGxXOAOn6xaHJtPkmiE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nxJal0zsWQcR1leaIPckVEzutsEl2WC9D1a8YjcB270=
+			JRiuxD3yu8TB+Ibb2b1JznkCT0TFGYIulU5tsBoCQHs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m3rdVslPrzvra6pevuiEZPw6ZHk=
+			tJOBO3C6ciF29xYiOMvj+kO/oYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			CvcVDZGEy9xa54Mjy1aXjucaw6/D/e8emHhn05wFnA8=
+			G/mSQctQAPeuIDf3O9lBf+WtLyoQlb2hoS3gOsmepQ8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pp1dFw2fQnd6V0WQ+v9jYTV9Ejw=
+			9p+q+u4QrJvHF/8G9ke8IjXH64Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			EEX71SimtvC7bHRMbl+KDYrBA21rv1wBUdjJWv9qdbI=
+			C+6p9VUQ4mw/MsMQivQeiF4Tc9btr5/MUGqlS6xEKpc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -713,11 +713,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pp1dFw2fQnd6V0WQ+v9jYTV9Ejw=
+			9p+q+u4QrJvHF/8G9ke8IjXH64Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			EEX71SimtvC7bHRMbl+KDYrBA21rv1wBUdjJWv9qdbI=
+			C+6p9VUQ4mw/MsMQivQeiF4Tc9btr5/MUGqlS6xEKpc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/A/Modules/module.modulemap</key>
@@ -735,11 +735,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IQshueY1EemQwXxrladrzO5RWtM=
+			k2C9MXvsaj48IcwLsXsJLATmXj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			zbfYTMdiXgUt3XxmPvrK0qRNIJUk2zgf/nRkDHQDXL4=
+			WkVrCILjyB4mOrFPhFFEdNQhlIyyUMlhtt1vN8PZFjo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMLModelDownloader.framework/Versions/Current</key>
@@ -751,11 +751,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PpOeyvZn3DTLyaPOkqTcwd0iKY8=
+			IC0K7cumguKaluWWIJUg0Co8vug=
 			</data>
 			<key>hash2</key>
 			<data>
-			zwjOhp8m3cvscEdY3XWdZIcwQCTahE5jhQ3MODomjGU=
+			i7s7PbFYXibq5bV4ZPBqNHM1SY3dG50oaWVE+bPM+Ng=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
@@ -784,55 +784,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jeUmUYQJX37t3d7Lgr/RylsXw3Y=
+			LswuH8COyLqVnBbSk4jtiDxzR8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			/WB0os0iNh8FiermuS1ioIFMCeatYJOkgAJXKol6jg4=
+			KGc2+ybonYrexS36mOrXaOyveyPy9c77FYg0io5KL9M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dPtWwRkXMaP/eLyvqanrv2+Lp3o=
+			x5sV13EmWmj3J8PcFRITqVfTrN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			guMoTywJMsFoyDTQgET3spzK4Ii260Hnz16DE+82S/g=
+			zc7UhcGvkss5skpgmpK1ni4FbsVM0tiLyHCphFhy4kw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gt9mMcglIzTJX+sUJIhfqB1bAcA=
+			vF/yyHqFWgFExWFygQ7sx/u1uos=
 			</data>
 			<key>hash2</key>
 			<data>
-			jAOrLU+TOAXQKGVcvnjY5sdEKV22TbkJKAmre0Jx//k=
+			eVQv8DybAx/4nHZ5S1FgT4edEnqHvuMmeZfPe9ioxQ4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PLJorvj471lqXWUhWkyi0H2Ef+c=
+			Kn6ncjIdog+kJloyh/QFv64dvzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8cuppPb2fWDoRoOWLDpeU+4K/a4M8asnlQ6Lsoly068=
+			vc8SqnFl/Yno9f2RVJOIzJLOc1NYN+/AzNgrBe3Q7WE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kIIX44goqauQBfavfjyxYGAseKk=
+			/PgjNxeJrMyeGRo9na+eWdUiTho=
 			</data>
 			<key>hash2</key>
 			<data>
-			IZbVs7TpImv1ytHIQ07PAlt5Gl94u8LIvqSzftUqmNQ=
+			gbb+ofGJCUvEroe4gXtK/TW/bZLSqw7FdMReRnkvM24=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -850,33 +850,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kIIX44goqauQBfavfjyxYGAseKk=
+			/PgjNxeJrMyeGRo9na+eWdUiTho=
 			</data>
 			<key>hash2</key>
 			<data>
-			IZbVs7TpImv1ytHIQ07PAlt5Gl94u8LIvqSzftUqmNQ=
+			gbb+ofGJCUvEroe4gXtK/TW/bZLSqw7FdMReRnkvM24=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PLJorvj471lqXWUhWkyi0H2Ef+c=
+			Kn6ncjIdog+kJloyh/QFv64dvzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8cuppPb2fWDoRoOWLDpeU+4K/a4M8asnlQ6Lsoly068=
+			vc8SqnFl/Yno9f2RVJOIzJLOc1NYN+/AzNgrBe3Q7WE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ONPNQghcD7V/FNMGOe/qUxpMdVs=
+			H6CGybjoPK3Lt+700wh0dDWPw+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			4+thlWUjHhsLH8Uo0WeliztfX7KxyI2Xb3QrOpNYA/0=
+			afWyb8qogyFQUkqDah6oqmqahoGexFtiV8l7kHLsta8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -894,11 +894,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ONPNQghcD7V/FNMGOe/qUxpMdVs=
+			H6CGybjoPK3Lt+700wh0dDWPw+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			4+thlWUjHhsLH8Uo0WeliztfX7KxyI2Xb3QrOpNYA/0=
+			afWyb8qogyFQUkqDah6oqmqahoGexFtiV8l7kHLsta8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
@@ -936,11 +936,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/6m6TMYe+UNAnxfHPE6WmcJbhv8=
+			Q4Ktya8MmXzvrCiTk43rIoMEqfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			lLd1L6e0NjSEZ1U3uzj+28TdUeegs+f37GcX7lHF0os=
+			qLte01orhw0tNqu5QgYLELWovf/FfucInLBEvoyFQck=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Headers/FirebaseMLModelDownloader-Swift.h</key>
@@ -969,44 +969,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V9aywk6iHc+BLPpVKyYCj/fI0A4=
+			W1RFfYYmiHPdpFPHgjvEFqyarD0=
 			</data>
 			<key>hash2</key>
 			<data>
-			OGpBMjeYc1zhpFDv+H6Jynt7ZBdFvDtqhqURx5oanig=
+			+KDHEN7mBnXuDghHLKqrfXhXlX+aQ+Wn+pdyXezx+bg=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DwPbnNJeC5CxeOtVyltjc+SNtPM=
+			rhwWwpix5nxRnO2foy4DOeNx9Es=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Ohe8QvIo6L7+TdAaGFYHRqQB6CCN03uOGLdFna+r4U=
+			dPuIJ+pWKtMJ04aTIxP1zktGF0VqkwEW/A1t5urxStA=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IC57H1Kl4l/R7YAH3MRpc0PRt3s=
+			BHHIDT82LkczlTVIHvUgEVaWkrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			COhlXYbhzusL5ymThdyAQ8nCnJkk/MdKgmJeUao6YO0=
+			wNlEK5qkZsh7oBOAFsdLiR0Z8niQoUcIksrXKpNFUV4=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UV+q9eZuefItaEu8l7cnVBR9tJo=
+			Zd7nn0uEXUvzQvpc+KIsXVVwRYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKFc6cbCnpJZWzc+aGi6KWtFWcBODg3GTknkTkjMngA=
+			AT+flu0SMdltHBSqt1qDsCmOJpM9hxdc8ZQHO7QCK+Q=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -1024,33 +1024,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UV+q9eZuefItaEu8l7cnVBR9tJo=
+			Zd7nn0uEXUvzQvpc+KIsXVVwRYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			oKFc6cbCnpJZWzc+aGi6KWtFWcBODg3GTknkTkjMngA=
+			AT+flu0SMdltHBSqt1qDsCmOJpM9hxdc8ZQHO7QCK+Q=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IC57H1Kl4l/R7YAH3MRpc0PRt3s=
+			BHHIDT82LkczlTVIHvUgEVaWkrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			COhlXYbhzusL5ymThdyAQ8nCnJkk/MdKgmJeUao6YO0=
+			wNlEK5qkZsh7oBOAFsdLiR0Z8niQoUcIksrXKpNFUV4=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WmKugaUp0WJFtsthBQaTV4DeuTE=
+			5S+yVvb5GUdtODScbAejR6GRKdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			wCSZzWj0J6+5HmpplTPhZk1CwWxaJoxLbIDu0bEvEAE=
+			nwqgsmXg27nSNsPMqYdUtY9bCSiKm6xYryQIueAB5u8=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -1068,11 +1068,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WmKugaUp0WJFtsthBQaTV4DeuTE=
+			5S+yVvb5GUdtODScbAejR6GRKdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			wCSZzWj0J6+5HmpplTPhZk1CwWxaJoxLbIDu0bEvEAE=
+			nwqgsmXg27nSNsPMqYdUtY9bCSiKm6xYryQIueAB5u8=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/A/Modules/module.modulemap</key>
@@ -1090,11 +1090,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K+mxIoxIVNzifrK9VDw4yEExsBM=
+			3rWTawu0eYmVV7W6e3PWYAUrSm4=
 			</data>
 			<key>hash2</key>
 			<data>
-			IUjqg7B2jeicFYp9py4iNnWuknqUKjpXEqPaBu9uEAc=
+			B/2fls8NFRphVH+NFQoLSFUV0z3W/Yh9G3lumMjQo6M=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMLModelDownloader.framework/Versions/Current</key>
@@ -1106,11 +1106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mg3oLswMzz5PuH8xo+kLeoFaP4I=
+			itg17AenrxFtsT75x+2xqN3BrVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			KVb56vvJHh4F7JVPmw210rjCKBMACq2JAIKunpS12uA=
+			4kvdj/lnENhRNlfE/6Pk+bB9FUYC48ww6Jehx56wRYw=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
@@ -1139,44 +1139,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5P+Tvv9pToLqUP5cuy1KjUZ6Vzc=
+			FHBQpF+fOt8xyjuIHLy7FXmWsNo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qyXL+4kggaJz8fiKiQJL4rz+nPfr2NVF+2y9zmeqvuo=
+			Bk1qVTqephdg8/c/KjaqLA87UGnwthP7nbvr8DlebDQ=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-tvos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WCYx16QVmUB9StYHQH1VGAiKUbs=
+			+x76kuVtZlly4bUVhZYcGKnqUGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			OG3B8LbOraj+wOTwu7taW7mT4si/3sxn21s8id6nQ1o=
+			PiV/JBBRjFGSc2McPbkx8PBFt+jIAKkb6zjw3PkhwLo=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X1mzmGsKs+iG7LOhsNXbDuu8Iuo=
+			1luPB9d6kK9nwS32T9GNwDJpzX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZD7oN7Y/7Jur9yDZ9PDCyxbparXK+8lb4gl4wGWknvA=
+			rCCv9NyFUfnSab/c+c1zMbolJ5YUhOEtiqtHhZwlfEg=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			adJBBfgmrD2Qn3ZY5Fz4ujCur2M=
+			bx0DTlNBQBZ6MUIpyBml7NwI7xM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vKa1KDoQlAYDz7LdbS81wnK5Oqki+eoR2/CI+YKsLRY=
+			KIZf5LIiIl3bbVadwkvn2Q/JYe9t+Vj3wR3K0I38FdE=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos.swiftdoc</key>
@@ -1194,11 +1194,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			adJBBfgmrD2Qn3ZY5Fz4ujCur2M=
+			bx0DTlNBQBZ6MUIpyBml7NwI7xM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vKa1KDoQlAYDz7LdbS81wnK5Oqki+eoR2/CI+YKsLRY=
+			KIZf5LIiIl3bbVadwkvn2Q/JYe9t+Vj3wR3K0I38FdE=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
@@ -1216,11 +1216,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fdj1A6R7SIvAUfIGHUGozoRUv74=
+			QxQ3u9RFSWAm9hHnwt5ykC7j0sI=
 			</data>
 			<key>hash2</key>
 			<data>
-			eQER2w3S9tENgasPT3GVp8DfS4i256tk6iuJZo24EWU=
+			KWoo/wqnqKrow2JYgKo9T0/z3cGKYwJNFE+naHaebrQ=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
@@ -1249,55 +1249,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			co1f6DXlwGjGk1yWj2VEo77HJog=
+			0h5ZDRjAT4oVuawYEwUYKwbiN98=
 			</data>
 			<key>hash2</key>
 			<data>
-			dWt1o2izlS6sMolivrxHER5cDpihG+fIbiEKk0BcaGo=
+			dvSgnGQYY3MdTsq4LmZvwSiOG0XubbwbcxJzUM9Zogo=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P25yz0smEyBq/b3UoRhw1rmTZr4=
+			Fmvp3/WtKIv2FFfa3o+C3mEwWmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			SY1dajjf2xUZLvRPn722JH3qMeO9xf9iJOcWMzy1kW4=
+			gxHJdJgBH30ngVGEL9WgqhzUTfqlo4O6ANLv+Y4u6ww=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C1QJac7o9Mwkq3ko4V+tnuNk45s=
+			t6KXDp0JrQF0p0pCJXxCdM7jQpE=
 			</data>
 			<key>hash2</key>
 			<data>
-			x1sDAKievgj1XfoEIGUGUObfzHVHztcwSnhC8voPiPk=
+			tmhHka9sjubqm0OKaPntagtNPyylz0nLBfMW1iq3OKw=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X1mzmGsKs+iG7LOhsNXbDuu8Iuo=
+			1luPB9d6kK9nwS32T9GNwDJpzX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZD7oN7Y/7Jur9yDZ9PDCyxbparXK+8lb4gl4wGWknvA=
+			rCCv9NyFUfnSab/c+c1zMbolJ5YUhOEtiqtHhZwlfEg=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H7xZZqLfxPDZSVnKG3E2ielDKdU=
+			xuSs4NMXWv85N0VWurlMzBvhWMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			XQzvxwlkLGbsbSxlHjbOv2kK8rKVOUu3ljRbtRQlPYc=
+			yM2u3MBRv4+wPA8XsN3qw7Y6JXKHzXeBnoKfiY5H1sE=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
@@ -1315,33 +1315,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H7xZZqLfxPDZSVnKG3E2ielDKdU=
+			xuSs4NMXWv85N0VWurlMzBvhWMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			XQzvxwlkLGbsbSxlHjbOv2kK8rKVOUu3ljRbtRQlPYc=
+			yM2u3MBRv4+wPA8XsN3qw7Y6JXKHzXeBnoKfiY5H1sE=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X1mzmGsKs+iG7LOhsNXbDuu8Iuo=
+			1luPB9d6kK9nwS32T9GNwDJpzX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZD7oN7Y/7Jur9yDZ9PDCyxbparXK+8lb4gl4wGWknvA=
+			rCCv9NyFUfnSab/c+c1zMbolJ5YUhOEtiqtHhZwlfEg=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GtRJ9dO2K0JCuG1i1tgtP7doyuA=
+			CJG02qtJbuxByCFzIJHuns0/7w4=
 			</data>
 			<key>hash2</key>
 			<data>
-			itUnaAx1WFmcir5ckFjFAydll4JyoujJ4rJ1VO6BlpU=
+			Z4Nmqy7Swat5V+U0SNYr2rPT1A/FfAnIe7bWjHEA0Kg=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
@@ -1359,11 +1359,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GtRJ9dO2K0JCuG1i1tgtP7doyuA=
+			CJG02qtJbuxByCFzIJHuns0/7w4=
 			</data>
 			<key>hash2</key>
 			<data>
-			itUnaAx1WFmcir5ckFjFAydll4JyoujJ4rJ1VO6BlpU=
+			Z4Nmqy7Swat5V+U0SNYr2rPT1A/FfAnIe7bWjHEA0Kg=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
@@ -1381,22 +1381,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wE9KEe04YPkRDwTnvIc5HJ/s0sM=
+			1gr3eGmaFcBjA+l4AfmXMo3ix/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			uaOJuNjSNsuLGMOFULoG5cf2AMjx26E9UgJvkdWhH4Q=
+			t6/Wc7WehXR7a7ElJ1gE5/WDByhvp9UrXVJi6f+sJ+k=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4MT483MBE6lbmd7gTxTCcQBrGOw=
+			4mWoiR0HvCNOXvEn4pwcMqavPRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			IrNDVqSi+cnr3LO9kp570rqP4NRFzoCkYGkzZVQOzP8=
+			HzAvBF0gVjAjbrX2b5z9nfjdG9P8GdUtLpWWBq7wg4c=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-umbrella.h</key>
@@ -1414,55 +1414,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FP5biRRpjMFHTBQ0y4MAt+6bbc0=
+			rfZZERREA9lBPIJ597ne548128s=
 			</data>
 			<key>hash2</key>
 			<data>
-			i/vGILJpBa3Za+2EScy9yFG0JwCa7DwapP2Fw6tHaRs=
+			UD06FzrwQMlla+r+jJnYpWEjFTu3ixy3yayPdRx358A=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-watchos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/Euw2EZ3Tym3IGZYGUgtG+da1Ew=
+			lcDl/ptCTcD9sGrvTNT4PJuApyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			J9VAKb/ZYlwhZ5G/Yiw+PD2EGhBOnOI6eC1En7twj70=
+			Vm00Kh6dxcgTLjKWJMiOUbHBucOtpTrqS0hTCU3CQ/8=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64_32-apple-watchos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h+GOh7HcAK3P0lseM4lsiN4e+io=
+			UUdWXPXDE0UFDjS9uDk12zzZUyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			tdlGO1xpe2LIDwKdl69bKRkKGlSeB/iEbR1InhPx83k=
+			YRlyq8u5o8qrodc/mRnH2OyvtoFP486JQYnP2a2+OSY=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jDQXPfocvL6qIGleOMr9z6jXIjE=
+			FQhK44jTJx7zSX5311RSG19nQzc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dVSNIa4NnvK/LlsTxF5ug8/+sfFrz6XDi7nD4K9amv4=
+			UWDWeMcVQcf3tVD28NpI/nad0S5VuCIO0mwq3T55gMg=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QlOxIIvMWIIVnefV69+ilYBaumc=
+			Kge0nN2meF2PRVy10McTqaug3QE=
 			</data>
 			<key>hash2</key>
 			<data>
-			0xKCBrwT2naXtuCt+N+iteXheu6Nfzpn/y7fmKi8myE=
+			erkhuHersymYnjZE9ybLm0mdfVfuUciwAuvR/CD9q58=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos.swiftdoc</key>
@@ -1480,33 +1480,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QlOxIIvMWIIVnefV69+ilYBaumc=
+			Kge0nN2meF2PRVy10McTqaug3QE=
 			</data>
 			<key>hash2</key>
 			<data>
-			0xKCBrwT2naXtuCt+N+iteXheu6Nfzpn/y7fmKi8myE=
+			erkhuHersymYnjZE9ybLm0mdfVfuUciwAuvR/CD9q58=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jDQXPfocvL6qIGleOMr9z6jXIjE=
+			FQhK44jTJx7zSX5311RSG19nQzc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dVSNIa4NnvK/LlsTxF5ug8/+sfFrz6XDi7nD4K9amv4=
+			UWDWeMcVQcf3tVD28NpI/nad0S5VuCIO0mwq3T55gMg=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JeKWcDPrxMyBLf/MguAn09eAwng=
+			PFmXBqi54TjqaOBJZarYMbMtMVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			R0/PEWVFTVtwhZoztflyyE2Q8D5cljtIPfiSV1Fii0I=
+			iwLwaKWLxlXM+m5SJs+nQuFrPOzlQcZ9i2OxUfTRNnw=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
@@ -1524,11 +1524,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JeKWcDPrxMyBLf/MguAn09eAwng=
+			PFmXBqi54TjqaOBJZarYMbMtMVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			R0/PEWVFTVtwhZoztflyyE2Q8D5cljtIPfiSV1Fii0I=
+			iwLwaKWLxlXM+m5SJs+nQuFrPOzlQcZ9i2OxUfTRNnw=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>
@@ -1546,22 +1546,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D/a0Q4UgfaE4wMtzTSE7LYWuajI=
+			Lku7UC8XdmSRU06YV7HSTWli8rY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YK3YfbdetkRnrfvjelALzYrwi+rloGRdEYC08TP2Bpg=
+			/Re15QOimEG3+y9FusLe1PaUPlcXv49IJRkIq3/B65Q=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PxN1w4w2h/3Sk8ZelAia/h7jPZQ=
+			m7XAhmclwR4eliEoEnMc5toO3ns=
 			</data>
 			<key>hash2</key>
 			<data>
-			/IklUpIVpEecwS6UoTbm9AAPj7sDtXhpjRrovnAn/8Q=
+			B78T0B+w5E2DwkL+EI3twt7aQBggvweM5OWQbXaKTm8=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Headers/FirebaseMLModelDownloader-umbrella.h</key>
@@ -1579,55 +1579,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9xhQ0yteDKhPWuMqmf1yPP0+pUg=
+			H80DR8fvOVaM7QdgB3gOzqWALa4=
 			</data>
 			<key>hash2</key>
 			<data>
-			VksNEEqauRrmta7DhirdnVKQmpExKRyoHlf2vsNymNU=
+			QDjajoMehGS+gEhi134Sq2ruoFrkHXBz3tUomccgI/g=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UJgcKeRgnzNqfTrFvu6zMhYbyxA=
+			2PnNfN3TtL207Mzr8LP/efU7SxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UQqHff5mKKHdpcydGF8L1Tf4FAgC1/mw86ZPOJTP1o8=
+			PbklGJdXIOy4MSzi8Y9dX9DXf/JnIWl9fDUOX6qrK/Q=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/r9wTsQ0oJz11gUlUSMI01T3S6g=
+			OhjaF3RH64S1hRtvuiQmmYKK9A4=
 			</data>
 			<key>hash2</key>
 			<data>
-			YViE3SXzC/XDW1dj/pLC8DROkNxxh20hbe9IroW4/WI=
+			irKjW9cpvJH6CGMbBXjWT2otbCcWwGctuVogEow0R+g=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jDQXPfocvL6qIGleOMr9z6jXIjE=
+			FQhK44jTJx7zSX5311RSG19nQzc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dVSNIa4NnvK/LlsTxF5ug8/+sfFrz6XDi7nD4K9amv4=
+			UWDWeMcVQcf3tVD28NpI/nad0S5VuCIO0mwq3T55gMg=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ENDTBbOMviWSE0hcmzgApSMaqJ4=
+			d0M25yIEei+6NvdufWaF17O0rpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ykDXLDYDstfrifi4IO56Z+OYz6MUKMvJrNBVo+axb2k=
+			AehzPw2e5er5mGGnELRoNrkvcFgMNVaGyi2Zs/7K0wk=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
@@ -1645,33 +1645,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ENDTBbOMviWSE0hcmzgApSMaqJ4=
+			d0M25yIEei+6NvdufWaF17O0rpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ykDXLDYDstfrifi4IO56Z+OYz6MUKMvJrNBVo+axb2k=
+			AehzPw2e5er5mGGnELRoNrkvcFgMNVaGyi2Zs/7K0wk=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jDQXPfocvL6qIGleOMr9z6jXIjE=
+			FQhK44jTJx7zSX5311RSG19nQzc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dVSNIa4NnvK/LlsTxF5ug8/+sfFrz6XDi7nD4K9amv4=
+			UWDWeMcVQcf3tVD28NpI/nad0S5VuCIO0mwq3T55gMg=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HHzG2iD+boQkkDJ6f93N9MnnLEU=
+			dWtO/S8zxihZyOl0eY0IsVrtt1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			NhRiyZQ+wxvfIKzDIqSghOfdIjBfoALRHAstXMe6Miw=
+			+z4lEHEg5o0YJJ222Z4S1r9OvuegT8NphsBOBrjRRiQ=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/FirebaseMLModelDownloader.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
@@ -1689,11 +1689,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HHzG2iD+boQkkDJ6f93N9MnnLEU=
+			dWtO/S8zxihZyOl0eY0IsVrtt1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			NhRiyZQ+wxvfIKzDIqSghOfdIjBfoALRHAstXMe6Miw=
+			+z4lEHEg5o0YJJ222Z4S1r9OvuegT8NphsBOBrjRRiQ=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMLModelDownloader.framework/Modules/module.modulemap</key>

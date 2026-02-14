@@ -6,9 +6,7 @@ import FirebaseCore
 import FirebaseInstallations
 @_exported import FirebaseMLModelDownloader
 import Foundation
-import GoogleDataTransport
 import Swift
-import SwiftProtobuf
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
