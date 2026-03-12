@@ -252,6 +252,10 @@ public protocol Expression : Swift.Sendable {
   func like(_ pattern: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   func regexContains(_ pattern: Swift.String) -> any FirebaseFirestore.BooleanExpression
   func regexContains(_ pattern: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
+  func regexFind(_ pattern: Swift.String) -> FirebaseFirestore.FunctionExpression
+  func regexFind(_ pattern: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func regexFindAll(_ pattern: Swift.String) -> FirebaseFirestore.FunctionExpression
+  func regexFindAll(_ pattern: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func regexMatch(_ pattern: Swift.String) -> any FirebaseFirestore.BooleanExpression
   func regexMatch(_ pattern: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   func stringContains(_ substring: Swift.String) -> any FirebaseFirestore.BooleanExpression
@@ -387,6 +391,10 @@ extension FirebaseFirestore.Expression {
   public func like(_ pattern: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   public func regexContains(_ pattern: Swift.String) -> any FirebaseFirestore.BooleanExpression
   public func regexContains(_ pattern: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
+  public func regexFind(_ pattern: Swift.String) -> FirebaseFirestore.FunctionExpression
+  public func regexFind(_ pattern: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func regexFindAll(_ pattern: Swift.String) -> FirebaseFirestore.FunctionExpression
+  public func regexFindAll(_ pattern: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func regexMatch(_ pattern: Swift.String) -> any FirebaseFirestore.BooleanExpression
   public func regexMatch(_ pattern: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   public func stringContains(_ substring: Swift.String) -> any FirebaseFirestore.BooleanExpression
