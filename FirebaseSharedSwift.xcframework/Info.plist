@@ -6,9 +6,9 @@
 	<array>
 		<dict>
 			<key>BinaryPath</key>
-			<string>FirebaseSharedSwift.framework/FirebaseSharedSwift</string>
+			<string>FirebaseSharedSwift.framework/Versions/A/FirebaseSharedSwift</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
+			<string>macos-arm64_x86_64</string>
 			<key>LibraryPath</key>
 			<string>FirebaseSharedSwift.framework</string>
 			<key>SupportedArchitectures</key>
@@ -17,23 +17,22 @@
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
+			<string>macos</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
 			<string>FirebaseSharedSwift.framework/FirebaseSharedSwift</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
+			<string>watchos-arm64_arm64_32</string>
 			<key>LibraryPath</key>
 			<string>FirebaseSharedSwift.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
+				<string>arm64_32</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>ios</string>
+			<string>watchos</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -56,22 +55,7 @@
 			<key>BinaryPath</key>
 			<string>FirebaseSharedSwift.framework/FirebaseSharedSwift</string>
 			<key>LibraryIdentifier</key>
-			<string>watchos-arm64_arm64_32</string>
-			<key>LibraryPath</key>
-			<string>FirebaseSharedSwift.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>arm64_32</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>watchos</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>FirebaseSharedSwift.framework/Versions/A/FirebaseSharedSwift</string>
-			<key>LibraryIdentifier</key>
-			<string>macos-arm64_x86_64</string>
+			<string>ios-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
 			<string>FirebaseSharedSwift.framework</string>
 			<key>SupportedArchitectures</key>
@@ -80,7 +64,9 @@
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>macos</string>
+			<string>ios</string>
+			<key>SupportedPlatformVariant</key>
+			<string>simulator</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -98,6 +84,20 @@
 			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
 			<string>maccatalyst</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>FirebaseSharedSwift.framework/FirebaseSharedSwift</string>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64</string>
+			<key>LibraryPath</key>
+			<string>FirebaseSharedSwift.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>

@@ -279,6 +279,28 @@ extension FirebaseAILogic.GenerationConfig : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+extension FirebaseAILogic.FirebaseAI {
+  public struct GenerationID : Swift.Sendable {
+    public init()
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+extension FirebaseAILogic.FirebaseAI.GenerationID : Swift.Equatable {
+  public static func == (lhs: FirebaseAILogic.FirebaseAI.GenerationID, rhs: FirebaseAILogic.FirebaseAI.GenerationID) -> Swift.Bool
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+extension FirebaseAILogic.FirebaseAI.GenerationID : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
+extension FirebaseAILogic.FirebaseAI {
+  public struct GenerationSchema : Swift.Sendable {
+  }
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct RequestOptions : Swift.Sendable {
   public init(timeout: Foundation.TimeInterval = 180.0)
 }
@@ -724,10 +746,11 @@ extension UIKit.UIImage : FirebaseAILogic.PartsRepresentable {
   }
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
-public struct ResponseModality : Swift.Sendable {
+public struct ResponseModality : Swift.Sendable, Swift.Equatable {
   public static let text: FirebaseAILogic.ResponseModality
   public static let image: FirebaseAILogic.ResponseModality
   public static let audio: FirebaseAILogic.ResponseModality
+  public static func == (a: FirebaseAILogic.ResponseModality, b: FirebaseAILogic.ResponseModality) -> Swift.Bool
 }
 @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, tvOS 15.0, watchOS 8.0, *)
 public struct SafetyRating : Swift.Equatable, Swift.Hashable, Swift.Sendable {
@@ -874,9 +897,10 @@ final public class TemplateImagenModel : Swift.Sendable {
   final public func generateImages(templateID: Swift.String, inputs: [Swift.String : Any], options: FirebaseAILogic.RequestOptions = RequestOptions()) async throws -> FirebaseAILogic.ImagenGenerationResponse<FirebaseAILogic.ImagenInlineImage>
   @objc deinit
 }
-public struct ThinkingConfig : Swift.Sendable {
+public struct ThinkingConfig : Swift.Sendable, Swift.Equatable {
   public init(thinkingBudget: Swift.Int? = nil, includeThoughts: Swift.Bool? = nil)
   public init(thinkingLevel: FirebaseAILogic.ThinkingConfig.ThinkingLevel, includeThoughts: Swift.Bool? = nil)
+  public static func == (a: FirebaseAILogic.ThinkingConfig, b: FirebaseAILogic.ThinkingConfig) -> Swift.Bool
 }
 extension FirebaseAILogic.ThinkingConfig {
   public struct ThinkingLevel : Swift.Equatable {

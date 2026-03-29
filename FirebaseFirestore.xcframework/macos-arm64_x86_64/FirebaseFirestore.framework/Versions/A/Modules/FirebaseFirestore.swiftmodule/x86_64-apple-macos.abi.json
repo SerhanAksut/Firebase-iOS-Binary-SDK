@@ -23281,287 +23281,287 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/ArrayExpression.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/ArrayExpression.swift",
       "kind": "Array",
       "offset": 1268,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/DistanceMeasure.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/DistanceMeasure.swift",
       "kind": "StringLiteral",
       "offset": 994,
       "length": 13,
       "value": "\"dot_product\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/DocumentID.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/DocumentID.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 24,
       "value": "\"DocumentRefUserInfoKey\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
       "kind": "Dictionary",
       "offset": 1677,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
       "kind": "Dictionary",
       "offset": 3447,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
       "kind": "Array",
       "offset": 6377,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
       "kind": "Array",
       "offset": 7460,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQueryObservable.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQueryObservable.swift",
       "kind": "BooleanLiteral",
       "offset": 1087,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/MapExpression.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/MapExpression.swift",
       "kind": "Array",
       "offset": 1325,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
       "kind": "StringLiteral",
       "offset": 1375,
       "length": 11,
       "value": "\"ascending\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
       "kind": "StringLiteral",
       "offset": 1486,
       "length": 12,
       "value": "\"descending\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/QueryPredicate.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/QueryPredicate.swift",
       "kind": "BooleanLiteral",
       "offset": 3162,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1496,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1723,
       "length": 10,
       "value": "\"estimate\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 10,
       "value": "\"previous\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1286,
       "length": 12,
       "value": "\"collection\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1746,
       "length": 18,
       "value": "\"collection_group\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2155,
       "length": 10,
       "value": "\"database\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2506,
       "length": 11,
       "value": "\"documents\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2986,
       "length": 7,
       "value": "\"where\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3379,
       "length": 7,
       "value": "\"limit\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3681,
       "length": 8,
       "value": "\"offset\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3992,
       "length": 12,
       "value": "\"add_fields\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 4667,
       "length": 15,
       "value": "\"remove_fields\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 5102,
       "length": 8,
       "value": "\"select\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 5708,
       "length": 10,
       "value": "\"distinct\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 6297,
       "length": 11,
       "value": "\"aggregate\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "Dictionary",
       "offset": 6427,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 7504,
       "length": 14,
       "value": "\"find_nearest\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 8440,
       "length": 6,
       "value": "\"sort\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 8765,
       "length": 14,
       "value": "\"replace_with\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 9066,
       "length": 8,
       "value": "\"sample\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 9534,
       "length": 7,
       "value": "\"union\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 9820,
       "length": 8,
       "value": "\"unnest\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 811,
       "length": 14,
       "value": "\"week(monday)\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 849,
       "length": 15,
       "value": "\"week(tuesday)\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 17,
       "value": "\"week(wednesday)\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 932,
       "length": 16,
       "value": "\"week(thursday)\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 14,
       "value": "\"week(friday)\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 1010,
       "length": 16,
       "value": "\"week(saturday)\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-macos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 14,
