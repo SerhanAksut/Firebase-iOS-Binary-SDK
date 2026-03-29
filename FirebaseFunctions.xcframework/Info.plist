@@ -8,21 +8,6 @@
 			<key>BinaryPath</key>
 			<string>FirebaseFunctions.framework/FirebaseFunctions</string>
 			<key>LibraryIdentifier</key>
-			<string>watchos-arm64_arm64_32</string>
-			<key>LibraryPath</key>
-			<string>FirebaseFunctions.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>arm64_32</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>watchos</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>FirebaseFunctions.framework/FirebaseFunctions</string>
-			<key>LibraryIdentifier</key>
 			<string>ios-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
 			<string>FirebaseFunctions.framework</string>
@@ -35,6 +20,21 @@
 			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>FirebaseFunctions.framework/FirebaseFunctions</string>
+			<key>LibraryIdentifier</key>
+			<string>watchos-arm64_arm64_32</string>
+			<key>LibraryPath</key>
+			<string>FirebaseFunctions.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>arm64_32</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>watchos</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -67,9 +67,9 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>FirebaseFunctions.framework/Versions/A/FirebaseFunctions</string>
+			<string>FirebaseFunctions.framework/FirebaseFunctions</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-maccatalyst</string>
+			<string>watchos-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
 			<string>FirebaseFunctions.framework</string>
 			<key>SupportedArchitectures</key>
@@ -78,9 +78,9 @@
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>ios</string>
+			<string>watchos</string>
 			<key>SupportedPlatformVariant</key>
-			<string>maccatalyst</string>
+			<string>simulator</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -115,9 +115,9 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>FirebaseFunctions.framework/FirebaseFunctions</string>
+			<string>FirebaseFunctions.framework/Versions/A/FirebaseFunctions</string>
 			<key>LibraryIdentifier</key>
-			<string>watchos-arm64_x86_64-simulator</string>
+			<string>ios-arm64_x86_64-maccatalyst</string>
 			<key>LibraryPath</key>
 			<string>FirebaseFunctions.framework</string>
 			<key>SupportedArchitectures</key>
@@ -126,9 +126,9 @@
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>watchos</string>
+			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
+			<string>maccatalyst</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>

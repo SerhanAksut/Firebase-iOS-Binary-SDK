@@ -1270,6 +1270,217 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "GenerationID",
+            "printedName": "GenerationID",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenerationID",
+                    "printedName": "FirebaseAILogic.FirebaseAI.GenerationID",
+                    "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDVAEycfc",
+                "mangledName": "$s15FirebaseAILogic0A2AIC12GenerationIDVAEycfc",
+                "moduleName": "FirebaseAILogic",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenerationID",
+                    "printedName": "FirebaseAILogic.FirebaseAI.GenerationID",
+                    "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenerationID",
+                    "printedName": "FirebaseAILogic.FirebaseAI.GenerationID",
+                    "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s15FirebaseAILogic0A2AIC12GenerationIDV2eeoiySbAE_AEtFZ",
+                "moduleName": "FirebaseAILogic",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s15FirebaseAILogic0A2AIC12GenerationIDV4hash4intoys6HasherVz_tF",
+                "moduleName": "FirebaseAILogic",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDV9hashValueSivp",
+                "mangledName": "$s15FirebaseAILogic0A2AIC12GenerationIDV9hashValueSivp",
+                "moduleName": "FirebaseAILogic",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDV9hashValueSivg",
+                    "mangledName": "$s15FirebaseAILogic0A2AIC12GenerationIDV9hashValueSivg",
+                    "moduleName": "FirebaseAILogic",
+                    "implicit": true,
+                    "isFromExtension": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:15FirebaseAILogic0A2AIC12GenerationIDV",
+            "mangledName": "$s15FirebaseAILogic0A2AIC12GenerationIDV",
+            "moduleName": "FirebaseAILogic",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "GenerationSchema",
+            "printedName": "GenerationSchema",
+            "declKind": "Struct",
+            "usr": "s:15FirebaseAILogic0A2AIC16GenerationSchemaV",
+            "mangledName": "$s15FirebaseAILogic0A2AIC16GenerationSchemaV",
+            "moduleName": "FirebaseAILogic",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -7600,6 +7811,36 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseAILogic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseAILogic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseAILogic",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -15759,6 +16000,38 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ResponseModality",
+                "printedName": "FirebaseAILogic.ResponseModality",
+                "usr": "s:15FirebaseAILogic16ResponseModalityV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ResponseModality",
+                "printedName": "FirebaseAILogic.ResponseModality",
+                "usr": "s:15FirebaseAILogic16ResponseModalityV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FirebaseAILogic16ResponseModalityV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15FirebaseAILogic16ResponseModalityV2eeoiySbAC_ACtFZ",
+            "moduleName": "FirebaseAILogic",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -15799,6 +16072,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -20930,6 +21210,38 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThinkingConfig",
+                "printedName": "FirebaseAILogic.ThinkingConfig",
+                "usr": "s:15FirebaseAILogic14ThinkingConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThinkingConfig",
+                "printedName": "FirebaseAILogic.ThinkingConfig",
+                "usr": "s:15FirebaseAILogic14ThinkingConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FirebaseAILogic14ThinkingConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15FirebaseAILogic14ThinkingConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "FirebaseAILogic",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "TypeDecl",
             "name": "ThinkingLevel",
             "printedName": "ThinkingLevel",
@@ -21261,6 +21573,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -24507,1442 +24826,1449 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1050,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1087,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1162,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1243,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1282,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1318,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1392,
       "length": 4,
       "value": "1200"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1444,
       "length": 4,
       "value": "1201"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1518,
       "length": 4,
       "value": "2000"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1559,
       "length": 4,
       "value": "2001"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1607,
       "length": 4,
       "value": "2002"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1654,
       "length": 4,
       "value": "2003"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1708,
       "length": 4,
       "value": "2004"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1782,
       "length": 4,
       "value": "3000"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1838,
       "length": 4,
       "value": "3001"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1902,
       "length": 4,
       "value": "3002"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1965,
       "length": 4,
       "value": "3003"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2031,
       "length": 4,
       "value": "3004"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2098,
       "length": 4,
       "value": "3005"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2162,
       "length": 4,
       "value": "3006"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2226,
       "length": 4,
       "value": "3007"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2270,
       "length": 4,
       "value": "3008"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2315,
       "length": 4,
       "value": "3009"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2358,
       "length": 4,
       "value": "3010"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2412,
       "length": 4,
       "value": "3011"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2479,
       "length": 4,
       "value": "3012"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2534,
       "length": 4,
       "value": "3013"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2577,
       "length": 4,
       "value": "3014"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2632,
       "length": 4,
       "value": "3015"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2683,
       "length": 4,
       "value": "3016"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2717,
       "length": 4,
       "value": "3017"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2775,
       "length": 4,
       "value": "3018"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2821,
       "length": 4,
       "value": "3019"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2874,
       "length": 4,
       "value": "3020"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2929,
       "length": 4,
       "value": "3021"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 2991,
       "length": 4,
       "value": "3022"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3044,
       "length": 4,
       "value": "3023"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3090,
       "length": 4,
       "value": "3024"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3131,
       "length": 4,
       "value": "3025"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3176,
       "length": 4,
       "value": "3026"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3226,
       "length": 4,
       "value": "3027"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3276,
       "length": 4,
       "value": "3028"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3327,
       "length": 4,
       "value": "3029"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3382,
       "length": 4,
       "value": "3030"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3459,
       "length": 4,
       "value": "4000"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3505,
       "length": 4,
       "value": "4001"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3546,
       "length": 4,
       "value": "4002"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3601,
       "length": 4,
       "value": "4003"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3637,
       "length": 4,
       "value": "4004"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3687,
       "length": 4,
       "value": "4005"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3716,
       "length": 4,
       "value": "4006"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 3784,
       "length": 4,
       "value": "5000"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "StringLiteral",
       "offset": 3872,
       "length": 21,
       "value": "\"com.google.firebase\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "StringLiteral",
       "offset": 4022,
       "length": 14,
       "value": "\"[FirebaseAI]\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "StringLiteral",
       "offset": 4308,
       "length": 18,
       "value": "\"-FIRDebugEnabled\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/APIConfig.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/APIConfig.swift",
       "kind": "StringLiteral",
       "offset": 2721,
       "length": 41,
       "value": "\"https:\/\/firebasevertexai.googleapis.com\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/AsyncWebSocket.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/AsyncWebSocket.swift",
       "kind": "BooleanLiteral",
       "offset": 1382,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Backend.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Backend.swift",
       "kind": "StringLiteral",
       "offset": 1101,
       "length": 13,
       "value": "\"us-central1\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 928,
       "length": 32,
       "value": "\"com.google.firebase.firebaseai\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 768,
       "length": 8,
       "value": "\"STRING\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 830,
       "length": 8,
       "value": "\"NUMBER\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 9,
       "value": "\"INTEGER\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 930,
       "length": 9,
       "value": "\"BOOLEAN\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 977,
       "length": 7,
       "value": "\"ARRAY\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 1024,
       "length": 8,
       "value": "\"OBJECT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Errors\/EmptyContentError.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Errors\/EmptyContentError.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 55,
       "value": "\"Invalid Candidate: empty content and no finish reason\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 42,
       "value": "\"type.googleapis.com\/google.rpc.ErrorInfo\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 1508,
       "length": 7,
       "value": "\"@type\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 2334,
       "length": 4,
       "value": "\"OK\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 2418,
       "length": 11,
       "value": "\"CANCELLED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 2468,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 2551,
       "length": 18,
       "value": "\"INVALID_ARGUMENT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 2660,
       "length": 19,
       "value": "\"DEADLINE_EXCEEDED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 2767,
       "length": 11,
       "value": "\"NOT_FOUND\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 2895,
       "length": 16,
       "value": "\"ALREADY_EXISTS\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3016,
       "length": 19,
       "value": "\"PERMISSION_DENIED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3145,
       "length": 17,
       "value": "\"UNAUTHENTICATED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3312,
       "length": 20,
       "value": "\"RESOURCE_EXHAUSTED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3476,
       "length": 21,
       "value": "\"FAILED_PRECONDITION\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3646,
       "length": 9,
       "value": "\"ABORTED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3732,
       "length": 14,
       "value": "\"OUT_OF_RANGE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3854,
       "length": 15,
       "value": "\"UNIMPLEMENTED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3916,
       "length": 10,
       "value": "\"INTERNAL\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 3992,
       "length": 13,
       "value": "\"UNAVAILABLE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 4069,
       "length": 11,
       "value": "\"DATA_LOSS\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/FirebaseAI.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/FirebaseAI.swift",
       "kind": "BooleanLiteral",
-      "offset": 2224,
+      "offset": 2222,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/FirebaseAI.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/FirebaseAI.swift",
       "kind": "Dictionary",
-      "offset": 9828,
+      "offset": 10840,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9479,
+      "offset": 9534,
       "length": 6,
       "value": "\"STOP\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9507,
+      "offset": 9562,
       "length": 12,
       "value": "\"MAX_TOKENS\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9538,
+      "offset": 9593,
       "length": 8,
       "value": "\"SAFETY\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9569,
+      "offset": 9624,
       "length": 12,
       "value": "\"RECITATION\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9599,
+      "offset": 9654,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9628,
+      "offset": 9683,
       "length": 11,
       "value": "\"BLOCKLIST\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9669,
+      "offset": 9724,
       "length": 20,
       "value": "\"PROHIBITED_CONTENT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9706,
+      "offset": 9761,
       "length": 6,
       "value": "\"SPII\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9746,
+      "offset": 9801,
       "length": 25,
       "value": "\"MALFORMED_FUNCTION_CALL\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 12129,
+      "offset": 12184,
       "length": 8,
       "value": "\"SAFETY\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 12157,
+      "offset": 12212,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 12188,
+      "offset": 12243,
       "length": 11,
       "value": "\"BLOCKLIST\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 12231,
+      "offset": 12286,
       "length": 20,
       "value": "\"PROHIBITED_CONTENT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerationConfig.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 10925,
+      "offset": 19396,
+      "length": 12,
+      "value": "\"responseId\""
+    },
+    {
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerationConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 13228,
       "length": 18,
       "value": "\"responseMimeType\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerationConfig.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 10998,
+      "offset": 13301,
       "length": 20,
       "value": "\"responseJsonSchema\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIRequest.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIRequest.swift",
       "kind": "FloatLiteral",
       "offset": 1386,
       "length": 5,
       "value": "180.0"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIService.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIService.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 12,
       "value": "\"gl-swift\/5\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIService.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIService.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 27,
       "value": "\"fire\/\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIService.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIService.swift",
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
       "kind": "StringLiteral",
       "offset": 1018,
       "length": 9,
       "value": "\"gemini-\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
       "kind": "StringLiteral",
       "offset": 1115,
       "length": 8,
       "value": "\"gemma-\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
       "kind": "Array",
-      "offset": 12180,
+      "offset": 10839,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/History.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/History.swift",
       "kind": "Array",
       "offset": 816,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImageGenerationParameters.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImageGenerationParameters.swift",
       "kind": "StringLiteral",
       "offset": 1407,
       "length": 12,
       "value": "\"storageUri\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImageGenerationParameters.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImageGenerationParameters.swift",
       "kind": "StringLiteral",
       "offset": 1494,
       "length": 15,
       "value": "\"safetySetting\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImageGenerationParameters.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImageGenerationParameters.swift",
       "kind": "StringLiteral",
       "offset": 1625,
       "length": 18,
       "value": "\"includeRaiReason\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
       "kind": "StringLiteral",
       "offset": 2998,
       "length": 5,
       "value": "\"1:1\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
       "kind": "StringLiteral",
       "offset": 3028,
       "length": 6,
       "value": "\"9:16\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
       "kind": "StringLiteral",
       "offset": 3060,
       "length": 6,
       "value": "\"16:9\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
       "kind": "StringLiteral",
       "offset": 3090,
       "length": 5,
       "value": "\"3:4\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenAspectRatio.swift",
       "kind": "StringLiteral",
       "offset": 3120,
       "length": 5,
       "value": "\"4:3\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImagenConstants.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImagenConstants.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 37,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImagenConstants.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImagenConstants.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 1,
       "value": "\".Imagen\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImagenConstants.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImagenConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 794,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImagenGCSImage.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Imagen\/ImagenGCSImage.swift",
       "kind": "StringLiteral",
       "offset": 2196,
       "length": 8,
       "value": "\"gcsUri\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenModel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenModel.swift",
       "kind": "StringLiteral",
       "offset": 1211,
       "length": 9,
       "value": "\"imagen-\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenPersonFilterLevel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenPersonFilterLevel.swift",
       "kind": "StringLiteral",
       "offset": 1033,
       "length": 12,
       "value": "\"dont_allow\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenPersonFilterLevel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenPersonFilterLevel.swift",
       "kind": "StringLiteral",
       "offset": 1068,
       "length": 13,
       "value": "\"allow_adult\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenPersonFilterLevel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenPersonFilterLevel.swift",
       "kind": "StringLiteral",
       "offset": 1102,
       "length": 11,
       "value": "\"allow_all\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenSafetyFilterLevel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenSafetyFilterLevel.swift",
       "kind": "StringLiteral",
       "offset": 1533,
       "length": 21,
       "value": "\"block_low_and_above\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenSafetyFilterLevel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenSafetyFilterLevel.swift",
       "kind": "StringLiteral",
       "offset": 1586,
       "length": 24,
       "value": "\"block_medium_and_above\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenSafetyFilterLevel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenSafetyFilterLevel.swift",
       "kind": "StringLiteral",
       "offset": 1636,
       "length": 17,
       "value": "\"block_only_high\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenSafetyFilterLevel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Imagen\/ImagenSafetyFilterLevel.swift",
       "kind": "StringLiteral",
       "offset": 1675,
       "length": 12,
       "value": "\"block_none\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 1208,
       "length": 9,
       "value": "\"fileUri\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2122,
       "length": 22,
       "value": "\"LANGUAGE_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2165,
       "length": 8,
       "value": "\"PYTHON\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2708,
       "length": 21,
       "value": "\"OUTCOME_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2746,
       "length": 12,
       "value": "\"OUTCOME_OK\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2779,
       "length": 16,
       "value": "\"OUTCOME_FAILED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2826,
       "length": 27,
       "value": "\"OUTCOME_DEADLINE_EXCEEDED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "BooleanLiteral",
       "offset": 3298,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveSession.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 4987,
+      "offset": 5007,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveSession.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 5996,
+      "offset": 6014,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1165,
       "length": 6,
       "value": "\"TEXT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1189,
       "length": 7,
       "value": "\"IMAGE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1214,
       "length": 7,
       "value": "\"VIDEO\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1239,
       "length": 7,
       "value": "\"AUDIO\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1267,
       "length": 10,
       "value": "\"DOCUMENT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
       "kind": "StringLiteral",
       "offset": 4102,
       "length": 6,
       "value": "\"user\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
       "kind": "StringLiteral",
       "offset": 5816,
       "length": 6,
       "value": "\"user\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
       "kind": "StringLiteral",
       "offset": 6279,
       "length": 7,
       "value": "\"parts\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
       "kind": "StringLiteral",
       "offset": 6759,
       "length": 9,
       "value": "\"thought\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/PartsRepresentable+Image.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/PartsRepresentable+Image.swift",
       "kind": "FloatLiteral",
       "offset": 806,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1321,
       "length": 6,
       "value": "\"TEXT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
       "kind": "StringLiteral",
-      "offset": 1334,
+      "offset": 1345,
       "length": 7,
       "value": "\"IMAGE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
       "kind": "StringLiteral",
-      "offset": 1359,
+      "offset": 1370,
       "length": 7,
       "value": "\"AUDIO\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3872,
       "length": 30,
       "value": "\"HARM_PROBABILITY_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3927,
       "length": 12,
       "value": "\"NEGLIGIBLE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3957,
       "length": 5,
       "value": "\"LOW\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3983,
       "length": 8,
       "value": "\"MEDIUM\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 4010,
       "length": 6,
       "value": "\"HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 5480,
       "length": 27,
       "value": "\"HARM_SEVERITY_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 5532,
       "length": 26,
       "value": "\"HARM_SEVERITY_NEGLIGIBLE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 5576,
       "length": 19,
       "value": "\"HARM_SEVERITY_LOW\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 5616,
       "length": 22,
       "value": "\"HARM_SEVERITY_MEDIUM\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 5657,
       "length": 20,
       "value": "\"HARM_SEVERITY_HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 7274,
       "length": 21,
       "value": "\"BLOCK_LOW_AND_ABOVE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 7329,
       "length": 24,
       "value": "\"BLOCK_MEDIUM_AND_ABOVE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 7381,
       "length": 17,
       "value": "\"BLOCK_ONLY_HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 7422,
       "length": 12,
       "value": "\"BLOCK_NONE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 7452,
       "length": 5,
       "value": "\"OFF\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 8436,
       "length": 10,
       "value": "\"SEVERITY\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 8472,
       "length": 13,
       "value": "\"PROBABILITY\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 8816,
       "length": 10,
       "value": "\"category\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 10483,
       "length": 27,
       "value": "\"HARM_CATEGORY_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 10533,
       "length": 26,
       "value": "\"HARM_CATEGORY_HARASSMENT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 10582,
       "length": 27,
       "value": "\"HARM_CATEGORY_HATE_SPEECH\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 10638,
       "length": 33,
       "value": "\"HARM_CATEGORY_SEXUALLY_EXPLICIT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 10700,
       "length": 33,
       "value": "\"HARM_CATEGORY_DANGEROUS_CONTENT\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 10760,
       "length": 31,
       "value": "\"HARM_CATEGORY_CIVIC_INTEGRITY\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
-      "offset": 8080,
+      "offset": 8092,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
-      "offset": 9533,
+      "offset": 9545,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
-      "offset": 11005,
+      "offset": 11017,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
-      "offset": 12374,
+      "offset": 12386,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
-      "offset": 14499,
+      "offset": 14511,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
-      "offset": 15632,
+      "offset": 15644,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
-      "offset": 17031,
+      "offset": 17043,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "Array",
-      "offset": 19115,
+      "offset": 19127,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
-      "offset": 19305,
+      "offset": 19317,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "StringLiteral",
-      "offset": 21496,
+      "offset": 21508,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "StringLiteral",
-      "offset": 21595,
+      "offset": 21607,
       "length": 6,
       "value": "\"enum\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "StringLiteral",
-      "offset": 21752,
+      "offset": 21764,
       "length": 10,
       "value": "\"required\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
       "kind": "Array",
       "offset": 5675,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateImagenGenerationRequest.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateImagenGenerationRequest.swift",
       "kind": "StringLiteral",
       "offset": 662,
       "length": 17,
       "value": "\"templatePredict\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4560,
+      "offset": 4571,
       "length": 9,
       "value": "\"MINIMAL\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4587,
+      "offset": 4598,
       "length": 5,
       "value": "\"LOW\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4613,
+      "offset": 4624,
       "length": 8,
       "value": "\"MEDIUM\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4640,
+      "offset": 4651,
       "length": 6,
       "value": "\"HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "Array",
       "offset": 1796,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "StringLiteral",
       "offset": 7236,
       "length": 6,
       "value": "\"AUTO\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "StringLiteral",
       "offset": 7258,
       "length": 5,
       "value": "\"ANY\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "StringLiteral",
       "offset": 7280,
       "length": 6,
       "value": "\"NONE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 960,
       "length": 34,
       "value": "\"URL_RETRIEVAL_STATUS_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 30,
       "value": "\"URL_RETRIEVAL_STATUS_SUCCESS\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1066,
       "length": 28,
       "value": "\"URL_RETRIEVAL_STATUS_ERROR\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1116,
       "length": 30,
       "value": "\"URL_RETRIEVAL_STATUS_PAYWALL\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1167,
       "length": 29,
       "value": "\"URL_RETRIEVAL_STATUS_UNSAFE\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 2396,
       "length": 14,
       "value": "\"retrievedUrl\""
     },
     {
-      "filePath": "\/var\/folders\/75\/ggvb9t6x5mlbs46lkdhlcbyc0000gn\/T\/ZipRelease\/2026-02-19T04-45-04\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-watchos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 2438,
       "length": 20,
