@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FirebaseAuth
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseAuth
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CommonCrypto
 import FirebaseAppCheckInterop
 @_exported import FirebaseAuth
@@ -34,43 +34,57 @@ import _SwiftConcurrencyShims
   case emailLink = 4
   case verifyAndChangeEmail = 5
   case revertSecondFactorAddition = 6
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 @_inheritsConvenienceInitializers @objc(FIRActionCodeSettings) open class ActionCodeSettings : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(URL) open var url: Foundation.URL? {
     @objc get
     @objc set
   }
+  #endif
   @objc open var handleCodeInApp: Swift.Bool {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open var iOSBundleID: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open var androidPackageName: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open var androidMinimumVersion: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @objc open var androidInstallIfNotAvailable: Swift.Bool {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var linkDomain: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @objc override dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func setAndroidPackageName(_ androidPackageName: Swift.String, installIfNotAvailable: Swift.Bool, minimumVersion: Swift.String?)
+  #endif
   open func setIOSBundleID(_ bundleID: Swift.String)
   @objc deinit
 }
@@ -80,7 +94,9 @@ import _SwiftConcurrencyShims
   @objc final public let code: Swift.String?
   @objc final public let continueURL: Foundation.URL?
   @objc final public let languageCode: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(actionCodeURLWithLink:) public init?(link: Swift.String)
+  #endif
   @objc deinit
 }
 extension FirebaseAuth.AdditionalUserInfo : Foundation.NSSecureCoding {
@@ -92,7 +108,9 @@ extension FirebaseAuth.AdditionalUserInfo : Foundation.NSSecureCoding {
   @objc final public let isNewUser: Swift.Bool
   @objc open func newUser() -> Swift.Bool
   @objc public static let supportsSecureCoding: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc deinit
 }
@@ -109,8 +127,12 @@ extension FirebaseAuth.Auth : UIKit.UIApplicationDelegate {
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseAuth.Auth : FirebaseAuthInterop.AuthInterop {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(getTokenForcingRefresh:withCallback:) dynamic public func getToken(forcingRefresh forceRefresh: Swift.Bool, completion callback: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic open func getUserID() -> Swift.String?
+  #endif
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @preconcurrency @objc(FIRAuth) open class Auth : ObjectiveC.NSObject {
@@ -119,13 +141,17 @@ extension FirebaseAuth.Auth : FirebaseAuthInterop.AuthInterop {
   @objc weak public var app: FirebaseCore.FirebaseApp? {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var currentUser: FirebaseAuth.User? {
     @objc get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open var languageCode: Swift.String? {
     @objc get
     @objc set(val)
   }
+  #endif
   @NSCopying @objc open var settings: FirebaseAuth.AuthSettings?
   @objc public var userAccessGroup: Swift.String? {
     get
@@ -133,96 +159,204 @@ extension FirebaseAuth.Auth : FirebaseAuthInterop.AuthInterop {
   @objc open var shareAuthStateAcrossDevices: Swift.Bool
   @objc open var tenantID: Swift.String?
   @objc open var customAuthDomain: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func updateCurrentUser(_ user: FirebaseAuth.User?, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func updateCurrentUser(_ user: FirebaseAuth.User) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "`fetchSignInMethods` is deprecated and will be removed in a future release. This method returns an empty list when Email Enumeration Protection is enabled.")
   @objc open func fetchSignInMethods(forEmail email: Swift.String, completion: (([Swift.String]?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(*, deprecated, message: "`fetchSignInMethods` is deprecated and will be removed in a future release. This method returns an empty list when Email Enumeration Protection is enabled.")
   open func fetchSignInMethods(forEmail email: Swift.String) async throws -> [Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func signIn(withEmail email: Swift.String, password: Swift.String, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   open func signIn(withEmail email: Swift.String, password: Swift.String) async throws -> FirebaseAuth.AuthDataResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func signIn(withEmail email: Swift.String, link: Swift.String, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func signIn(withEmail email: Swift.String, link: Swift.String) async throws -> FirebaseAuth.AuthDataResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(tvOS, unavailable)
   @available(macOS, unavailable)
   @available(watchOS, unavailable)
   @objc(signInWithProvider:UIDelegate:completion:) open func signIn(with provider: any FirebaseAuth.FederatedAuthProvider, uiDelegate: (any FirebaseAuth.AuthUIDelegate)?, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @available(tvOS, unavailable)
   @available(macOS, unavailable)
   @available(watchOS, unavailable)
   @discardableResult
   open func signIn(with provider: any FirebaseAuth.FederatedAuthProvider, uiDelegate: (any FirebaseAuth.AuthUIDelegate)?) async throws -> FirebaseAuth.AuthDataResult
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(signInWithCredential:completion:) open func signIn(with credential: FirebaseAuth.AuthCredential, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   open func signIn(with credential: FirebaseAuth.AuthCredential) async throws -> FirebaseAuth.AuthDataResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func signInAnonymously(completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   @objc open func signInAnonymously() async throws -> FirebaseAuth.AuthDataResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func signIn(withCustomToken token: Swift.String, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   open func signIn(withCustomToken token: Swift.String) async throws -> FirebaseAuth.AuthDataResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func createUser(withEmail email: Swift.String, password: Swift.String, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   open func createUser(withEmail email: Swift.String, password: Swift.String) async throws -> FirebaseAuth.AuthDataResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func confirmPasswordReset(withCode code: Swift.String, newPassword: Swift.String, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func confirmPasswordReset(withCode code: Swift.String, newPassword: Swift.String) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func checkActionCode(_ code: Swift.String, completion: @escaping (FirebaseAuth.ActionCodeInfo?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func checkActionCode(_ code: Swift.String) async throws -> FirebaseAuth.ActionCodeInfo
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func verifyPasswordResetCode(_ code: Swift.String, completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func verifyPasswordResetCode(_ code: Swift.String) async throws -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func applyActionCode(_ code: Swift.String, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func applyActionCode(_ code: Swift.String) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func sendPasswordReset(withEmail email: Swift.String, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func sendPasswordReset(withEmail email: Swift.String, actionCodeSettings: FirebaseAuth.ActionCodeSettings?, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func sendPasswordReset(withEmail email: Swift.String, actionCodeSettings: FirebaseAuth.ActionCodeSettings? = nil) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func sendSignInLink(toEmail email: Swift.String, actionCodeSettings: FirebaseAuth.ActionCodeSettings, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func sendSignInLink(toEmail email: Swift.String, actionCodeSettings: FirebaseAuth.ActionCodeSettings) async throws
   @objc(signOut:) open func signOut() throws
   @objc open func isSignIn(withEmailLink link: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(initializeRecaptchaConfigWithCompletion:) open func initializeRecaptchaConfig(completion: (((any Swift.Error)?) -> Swift.Void)?)
+  #endif
   open func initializeRecaptchaConfig() async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(addAuthStateDidChangeListener:) open func addStateDidChangeListener(_ listener: @escaping (FirebaseAuth.Auth, FirebaseAuth.User?) -> Swift.Void) -> any ObjectiveC.NSObjectProtocol
+  #endif
   @objc(removeAuthStateDidChangeListener:) open func removeStateDidChangeListener(_ listenerHandle: any ObjectiveC.NSObjectProtocol)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func addIDTokenDidChangeListener(_ listener: @escaping (FirebaseAuth.Auth, FirebaseAuth.User?) -> Swift.Void) -> any ObjectiveC.NSObjectProtocol
+  #endif
   @objc open func removeIDTokenDidChangeListener(_ listenerHandle: any ObjectiveC.NSObjectProtocol)
   @objc open func useAppLanguage()
   @objc open func useEmulator(withHost host: Swift.String, port: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func revokeToken(withAuthorizationCode authorizationCode: Swift.String, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func revokeToken(withAuthorizationCode authorizationCode: Swift.String) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func useUserAccessGroup(_ accessGroup: Swift.String?) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(swift 1000.0)
   @objc(getStoredUserForAccessGroup:error:) open func __getStoredUser(forAccessGroup accessGroup: Swift.String?, error outError: Foundation.NSErrorPointer) -> FirebaseAuth.User?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func getStoredUser(forAccessGroup accessGroup: Swift.String?) throws -> FirebaseAuth.User?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(APNSToken) open var apnsToken: Foundation.Data? {
     @objc get
   }
+  #endif
   @objc open func setAPNSToken(_ token: Foundation.Data, type: FirebaseAuth.AuthAPNSTokenType)
   @objc open func canHandleNotification(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
   @objc(canHandleURL:) open func canHandle(_ url: Foundation.URL) -> Swift.Bool
   public static let authStateDidChangeNotification: Foundation.NSNotification.Name
   @objc deinit
 }
+extension FirebaseAuth.Auth {
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public var authStateChanges: FirebaseAuth.Auth.AuthStateChangesSequence {
+    get
+  }
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public struct AuthStateChangesSequence : _Concurrency.AsyncSequence, @unchecked Swift.Sendable {
+    public typealias Element = FirebaseAuth.User?
+    public typealias Failure = Swift.Never
+    public typealias AsyncIterator = FirebaseAuth.Auth.AuthStateChangesSequence.Iterator
+    public init(_ auth: FirebaseAuth.Auth)
+    public func makeAsyncIterator() -> FirebaseAuth.Auth.AuthStateChangesSequence.Iterator
+    public struct Iterator : _Concurrency.AsyncIteratorProtocol {
+      #if compiler(>=5.3) && $NonescapableTypes
+      public mutating func next() async -> FirebaseAuth.User??
+      #endif
+      @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+      public typealias Element = FirebaseAuth.User?
+      @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+      @_implements(_Concurrency.AsyncIteratorProtocol, Failure) public typealias __AsyncIteratorProtocol_Failure = Swift.Never
+    }
+    @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+    @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  }
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public var idTokenChanges: FirebaseAuth.Auth.IDTokenChangesSequence {
+    get
+  }
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public struct IDTokenChangesSequence : _Concurrency.AsyncSequence, @unchecked Swift.Sendable {
+    public typealias Element = FirebaseAuth.User?
+    public typealias Failure = Swift.Never
+    public typealias AsyncIterator = FirebaseAuth.Auth.IDTokenChangesSequence.Iterator
+    public init(_ auth: FirebaseAuth.Auth)
+    public func makeAsyncIterator() -> FirebaseAuth.Auth.IDTokenChangesSequence.Iterator
+    public struct Iterator : _Concurrency.AsyncIteratorProtocol {
+      #if compiler(>=5.3) && $NonescapableTypes
+      public mutating func next() async -> FirebaseAuth.User??
+      #endif
+      @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+      public typealias Element = FirebaseAuth.User?
+      @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+      @_implements(_Concurrency.AsyncIteratorProtocol, Failure) public typealias __AsyncIteratorProtocol_Failure = Swift.Never
+    }
+    @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+    @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = Swift.Never
+  }
+}
+@available(*, unavailable)
+extension FirebaseAuth.Auth.AuthStateChangesSequence.Iterator : Swift.Sendable {
+}
+@available(*, unavailable)
+extension FirebaseAuth.Auth.IDTokenChangesSequence.Iterator : Swift.Sendable {
+}
 @objc(FIRAuthAPNSTokenType) public enum AuthAPNSTokenType : Swift.Int, Swift.Sendable {
   case unknown
   case sandbox
   case prod
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -243,7 +377,9 @@ extension FirebaseAuth.AuthDataResult : Foundation.NSSecureCoding {
   @objc final public let credential: FirebaseAuth.OAuthCredential?
   @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(FIRAuthErrors) open class AuthErrors : ObjectiveC.NSObject {
@@ -349,7 +485,9 @@ extension FirebaseAuth.AuthDataResult : Foundation.NSSecureCoding {
   public var code: FirebaseAuth.AuthErrorCode {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
     get
@@ -392,7 +530,9 @@ extension FirebaseAuth.AuthProviderID {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  #endif
   @objc deinit
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
@@ -409,12 +549,18 @@ extension FirebaseAuth.AuthTokenResult : Foundation.NSSecureCoding {
   @objc open var claims: [Swift.String : Any]
   @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required convenience public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc(FIRAuthUIDelegate) public protocol AuthUIDelegate : ObjectiveC.NSObjectProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(presentViewController:animated:completion:) func present(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(dismissViewControllerAnimated:completion:) func dismiss(animated flag: Swift.Bool, completion: (() -> Swift.Void)?)
+  #endif
 }
 @_inheritsConvenienceInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIREmailAuthProvider) open class EmailAuthProvider : ObjectiveC.NSObject {
@@ -434,13 +580,17 @@ extension FirebaseAuth.AuthTokenResult : Foundation.NSSecureCoding {
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRFederatedAuthProvider) public protocol FederatedAuthProvider : ObjectiveC.NSObjectProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
   @objc(getCredentialWithUIDelegate:completion:) func credential(with uiDelegate: (any FirebaseAuth.AuthUIDelegate)?) async throws -> FirebaseAuth.AuthCredential
+  #endif
 }
 @_inheritsConvenienceInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRGameCenterAuthProvider) open class GameCenterAuthProvider : ObjectiveC.NSObject {
   @objc public static let id: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open class func getCredential(completion: @escaping (FirebaseAuth.AuthCredential?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
   open class func getCredential() async throws -> FirebaseAuth.AuthCredential
   @available(*, unavailable)
@@ -469,21 +619,33 @@ extension FirebaseAuth.MultiFactor : Foundation.NSSecureCoding {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRMultiFactor) open class MultiFactor : ObjectiveC.NSObject {
   @objc open var enrolledFactors: [FirebaseAuth.MultiFactorInfo]
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(getSessionWithCompletion:) open func getSessionWithCompletion(_ completion: ((FirebaseAuth.MultiFactorSession?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func session() async throws -> FirebaseAuth.MultiFactorSession
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(enrollWithAssertion:displayName:completion:) open func enroll(with assertion: FirebaseAuth.MultiFactorAssertion, displayName: Swift.String?, completion: (((any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func enroll(with assertion: FirebaseAuth.MultiFactorAssertion, displayName: Swift.String?) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(unenrollWithInfo:completion:) open func unenroll(with factorInfo: FirebaseAuth.MultiFactorInfo, completion: (((any Swift.Error)?) -> Swift.Void)?)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func unenroll(with factorInfo: FirebaseAuth.MultiFactorInfo) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(unenrollWithFactorUID:completion:) open func unenroll(withFactorUID factorUID: Swift.String, completion: (((any Swift.Error)?) -> Swift.Void)?)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func unenroll(withFactorUID factorUID: Swift.String) async throws
   @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc(FIRMultiFactorAssertion) open class MultiFactorAssertion : ObjectiveC.NSObject {
@@ -501,7 +663,9 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
     @objc get
   }
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
@@ -509,7 +673,9 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc final public let session: FirebaseAuth.MultiFactorSession
   @objc final public let hints: [FirebaseAuth.MultiFactorInfo]
   @objc final public let auth: FirebaseAuth.Auth
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(resolveSignInWithAssertion:completion:) open func resolveSignIn(with assertion: FirebaseAuth.MultiFactorAssertion, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func resolveSignIn(with assertion: FirebaseAuth.MultiFactorAssertion) async throws -> FirebaseAuth.AuthDataResult
   @objc deinit
@@ -525,7 +691,9 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc final public let secret: Swift.String?
   @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
@@ -542,9 +710,13 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   public class func provider(providerID: FirebaseAuth.AuthProviderID, auth: FirebaseAuth.Auth) -> FirebaseAuth.OAuthProvider
   public init(providerID: Swift.String, auth: FirebaseAuth.Auth = Auth.auth())
   convenience public init(providerID: FirebaseAuth.AuthProviderID, auth: FirebaseAuth.Auth = Auth.auth())
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(swift 1000.0)
   @objc(credentialWithProviderID:IDToken:accessToken:) public static func credential(withProviderID providerID: Swift.String, idToken: Swift.String, accessToken: Swift.String?) -> FirebaseAuth.OAuthCredential
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func credential(providerID: FirebaseAuth.AuthProviderID, idToken: Swift.String, accessToken: Swift.String? = nil) -> FirebaseAuth.OAuthCredential
+  #endif
   @available(swift 1000.0)
   @objc(credentialWithProviderID:accessToken:) public static func credential(withProviderID providerID: Swift.String, accessToken: Swift.String) -> FirebaseAuth.OAuthCredential
   public static func credential(providerID: FirebaseAuth.AuthProviderID, accessToken: Swift.String) -> FirebaseAuth.OAuthCredential
@@ -552,18 +724,28 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc(credentialWithProviderID:IDToken:rawNonce:accessToken:) public static func credential(withProviderID providerID: Swift.String, idToken: Swift.String, rawNonce: Swift.String, accessToken: Swift.String) -> FirebaseAuth.OAuthCredential
   @available(swift 1000.0)
   @objc(credentialWithProviderID:IDToken:rawNonce:) public static func credential(withProviderID providerID: Swift.String, idToken: Swift.String, rawNonce: Swift.String) -> FirebaseAuth.OAuthCredential
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func credential(providerID: FirebaseAuth.AuthProviderID, idToken: Swift.String, rawNonce: Swift.String, accessToken: Swift.String? = nil) -> FirebaseAuth.OAuthCredential
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func getCredentialWith(_ uiDelegate: (any FirebaseAuth.AuthUIDelegate)?, completion: ((FirebaseAuth.AuthCredential?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
   @objc(getCredentialWithUIDelegate:completion:) @_Concurrency.MainActor open func credential(with uiDelegate: (any FirebaseAuth.AuthUIDelegate)?) async throws -> FirebaseAuth.AuthCredential
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(appleCredentialWithIDToken:rawNonce:fullName:) public static func appleCredential(withIDToken idToken: Swift.String, rawNonce: Swift.String?, fullName: Foundation.PersonNameComponents?) -> FirebaseAuth.OAuthCredential
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRPhoneAuthCredential) open class PhoneAuthCredential : FirebaseAuth.AuthCredential, Foundation.NSSecureCoding, @unchecked Swift.Sendable {
   @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
@@ -571,13 +753,23 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc public static let id: Swift.String
   @objc(provider) open class func provider() -> FirebaseAuth.PhoneAuthProvider
   @objc(providerWithAuth:) open class func provider(auth: FirebaseAuth.Auth) -> FirebaseAuth.PhoneAuthProvider
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(verifyPhoneNumber:UIDelegate:completion:) open func verifyPhoneNumber(_ phoneNumber: Swift.String, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, completion: (@_Concurrency.MainActor (Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(verifyPhoneNumber:UIDelegate:multiFactorSession:completion:) open func verifyPhoneNumber(_ phoneNumber: Swift.String, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, multiFactorSession: FirebaseAuth.MultiFactorSession? = nil, completion: (@_Concurrency.MainActor (Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
   open func verifyPhoneNumber(_ phoneNumber: Swift.String, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, multiFactorSession: FirebaseAuth.MultiFactorSession? = nil) async throws -> Swift.String
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(verifyPhoneNumberWithMultiFactorInfo:UIDelegate:multiFactorSession:completion:) open func verifyPhoneNumber(with multiFactorInfo: FirebaseAuth.PhoneMultiFactorInfo, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, multiFactorSession: FirebaseAuth.MultiFactorSession?, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
   open func verifyPhoneNumber(with multiFactorInfo: FirebaseAuth.PhoneMultiFactorInfo, uiDelegate: (any FirebaseAuth.AuthUIDelegate)? = nil, multiFactorSession: FirebaseAuth.MultiFactorSession?) async throws -> Swift.String
+  #endif
   @objc(credentialWithVerificationID:verificationCode:) open func credential(withVerificationID verificationID: Swift.String, verificationCode: Swift.String) -> FirebaseAuth.PhoneAuthCredential
   @objc deinit
 }
@@ -598,7 +790,9 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
   @objc override public class var supportsSecureCoding: Swift.Bool {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc override public func encode(with coder: Foundation.NSCoder)
   @objc deinit
 }
@@ -607,7 +801,9 @@ extension FirebaseAuth.MultiFactorInfo : Foundation.NSSecureCoding {
 }
 @_inheritsConvenienceInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRTOTPMultiFactorGenerator) open class TOTPMultiFactorGenerator : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(generateSecretWithMultiFactorSession:completion:) open class func generateSecret(with session: FirebaseAuth.MultiFactorSession, completion: @escaping (FirebaseAuth.TOTPSecret?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open class func generateSecret(with session: FirebaseAuth.MultiFactorSession) async throws -> FirebaseAuth.TOTPSecret
   @objc(assertionForEnrollmentWithSecret:oneTimePassword:) open class func assertionForEnrollment(with secret: FirebaseAuth.TOTPSecret, oneTimePassword: Swift.String) -> FirebaseAuth.TOTPMultiFactorAssertion
@@ -635,11 +831,11 @@ extension FirebaseAuth.User : Foundation.NSSecureCoding {
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRUser) open class User : ObjectiveC.NSObject, FirebaseAuth.UserInfo {
   @objc public var isAnonymous: Swift.Bool {
-    get
+    @objc get
   }
   @objc open func anonymous() -> Swift.Bool
   @objc public var isEmailVerified: Swift.Bool {
-    get
+    @objc get
   }
   @objc open func emailVerified() -> Swift.Bool
   @objc open var providerData: [any FirebaseAuth.UserInfo] {
@@ -654,83 +850,159 @@ extension FirebaseAuth.User : Foundation.NSSecureCoding {
   @objc public var multiFactor: FirebaseAuth.MultiFactor {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "`updateEmail` is deprecated and will be removed in a future release. Use sendEmailVerification(beforeUpdatingEmail:) instead.")
   @objc(updateEmail:completion:) open func updateEmail(to email: Swift.String, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @available(*, deprecated, message: "`updateEmail` is deprecated and will be removed in a future release. Use sendEmailVerification(beforeUpdatingEmail:) instead.")
   open func updateEmail(to email: Swift.String) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(updatePassword:completion:) open func updatePassword(to password: Swift.String, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func updatePassword(to password: Swift.String) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(updatePhoneNumberCredential:completion:) open func updatePhoneNumber(_ credential: FirebaseAuth.PhoneAuthCredential, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func updatePhoneNumber(_ credential: FirebaseAuth.PhoneAuthCredential) async throws
   @objc(profileChangeRequest) open func createProfileChangeRequest() -> FirebaseAuth.UserProfileChangeRequest
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open var refreshToken: Swift.String? {
     @objc get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func reload(completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func reload() async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(reauthenticateWithCredential:completion:) open func reauthenticate(with credential: FirebaseAuth.AuthCredential, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   open func reauthenticate(with credential: FirebaseAuth.AuthCredential) async throws -> FirebaseAuth.AuthDataResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(reauthenticateWithProvider:UIDelegate:completion:) open func reauthenticate(with provider: any FirebaseAuth.FederatedAuthProvider, uiDelegate: (any FirebaseAuth.AuthUIDelegate)?, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   open func reauthenticate(with provider: any FirebaseAuth.FederatedAuthProvider, uiDelegate: (any FirebaseAuth.AuthUIDelegate)?) async throws -> FirebaseAuth.AuthDataResult
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(getIDTokenWithCompletion:) open func getIDToken(completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(getIDTokenForcingRefresh:completion:) open func getIDTokenForcingRefresh(_ forceRefresh: Swift.Bool, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func getIDToken(forcingRefresh forceRefresh: Swift.Bool = false) async throws -> Swift.String
   open func idTokenForcingRefresh(_ forceRefresh: Swift.Bool) async throws -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(getIDTokenResultWithCompletion:) open func getIDTokenResult(completion: ((FirebaseAuth.AuthTokenResult?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(getIDTokenResultForcingRefresh:completion:) open func getIDTokenResult(forcingRefresh: Swift.Bool, completion: ((FirebaseAuth.AuthTokenResult?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func getIDTokenResult(forcingRefresh forceRefresh: Swift.Bool = false) async throws -> FirebaseAuth.AuthTokenResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(linkWithCredential:completion:) open func link(with credential: FirebaseAuth.AuthCredential, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   open func link(with credential: FirebaseAuth.AuthCredential) async throws -> FirebaseAuth.AuthDataResult
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(linkWithProvider:UIDelegate:completion:) open func link(with provider: any FirebaseAuth.FederatedAuthProvider, uiDelegate: (any FirebaseAuth.AuthUIDelegate)?, completion: ((FirebaseAuth.AuthDataResult?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @discardableResult
   open func link(with provider: any FirebaseAuth.FederatedAuthProvider, uiDelegate: (any FirebaseAuth.AuthUIDelegate)?) async throws -> FirebaseAuth.AuthDataResult
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func unlink(fromProvider provider: Swift.String, completion: ((FirebaseAuth.User?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func unlink(fromProvider provider: Swift.String) async throws -> FirebaseAuth.User
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(sendEmailVerificationWithCompletion:) open func __sendEmailVerification(withCompletion completion: (((any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(sendEmailVerificationWithActionCodeSettings:completion:) open func sendEmailVerification(with actionCodeSettings: FirebaseAuth.ActionCodeSettings? = nil, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func sendEmailVerification(with actionCodeSettings: FirebaseAuth.ActionCodeSettings? = nil) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func delete(completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func delete() async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(sendEmailVerificationBeforeUpdatingEmail:completion:) open func __sendEmailVerificationBeforeUpdating(email: Swift.String, completion: (((any Swift.Error)?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func sendEmailVerification(beforeUpdatingEmail email: Swift.String, actionCodeSettings: FirebaseAuth.ActionCodeSettings? = nil, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func sendEmailVerification(beforeUpdatingEmail newEmail: Swift.String, actionCodeSettings: FirebaseAuth.ActionCodeSettings? = nil) async throws
+  #endif
   @objc open var providerID: Swift.String {
     @objc get
   }
-  @objc open var uid: Swift.String
-  @objc open var displayName: Swift.String?
-  @objc open var photoURL: Foundation.URL?
-  @objc open var email: Swift.String?
-  @objc open var phoneNumber: Swift.String?
+  @objc open var uid: Swift.String {
+    @objc get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open var displayName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open var photoURL: Foundation.URL? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open var email: Swift.String? {
+    @objc get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc open var phoneNumber: Swift.String? {
+    @objc get
+  }
+  #endif
   @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc(FIRUserInfo) public protocol UserInfo : ObjectiveC.NSObjectProtocol {
   @objc var providerID: Swift.String { get }
   @objc var uid: Swift.String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var displayName: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var photoURL: Foundation.URL? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var email: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var phoneNumber: Swift.String? { get }
+  #endif
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseAuth.UserMetadata : Foundation.NSSecureCoding {
@@ -741,20 +1013,28 @@ extension FirebaseAuth.UserMetadata : Foundation.NSSecureCoding {
   @objc final public let creationDate: Foundation.Date?
   @objc public static let supportsSecureCoding: Swift.Bool
   @objc public func encode(with coder: Foundation.NSCoder)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required convenience public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRUserProfileChangeRequest) open class UserProfileChangeRequest : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open var displayName: Swift.String? {
     @objc get
     @objc set(newDisplayName)
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open var photoURL: Foundation.URL? {
     @objc get
     @objc set(newPhotoURL)
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func commitChanges(completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   open func commitChanges() async throws
   @objc deinit

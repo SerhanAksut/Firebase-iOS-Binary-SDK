@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FirebaseFirestore
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseFirestore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 @_exported import FirebaseCore/*.Timestamp*/
 @_exported import FirebaseFirestore
 @_exported import FirebaseFirestoreInternal
@@ -31,9 +31,10 @@ public func && (lhs: any FirebaseFirestore.BooleanExpression, rhs: @autoclosure 
 public func || (lhs: any FirebaseFirestore.BooleanExpression, rhs: @autoclosure () throws -> any FirebaseFirestore.BooleanExpression) rethrows -> any FirebaseFirestore.BooleanExpression
 public func ^ (lhs: any FirebaseFirestore.BooleanExpression, rhs: @autoclosure () throws -> any FirebaseFirestore.BooleanExpression) rethrows -> any FirebaseFirestore.BooleanExpression
 prefix public func ! (lhs: any FirebaseFirestore.BooleanExpression) -> any FirebaseFirestore.BooleanExpression
+public func nor(_ condition: any FirebaseFirestore.BooleanExpression, _ conditions: any FirebaseFirestore.BooleanExpression...) -> any FirebaseFirestore.BooleanExpression
+public func nor(_ conditions: [any FirebaseFirestore.BooleanExpression]) -> any FirebaseFirestore.BooleanExpression
 extension FirebaseFirestore.BooleanExpression {
   public func countIf() -> FirebaseFirestore.AggregateFunction
-  public func then(_ thenExpression: any FirebaseFirestore.Expression, else elseExpression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
 }
 public enum FirestoreDecodingError : Swift.Error {
   case decodingIsNotSupported(Swift.String)
@@ -48,13 +49,16 @@ extension FirebaseFirestoreInternal.CollectionReference {
   public func addDocument(data: [Swift.String : Any]) async throws -> FirebaseFirestoreInternal.DocumentReference
 }
 extension FirebaseFirestoreInternal.CollectionReference {
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func addDocument<T>(from value: T, encoder: FirebaseFirestoreInternal.Firestore.Encoder = Firestore.Encoder(), completion: (((any Swift.Error)?) -> Swift.Void)? = nil) throws -> FirebaseFirestoreInternal.DocumentReference where T : Swift.Encodable
+  #endif
 }
 public class ConditionalExpression : FirebaseFirestore.FunctionExpression, @unchecked Swift.Sendable {
   public init(_ expression: any FirebaseFirestore.BooleanExpression, then thenExpression: any FirebaseFirestore.Expression, else elseExpression: any FirebaseFirestore.Expression)
   @objc deinit
 }
+public func switchOn(_ condition: any FirebaseFirestore.BooleanExpression, _ result: any FirebaseFirestore.Expression, _ others: any FirebaseFirestore.Expression...) -> any FirebaseFirestore.Expression
 public struct Constant : FirebaseFirestore.Expression, @unchecked Swift.Sendable {
   public init(_ value: Swift.Int)
   public init(_ value: Swift.Double)
@@ -71,6 +75,9 @@ public struct Constant : FirebaseFirestore.Expression, @unchecked Swift.Sendable
 public class CountAll : FirebaseFirestore.AggregateFunction, @unchecked Swift.Sendable {
   public init()
   @objc deinit
+}
+public struct CurrentDocument : FirebaseFirestore.Expression {
+  public init()
 }
 public class CurrentTimestamp : FirebaseFirestore.FunctionExpression, @unchecked Swift.Sendable {
   public init()
@@ -96,11 +103,15 @@ extension FirebaseFirestoreInternal.DocumentReference : FirebaseFirestore.Docume
   public static func wrap(_ documentReference: FirebaseFirestoreInternal.DocumentReference) throws -> Self
 }
 @propertyWrapper public struct DocumentID<Value> : FirebaseSharedSwift.StructureCodingUncodedUnkeyed where Value : FirebaseFirestore.DocumentIDWrappable, Value : Swift.Decodable, Value : Swift.Encodable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(wrappedValue value: Value?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var wrappedValue: Value? {
     get
     set
   }
+  #endif
 }
 extension FirebaseFirestore.DocumentID : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
@@ -115,22 +126,60 @@ extension FirebaseFirestore.DocumentID : Swift.Hashable where Value : Swift.Hash
     get
   }
 }
-#if compiler(>=5.3) && $RetroactiveAttribute
+@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+extension FirebaseFirestoreInternal.DocumentReference {
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public var snapshots: FirebaseFirestoreInternal.DocumentReference.DocumentSnapshotsSequence {
+    get
+  }
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public func snapshots(includeMetadataChanges: Swift.Bool) -> FirebaseFirestoreInternal.DocumentReference.DocumentSnapshotsSequence
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public struct DocumentSnapshotsSequence : _Concurrency.AsyncSequence {
+    public typealias Element = FirebaseFirestoreInternal.DocumentSnapshot
+    public typealias Failure = Swift.Error
+    public typealias AsyncIterator = FirebaseFirestoreInternal.DocumentReference.DocumentSnapshotsSequence.Iterator
+    public init(_ documentReference: FirebaseFirestoreInternal.DocumentReference, includeMetadataChanges: Swift.Bool)
+    public func makeAsyncIterator() -> FirebaseFirestoreInternal.DocumentReference.DocumentSnapshotsSequence.Iterator
+    @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+    public struct Iterator : _Concurrency.AsyncIteratorProtocol {
+      public typealias Element = FirebaseFirestoreInternal.DocumentSnapshot
+      #if compiler(>=5.3) && $NonescapableTypes
+      public mutating func next() async throws -> FirebaseFirestoreInternal.DocumentReference.DocumentSnapshotsSequence.Iterator.Element?
+      #endif
+      @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+      @_implements(_Concurrency.AsyncIteratorProtocol, Failure) public typealias __AsyncIteratorProtocol_Failure = any Swift.Error
+    }
+    @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+    @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = any Swift.Error
+  }
+}
+@available(*, unavailable)
+extension FirebaseFirestoreInternal.DocumentReference.DocumentSnapshotsSequence.Iterator : Swift.Sendable {
+}
 extension FirebaseFirestoreInternal.DocumentReference : @retroactive Swift.Codable {
 }
-#else
-extension FirebaseFirestoreInternal.DocumentReference : Swift.Codable {
-}
-#endif
 extension FirebaseFirestoreInternal.DocumentReference {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getDocument<T>(as type: T.Type, with serverTimestampBehavior: FirebaseFirestoreInternal.ServerTimestampBehavior = .none, decoder: FirebaseFirestoreInternal.Firestore.Decoder = .init(), source: FirebaseFirestoreInternal.FirestoreSource = .default, completion: @escaping (Swift.Result<T, any Swift.Error>) -> Swift.Void) where T : Swift.Decodable
+  #endif
   @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   public func getDocument<T>(as type: T.Type, with serverTimestampBehavior: FirebaseFirestoreInternal.ServerTimestampBehavior = .none, decoder: FirebaseFirestoreInternal.Firestore.Decoder = .init(), source: FirebaseFirestoreInternal.FirestoreSource = .default) async throws -> T where T : Swift.Decodable
 }
 extension FirebaseFirestoreInternal.DocumentReference {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setData<T>(from value: T, encoder: FirebaseFirestoreInternal.Firestore.Encoder = Firestore.Encoder(), completion: (((any Swift.Error)?) -> Swift.Void)? = nil) throws where T : Swift.Encodable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setData<T>(from value: T, merge: Swift.Bool, encoder: FirebaseFirestoreInternal.Firestore.Encoder = Firestore.Encoder(), completion: (((any Swift.Error)?) -> Swift.Void)? = nil) throws where T : Swift.Encodable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setData<T>(from value: T, mergeFields: [Any], encoder: FirebaseFirestoreInternal.Firestore.Encoder = Firestore.Encoder(), completion: (((any Swift.Error)?) -> Swift.Void)? = nil) throws where T : Swift.Encodable
+  #endif
+}
+public struct DocumentMatches : FirebaseFirestore.BooleanExpression, @unchecked Swift.Sendable {
+  public let bridge: FirebaseFirestoreInternal.ExprBridge
+  public init(_ query: Swift.String)
 }
 extension FirebaseFirestoreInternal.DocumentSnapshot {
   public func data<T>(as type: T.Type, with serverTimestampBehavior: FirebaseFirestoreInternal.ServerTimestampBehavior = .none, decoder: FirebaseFirestoreInternal.Firestore.Decoder = .init()) throws -> T where T : Swift.Decodable
@@ -153,7 +202,9 @@ extension FirebaseFirestoreInternal.Firestore {
     public var keyDecodingStrategy: FirebaseSharedSwift.FirebaseDataDecoder.KeyDecodingStrategy
     public var userInfo: [Swift.CodingUserInfoKey : Any]
     public func decode<T>(_ t: T.Type, from data: Any) throws -> T where T : Swift.Decodable
+    #if compiler(>=5.3) && $NonescapableTypes
     public func decode<T>(_ t: T.Type, from data: Any, in reference: FirebaseFirestoreInternal.DocumentReference?) throws -> T where T : Swift.Decodable
+    #endif
     public init()
     @objc deinit
   }
@@ -163,11 +214,15 @@ public class ErrorExpression : FirebaseFirestore.FunctionExpression, @unchecked 
   @objc deinit
 }
 @propertyWrapper public struct ExplicitNull<Value> {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(wrappedValue value: Value?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var wrappedValue: Value? {
     get
     set
   }
+  #endif
 }
 extension FirebaseFirestore.ExplicitNull : Swift.Equatable where Value : Swift.Equatable {
   public static func == (a: FirebaseFirestore.ExplicitNull<Value>, b: FirebaseFirestore.ExplicitNull<Value>) -> Swift.Bool
@@ -196,6 +251,9 @@ public protocol Expression : Swift.Sendable {
   func exp() -> FirebaseFirestore.FunctionExpression
   func ceil() -> FirebaseFirestore.FunctionExpression
   func abs() -> FirebaseFirestore.FunctionExpression
+  func trunc() -> FirebaseFirestore.FunctionExpression
+  func truncToPrecision(_ decimalPlace: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func truncToPrecision(_ decimalPlace: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func add(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func add(_ value: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   func subtract(_ other: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
@@ -218,10 +276,26 @@ public protocol Expression : Swift.Sendable {
   func arrayContainsAny(_ values: [any Swift.Sendable]) -> any FirebaseFirestore.BooleanExpression
   func arrayContainsAny(_ arrayExpression: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   func arrayLength() -> FirebaseFirestore.FunctionExpression
+  func arrayFirst() -> FirebaseFirestore.FunctionExpression
+  func arrayFirstN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  func arrayFirstN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arrayLast() -> FirebaseFirestore.FunctionExpression
+  func arrayLastN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  func arrayLastN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func arrayGet(_ offset: Swift.Int) -> FirebaseFirestore.FunctionExpression
   func arrayGet(_ offsetExpression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arrayIndexOf(_ value: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func arrayIndexOf(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arrayLastIndexOf(_ value: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func arrayLastIndexOf(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arrayIndexOfAll(_ value: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func arrayIndexOfAll(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func arrayMaximum() -> FirebaseFirestore.FunctionExpression
   func arrayMinimum() -> FirebaseFirestore.FunctionExpression
+  func arrayMinimumN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  func arrayMinimumN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arrayMaximumN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  func arrayMaximumN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func greaterThan(_ other: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   func greaterThan(_ other: any Swift.Sendable) -> any FirebaseFirestore.BooleanExpression
   func greaterThanOrEqual(_ other: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
@@ -269,24 +343,53 @@ public protocol Expression : Swift.Sendable {
   func trim() -> FirebaseFirestore.FunctionExpression
   func trim(_ value: Swift.String) -> FirebaseFirestore.FunctionExpression
   func trim(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func ltrim() -> FirebaseFirestore.FunctionExpression
+  func ltrim(_ value: Swift.String) -> FirebaseFirestore.FunctionExpression
+  func ltrim(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func rtrim() -> FirebaseFirestore.FunctionExpression
+  func rtrim(_ value: Swift.String) -> FirebaseFirestore.FunctionExpression
+  func rtrim(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func stringRepeat(_ count: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  func stringRepeat(_ count: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func stringReplaceAll(_ oldValue: Swift.String, with newValue: Swift.String) -> FirebaseFirestore.FunctionExpression
+  func stringReplaceAll(_ oldValue: any FirebaseFirestore.Expression, with newValue: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func stringReplaceOne(_ oldValue: Swift.String, with newValue: Swift.String) -> FirebaseFirestore.FunctionExpression
+  func stringReplaceOne(_ oldValue: any FirebaseFirestore.Expression, with newValue: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func stringIndexOf(_ substring: Swift.String) -> FirebaseFirestore.FunctionExpression
+  func stringIndexOf(_ substring: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func stringConcat(_ strings: [any Swift.Sendable]) -> FirebaseFirestore.FunctionExpression
   func stringConcat(_ strings: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
   func reverse() -> FirebaseFirestore.FunctionExpression
   func stringReverse() -> FirebaseFirestore.FunctionExpression
   func byteLength() -> FirebaseFirestore.FunctionExpression
+  #if compiler(>=5.3) && $NonescapableTypes
   func substring(position: Swift.Int, length: Swift.Int?) -> FirebaseFirestore.FunctionExpression
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func substring(position: any FirebaseFirestore.Expression, length: (any FirebaseFirestore.Expression)?) -> FirebaseFirestore.FunctionExpression
+  #endif
+  func getField(_ key: Swift.String) -> FirebaseFirestore.FunctionExpression
+  func getField(_ expression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func mapGet(_ subfield: Swift.String) -> FirebaseFirestore.FunctionExpression
   func mapRemove(_ key: Swift.String) -> FirebaseFirestore.FunctionExpression
   func mapRemove(_ keyExpression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func mapMerge(_ maps: [[Swift.String : any Swift.Sendable]]) -> FirebaseFirestore.FunctionExpression
   func mapMerge(_ maps: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
+  func mapSet(_ key: any FirebaseFirestore.Expression, _ value: any FirebaseFirestore.Expression, _ moreKeyValues: any FirebaseFirestore.Expression...) -> FirebaseFirestore.FunctionExpression
+  func mapSet(_ key: Swift.String, _ value: any Swift.Sendable, _ moreKeyValues: any Swift.Sendable...) -> FirebaseFirestore.FunctionExpression
+  func mapKeys() -> FirebaseFirestore.FunctionExpression
+  func mapValues() -> FirebaseFirestore.FunctionExpression
+  func mapEntries() -> FirebaseFirestore.FunctionExpression
   func countDistinct() -> FirebaseFirestore.AggregateFunction
   func count() -> FirebaseFirestore.AggregateFunction
   func sum() -> FirebaseFirestore.AggregateFunction
   func average() -> FirebaseFirestore.AggregateFunction
   func minimum() -> FirebaseFirestore.AggregateFunction
   func maximum() -> FirebaseFirestore.AggregateFunction
+  func first() -> FirebaseFirestore.AggregateFunction
+  func last() -> FirebaseFirestore.AggregateFunction
+  func arrayAgg() -> FirebaseFirestore.AggregateFunction
+  func arrayAggDistinct() -> FirebaseFirestore.AggregateFunction
   func logicalMaximum(_ expressions: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
   func logicalMaximum(_ values: [any Swift.Sendable]) -> FirebaseFirestore.FunctionExpression
   func logicalMinimum(_ expressions: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
@@ -309,24 +412,40 @@ public protocol Expression : Swift.Sendable {
   func timestampToUnixSeconds() -> FirebaseFirestore.FunctionExpression
   func timestampTruncate(granularity: FirebaseFirestore.TimeGranularity) -> FirebaseFirestore.FunctionExpression
   func timestampTruncate(granularity: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func timestampTruncate(granularity: FirebaseFirestore.TimeGranularity, timezone: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func timestampTruncate(granularity: any Swift.Sendable, timezone: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func timestampDiff(_ start: any FirebaseFirestore.Expression, _ unit: FirebaseFirestore.TimeUnit) -> FirebaseFirestore.FunctionExpression
+  func timestampDiff(_ start: any FirebaseFirestore.Expression, _ unit: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func timestampExtract(part: FirebaseFirestore.TimePart) -> FirebaseFirestore.FunctionExpression
+  func timestampExtract(part: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func timestampExtract(part: FirebaseFirestore.TimePart, timezone: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func timestampExtract(part: any Swift.Sendable, timezone: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   func timestampAdd(_ amount: Swift.Int, _ unit: FirebaseFirestore.TimeUnit) -> FirebaseFirestore.FunctionExpression
   func timestampAdd(amount: any FirebaseFirestore.Expression, unit: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   func timestampSubtract(_ amount: Swift.Int, _ unit: FirebaseFirestore.TimeUnit) -> FirebaseFirestore.FunctionExpression
   func timestampSubtract(amount: any FirebaseFirestore.Expression, unit: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   func documentId() -> FirebaseFirestore.FunctionExpression
   func collectionId() -> FirebaseFirestore.FunctionExpression
+  func parent() -> FirebaseFirestore.FunctionExpression
   func ifError(_ catchExpression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   func ifError(_ catchValue: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   func ifAbsent(_ defaultValue: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func ifNull(_ defaultValue: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  func ifNull(_ defaultExpression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func coalesce(_ values: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
   func ascending() -> FirebaseFirestore.Ordering
   func descending() -> FirebaseFirestore.Ordering
   func concat(_ values: [any Swift.Sendable]) -> FirebaseFirestore.FunctionExpression
   func type() -> FirebaseFirestore.FunctionExpression
+  func isType(_ type: Swift.String) -> any FirebaseFirestore.BooleanExpression
 }
 extension FirebaseFirestore.Expression {
   public func asBoolean() -> any FirebaseFirestore.BooleanExpression
   public func `as`(_ name: Swift.String) -> FirebaseFirestore.AliasedExpression
   public func abs() -> FirebaseFirestore.FunctionExpression
+  public func trunc() -> FirebaseFirestore.FunctionExpression
+  public func truncToPrecision(_ decimalPlace: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func truncToPrecision(_ decimalPlace: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func ceil() -> FirebaseFirestore.FunctionExpression
   public func floor() -> FirebaseFirestore.FunctionExpression
   public func ln() -> FirebaseFirestore.FunctionExpression
@@ -357,10 +476,26 @@ extension FirebaseFirestore.Expression {
   public func arrayContainsAny(_ values: [any Swift.Sendable]) -> any FirebaseFirestore.BooleanExpression
   public func arrayContainsAny(_ arrayExpression: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   public func arrayLength() -> FirebaseFirestore.FunctionExpression
+  public func arrayFirst() -> FirebaseFirestore.FunctionExpression
+  public func arrayFirstN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  public func arrayFirstN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arrayLast() -> FirebaseFirestore.FunctionExpression
+  public func arrayLastN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  public func arrayLastN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func arrayGet(_ offset: Swift.Int) -> FirebaseFirestore.FunctionExpression
   public func arrayGet(_ offsetExpression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arrayIndexOf(_ value: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func arrayIndexOf(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arrayLastIndexOf(_ value: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func arrayLastIndexOf(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arrayIndexOfAll(_ value: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func arrayIndexOfAll(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func arrayMaximum() -> FirebaseFirestore.FunctionExpression
   public func arrayMinimum() -> FirebaseFirestore.FunctionExpression
+  public func arrayMaximumN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  public func arrayMaximumN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arrayMinimumN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  public func arrayMinimumN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func greaterThan(_ other: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   public func greaterThan(_ other: any Swift.Sendable) -> any FirebaseFirestore.BooleanExpression
   public func greaterThanOrEqual(_ other: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
@@ -408,24 +543,51 @@ extension FirebaseFirestore.Expression {
   public func trim(_ value: Swift.String) -> FirebaseFirestore.FunctionExpression
   public func trim(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func trim() -> FirebaseFirestore.FunctionExpression
+  public func ltrim() -> FirebaseFirestore.FunctionExpression
+  public func ltrim(_ characters: Swift.String) -> FirebaseFirestore.FunctionExpression
+  public func ltrim(_ characters: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func rtrim() -> FirebaseFirestore.FunctionExpression
+  public func rtrim(_ characters: Swift.String) -> FirebaseFirestore.FunctionExpression
+  public func rtrim(_ characters: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func stringRepeat(_ count: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  public func stringRepeat(_ count: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func stringReplaceAll(_ oldValue: Swift.String, with newValue: Swift.String) -> FirebaseFirestore.FunctionExpression
+  public func stringReplaceAll(_ oldValue: any FirebaseFirestore.Expression, with newValue: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func stringReplaceOne(_ oldValue: Swift.String, with newValue: Swift.String) -> FirebaseFirestore.FunctionExpression
+  public func stringReplaceOne(_ oldValue: any FirebaseFirestore.Expression, with newValue: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func stringIndexOf(_ substring: Swift.String) -> FirebaseFirestore.FunctionExpression
+  public func stringIndexOf(_ substring: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func stringConcat(_ strings: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
   public func stringConcat(_ strings: [any Swift.Sendable]) -> FirebaseFirestore.FunctionExpression
   public func reverse() -> FirebaseFirestore.FunctionExpression
   public func stringReverse() -> FirebaseFirestore.FunctionExpression
   public func byteLength() -> FirebaseFirestore.FunctionExpression
+  #if compiler(>=5.3) && $NonescapableTypes
   public func substring(position: Swift.Int, length: Swift.Int? = nil) -> FirebaseFirestore.FunctionExpression
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func substring(position: any FirebaseFirestore.Expression, length: (any FirebaseFirestore.Expression)? = nil) -> FirebaseFirestore.FunctionExpression
+  #endif
   public func mapGet(_ subfield: Swift.String) -> FirebaseFirestore.FunctionExpression
   public func mapRemove(_ key: Swift.String) -> FirebaseFirestore.FunctionExpression
   public func mapRemove(_ keyExpression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func mapMerge(_ maps: [[Swift.String : any Swift.Sendable]]) -> FirebaseFirestore.FunctionExpression
   public func mapMerge(_ maps: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
+  public func mapSet(_ key: any FirebaseFirestore.Expression, _ value: any FirebaseFirestore.Expression, _ moreKeyValues: any FirebaseFirestore.Expression...) -> FirebaseFirestore.FunctionExpression
+  public func mapSet(_ key: Swift.String, _ value: any Swift.Sendable, _ moreKeyValues: any Swift.Sendable...) -> FirebaseFirestore.FunctionExpression
+  public func mapKeys() -> FirebaseFirestore.FunctionExpression
+  public func mapValues() -> FirebaseFirestore.FunctionExpression
+  public func mapEntries() -> FirebaseFirestore.FunctionExpression
   public func countDistinct() -> FirebaseFirestore.AggregateFunction
   public func count() -> FirebaseFirestore.AggregateFunction
   public func sum() -> FirebaseFirestore.AggregateFunction
   public func average() -> FirebaseFirestore.AggregateFunction
   public func minimum() -> FirebaseFirestore.AggregateFunction
   public func maximum() -> FirebaseFirestore.AggregateFunction
+  public func first() -> FirebaseFirestore.AggregateFunction
+  public func last() -> FirebaseFirestore.AggregateFunction
+  public func arrayAgg() -> FirebaseFirestore.AggregateFunction
+  public func arrayAggDistinct() -> FirebaseFirestore.AggregateFunction
   public func logicalMaximum(_ expressions: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
   public func logicalMaximum(_ values: [any Swift.Sendable]) -> FirebaseFirestore.FunctionExpression
   public func logicalMinimum(_ expressions: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
@@ -448,24 +610,45 @@ extension FirebaseFirestore.Expression {
   public func timestampToUnixSeconds() -> FirebaseFirestore.FunctionExpression
   public func timestampTruncate(granularity: FirebaseFirestore.TimeGranularity) -> FirebaseFirestore.FunctionExpression
   public func timestampTruncate(granularity: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func timestampTruncate(granularity: FirebaseFirestore.TimeGranularity, timezone: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func timestampTruncate(granularity: any Swift.Sendable, timezone: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func timestampDiff(_ start: any FirebaseFirestore.Expression, _ unit: FirebaseFirestore.TimeUnit) -> FirebaseFirestore.FunctionExpression
+  public func timestampDiff(_ start: any FirebaseFirestore.Expression, _ unit: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func timestampExtract(part: FirebaseFirestore.TimePart) -> FirebaseFirestore.FunctionExpression
+  public func timestampExtract(part: FirebaseFirestore.TimePart, timezone: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func timestampExtract(part: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func timestampExtract(part: any Swift.Sendable, timezone: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   public func timestampAdd(_ amount: Swift.Int, _ unit: FirebaseFirestore.TimeUnit) -> FirebaseFirestore.FunctionExpression
   public func timestampAdd(amount: any FirebaseFirestore.Expression, unit: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   public func timestampSubtract(_ amount: Swift.Int, _ unit: FirebaseFirestore.TimeUnit) -> FirebaseFirestore.FunctionExpression
   public func timestampSubtract(amount: any FirebaseFirestore.Expression, unit: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   public func documentId() -> FirebaseFirestore.FunctionExpression
   public func collectionId() -> FirebaseFirestore.FunctionExpression
+  public func parent() -> FirebaseFirestore.FunctionExpression
   public func ifError(_ catchExpression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
   public func ifError(_ catchValue: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
   public func ifAbsent(_ defaultValue: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func ifNull(_ value: any Swift.Sendable) -> FirebaseFirestore.FunctionExpression
+  public func ifNull(_ value: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func coalesce(_ values: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.FunctionExpression
   public func ascending() -> FirebaseFirestore.Ordering
   public func descending() -> FirebaseFirestore.Ordering
   public func concat(_ values: [any Swift.Sendable]) -> FirebaseFirestore.FunctionExpression
   public func type() -> FirebaseFirestore.FunctionExpression
+  public func isType(_ type: Swift.String) -> any FirebaseFirestore.BooleanExpression
+  public func getField(_ key: Swift.String) -> FirebaseFirestore.FunctionExpression
+  public func getField(_ expression: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func snippet(_ rquery: Swift.String, maxSnippetWidth: Swift.Int? = nil, maxSnippets: Swift.Int? = nil, separator: Swift.String? = nil) -> any FirebaseFirestore.Expression
+  #endif
+  public func between(_ lowerBound: any Swift.Sendable, _ upperBound: any Swift.Sendable) -> any FirebaseFirestore.BooleanExpression
+  public func between(_ lowerBound: any FirebaseFirestore.Expression, _ upperBound: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
 }
 public struct Field : FirebaseFirestore.Expression, FirebaseFirestore.Selectable, @unchecked Swift.Sendable {
   public let fieldName: Swift.String
   public init(_ name: Swift.String)
   public init(_ path: FirebaseFirestoreInternal.FieldPath)
+  public func geoDistance(_ location: FirebaseFirestoreInternal.GeoPoint) -> any FirebaseFirestore.Expression
 }
 extension FirebaseFirestoreInternal.FieldValue : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
@@ -478,10 +661,12 @@ extension FirebaseFirestoreInternal.FieldValue {
 extension FirebaseFirestoreInternal.Firestore {
   public func loadBundle(_ bundleData: Foundation.Data) async throws -> FirebaseFirestoreInternal.LoadBundleTaskProgress
   public func loadBundle(_ bundleStream: Foundation.InputStream) async throws -> FirebaseFirestoreInternal.LoadBundleTaskProgress
+  #if compiler(>=5.3) && $NonescapableTypes
   #if compiler(>=5.3) && $SendingArgsAndResults
   public func runTransaction(_ updateBlock: @escaping (FirebaseFirestoreInternal.Transaction, Foundation.NSErrorPointer) -> sending Any?) async throws -> sending Any?
   #else
   public func runTransaction(_ updateBlock: @escaping (FirebaseFirestoreInternal.Transaction, Foundation.NSErrorPointer) -> Any?) async throws -> Any?
+  #endif
   #endif
 }
 @objc extension FirebaseFirestoreInternal.Firestore {
@@ -513,20 +698,21 @@ public enum DecodingFailureStrategy {
     get
     nonmutating set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init<U>(collectionPath: Swift.String, predicates: [FirebaseFirestore.QueryPredicate] = [], decodingFailureStrategy: FirebaseFirestore.DecodingFailureStrategy = .raise, animation: SwiftUICore.Animation? = nil) where T == [U], U : Swift.Decodable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init<U>(collectionPath: Swift.String, predicates: [FirebaseFirestore.QueryPredicate] = [], decodingFailureStrategy: FirebaseFirestore.DecodingFailureStrategy = .raise, animation: SwiftUICore.Animation? = nil) where T == Swift.Result<[U], any Swift.Error>, U : Swift.Decodable
+  #endif
 }
 public class FunctionExpression : FirebaseFirestore.Expression, @unchecked Swift.Sendable {
-  public init(functionName: Swift.String, args: [any FirebaseFirestore.Expression])
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(functionName: Swift.String, args: [any FirebaseFirestore.Expression], options: [Swift.String : any Swift.Sendable]? = nil)
+  #endif
   @objc deinit
 }
-#if compiler(>=5.3) && $RetroactiveAttribute
 extension FirebaseFirestoreInternal.GeoPoint : @retroactive Swift.Codable {
 }
-#else
-extension FirebaseFirestoreInternal.GeoPoint : Swift.Codable {
-}
-#endif
 public class MapExpression : FirebaseFirestore.FunctionExpression, @unchecked Swift.Sendable {
   public init(_ elements: [Swift.String : any Swift.Sendable])
   @objc deinit
@@ -543,8 +729,8 @@ public struct Direction : Swift.Sendable, Swift.Equatable, Swift.Hashable {
     get
   }
 }
-@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
-public struct Pipeline : @unchecked Swift.Sendable {
+@_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+public class Pipeline : @unchecked Swift.Sendable {
   public struct Snapshot : Swift.Sendable {
     public let results: [FirebaseFirestore.PipelineResult]
     public let executionTime: FirebaseCore.Timestamp
@@ -558,18 +744,36 @@ public struct Pipeline : @unchecked Swift.Sendable {
   public func `where`(_ condition: any FirebaseFirestore.BooleanExpression) -> FirebaseFirestore.Pipeline
   public func offset(_ offset: Swift.Int32) -> FirebaseFirestore.Pipeline
   public func limit(_ limit: Swift.Int32) -> FirebaseFirestore.Pipeline
+  public func define(_ variables: [FirebaseFirestore.AliasedExpression]) -> FirebaseFirestore.Pipeline
   public func distinct(_ groups: [Swift.String]) -> FirebaseFirestore.Pipeline
   public func distinct(_ groups: [any FirebaseFirestore.Selectable]) -> FirebaseFirestore.Pipeline
+  #if compiler(>=5.3) && $NonescapableTypes
   public func aggregate(_ aggregates: [FirebaseFirestore.AliasedAggregate], groups: [any FirebaseFirestore.Selectable]? = nil) -> FirebaseFirestore.Pipeline
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func findNearest(field: FirebaseFirestore.Field, vectorValue: FirebaseFirestoreInternal.VectorValue, distanceMeasure: FirebaseFirestore.DistanceMeasure, limit: Swift.Int? = nil, distanceField: Swift.String? = nil) -> FirebaseFirestore.Pipeline
+  #endif
   public func sort(_ orderings: [FirebaseFirestore.Ordering]) -> FirebaseFirestore.Pipeline
   public func replace(with expression: any FirebaseFirestore.Expression) -> FirebaseFirestore.Pipeline
   public func replace(with fieldName: Swift.String) -> FirebaseFirestore.Pipeline
   public func sample(count: Swift.Int64) -> FirebaseFirestore.Pipeline
   public func sample(percentage: Swift.Double) -> FirebaseFirestore.Pipeline
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func search(query: any FirebaseFirestore.Expression, sort: [FirebaseFirestore.Ordering]? = nil, addFields: [any FirebaseFirestore.Selectable]? = nil) -> FirebaseFirestore.Pipeline
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func search(query: Swift.String, sort: [FirebaseFirestore.Ordering]? = nil, addFields: [any FirebaseFirestore.Selectable]? = nil) -> FirebaseFirestore.Pipeline
+  #endif
   public func union(with other: FirebaseFirestore.Pipeline) -> FirebaseFirestore.Pipeline
+  #if compiler(>=5.3) && $NonescapableTypes
   public func unnest(_ field: any FirebaseFirestore.Selectable, indexField: Swift.String? = nil) -> FirebaseFirestore.Pipeline
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func rawStage(name: Swift.String, params: [any Swift.Sendable], options: [Swift.String : any Swift.Sendable]? = nil) -> FirebaseFirestore.Pipeline
+  #endif
+  public func toArrayExpression() -> any FirebaseFirestore.Expression
+  public func toScalarExpression() -> any FirebaseFirestore.Expression
+  @objc deinit
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 public struct PipelineResult : @unchecked Swift.Sendable {
@@ -578,9 +782,15 @@ public struct PipelineResult : @unchecked Swift.Sendable {
   public let createTime: FirebaseCore.Timestamp?
   public let updateTime: FirebaseCore.Timestamp?
   public let data: [Swift.String : (any Swift.Sendable)?]
+  #if compiler(>=5.3) && $NonescapableTypes
   public func get(_ fieldName: Swift.String) -> (any Swift.Sendable)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func get(_ fieldPath: FirebaseFirestoreInternal.FieldPath) -> (any Swift.Sendable)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func get(_ field: FirebaseFirestore.Field) -> (any Swift.Sendable)?
+  #endif
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 public struct PipelineSource : @unchecked Swift.Sendable {
@@ -591,6 +801,37 @@ public struct PipelineSource : @unchecked Swift.Sendable {
   public func documents(_ docs: [FirebaseFirestoreInternal.DocumentReference]) -> FirebaseFirestore.Pipeline
   public func documents(_ paths: [Swift.String]) -> FirebaseFirestore.Pipeline
   public func create(from query: FirebaseFirestoreInternal.Query) -> FirebaseFirestore.Pipeline
+}
+@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+extension FirebaseFirestoreInternal.Query {
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public var snapshots: FirebaseFirestoreInternal.Query.QuerySnapshotsSequence {
+    get
+  }
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public func snapshots(includeMetadataChanges: Swift.Bool) -> FirebaseFirestoreInternal.Query.QuerySnapshotsSequence
+  @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+  public struct QuerySnapshotsSequence : _Concurrency.AsyncSequence {
+    public typealias Element = FirebaseFirestoreInternal.QuerySnapshot
+    public typealias Failure = Swift.Error
+    public typealias AsyncIterator = FirebaseFirestoreInternal.Query.QuerySnapshotsSequence.Iterator
+    public init(_ query: FirebaseFirestoreInternal.Query, includeMetadataChanges: Swift.Bool)
+    public func makeAsyncIterator() -> FirebaseFirestoreInternal.Query.QuerySnapshotsSequence.Iterator
+    @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
+    public struct Iterator : _Concurrency.AsyncIteratorProtocol {
+      public typealias Element = FirebaseFirestoreInternal.QuerySnapshot
+      #if compiler(>=5.3) && $NonescapableTypes
+      public mutating func next() async throws -> FirebaseFirestoreInternal.Query.QuerySnapshotsSequence.Iterator.Element?
+      #endif
+      @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+      @_implements(_Concurrency.AsyncIteratorProtocol, Failure) public typealias __AsyncIteratorProtocol_Failure = any Swift.Error
+    }
+    @available(iOS 18.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, macOS 15.0, *)
+    @_implements(_Concurrency.AsyncSequence, Failure) public typealias __AsyncSequence_Failure = any Swift.Error
+  }
+}
+@available(*, unavailable)
+extension FirebaseFirestoreInternal.Query.QuerySnapshotsSequence.Iterator : Swift.Sendable {
 }
 public enum QueryPredicate {
   case isEqualTo(_: Swift.String, _: Any)
@@ -627,6 +868,15 @@ public enum QueryPredicate {
   public static func `where`(_ name: Swift.String, isLessThanOrEqualTo value: Any) -> FirebaseFirestore.QueryPredicate
   public static func `where`(_ name: Swift.String, isGreaterThanOrEqualTo value: Any) -> FirebaseFirestore.QueryPredicate
 }
+public class RandomExpression : FirebaseFirestore.FunctionExpression, @unchecked Swift.Sendable {
+  public init()
+  @objc deinit
+}
+public func rand() -> FirebaseFirestore.RandomExpression
+public struct Score : FirebaseFirestore.Expression, @unchecked Swift.Sendable {
+  public let bridge: FirebaseFirestoreInternal.ExprBridge
+  public init()
+}
 public protocol Selectable : Swift.Sendable {
 }
 public protocol ServerTimestampWrappable {
@@ -642,11 +892,15 @@ extension FirebaseCore.Timestamp : FirebaseFirestore.ServerTimestampWrappable {
   public static func unwrap(_ value: FirebaseCore.Timestamp) throws -> FirebaseCore.Timestamp
 }
 @propertyWrapper public struct ServerTimestamp<Value> : Swift.Codable where Value : FirebaseFirestore.ServerTimestampWrappable, Value : Swift.Decodable, Value : Swift.Encodable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(wrappedValue value: Value?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var wrappedValue: Value? {
     get
     set
   }
+  #endif
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -660,6 +914,11 @@ extension FirebaseFirestore.ServerTimestamp : Swift.Hashable where Value : Swift
   }
 }
 extension FirebaseFirestore.ServerTimestamp : Swift.Sendable where Value : Swift.Sendable {
+}
+@_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
+public class Subcollection : FirebaseFirestore.Pipeline, @unchecked Swift.Sendable {
+  public init(_ path: Swift.String)
+  @objc deinit
 }
 @available(*, unavailable)
 @objc extension FirebaseFirestoreInternal.Firestore {
@@ -694,13 +953,37 @@ public struct TimeGranularity : Swift.Sendable, Swift.Equatable, Swift.Hashable 
     get
   }
 }
-#if compiler(>=5.3) && $RetroactiveAttribute
+public struct TimePart : Swift.Sendable, Swift.Equatable, Swift.Hashable {
+  public static let microsecond: FirebaseFirestore.TimePart
+  public static let millisecond: FirebaseFirestore.TimePart
+  public static let second: FirebaseFirestore.TimePart
+  public static let minute: FirebaseFirestore.TimePart
+  public static let hour: FirebaseFirestore.TimePart
+  public static let dayOfWeek: FirebaseFirestore.TimePart
+  public static let day: FirebaseFirestore.TimePart
+  public static let dayOfYear: FirebaseFirestore.TimePart
+  public static let week: FirebaseFirestore.TimePart
+  public static let weekMonday: FirebaseFirestore.TimePart
+  public static let weekTuesday: FirebaseFirestore.TimePart
+  public static let weekWednesday: FirebaseFirestore.TimePart
+  public static let weekThursday: FirebaseFirestore.TimePart
+  public static let weekFriday: FirebaseFirestore.TimePart
+  public static let weekSaturday: FirebaseFirestore.TimePart
+  public static let weekSunday: FirebaseFirestore.TimePart
+  public static let isoweek: FirebaseFirestore.TimePart
+  public static let month: FirebaseFirestore.TimePart
+  public static let quarter: FirebaseFirestore.TimePart
+  public static let year: FirebaseFirestore.TimePart
+  public static let isoyear: FirebaseFirestore.TimePart
+  public let rawValue: Swift.String
+  public static func == (a: FirebaseFirestore.TimePart, b: FirebaseFirestore.TimePart) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension FirebaseCore.Timestamp : @retroactive Swift.Codable {
 }
-#else
-extension FirebaseCore.Timestamp : Swift.Codable {
-}
-#endif
 extension FirebaseSharedSwift.FirebaseDataDecoder.DateDecodingStrategy {
   public static var timestamp: FirebaseSharedSwift.FirebaseDataDecoder.DateDecodingStrategy {
     get
@@ -736,13 +1019,11 @@ extension FirebaseFirestoreInternal.Transaction {
   public func setData<T>(from value: T, forDocument doc: FirebaseFirestoreInternal.DocumentReference, mergeFields: [Any], encoder: FirebaseFirestoreInternal.Firestore.Encoder = Firestore
                                .Encoder()) throws -> FirebaseFirestoreInternal.Transaction where T : Swift.Encodable
 }
-#if compiler(>=5.3) && $RetroactiveAttribute
+public struct Variable : FirebaseFirestore.Expression {
+  public init(_ name: Swift.String)
+}
 extension FirebaseFirestoreInternal.VectorValue : @retroactive Swift.Codable {
 }
-#else
-extension FirebaseFirestoreInternal.VectorValue : Swift.Codable {
-}
-#endif
 extension FirebaseFirestoreInternal.VectorValue {
   convenience public init(_ array: [Swift.Double])
   public var array: [Swift.Double] {

@@ -696,6 +696,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1032,6 +1039,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "HTTPHeaderRepresentable",
             "printedName": "HTTPHeaderRepresentable",
             "usr": "s:20FirebaseCoreInternal23HTTPHeaderRepresentableP",
@@ -1295,6 +1309,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1441,6 +1462,7 @@
         "intro_tvOS": "9.0",
         "intro_watchOS": "2.0",
         "declAttributes": [
+          "AddressableForDependencies",
           "Frozen",
           "Available",
           "Available",
@@ -1806,6 +1828,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -1855,6 +1884,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -1899,38 +1963,32 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       }
@@ -1939,119 +1997,119 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "IntegerLiteral",
       "offset": 869,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "IntegerLiteral",
       "offset": 1167,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/Heartbeat.swift",
       "kind": "Array",
       "offset": 2219,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "IntegerLiteral",
       "offset": 1063,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatController.swift",
       "kind": "IntegerLiteral",
       "offset": 1442,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
       "offset": 1658,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 2240,
       "length": 12,
       "value": "\"heartbeats\""
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 2571,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 4098,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "StringLiteral",
       "offset": 4153,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "IntegerLiteral",
       "offset": 4218,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 4680,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatsPayload.swift",
       "kind": "Array",
       "offset": 5242,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/HeartbeatStorage.swift",
       "kind": "Dictionary",
       "offset": 2427,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
       "kind": "StringLiteral",
       "offset": 758,
       "length": 26,
       "value": "\"google-heartbeat-storage\""
     },
     {
-      "filePath": "\/var\/folders\/nb\/lcynqsvj2fvf0gqkbj2_nxwh0000gn\/T\/ZipRelease\/2026-03-11T04-40-47\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
+      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-ios\/Pods\/FirebaseCoreInternal\/FirebaseCore\/Internal\/Sources\/HeartbeatLogging\/StorageFactory.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 30,

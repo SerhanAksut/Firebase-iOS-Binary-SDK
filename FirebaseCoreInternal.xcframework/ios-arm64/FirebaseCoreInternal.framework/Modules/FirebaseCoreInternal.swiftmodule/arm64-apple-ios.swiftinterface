@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FirebaseCoreInternal
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseCoreInternal
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 @_exported import FirebaseCoreInternal
 import Foundation
 import Swift
@@ -55,7 +55,9 @@ extension FirebaseCoreInternal.HeartbeatsPayload : Swift.Equatable {
 }
 extension Foundation.Data {
   public func base64URLEncodedString(options: Foundation.Data.Base64EncodingOptions = []) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(base64URLEncoded base64URLString: Swift.String, options: Foundation.Data.Base64DecodingOptions = [])
+  #endif
   public func zipped() throws -> Foundation.Data
   public func unzipped() throws -> Foundation.Data
 }
