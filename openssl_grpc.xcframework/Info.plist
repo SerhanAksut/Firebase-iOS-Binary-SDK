@@ -23,6 +23,51 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
+			<string>openssl_grpc.framework/openssl_grpc</string>
+			<key>LibraryIdentifier</key>
+			<string>tvos-arm64</string>
+			<key>LibraryPath</key>
+			<string>openssl_grpc.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>tvos</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>openssl_grpc.framework/openssl_grpc</string>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64</string>
+			<key>LibraryPath</key>
+			<string>openssl_grpc.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>openssl_grpc.framework/openssl_grpc</string>
+			<key>LibraryIdentifier</key>
+			<string>tvos-arm64_x86_64-simulator</string>
+			<key>LibraryPath</key>
+			<string>openssl_grpc.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>tvos</string>
+			<key>SupportedPlatformVariant</key>
+			<string>simulator</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
 			<string>openssl_grpc.framework/Versions/A/openssl_grpc</string>
 			<key>LibraryIdentifier</key>
 			<string>ios-arm64_x86_64-maccatalyst</string>
@@ -52,51 +97,6 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>macos</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>openssl_grpc.framework/openssl_grpc</string>
-			<key>LibraryIdentifier</key>
-			<string>tvos-arm64</string>
-			<key>LibraryPath</key>
-			<string>openssl_grpc.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>tvos</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>openssl_grpc.framework/openssl_grpc</string>
-			<key>LibraryIdentifier</key>
-			<string>tvos-arm64_x86_64-simulator</string>
-			<key>LibraryPath</key>
-			<string>openssl_grpc.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>tvos</string>
-			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>openssl_grpc.framework/openssl_grpc</string>
-			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
-			<key>LibraryPath</key>
-			<string>openssl_grpc.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>

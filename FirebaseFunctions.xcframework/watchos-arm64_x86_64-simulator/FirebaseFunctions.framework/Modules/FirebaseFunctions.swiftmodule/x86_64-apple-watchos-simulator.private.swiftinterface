@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-watchos7.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FirebaseFunctions
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-watchos7.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseFunctions
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import FirebaseAppCheckInterop
 import FirebaseAuthInterop
 import FirebaseCore
@@ -19,8 +19,12 @@ public struct Callable<Request, Response> : Swift.Sendable where Request : Swift
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func call(_ data: Request, completion: @escaping @_Concurrency.MainActor (Swift.Result<Response, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func callAsFunction(_ data: Request, completion: @escaping @_Concurrency.MainActor (Swift.Result<Response, any Swift.Error>) -> Swift.Void)
+  #endif
   public func call(_ data: Request) async throws -> Response
   public func callAsFunction(_ data: Request) async throws -> Response
 }
@@ -32,12 +36,16 @@ public enum StreamResponse<Message, Result> : Swift.Decodable, Swift.Sendable wh
 }
 @available(macOS 12.0, iOS 15.0, watchOS 8.0, tvOS 15.0, *)
 extension FirebaseFunctions.Callable where Request : Swift.Sendable, Response : Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func stream(_ data: Request? = nil) throws -> _Concurrency.AsyncThrowingStream<Response, any Swift.Error>
+  #endif
 }
 @_hasMissingDesignatedInitializers @objc(FIRFunctions) open class Functions : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
   open var emulatorOrigin: Swift.String? {
     get
   }
+  #endif
   @objc(functions) open class func functions() -> FirebaseFunctions.Functions
   @objc(functionsForApp:) open class func functions(app: FirebaseCore.FirebaseApp) -> FirebaseFunctions.Functions
   @objc(functionsForRegion:) open class func functions(region: Swift.String) -> FirebaseFunctions.Functions
@@ -83,7 +91,9 @@ public let FunctionsErrorDetailsKey: Swift.String
   case unavailable = 14
   case dataLoss = 15
   case unauthenticated = 16
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -98,18 +108,26 @@ public let FunctionsErrorDetailsKey: Swift.String
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(swift 1000.0)
   @objc(callWithObject:completion:) final public func call(_ data: Any? = nil, completion: @escaping @_Concurrency.MainActor (FirebaseFunctions.HTTPSCallableResult?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   #if compiler(>=5.3) && $SendingArgsAndResults
   @nonobjc final public func call(_ data: sending Any? = nil, completion: @escaping @_Concurrency.MainActor (FirebaseFunctions.HTTPSCallableResult?, (any Swift.Error)?) -> Swift.Void)
   #else
   @nonobjc final public func call(_ data: __owned Any? = nil, completion: @escaping @_Concurrency.MainActor (FirebaseFunctions.HTTPSCallableResult?, (any Swift.Error)?) -> Swift.Void)
   #endif
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(callWithCompletion:) final public func __call(completion: @escaping @_Concurrency.MainActor (FirebaseFunctions.HTTPSCallableResult?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   #if compiler(>=5.3) && $SendingArgsAndResults
   final public func call(_ data: Any? = nil) async throws -> sending FirebaseFunctions.HTTPSCallableResult
   #else
   final public func call(_ data: Any? = nil) async throws -> FirebaseFunctions.HTTPSCallableResult
+  #endif
   #endif
   @objc deinit
 }

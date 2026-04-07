@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/GoogleSignIn.framework/GoogleSignIn</key>
 		<data>
-		Q2G3Slyy8SPHdZzsZKtloU27Gsg=
+		m4yVbdBTLxQ22Te7PMlGyeURZLo=
 		</data>
 		<key>ios-arm64/GoogleSignIn.framework/GoogleSignIn.bundle/Info.plist</key>
 		<data>
-		amMlVRkwAsSU5MeceodurI6Dcmg=
+		TrkPsNNMxzRwUG7F+EzqAey1690=
 		</data>
 		<key>ios-arm64/GoogleSignIn.framework/GoogleSignIn.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -420,7 +420,7 @@
 		</data>
 		<key>ios-arm64/GoogleSignIn.framework/Info.plist</key>
 		<data>
-		5SY0faldY9JlQJeirdltQqzGUbY=
+		kjcO4EdDJI+BWZJ7HVm95k/R2ts=
 		</data>
 		<key>ios-arm64/GoogleSignIn.framework/Modules/module.modulemap</key>
 		<data>
@@ -428,7 +428,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/GoogleSignIn.framework/Versions/A/GoogleSignIn</key>
 		<data>
-		ZJoV6FvXydaLf2WIQMiBYGo/DgE=
+		tz5jzS2wI/A/U3CMqjCiaHRqC+g=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/GoogleSignIn.framework/Versions/A/Headers/GIDAppCheckError.h</key>
 		<data>
@@ -480,7 +480,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/GoogleSignIn.framework/Versions/A/Resources/GoogleSignIn.bundle/Contents/Info.plist</key>
 		<data>
-		WTDUljK1gCsVDthJvreIRJ9iH2I=
+		sl5Lkte2UapQJd7LvhjSeNwG2Gs=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/GoogleSignIn.framework/Versions/A/Resources/GoogleSignIn.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -846,15 +846,15 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/GoogleSignIn.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		WGfXvKvSNS1PgS3bSX2EvrvT0TU=
+		BcQucc2jn8yVY473h+F5BckwNXU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/GoogleSignIn.framework/GoogleSignIn</key>
 		<data>
-		35iFCMJ2nwXNfFxnGyk6ZTCtxPA=
+		1w3J7+LGOdasGBOgwO8cs+MhmxQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/GoogleSignIn.framework/GoogleSignIn.bundle/Info.plist</key>
 		<data>
-		uPaGMLH7zjHOTjw9z7xEAkDEszk=
+		y2PV9y0Ik95VlYk0YOJbOkcV6vU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/GoogleSignIn.framework/GoogleSignIn.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -1264,7 +1264,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/GoogleSignIn.framework/Info.plist</key>
 		<data>
-		O5p7z5NEEzNpM/NscPuUEHmNJaI=
+		DjyK6to/NGRcpL0IMU4Y5AQqklw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/GoogleSignIn.framework/Modules/module.modulemap</key>
 		<data>
@@ -1277,22 +1277,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q2G3Slyy8SPHdZzsZKtloU27Gsg=
+			m4yVbdBTLxQ22Te7PMlGyeURZLo=
 			</data>
 			<key>hash2</key>
 			<data>
-			OJm4OmVcVZjgneGm0mxprTNlipDLypXo/R1AP+GGbVo=
+			VZN10spLoLOlYqlTbLZjwPGDHm61hOjPLQW8gSXR9N0=
 			</data>
 		</dict>
 		<key>ios-arm64/GoogleSignIn.framework/GoogleSignIn.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			amMlVRkwAsSU5MeceodurI6Dcmg=
+			TrkPsNNMxzRwUG7F+EzqAey1690=
 			</data>
 			<key>hash2</key>
 			<data>
-			EMa0y+SzxqqzPSzhWmI1D0cWrBMEXy7vYRRmfFJWEcA=
+			d2MozWacxjWbSr5Ew3HLaS2lHYHbKtnQo5mSDux0xsU=
 			</data>
 		</dict>
 		<key>ios-arm64/GoogleSignIn.framework/GoogleSignIn.bundle/PrivacyInfo.xcprivacy</key>
@@ -1969,11 +1969,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5SY0faldY9JlQJeirdltQqzGUbY=
+			kjcO4EdDJI+BWZJ7HVm95k/R2ts=
 			</data>
 			<key>hash2</key>
 			<data>
-			YL30aIMZS19kiLB6uLVz+K6w5HtX3uspprrd+hRWM0g=
+			GUdW1ON78MxBrZ6VOmlkB6NXKY+qe18cqmZmRudwAcw=
 			</data>
 		</dict>
 		<key>ios-arm64/GoogleSignIn.framework/Modules/module.modulemap</key>
@@ -2011,11 +2011,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZJoV6FvXydaLf2WIQMiBYGo/DgE=
+			tz5jzS2wI/A/U3CMqjCiaHRqC+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			7+o3CRxemyM8UeH6+MVw5+v1+s+CP6hStUvFErr6fsk=
+			KTRJMSdiOQoVSkQcp4nj+Z/razUPHB1mGH5m5JlHrg4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/GoogleSignIn.framework/Versions/A/Headers/GIDAppCheckError.h</key>
@@ -2154,11 +2154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WTDUljK1gCsVDthJvreIRJ9iH2I=
+			sl5Lkte2UapQJd7LvhjSeNwG2Gs=
 			</data>
 			<key>hash2</key>
 			<data>
-			iF2Xsnc+Se2JxQINMNoMxcDeGriXQFpXndMNYLRi2Y8=
+			q0s8I8uA6yrmfXP4h3zHzVgHLcJth+k0ZggbwCwhgr8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/GoogleSignIn.framework/Versions/A/Resources/GoogleSignIn.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
@@ -2714,11 +2714,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WGfXvKvSNS1PgS3bSX2EvrvT0TU=
+			BcQucc2jn8yVY473h+F5BckwNXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			EZ100FrADkrPU9y/KiVaRbky53so4IfIROrb9lfeT6Q=
+			iPdhrCjuecBXm9VmD9Ij3nGU18NNiyhABZ+h/bMHtZE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/GoogleSignIn.framework/Versions/Current</key>
@@ -2730,22 +2730,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			35iFCMJ2nwXNfFxnGyk6ZTCtxPA=
+			1w3J7+LGOdasGBOgwO8cs+MhmxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ij3ppkpBuiUxqkH7PlYBLlrxPCuUSbbIIv399rr62Rg=
+			sMlkdormrwVFw80aV/BmrgHjnyey3ac2lwFQRNSc0Ok=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GoogleSignIn.framework/GoogleSignIn.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uPaGMLH7zjHOTjw9z7xEAkDEszk=
+			y2PV9y0Ik95VlYk0YOJbOkcV6vU=
 			</data>
 			<key>hash2</key>
 			<data>
-			uBUxDM22OMfv+dEa5waF+1U2A7UOYVXfTaQ9QvayDBY=
+			T4QkZ2lpFgiAmoQEqSViy0ZH0O6XHv22ixAW1IZl33w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GoogleSignIn.framework/GoogleSignIn.bundle/PrivacyInfo.xcprivacy</key>
@@ -3422,11 +3422,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O5p7z5NEEzNpM/NscPuUEHmNJaI=
+			DjyK6to/NGRcpL0IMU4Y5AQqklw=
 			</data>
 			<key>hash2</key>
 			<data>
-			XvDXZUCVm8rCI1/M/VFjcAhUQ9lH3qjCRvH8CCq36cc=
+			8eTSq6HUxk6vMZ0FQ7AI4OB/bA8CTqJ2tzCNm9/Udig=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GoogleSignIn.framework/Modules/module.modulemap</key>

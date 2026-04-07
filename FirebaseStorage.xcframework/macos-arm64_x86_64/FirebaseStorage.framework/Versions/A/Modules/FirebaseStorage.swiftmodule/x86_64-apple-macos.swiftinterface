@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FirebaseStorage
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseStorage
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CoreServices
 import FirebaseAppCheckInterop
 import FirebaseAuthInterop
@@ -16,28 +16,54 @@ import _SwiftConcurrencyShims
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseStorage.StorageReference {
   public func data(maxSize: Swift.Int64) async throws -> Foundation.Data
+  #if compiler(>=5.3) && $NonescapableTypes
   public func putDataAsync(_ uploadData: Foundation.Data, metadata: FirebaseStorage.StorageMetadata? = nil, onProgress: ((Foundation.Progress?) -> Swift.Void)? = nil) async throws -> FirebaseStorage.StorageMetadata
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func putFileAsync(from url: Foundation.URL, metadata: FirebaseStorage.StorageMetadata? = nil, onProgress: ((Foundation.Progress?) -> Swift.Void)? = nil) async throws -> FirebaseStorage.StorageMetadata
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func writeAsync(toFile fileURL: Foundation.URL, onProgress: ((Foundation.Progress?) -> Swift.Void)? = nil) async throws -> Foundation.URL
+  #endif
   public func list(maxResults: Swift.Int64) async throws -> FirebaseStorage.StorageListResult
   public func list(maxResults: Swift.Int64, pageToken: Swift.String) async throws -> FirebaseStorage.StorageListResult
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseStorage.StorageReference {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func downloadURL(completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func getData(maxSize: Swift.Int64, completion: @escaping (Swift.Result<Foundation.Data, any Swift.Error>) -> Swift.Void) -> FirebaseStorage.StorageDownloadTask
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getMetadata(completion: @escaping (Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func list(maxResults: Swift.Int64, pageToken: Swift.String, completion: @escaping (Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func list(maxResults: Swift.Int64, completion: @escaping (Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func listAll(completion: @escaping (Swift.Result<FirebaseStorage.StorageListResult, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func putData(_ uploadData: Foundation.Data, metadata: FirebaseStorage.StorageMetadata? = nil, completion: @escaping (Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> Swift.Void) -> FirebaseStorage.StorageUploadTask
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func putFile(from: Foundation.URL, metadata: FirebaseStorage.StorageMetadata? = nil, completion: @escaping (Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> Swift.Void) -> FirebaseStorage.StorageUploadTask
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func updateMetadata(_ metadata: FirebaseStorage.StorageMetadata, completion: @escaping (Swift.Result<FirebaseStorage.StorageMetadata, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public func write(toFile: Foundation.URL, completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void) -> FirebaseStorage.StorageDownloadTask
+  #endif
 }
 @_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 @objc(FIRStorage) open class Storage : ObjectiveC.NSObject {
@@ -68,7 +94,9 @@ extension FirebaseStorage.StorageReference {
   @objc(referenceWithPath:) open func reference(withPath path: Swift.String) -> FirebaseStorage.StorageReference
   @objc open func useEmulator(withHost host: Swift.String, port: Swift.Int)
   @objc override dynamic open func copy() -> Any
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic open func isEqual(_ object: Any?) -> Swift.Bool
+  #endif
   @objc override dynamic public var hash: Swift.Int {
     @objc get
   }
@@ -81,7 +109,9 @@ extension FirebaseStorage.StorageReference {
   case pause
   case success
   case failure
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -113,7 +143,9 @@ public let StorageErrorDomain: Swift.String
   case bucketMismatch = -13051
   case internalError = -13052
   case pathError = -13053
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   @available(iOS 13, tvOS 13, watchOS 7, macOS 10.15, macCatalyst 13, *)
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
@@ -189,7 +221,9 @@ public enum StorageError : Swift.Error, Foundation.CustomNSError {
   @objc override convenience dynamic public init()
   @objc public init(dictionary: [Swift.String : Swift.AnyHashable])
   @objc override dynamic open func copy() -> Any
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic open func isEqual(_ object: Any?) -> Swift.Bool
+  #endif
   @objc override dynamic public var hash: Swift.Int {
     @objc get
   }
@@ -220,40 +254,70 @@ public enum StorageError : Swift.Error, Foundation.CustomNSError {
     @objc get
   }
   @objc open func root() -> FirebaseStorage.StorageReference
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func parent() -> FirebaseStorage.StorageReference?
+  #endif
   @objc(child:) open func child(_ path: Swift.String) -> FirebaseStorage.StorageReference
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @objc(putData:metadata:) open func putData(_ uploadData: Foundation.Data, metadata: FirebaseStorage.StorageMetadata? = nil) -> FirebaseStorage.StorageUploadTask
+  #endif
   @discardableResult
   @objc(putData:) open func __putData(_ uploadData: Foundation.Data) -> FirebaseStorage.StorageUploadTask
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @objc(putData:metadata:completion:) open func putData(_ uploadData: Foundation.Data, metadata: FirebaseStorage.StorageMetadata? = nil, completion: ((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> Swift.Void)?) -> FirebaseStorage.StorageUploadTask
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @objc(putFile:metadata:) open func putFile(from fileURL: Foundation.URL, metadata: FirebaseStorage.StorageMetadata? = nil) -> FirebaseStorage.StorageUploadTask
+  #endif
   @discardableResult
   @objc(putFile:) open func __putFile(from fileURL: Foundation.URL) -> FirebaseStorage.StorageUploadTask
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @objc(putFile:metadata:completion:) open func putFile(from fileURL: Foundation.URL, metadata: FirebaseStorage.StorageMetadata? = nil, completion: ((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> Swift.Void)?) -> FirebaseStorage.StorageUploadTask
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
-  @objc(dataWithMaxSize:completion:) open func getData(maxSize: Swift.Int64, completion: @escaping ((Foundation.Data?, (any Swift.Error)?) -> Swift.Void)) -> FirebaseStorage.StorageDownloadTask
-  @objc(downloadURLWithCompletion:) open func downloadURL(completion: @escaping ((Foundation.URL?, (any Swift.Error)?) -> Swift.Void))
+  @objc(dataWithMaxSize:completion:) open func getData(maxSize: Swift.Int64, completion: @escaping (Foundation.Data?, (any Swift.Error)?) -> Swift.Void) -> FirebaseStorage.StorageDownloadTask
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(downloadURLWithCompletion:) open func downloadURL(completion: @escaping (Foundation.URL?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   open func downloadURL() async throws -> Foundation.URL
   @discardableResult
   @objc(writeToFile:) open func write(toFile fileURL: Foundation.URL) -> FirebaseStorage.StorageDownloadTask
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   @objc(writeToFile:completion:) open func write(toFile fileURL: Foundation.URL, completion: ((Foundation.URL?, (any Swift.Error)?) -> Swift.Void)?) -> FirebaseStorage.StorageDownloadTask
-  @objc(listAllWithCompletion:) open func listAll(completion: @escaping ((FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> Swift.Void))
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(listAllWithCompletion:) open func listAll(completion: @escaping (FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   open func listAll() async throws -> FirebaseStorage.StorageListResult
-  @objc(listWithMaxResults:completion:) open func list(maxResults: Swift.Int64, completion: @escaping ((FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> Swift.Void))
-  @objc(listWithMaxResults:pageToken:completion:) open func list(maxResults: Swift.Int64, pageToken: Swift.String, completion: @escaping ((FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> Swift.Void))
-  @objc(metadataWithCompletion:) open func getMetadata(completion: @escaping ((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> Swift.Void))
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(listWithMaxResults:completion:) open func list(maxResults: Swift.Int64, completion: @escaping (FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(listWithMaxResults:pageToken:completion:) open func list(maxResults: Swift.Int64, pageToken: Swift.String, completion: @escaping (FirebaseStorage.StorageListResult?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(metadataWithCompletion:) open func getMetadata(completion: @escaping (FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   open func getMetadata() async throws -> FirebaseStorage.StorageMetadata
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(updateMetadata:completion:) open func updateMetadata(_ metadata: FirebaseStorage.StorageMetadata, completion: ((FirebaseStorage.StorageMetadata?, (any Swift.Error)?) -> Swift.Void)?)
+  #endif
   open func updateMetadata(_ metadata: FirebaseStorage.StorageMetadata) async throws -> FirebaseStorage.StorageMetadata
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(deleteWithCompletion:) open func delete(completion: (((any Swift.Error)?) -> Swift.Void)?)
+  #endif
   open func delete() async throws
   @objc override dynamic open func copy() -> Any
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic open func isEqual(_ object: Any?) -> Swift.Bool
+  #endif
   @objc override dynamic public var hash: Swift.Int {
     @objc get
   }
