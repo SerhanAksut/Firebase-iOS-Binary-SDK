@@ -4796,6 +4796,333 @@
           },
           {
             "kind": "Function",
+            "name": "arrayFilter",
+            "printedName": "arrayFilter(alias:filter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BooleanExpression",
+                "printedName": "any FirebaseFirestore.BooleanExpression",
+                "usr": "s:17FirebaseFirestore17BooleanExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP11arrayFilter5alias6filterAA08FunctionC0CSS_AA07BooleanC0_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP11arrayFilter5alias6filterAA08FunctionC0CSS_AA07BooleanC0_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arrayTransform",
+            "printedName": "arrayTransform(elementAlias:transform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP14arrayTransform12elementAlias9transformAA08FunctionC0CSS_AaB_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP14arrayTransform12elementAlias9transformAA08FunctionC0CSS_AaB_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arrayTransformWithIndex",
+            "printedName": "arrayTransformWithIndex(elementAlias:indexAlias:transform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP23arrayTransformWithIndex12elementAlias05indexI09transformAA08FunctionC0CSS_SSAaB_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP23arrayTransformWithIndex12elementAlias05indexI09transformAA08FunctionC0CSS_SSAaB_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP10arraySlice6offsetAA08FunctionC0CSi_tF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP10arraySlice6offsetAA08FunctionC0CSi_tF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP10arraySlice6offsetAA08FunctionC0CAaB_p_tF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP10arraySlice6offsetAA08FunctionC0CAaB_p_tF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:length:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP10arraySlice6offset6lengthAA08FunctionC0CSi_SitF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP10arraySlice6offset6lengthAA08FunctionC0CSi_SitF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:length:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP10arraySlice6offset6lengthAA08FunctionC0CAaB_p_AaB_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP10arraySlice6offset6lengthAA08FunctionC0CAaB_p_AaB_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:length:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP10arraySlice6offset6lengthAA08FunctionC0CSi_AaB_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP10arraySlice6offset6lengthAA08FunctionC0CSi_AaB_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:length:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionP10arraySlice6offset6lengthAA08FunctionC0CAaB_p_SitF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionP10arraySlice6offset6lengthAA08FunctionC0CAaB_p_SitF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "arrayFirst",
             "printedName": "arrayFirst()",
             "children": [
@@ -10698,6 +11025,297 @@
             "declKind": "Func",
             "usr": "s:17FirebaseFirestore10ExpressionPAAE11arrayLengthAA08FunctionC0CyF",
             "mangledName": "$s17FirebaseFirestore10ExpressionPAAE11arrayLengthAA08FunctionC0CyF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arrayFilter",
+            "printedName": "arrayFilter(alias:filter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BooleanExpression",
+                "printedName": "any FirebaseFirestore.BooleanExpression",
+                "usr": "s:17FirebaseFirestore17BooleanExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE11arrayFilter5alias6filterAA08FunctionC0CSS_AA07BooleanC0_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE11arrayFilter5alias6filterAA08FunctionC0CSS_AA07BooleanC0_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arrayTransform",
+            "printedName": "arrayTransform(elementAlias:transform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE14arrayTransform12elementAlias9transformAA08FunctionC0CSS_AaB_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE14arrayTransform12elementAlias9transformAA08FunctionC0CSS_AaB_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arrayTransformWithIndex",
+            "printedName": "arrayTransformWithIndex(elementAlias:indexAlias:transform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE23arrayTransformWithIndex12elementAlias05indexI09transformAA08FunctionC0CSS_SSAaB_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE23arrayTransformWithIndex12elementAlias05indexI09transformAA08FunctionC0CSS_SSAaB_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE10arraySlice6offsetAA08FunctionC0CSi_tF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE10arraySlice6offsetAA08FunctionC0CSi_tF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE10arraySlice6offsetAA08FunctionC0CAaB_p_tF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE10arraySlice6offsetAA08FunctionC0CAaB_p_tF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:length:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE10arraySlice6offset6lengthAA08FunctionC0CSi_SitF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE10arraySlice6offset6lengthAA08FunctionC0CSi_SitF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:length:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE10arraySlice6offset6lengthAA08FunctionC0CAaB_p_AaB_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE10arraySlice6offset6lengthAA08FunctionC0CAaB_p_AaB_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:length:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE10arraySlice6offset6lengthAA08FunctionC0CSi_AaB_ptF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE10arraySlice6offset6lengthAA08FunctionC0CSi_AaB_ptF",
+            "moduleName": "FirebaseFirestore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
+            "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arraySlice",
+            "printedName": "arraySlice(offset:length:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FunctionExpression",
+                "printedName": "FirebaseFirestore.FunctionExpression",
+                "usr": "s:17FirebaseFirestore18FunctionExpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10ExpressionPAAE10arraySlice6offset6lengthAA08FunctionC0CAaB_p_SitF",
+            "mangledName": "$s17FirebaseFirestore10ExpressionPAAE10arraySlice6offset6lengthAA08FunctionC0CAaB_p_SitF",
             "moduleName": "FirebaseFirestore",
             "genericSig": "<τ_0_0 where τ_0_0 : FirebaseFirestore.Expression>",
             "sugared_genericSig": "<Self where Self : FirebaseFirestore.Expression>",
@@ -18208,7 +18826,7 @@
           {
             "kind": "Function",
             "name": "search",
-            "printedName": "search(query:sort:addFields:)",
+            "printedName": "search(query:languageCode:retrievalDepth:sort:offset:limit:addFields:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -18225,6 +18843,36 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "[FirebaseFirestore.Ordering]?",
                 "children": [
                   {
@@ -18240,6 +18888,36 @@
                       }
                     ],
                     "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -18270,8 +18948,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FirebaseFirestore8PipelineC6search5query4sort9addFieldsAcA10Expression_p_SayAA8OrderingVGSgSayAA10Selectable_pGSgtF",
-            "mangledName": "$s17FirebaseFirestore8PipelineC6search5query4sort9addFieldsAcA10Expression_p_SayAA8OrderingVGSgSayAA10Selectable_pGSgtF",
+            "usr": "s:17FirebaseFirestore8PipelineC6search5query12languageCode14retrievalDepth4sort6offset5limit9addFieldsAcA10Expression_p_SSSgSiSgSayAA8OrderingVGSgA2NSayAA10Selectable_pGSgtF",
+            "mangledName": "$s17FirebaseFirestore8PipelineC6search5query12languageCode14retrievalDepth4sort6offset5limit9addFieldsAcA10Expression_p_SSSgSiSgSayAA8OrderingVGSgA2NSayAA10Selectable_pGSgtF",
             "moduleName": "FirebaseFirestore",
             "declAttributes": [
               "AccessControl",
@@ -18282,7 +18960,7 @@
           {
             "kind": "Function",
             "name": "search",
-            "printedName": "search(query:sort:addFields:)",
+            "printedName": "search(query:languageCode:retrievalDepth:sort:offset:limit:addFields:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -18299,6 +18977,36 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "[FirebaseFirestore.Ordering]?",
                 "children": [
                   {
@@ -18314,6 +19022,36 @@
                       }
                     ],
                     "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -18344,8 +19082,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17FirebaseFirestore8PipelineC6search5query4sort9addFieldsACSS_SayAA8OrderingVGSgSayAA10Selectable_pGSgtF",
-            "mangledName": "$s17FirebaseFirestore8PipelineC6search5query4sort9addFieldsACSS_SayAA8OrderingVGSgSayAA10Selectable_pGSgtF",
+            "usr": "s:17FirebaseFirestore8PipelineC6search5query12languageCode14retrievalDepth4sort6offset5limit9addFieldsACSS_SSSgSiSgSayAA8OrderingVGSgA2MSayAA10Selectable_pGSgtF",
+            "mangledName": "$s17FirebaseFirestore8PipelineC6search5query12languageCode14retrievalDepth4sort6offset5limit9addFieldsACSS_SSSgSiSgSayAA8OrderingVGSgA2MSayAA10Selectable_pGSgtF",
             "moduleName": "FirebaseFirestore",
             "declAttributes": [
               "AccessControl",
@@ -30318,371 +31056,371 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/ArrayExpression.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/ArrayExpression.swift",
       "kind": "Array",
       "offset": 1268,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/DistanceMeasure.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/DistanceMeasure.swift",
       "kind": "StringLiteral",
       "offset": 994,
       "length": 13,
       "value": "\"dot_product\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/DocumentID.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/DocumentID.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 24,
       "value": "\"DocumentRefUserInfoKey\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
       "kind": "Dictionary",
       "offset": 1677,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
       "kind": "Dictionary",
       "offset": 3447,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
       "kind": "Array",
       "offset": 6377,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
       "kind": "Array",
       "offset": 7460,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQueryObservable.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQueryObservable.swift",
       "kind": "BooleanLiteral",
       "offset": 1087,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/MapExpression.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/MapExpression.swift",
       "kind": "Array",
       "offset": 1325,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
       "kind": "StringLiteral",
       "offset": 1375,
       "length": 11,
       "value": "\"ascending\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
       "kind": "StringLiteral",
       "offset": 1486,
       "length": 12,
       "value": "\"descending\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/QueryPredicate.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/QueryPredicate.swift",
       "kind": "BooleanLiteral",
       "offset": 3162,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1496,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1723,
       "length": 10,
       "value": "\"estimate\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 10,
       "value": "\"previous\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1286,
       "length": 12,
       "value": "\"collection\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1743,
       "length": 15,
       "value": "\"subcollection\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2001,
       "length": 18,
       "value": "\"collection_group\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2410,
       "length": 10,
       "value": "\"database\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2761,
       "length": 11,
       "value": "\"documents\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3241,
       "length": 7,
       "value": "\"where\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3727,
       "length": 7,
       "value": "\"limit\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 4029,
       "length": 8,
       "value": "\"offset\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 4340,
       "length": 12,
       "value": "\"add_fields\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 5015,
       "length": 15,
       "value": "\"remove_fields\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 5450,
       "length": 5,
       "value": "\"let\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 6034,
       "length": 8,
       "value": "\"select\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 6640,
       "length": 10,
       "value": "\"distinct\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 7229,
       "length": 11,
       "value": "\"aggregate\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "Dictionary",
       "offset": 7359,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 8436,
       "length": 14,
       "value": "\"find_nearest\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 9374,
       "length": 8,
       "value": "\"search\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 12297,
       "length": 6,
       "value": "\"sort\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 12622,
       "length": 14,
       "value": "\"replace_with\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 12988,
       "length": 8,
       "value": "\"sample\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 13456,
       "length": 7,
       "value": "\"union\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 13817,
       "length": 8,
       "value": "\"unnest\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 811,
       "length": 14,
       "value": "\"week(monday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 849,
       "length": 15,
       "value": "\"week(tuesday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 17,
       "value": "\"week(wednesday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 932,
       "length": 16,
       "value": "\"week(thursday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 14,
       "value": "\"week(friday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 1010,
       "length": 16,
       "value": "\"week(saturday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 14,
       "value": "\"week(sunday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 11,
       "value": "\"dayofweek\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 822,
       "length": 11,
       "value": "\"dayofyear\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 870,
       "length": 14,
       "value": "\"week(monday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 908,
       "length": 15,
       "value": "\"week(tuesday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 949,
       "length": 17,
       "value": "\"week(wednesday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 16,
       "value": "\"week(thursday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1030,
       "length": 14,
       "value": "\"week(friday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1069,
       "length": 16,
       "value": "\"week(saturday)\""
     },
     {
-      "filePath": "\/var\/folders\/7k\/p5jlfs4x2vbgq5sbjd_s8vyr0000gn\/T\/ZipRelease\/2026-04-01T05-06-42\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1108,
       "length": 14,

@@ -276,6 +276,15 @@ public protocol Expression : Swift.Sendable {
   func arrayContainsAny(_ values: [any Swift.Sendable]) -> any FirebaseFirestore.BooleanExpression
   func arrayContainsAny(_ arrayExpression: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   func arrayLength() -> FirebaseFirestore.FunctionExpression
+  func arrayFilter(alias: Swift.String, filter: any FirebaseFirestore.BooleanExpression) -> FirebaseFirestore.FunctionExpression
+  func arrayTransform(elementAlias: Swift.String, transform: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arrayTransformWithIndex(elementAlias: Swift.String, indexAlias: Swift.String, transform: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arraySlice(offset: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  func arraySlice(offset: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arraySlice(offset: Swift.Int, length: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  func arraySlice(offset: any FirebaseFirestore.Expression, length: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arraySlice(offset: Swift.Int, length: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  func arraySlice(offset: any FirebaseFirestore.Expression, length: Swift.Int) -> FirebaseFirestore.FunctionExpression
   func arrayFirst() -> FirebaseFirestore.FunctionExpression
   func arrayFirstN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
   func arrayFirstN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
@@ -476,6 +485,15 @@ extension FirebaseFirestore.Expression {
   public func arrayContainsAny(_ values: [any Swift.Sendable]) -> any FirebaseFirestore.BooleanExpression
   public func arrayContainsAny(_ arrayExpression: any FirebaseFirestore.Expression) -> any FirebaseFirestore.BooleanExpression
   public func arrayLength() -> FirebaseFirestore.FunctionExpression
+  public func arrayFilter(alias: Swift.String, filter: any FirebaseFirestore.BooleanExpression) -> FirebaseFirestore.FunctionExpression
+  public func arrayTransform(elementAlias: Swift.String, transform: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arrayTransformWithIndex(elementAlias: Swift.String, indexAlias: Swift.String, transform: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arraySlice(offset: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  public func arraySlice(offset: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arraySlice(offset: Swift.Int, length: Swift.Int) -> FirebaseFirestore.FunctionExpression
+  public func arraySlice(offset: any FirebaseFirestore.Expression, length: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arraySlice(offset: Swift.Int, length: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
+  public func arraySlice(offset: any FirebaseFirestore.Expression, length: Swift.Int) -> FirebaseFirestore.FunctionExpression
   public func arrayFirst() -> FirebaseFirestore.FunctionExpression
   public func arrayFirstN(_ n: Swift.Int) -> FirebaseFirestore.FunctionExpression
   public func arrayFirstN(_ n: any FirebaseFirestore.Expression) -> FirebaseFirestore.FunctionExpression
@@ -759,10 +777,10 @@ public class Pipeline : @unchecked Swift.Sendable {
   public func sample(count: Swift.Int64) -> FirebaseFirestore.Pipeline
   public func sample(percentage: Swift.Double) -> FirebaseFirestore.Pipeline
   #if compiler(>=5.3) && $NonescapableTypes
-  public func search(query: any FirebaseFirestore.Expression, sort: [FirebaseFirestore.Ordering]? = nil, addFields: [any FirebaseFirestore.Selectable]? = nil) -> FirebaseFirestore.Pipeline
+  public func search(query: any FirebaseFirestore.Expression, languageCode: Swift.String? = nil, retrievalDepth: Swift.Int? = nil, sort: [FirebaseFirestore.Ordering]? = nil, offset: Swift.Int? = nil, limit: Swift.Int? = nil, addFields: [any FirebaseFirestore.Selectable]? = nil) -> FirebaseFirestore.Pipeline
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public func search(query: Swift.String, sort: [FirebaseFirestore.Ordering]? = nil, addFields: [any FirebaseFirestore.Selectable]? = nil) -> FirebaseFirestore.Pipeline
+  public func search(query: Swift.String, languageCode: Swift.String? = nil, retrievalDepth: Swift.Int? = nil, sort: [FirebaseFirestore.Ordering]? = nil, offset: Swift.Int? = nil, limit: Swift.Int? = nil, addFields: [any FirebaseFirestore.Selectable]? = nil) -> FirebaseFirestore.Pipeline
   #endif
   public func union(with other: FirebaseFirestore.Pipeline) -> FirebaseFirestore.Pipeline
   #if compiler(>=5.3) && $NonescapableTypes
