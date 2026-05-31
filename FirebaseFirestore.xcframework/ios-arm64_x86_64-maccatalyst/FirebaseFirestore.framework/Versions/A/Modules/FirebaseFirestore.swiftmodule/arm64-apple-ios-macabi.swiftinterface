@@ -812,9 +812,15 @@ public struct PipelineResult : @unchecked Swift.Sendable {
 }
 @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 public struct PipelineSource : @unchecked Swift.Sendable {
-  public func collection(_ path: Swift.String) -> FirebaseFirestore.Pipeline
-  public func collection(_ coll: FirebaseFirestoreInternal.CollectionReference) -> FirebaseFirestore.Pipeline
-  public func collectionGroup(_ collectionId: Swift.String) -> FirebaseFirestore.Pipeline
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func collection(_ path: Swift.String, forceIndex: Swift.String? = nil) -> FirebaseFirestore.Pipeline
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func collection(_ coll: FirebaseFirestoreInternal.CollectionReference, forceIndex: Swift.String? = nil) -> FirebaseFirestore.Pipeline
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func collectionGroup(_ collectionId: Swift.String, forceIndex: Swift.String? = nil) -> FirebaseFirestore.Pipeline
+  #endif
   public func database() -> FirebaseFirestore.Pipeline
   public func documents(_ docs: [FirebaseFirestoreInternal.DocumentReference]) -> FirebaseFirestore.Pipeline
   public func documents(_ paths: [Swift.String]) -> FirebaseFirestore.Pipeline

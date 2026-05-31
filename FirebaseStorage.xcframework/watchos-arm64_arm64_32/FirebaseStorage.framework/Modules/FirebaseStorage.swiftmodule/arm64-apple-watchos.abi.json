@@ -339,17 +339,6 @@
                 "mangledName": "$s15FirebaseStorage0B0C18maxUploadRetryTimeSdvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -443,17 +432,6 @@
                 "mangledName": "$s15FirebaseStorage0B0C20maxDownloadRetryTimeSdvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -547,17 +525,6 @@
                 "mangledName": "$s15FirebaseStorage0B0C21maxOperationRetryTimeSdvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -652,17 +619,6 @@
                 "mangledName": "$s15FirebaseStorage0B0C20uploadChunkSizeBytess5Int64VvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -757,17 +713,6 @@
                 "mangledName": "$s15FirebaseStorage0B0C13callbackQueueSo17OS_dispatch_queueCvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -789,18 +734,9 @@
             "mangledName": "$s15FirebaseStorage0B0C9referenceAA0B9ReferenceCyF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13",
-            "intro_tvOS": "13",
-            "intro_watchOS": "7",
             "declAttributes": [
               "AccessControl",
               "ObjC",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -828,19 +764,10 @@
             "mangledName": "$s15FirebaseStorage0B0C9reference6forURLAA0B9ReferenceCSS_tF",
             "moduleName": "FirebaseStorage",
             "isOpen": true,
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13",
-            "intro_tvOS": "13",
-            "intro_watchOS": "7",
             "objc_name": "referenceForURL:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -1092,19 +1019,10 @@
         "mangledName": "$s15FirebaseStorage0B0C",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorage",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -1716,18 +1634,9 @@
         "mangledName": "$s15FirebaseStorage0B12DownloadTaskC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageDownloadTask",
         "declAttributes": [
           "AccessControl",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "ObjC",
           "RawDocComment"
         ],
@@ -2606,19 +2515,10 @@
         "usr": "c:@M@FirebaseStorage@E@FIRStorageErrorCode",
         "mangledName": "$s15FirebaseStorage0B9ErrorCodeO",
         "moduleName": "FirebaseStorage",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageErrorCode",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "enumRawTypeName": "Int",
@@ -3767,17 +3667,8 @@
         "usr": "s:15FirebaseStorage0B5ErrorO",
         "mangledName": "$s15FirebaseStorage0B5ErrorO",
         "moduleName": "FirebaseStorage",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "declAttributes": [
           "AccessControl",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "conformances": [
@@ -4154,19 +4045,10 @@
         "mangledName": "$s15FirebaseStorage0B10ListResultC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageListResult",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -4430,17 +4312,6 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC12cacheControlSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4559,17 +4430,6 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC18contentDispositionSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4688,17 +4548,6 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC15contentEncodingSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4817,17 +4666,6 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC15contentLanguageSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4946,17 +4784,6 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC11contentTypeSSSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5235,17 +5062,6 @@
                 "mangledName": "$s15FirebaseStorage0B8MetadataC06customC0SDyS2SGSgvM",
                 "moduleName": "FirebaseStorage",
                 "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13",
-                "intro_tvOS": "13",
-                "intro_watchOS": "7",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -5993,19 +5809,10 @@
         "mangledName": "$s15FirebaseStorage0B8MetadataC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageMetadata",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -6233,19 +6040,10 @@
         "mangledName": "$s15FirebaseStorage0B14ObservableTaskC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageObservableTask",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:@M@FirebaseStorage@objc(cs)FIRStorageTask",
@@ -8928,19 +8726,10 @@
         "mangledName": "$s15FirebaseStorage0B9ReferenceC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageReference",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -9114,19 +8903,10 @@
         "mangledName": "$s15FirebaseStorage0B4TaskC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageTask",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -9791,19 +9571,10 @@
         "mangledName": "$s15FirebaseStorage0B12TaskSnapshotC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageTaskSnapshot",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -10069,19 +9840,10 @@
         "mangledName": "$s15FirebaseStorage0B10UploadTaskC",
         "moduleName": "FirebaseStorage",
         "isOpen": true,
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13",
-        "intro_tvOS": "13",
-        "intro_watchOS": "7",
         "objc_name": "FIRStorageUploadTask",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
           "RawDocComment"
         ],
         "superclassUsr": "c:@M@FirebaseStorage@objc(cs)FIRStorageObservableTask",
@@ -10196,324 +9958,324 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "Dictionary",
-      "offset": 10769,
+      "offset": 10552,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "BooleanLiteral",
-      "offset": 12451,
+      "offset": 12234,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Storage.swift",
       "kind": "BooleanLiteral",
-      "offset": 12549,
+      "offset": 12332,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 695,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 709,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 725,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 738,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 753,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "StringLiteral",
       "offset": 711,
       "length": 23,
       "value": "\"FIRStorageErrorDomain\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1236,
+      "offset": 1165,
       "length": 6,
       "value": "-13000"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1196,
       "length": 6,
       "value": "-13010"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1298,
+      "offset": 1227,
       "length": 6,
       "value": "-13011"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1330,
+      "offset": 1259,
       "length": 6,
       "value": "-13012"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1360,
+      "offset": 1289,
       "length": 6,
       "value": "-13013"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1392,
+      "offset": 1321,
       "length": 6,
       "value": "-13020"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1421,
+      "offset": 1350,
       "length": 6,
       "value": "-13021"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1456,
+      "offset": 1385,
       "length": 6,
       "value": "-13030"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1492,
+      "offset": 1421,
       "length": 6,
       "value": "-13031"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1529,
+      "offset": 1458,
       "length": 6,
       "value": "-13032"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1555,
+      "offset": 1484,
       "length": 6,
       "value": "-13040"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1587,
+      "offset": 1516,
       "length": 6,
       "value": "-13050"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1618,
+      "offset": 1547,
       "length": 6,
       "value": "-13051"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1648,
+      "offset": 1577,
       "length": 6,
       "value": "-13052"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1674,
+      "offset": 1603,
       "length": 6,
       "value": "-13053"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageFetcherService.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageFetcherService.swift",
       "kind": "Dictionary",
-      "offset": 3097,
+      "offset": 3026,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6551,
+      "offset": 6480,
       "length": 49,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6569,
+      "offset": 6498,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 6599,
+      "offset": 6528,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 7396,
+      "offset": 7325,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 7477,
+      "offset": 7406,
       "length": 40,
       "value": "\"yyyy'-'MM'-'dd'T'HH':'mm':'ss.SSSZZZZZ\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageMetadata.swift",
       "kind": "IntegerLiteral",
-      "offset": 7572,
+      "offset": 7501,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
       "kind": "StringLiteral",
-      "offset": 1619,
+      "offset": 1548,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
       "kind": "StringLiteral",
-      "offset": 1883,
+      "offset": 1812,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
       "kind": "StringLiteral",
-      "offset": 23497,
+      "offset": 23426,
       "length": 42,
       "value": "\"gs:\/\/\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
       "kind": "StringLiteral",
-      "offset": 23517,
+      "offset": 23446,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
       "kind": "StringLiteral",
-      "offset": 23535,
+      "offset": 23464,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageReference.swift",
       "kind": "StringLiteral",
-      "offset": 23538,
+      "offset": 23467,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 1657,
       "length": 17,
       "value": "\"<State: Resume>\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1702,
       "length": 62,
       "value": "\"<State: Progress, Progress: \""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 1833,
+      "offset": 1762,
       "length": 1,
       "value": "\">\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 1860,
+      "offset": 1789,
       "length": 17,
       "value": "\"<State: Paused>\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 1904,
+      "offset": 1833,
       "length": 18,
       "value": "\"<State: Success>\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 1949,
+      "offset": 1878,
       "length": 53,
       "value": "\"<State: Failed, Error: \""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 2001,
+      "offset": 1930,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/StorageTaskSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 2029,
+      "offset": 1958,
       "length": 18,
       "value": "\"<State: Unknown>\""
     },
     {
-      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-04-29T05-14-17\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
+      "filePath": "\/var\/folders\/dy\/3g4vbvsx7lx51x77m3_b20cc0000gn\/T\/ZipRelease\/2026-05-20T05-32-11\/project-watchos\/Pods\/FirebaseStorage\/FirebaseStorage\/Sources\/Internal\/StorageTokenAuthorizer.swift",
       "kind": "StringLiteral",
-      "offset": 3814,
+      "offset": 3743,
       "length": 39,
       "value": "\"com.google.firebasestorage.authorizer\""
     }
