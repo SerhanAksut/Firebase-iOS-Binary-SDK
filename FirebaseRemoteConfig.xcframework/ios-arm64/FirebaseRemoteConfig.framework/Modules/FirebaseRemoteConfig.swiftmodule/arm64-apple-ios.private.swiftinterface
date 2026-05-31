@@ -44,7 +44,6 @@ extension FirebaseRemoteConfig.CustomSignalValue : Swift.ExpressibleByFloatLiter
   public init(floatLiteral value: Swift.Double)
   public typealias FloatLiteralType = Swift.Double
 }
-@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseRemoteConfig.RemoteConfig {
   #if compiler(>=5.3) && $NonescapableTypes
   public func setCustomSignals(_ customSignals: [Swift.String : FirebaseRemoteConfig.CustomSignalValue?]) async throws

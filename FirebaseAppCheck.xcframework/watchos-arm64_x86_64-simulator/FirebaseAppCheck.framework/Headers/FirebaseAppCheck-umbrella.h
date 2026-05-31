@@ -11,6 +11,7 @@
 #endif
 
 #import "FIRAppAttestProvider.h"
+#import "FIRAppAttestProviderFactory.h"
 #import "FIRAppCheck.h"
 #import "FIRAppCheckAvailability.h"
 #import "FIRAppCheckDebugProvider.h"

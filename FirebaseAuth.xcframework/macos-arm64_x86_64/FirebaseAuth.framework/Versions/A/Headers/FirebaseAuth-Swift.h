@@ -437,7 +437,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 @class NSError;
 /// Manages authentication for Firebase apps.
 /// This class is thread-safe.
-SWIFT_CLASS_NAMED("Auth") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("Auth")
 @interface FIRAuth : NSObject
 /// Gets the auth object for the default Firebase app.
 /// The default Firebase app must have already been configured or an exception will be raised.
@@ -637,7 +637,7 @@ SWIFT_CLASS_NAMED("Auth") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILAB
 ///
 /// returns:
 /// The <code>AuthDataResult</code> after the successful signin.
-- (void)signInAnonymouslyWithCompletionHandler:(void (^ _Nonnull)(FIRAuthDataResult * _Nullable, NSError * _Nullable))completionHandler SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13);
+- (void)signInAnonymouslyWithCompletionHandler:(void (^ _Nonnull)(FIRAuthDataResult * _Nullable, NSError * _Nullable))completionHandler;
 /// Asynchronously signs in to Firebase with the given Auth token.
 /// Possible error codes:
 /// <ul>
@@ -918,7 +918,6 @@ SWIFT_CLASS_NAMED("Auth") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILAB
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRAuth (SWIFT_EXTENSION(FirebaseAuth)) <FIRAuthInterop>
 /// Retrieves the Firebase authentication token, possibly refreshing it if it has expired.
 /// This method is not for public use. It is for Firebase clients of AuthInterop.
@@ -929,7 +928,7 @@ SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduc
 @end
 
 /// Public representation of a credential.
-SWIFT_CLASS_NAMED("AuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("AuthCredential")
 @interface FIRAuthCredential : NSObject
 /// The name of the identity provider for the credential.
 @property (nonatomic, readonly, copy) NSString * _Nonnull provider;
@@ -941,7 +940,7 @@ SWIFT_CLASS_NAMED("AuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWI
 /// Helper object that contains the result of a successful sign-in, link and reauthenticate
 /// action.
 /// It contains references to a <code>User</code> instance and an <code>AdditionalUserInfo</code> instance.
-SWIFT_CLASS_NAMED("AuthDataResult") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("AuthDataResult")
 @interface FIRAuthDataResult : NSObject
 /// The signed in user.
 @property (nonatomic, readonly, strong) FIRUser * _Nonnull user;
@@ -960,7 +959,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRAuthDataResult (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
@@ -1225,7 +1223,7 @@ SWIFT_CLASS_NAMED("AuthSettings")
 @class NSDate;
 /// A data class containing the ID token JWT string and other properties associated with the
 /// token including the decoded payload claims.
-SWIFT_CLASS_NAMED("AuthTokenResult") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("AuthTokenResult")
 @interface FIRAuthTokenResult : NSObject
 /// Stores the JWT string of the ID token.
 @property (nonatomic, copy) NSString * _Nonnull token;
@@ -1253,12 +1251,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRAuthTokenResult (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
 /// A concrete implementation of <code>AuthProvider</code> for Email & Password Sign In.
-SWIFT_CLASS_NAMED("EmailAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("EmailAuthProvider")
 @interface FIREmailAuthProvider : NSObject
 /// A string constant identifying the email & password identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -1285,7 +1282,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 /// Utility class for constructing Facebook Sign In credentials.
-SWIFT_CLASS_NAMED("FacebookAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("FacebookAuthProvider")
 @interface FIRFacebookAuthProvider : NSObject
 /// A string constant identifying the Facebook identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -1301,12 +1298,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 /// Utility type for constructing federated auth provider credentials.
-SWIFT_PROTOCOL_NAMED("FederatedAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_PROTOCOL_NAMED("FederatedAuthProvider")
 @protocol FIRFederatedAuthProvider <NSObject>
 @end
 
 /// A concrete implementation of <code>AuthProvider</code> for Game Center Sign In. Not available on watchOS.
-SWIFT_CLASS_NAMED("GameCenterAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("GameCenterAuthProvider")
 @interface FIRGameCenterAuthProvider : NSObject
 /// A string constant identifying the Game Center identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -1317,7 +1314,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 /// Utility class for constructing GitHub Sign In credentials.
-SWIFT_CLASS_NAMED("GitHubAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("GitHubAuthProvider")
 @interface FIRGitHubAuthProvider : NSObject
 /// A string constant identifying the GitHub identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -1333,7 +1330,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 /// Utility class for constructing Google Sign In credentials.
-SWIFT_CLASS_NAMED("GoogleAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("GoogleAuthProvider")
 @interface FIRGoogleAuthProvider : NSObject
 /// A string constant identifying the Google identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -1356,7 +1353,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// The interface defining the multi factor related properties and operations pertaining to a
 /// user.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("MultiFactor") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("MultiFactor")
 @interface FIRMultiFactor : NSObject
 @property (nonatomic, copy) NSArray<FIRMultiFactorInfo *> * _Nonnull enrolledFactors;
 /// Get a session for a second factor enrollment operation.
@@ -1398,7 +1395,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRMultiFactor (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
@@ -1439,7 +1435,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 /// The subclass of base class <code>MultiFactorAssertion</code>, used to assert ownership of a phone
 /// second factor.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("MultiFactorResolver") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("MultiFactorResolver")
 @interface FIRMultiFactorResolver : NSObject
 /// The opaque session identifier for the current sign-in flow.
 @property (nonatomic, readonly, strong) FIRMultiFactorSession * _Nonnull session;
@@ -1465,14 +1461,14 @@ SWIFT_CLASS_NAMED("MultiFactorResolver") SWIFT_AVAILABILITY(watchos,introduced=7
 /// or to complete sign in when previously enrolled. It contains additional context on the
 /// existing user, notably the confirmation that the user passed the first factor challenge.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("MultiFactorSession") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("MultiFactorSession")
 @interface FIRMultiFactorSession : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 /// Internal implementation of <code>AuthCredential</code> for generic credentials.
-SWIFT_CLASS_NAMED("OAuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("OAuthCredential")
 @interface FIROAuthCredential : FIRAuthCredential <NSSecureCoding>
 /// The ID Token associated with this credential.
 @property (nonatomic, readonly, copy) NSString * _Nullable IDToken;
@@ -1490,7 +1486,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 
 @class NSPersonNameComponents;
 /// Utility class for constructing OAuth Sign In credentials.
-SWIFT_CLASS_NAMED("OAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("OAuthProvider")
 @interface FIROAuthProvider : NSObject <FIRFederatedAuthProvider>
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
 + (NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
@@ -1590,7 +1586,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 
 /// Implementation of AuthCredential for Phone Auth credentials.
 /// This class is available on iOS only.
-SWIFT_CLASS_NAMED("PhoneAuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("PhoneAuthCredential")
 @interface FIRPhoneAuthCredential : FIRAuthCredential <NSSecureCoding>
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureCoding;)
 + (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
@@ -1600,7 +1596,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 
 /// A concrete implementation of <code>AuthProvider</code> for phone auth providers.
 /// This class is available on iOS only.
-SWIFT_CLASS_NAMED("PhoneAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("PhoneAuthProvider")
 @interface FIRPhoneAuthProvider : NSObject
 /// A string constant identifying the phone identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -1611,7 +1607,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// The subclass of base class FIRMultiFactorAssertion, used to assert ownership of a phone
 /// second factor.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("PhoneMultiFactorAssertion") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("PhoneMultiFactorAssertion")
 @interface FIRPhoneMultiFactorAssertion : FIRMultiFactorAssertion
 @end
 
@@ -1619,7 +1615,7 @@ SWIFT_CLASS_NAMED("PhoneMultiFactorAssertion") SWIFT_AVAILABILITY(watchos,introd
 /// Firebase Auth/CICP server.
 /// Depending on the type of second factor, this will help generate the assertion.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("PhoneMultiFactorGenerator") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("PhoneMultiFactorGenerator")
 @interface FIRPhoneMultiFactorGenerator : NSObject
 /// Initializes the MFA assertion to confirm ownership of the phone second factor.
 /// Note that this API is used for both enrolling and signing in with a phone second factor.
@@ -1660,7 +1656,7 @@ SWIFT_CLASS_NAMED("TOTPMultiFactorAssertion")
 /// Firebase Auth/CICP server. Depending on the type of second factor, this will help generate
 /// the assertion.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("TOTPMultiFactorGenerator") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("TOTPMultiFactorGenerator")
 @interface FIRTOTPMultiFactorGenerator : NSObject
 /// Creates a TOTP secret as part of enrolling a TOTP second factor. Used for generating a
 /// QR code URL or inputting into a TOTP app. This method uses the auth instance corresponding
@@ -1721,7 +1717,7 @@ SWIFT_CLASS_NAMED("TOTPSecret")
 @end
 
 /// Utility class for constructing Twitter Sign In credentials.
-SWIFT_CLASS_NAMED("TwitterAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("TwitterAuthProvider")
 @interface FIRTwitterAuthProvider : NSObject
 /// A string constant identifying the Twitter identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -1765,7 +1761,7 @@ SWIFT_PROTOCOL_NAMED("UserInfo")
 /// logged out when an auth-dependent operation is attempted or when the
 /// ID token is automatically refreshed.
 /// This class is thread-safe.
-SWIFT_CLASS_NAMED("User") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("User")
 @interface FIRUser : NSObject <FIRUserInfo>
 /// Indicates the user represents an anonymous user.
 @property (nonatomic, readonly) BOOL isAnonymous;
@@ -2096,12 +2092,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRUser (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
 /// A data class representing the metadata corresponding to a Firebase user.
-SWIFT_CLASS_NAMED("UserMetadata") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("UserMetadata")
 @interface FIRUserMetadata : NSObject
 /// Stores the last sign in date for the corresponding Firebase user.
 @property (nonatomic, readonly, copy) NSDate * _Nullable lastSignInDate;
@@ -2115,14 +2110,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRUserMetadata (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
 /// Represents an object capable of updating a user’s profile data.
 /// Properties are marked as being part of a profile update when they are set. Setting a
 /// property value to nil is not the same as leaving the property unassigned.
-SWIFT_CLASS_NAMED("UserProfileChangeRequest") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("UserProfileChangeRequest")
 @interface FIRUserProfileChangeRequest : NSObject
 /// The name of the user.
 @property (nonatomic, copy) NSString * _Nullable displayName;
@@ -2586,7 +2580,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 @class NSError;
 /// Manages authentication for Firebase apps.
 /// This class is thread-safe.
-SWIFT_CLASS_NAMED("Auth") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("Auth")
 @interface FIRAuth : NSObject
 /// Gets the auth object for the default Firebase app.
 /// The default Firebase app must have already been configured or an exception will be raised.
@@ -2786,7 +2780,7 @@ SWIFT_CLASS_NAMED("Auth") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILAB
 ///
 /// returns:
 /// The <code>AuthDataResult</code> after the successful signin.
-- (void)signInAnonymouslyWithCompletionHandler:(void (^ _Nonnull)(FIRAuthDataResult * _Nullable, NSError * _Nullable))completionHandler SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13);
+- (void)signInAnonymouslyWithCompletionHandler:(void (^ _Nonnull)(FIRAuthDataResult * _Nullable, NSError * _Nullable))completionHandler;
 /// Asynchronously signs in to Firebase with the given Auth token.
 /// Possible error codes:
 /// <ul>
@@ -3067,7 +3061,6 @@ SWIFT_CLASS_NAMED("Auth") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILAB
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRAuth (SWIFT_EXTENSION(FirebaseAuth)) <FIRAuthInterop>
 /// Retrieves the Firebase authentication token, possibly refreshing it if it has expired.
 /// This method is not for public use. It is for Firebase clients of AuthInterop.
@@ -3078,7 +3071,7 @@ SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduc
 @end
 
 /// Public representation of a credential.
-SWIFT_CLASS_NAMED("AuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("AuthCredential")
 @interface FIRAuthCredential : NSObject
 /// The name of the identity provider for the credential.
 @property (nonatomic, readonly, copy) NSString * _Nonnull provider;
@@ -3090,7 +3083,7 @@ SWIFT_CLASS_NAMED("AuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWI
 /// Helper object that contains the result of a successful sign-in, link and reauthenticate
 /// action.
 /// It contains references to a <code>User</code> instance and an <code>AdditionalUserInfo</code> instance.
-SWIFT_CLASS_NAMED("AuthDataResult") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("AuthDataResult")
 @interface FIRAuthDataResult : NSObject
 /// The signed in user.
 @property (nonatomic, readonly, strong) FIRUser * _Nonnull user;
@@ -3109,7 +3102,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRAuthDataResult (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
@@ -3374,7 +3366,7 @@ SWIFT_CLASS_NAMED("AuthSettings")
 @class NSDate;
 /// A data class containing the ID token JWT string and other properties associated with the
 /// token including the decoded payload claims.
-SWIFT_CLASS_NAMED("AuthTokenResult") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("AuthTokenResult")
 @interface FIRAuthTokenResult : NSObject
 /// Stores the JWT string of the ID token.
 @property (nonatomic, copy) NSString * _Nonnull token;
@@ -3402,12 +3394,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRAuthTokenResult (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
 /// A concrete implementation of <code>AuthProvider</code> for Email & Password Sign In.
-SWIFT_CLASS_NAMED("EmailAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("EmailAuthProvider")
 @interface FIREmailAuthProvider : NSObject
 /// A string constant identifying the email & password identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -3434,7 +3425,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 /// Utility class for constructing Facebook Sign In credentials.
-SWIFT_CLASS_NAMED("FacebookAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("FacebookAuthProvider")
 @interface FIRFacebookAuthProvider : NSObject
 /// A string constant identifying the Facebook identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -3450,12 +3441,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 /// Utility type for constructing federated auth provider credentials.
-SWIFT_PROTOCOL_NAMED("FederatedAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_PROTOCOL_NAMED("FederatedAuthProvider")
 @protocol FIRFederatedAuthProvider <NSObject>
 @end
 
 /// A concrete implementation of <code>AuthProvider</code> for Game Center Sign In. Not available on watchOS.
-SWIFT_CLASS_NAMED("GameCenterAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("GameCenterAuthProvider")
 @interface FIRGameCenterAuthProvider : NSObject
 /// A string constant identifying the Game Center identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -3466,7 +3457,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 /// Utility class for constructing GitHub Sign In credentials.
-SWIFT_CLASS_NAMED("GitHubAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("GitHubAuthProvider")
 @interface FIRGitHubAuthProvider : NSObject
 /// A string constant identifying the GitHub identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -3482,7 +3473,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 /// Utility class for constructing Google Sign In credentials.
-SWIFT_CLASS_NAMED("GoogleAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("GoogleAuthProvider")
 @interface FIRGoogleAuthProvider : NSObject
 /// A string constant identifying the Google identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -3505,7 +3496,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// The interface defining the multi factor related properties and operations pertaining to a
 /// user.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("MultiFactor") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("MultiFactor")
 @interface FIRMultiFactor : NSObject
 @property (nonatomic, copy) NSArray<FIRMultiFactorInfo *> * _Nonnull enrolledFactors;
 /// Get a session for a second factor enrollment operation.
@@ -3547,7 +3538,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRMultiFactor (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
@@ -3588,7 +3578,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 /// The subclass of base class <code>MultiFactorAssertion</code>, used to assert ownership of a phone
 /// second factor.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("MultiFactorResolver") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("MultiFactorResolver")
 @interface FIRMultiFactorResolver : NSObject
 /// The opaque session identifier for the current sign-in flow.
 @property (nonatomic, readonly, strong) FIRMultiFactorSession * _Nonnull session;
@@ -3614,14 +3604,14 @@ SWIFT_CLASS_NAMED("MultiFactorResolver") SWIFT_AVAILABILITY(watchos,introduced=7
 /// or to complete sign in when previously enrolled. It contains additional context on the
 /// existing user, notably the confirmation that the user passed the first factor challenge.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("MultiFactorSession") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("MultiFactorSession")
 @interface FIRMultiFactorSession : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 /// Internal implementation of <code>AuthCredential</code> for generic credentials.
-SWIFT_CLASS_NAMED("OAuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("OAuthCredential")
 @interface FIROAuthCredential : FIRAuthCredential <NSSecureCoding>
 /// The ID Token associated with this credential.
 @property (nonatomic, readonly, copy) NSString * _Nullable IDToken;
@@ -3639,7 +3629,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 
 @class NSPersonNameComponents;
 /// Utility class for constructing OAuth Sign In credentials.
-SWIFT_CLASS_NAMED("OAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("OAuthProvider")
 @interface FIROAuthProvider : NSObject <FIRFederatedAuthProvider>
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
 + (NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
@@ -3739,7 +3729,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 
 /// Implementation of AuthCredential for Phone Auth credentials.
 /// This class is available on iOS only.
-SWIFT_CLASS_NAMED("PhoneAuthCredential") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("PhoneAuthCredential")
 @interface FIRPhoneAuthCredential : FIRAuthCredential <NSSecureCoding>
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureCoding;)
 + (BOOL)supportsSecureCoding SWIFT_WARN_UNUSED_RESULT;
@@ -3749,7 +3739,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 
 /// A concrete implementation of <code>AuthProvider</code> for phone auth providers.
 /// This class is available on iOS only.
-SWIFT_CLASS_NAMED("PhoneAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("PhoneAuthProvider")
 @interface FIRPhoneAuthProvider : NSObject
 /// A string constant identifying the phone identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -3760,7 +3750,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// The subclass of base class FIRMultiFactorAssertion, used to assert ownership of a phone
 /// second factor.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("PhoneMultiFactorAssertion") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("PhoneMultiFactorAssertion")
 @interface FIRPhoneMultiFactorAssertion : FIRMultiFactorAssertion
 @end
 
@@ -3768,7 +3758,7 @@ SWIFT_CLASS_NAMED("PhoneMultiFactorAssertion") SWIFT_AVAILABILITY(watchos,introd
 /// Firebase Auth/CICP server.
 /// Depending on the type of second factor, this will help generate the assertion.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("PhoneMultiFactorGenerator") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("PhoneMultiFactorGenerator")
 @interface FIRPhoneMultiFactorGenerator : NSObject
 /// Initializes the MFA assertion to confirm ownership of the phone second factor.
 /// Note that this API is used for both enrolling and signing in with a phone second factor.
@@ -3809,7 +3799,7 @@ SWIFT_CLASS_NAMED("TOTPMultiFactorAssertion")
 /// Firebase Auth/CICP server. Depending on the type of second factor, this will help generate
 /// the assertion.
 /// This class is available on iOS and macOS.
-SWIFT_CLASS_NAMED("TOTPMultiFactorGenerator") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("TOTPMultiFactorGenerator")
 @interface FIRTOTPMultiFactorGenerator : NSObject
 /// Creates a TOTP secret as part of enrolling a TOTP second factor. Used for generating a
 /// QR code URL or inputting into a TOTP app. This method uses the auth instance corresponding
@@ -3870,7 +3860,7 @@ SWIFT_CLASS_NAMED("TOTPSecret")
 @end
 
 /// Utility class for constructing Twitter Sign In credentials.
-SWIFT_CLASS_NAMED("TwitterAuthProvider") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("TwitterAuthProvider")
 @interface FIRTwitterAuthProvider : NSObject
 /// A string constant identifying the Twitter identity provider.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull id;)
@@ -3914,7 +3904,7 @@ SWIFT_PROTOCOL_NAMED("UserInfo")
 /// logged out when an auth-dependent operation is attempted or when the
 /// ID token is automatically refreshed.
 /// This class is thread-safe.
-SWIFT_CLASS_NAMED("User") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("User")
 @interface FIRUser : NSObject <FIRUserInfo>
 /// Indicates the user represents an anonymous user.
 @property (nonatomic, readonly) BOOL isAnonymous;
@@ -4245,12 +4235,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRUser (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
 /// A data class representing the metadata corresponding to a Firebase user.
-SWIFT_CLASS_NAMED("UserMetadata") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("UserMetadata")
 @interface FIRUserMetadata : NSObject
 /// Stores the last sign in date for the corresponding Firebase user.
 @property (nonatomic, readonly, copy) NSDate * _Nullable lastSignInDate;
@@ -4264,14 +4253,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL supportsSecureC
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
 @interface FIRUserMetadata (SWIFT_EXTENSION(FirebaseAuth)) <NSSecureCoding>
 @end
 
 /// Represents an object capable of updating a user’s profile data.
 /// Properties are marked as being part of a profile update when they are set. Setting a
 /// property value to nil is not the same as leaving the property unassigned.
-SWIFT_CLASS_NAMED("UserProfileChangeRequest") SWIFT_AVAILABILITY(watchos,introduced=7) SWIFT_AVAILABILITY(maccatalyst,introduced=13) SWIFT_AVAILABILITY(macos,introduced=10.15) SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
+SWIFT_CLASS_NAMED("UserProfileChangeRequest")
 @interface FIRUserProfileChangeRequest : NSObject
 /// The name of the user.
 @property (nonatomic, copy) NSString * _Nullable displayName;
