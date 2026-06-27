@@ -87,7 +87,7 @@ extension FirebaseAILogic.CountTokensResponse : Swift.Decodable {
 }
 public struct GeminiModel {
 }
-extension FirebaseAILogic.GeminiModel : FirebaseAILogic.LanguageModel {
+extension FirebaseAILogic.GeminiModel : FirebaseAILogic.FirebaseAI.LanguageModel {
   public var _modelName: Swift.String {
     get
   }
@@ -96,7 +96,7 @@ extension FirebaseAILogic.GeminiModel : FirebaseAILogic.LanguageModel {
   #endif
 }
 public struct GeminiModelProvider : FirebaseAILogic.LanguageModelProvider {
-  public func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.LanguageModel
+  public func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.FirebaseAI.LanguageModel
 }
 public enum GenerateContentError : Swift.Error {
   case internalError(underlying: any Swift.Error)
@@ -323,7 +323,7 @@ extension FirebaseAILogic.FirebaseAI.GeneratedContent {
 }
 public struct GenerationConfig : Swift.Sendable, Swift.Equatable {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(temperature: Swift.Float? = nil, topP: Swift.Float? = nil, topK: Swift.Int? = nil, candidateCount: Swift.Int? = nil, maxOutputTokens: Swift.Int? = nil, presencePenalty: Swift.Float? = nil, frequencyPenalty: Swift.Float? = nil, stopSequences: [Swift.String]? = nil, responseMIMEType: Swift.String? = nil, responseSchema: FirebaseAILogic.Schema? = nil, responseModalities: [FirebaseAILogic.ResponseModality]? = nil, thinkingConfig: FirebaseAILogic.ThinkingConfig? = nil, imageConfig: FirebaseAILogic.ImageConfig? = nil)
+  public init(temperature: Swift.Float? = nil, topP: Swift.Float? = nil, topK: Swift.Int? = nil, candidateCount: Swift.Int? = nil, maxOutputTokens: Swift.Int? = nil, presencePenalty: Swift.Float? = nil, frequencyPenalty: Swift.Float? = nil, stopSequences: [Swift.String]? = nil, responseMIMEType: Swift.String? = nil, responseSchema: FirebaseAILogic.Schema? = nil, responseModalities: [FirebaseAILogic.ResponseModality]? = nil, thinkingConfig: FirebaseAILogic.ThinkingConfig? = nil, imageConfig: FirebaseAILogic.ImageConfig? = nil, speechConfig: FirebaseAILogic.SpeechConfig? = nil)
   #endif
   public static func == (a: FirebaseAILogic.GenerationConfig, b: FirebaseAILogic.GenerationConfig) -> Swift.Bool
 }
@@ -392,8 +392,12 @@ extension FirebaseAILogic.FirebaseAI {
   public struct GenerationSchema : Swift.Sendable {
   }
 }
-public struct RequestOptions : Swift.Sendable {
+public struct RequestOptions : Swift.Sendable, Swift.Hashable {
   public init(timeout: Foundation.TimeInterval = 180.0)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 extension FirebaseAILogic.RequestOptions : Swift.Equatable {
   public static func == (a: FirebaseAILogic.RequestOptions, b: FirebaseAILogic.RequestOptions) -> Swift.Bool
@@ -502,8 +506,8 @@ public struct GoogleMapsGroundingChunk : Swift.Sendable, Swift.Equatable, Swift.
     get
   }
 }
-public struct HybridModel : FirebaseAILogic.LanguageModel {
-  public init(primary: any FirebaseAILogic.LanguageModel, secondary: any FirebaseAILogic.LanguageModel)
+public struct HybridModel : FirebaseAILogic.FirebaseAI.LanguageModel {
+  public init(primary: any FirebaseAILogic.FirebaseAI.LanguageModel, secondary: any FirebaseAILogic.FirebaseAI.LanguageModel)
   public var _modelName: Swift.String {
     get
   }
@@ -512,7 +516,7 @@ public struct HybridModel : FirebaseAILogic.LanguageModel {
   #endif
 }
 public struct HybridModelProvider : FirebaseAILogic.LanguageModelProvider {
-  public func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.LanguageModel
+  public func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.FirebaseAI.LanguageModel
 }
 public struct ImageConfig : Swift.Sendable, Swift.Equatable {
   public let aspectRatio: FirebaseAILogic.ImageConfig.AspectRatio?
@@ -656,17 +660,19 @@ extension FirebaseAILogic.JSONValue : Swift.Encodable {
 extension FirebaseAILogic.JSONValue : Swift.Equatable {
   public static func == (a: FirebaseAILogic.JSONValue, b: FirebaseAILogic.JSONValue) -> Swift.Bool
 }
-public protocol LanguageModel : FirebaseAILogic.LanguageModelProvider {
-  var _modelName: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
-  func _startSession(tools: [any FirebaseAILogic.ToolRepresentable]?, instructions: Swift.String?) throws -> any FirebaseAILogic._ModelSession
-  #endif
+extension FirebaseAILogic.FirebaseAI {
+  public protocol LanguageModel : FirebaseAILogic.LanguageModelProvider {
+    var _modelName: Swift.String { get }
+    #if compiler(>=5.3) && $NonescapableTypes
+    func _startSession(tools: [any FirebaseAILogic.ToolRepresentable]?, instructions: Swift.String?) throws -> any FirebaseAILogic._ModelSession
+    #endif
+  }
 }
-extension FirebaseAILogic.LanguageModel {
-  public func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.LanguageModel
+extension FirebaseAILogic.FirebaseAI.LanguageModel {
+  public func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.FirebaseAI.LanguageModel
 }
 public protocol LanguageModelProvider : Swift.Sendable {
-  func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.LanguageModel
+  func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.FirebaseAI.LanguageModel
 }
 extension FirebaseAILogic.LanguageModelProvider where Self == FirebaseAILogic.GeminiModelProvider {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -680,7 +686,7 @@ extension FirebaseAILogic.LanguageModelProvider where Self == FirebaseAILogic.Hy
   public static func hybridModel(primary: any FirebaseAILogic.LanguageModelProvider, secondary: any FirebaseAILogic.LanguageModelProvider) -> FirebaseAILogic.HybridModelProvider
 }
 extension Swift.String : FirebaseAILogic.LanguageModelProvider {
-  public func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.LanguageModel
+  public func _languageModel(firebaseAI: FirebaseAILogic.FirebaseAI) -> any FirebaseAILogic.FirebaseAI.LanguageModel
 }
 @available(watchOS, unavailable)
 public struct LiveAudioTranscription : Swift.Sendable {
@@ -885,6 +891,9 @@ public protocol _ModelSession : Swift.Sendable {
   #endif
 }
 public struct _ModelSessionResponse : Swift.Sendable {
+}
+public struct MultiSpeakerVoiceConfig : Swift.Sendable {
+  public init(speakerVoiceConfigs: [FirebaseAILogic.SpeakerVoiceConfig])
 }
 public protocol Part : FirebaseAILogic.PartsRepresentable, Swift.Decodable, Swift.Encodable, Swift.Equatable, Swift.Sendable {
   var isThought: Swift.Bool { get }
@@ -1098,17 +1107,27 @@ public struct SafetyRating : Swift.Equatable, Swift.Hashable, Swift.Sendable {
     get
   }
 }
-public struct SafetySetting : Swift.Sendable {
-  public struct HarmBlockThreshold : Swift.Sendable {
+public struct SafetySetting : Swift.Sendable, Swift.Hashable {
+  public struct HarmBlockThreshold : Swift.Sendable, Swift.Hashable {
     public static let blockLowAndAbove: FirebaseAILogic.SafetySetting.HarmBlockThreshold
     public static let blockMediumAndAbove: FirebaseAILogic.SafetySetting.HarmBlockThreshold
     public static let blockOnlyHigh: FirebaseAILogic.SafetySetting.HarmBlockThreshold
     public static let blockNone: FirebaseAILogic.SafetySetting.HarmBlockThreshold
     public static let off: FirebaseAILogic.SafetySetting.HarmBlockThreshold
+    public static func == (a: FirebaseAILogic.SafetySetting.HarmBlockThreshold, b: FirebaseAILogic.SafetySetting.HarmBlockThreshold) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
   }
-  public struct HarmBlockMethod : Swift.Sendable {
+  public struct HarmBlockMethod : Swift.Sendable, Swift.Hashable {
     public static let severity: FirebaseAILogic.SafetySetting.HarmBlockMethod
     public static let probability: FirebaseAILogic.SafetySetting.HarmBlockMethod
+    public static func == (a: FirebaseAILogic.SafetySetting.HarmBlockMethod, b: FirebaseAILogic.SafetySetting.HarmBlockMethod) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
   }
   public let harmCategory: FirebaseAILogic.HarmCategory
   public let threshold: FirebaseAILogic.SafetySetting.HarmBlockThreshold
@@ -1116,6 +1135,11 @@ public struct SafetySetting : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(harmCategory: FirebaseAILogic.HarmCategory, threshold: FirebaseAILogic.SafetySetting.HarmBlockThreshold, method: FirebaseAILogic.SafetySetting.HarmBlockMethod? = nil)
   #endif
+  public static func == (a: FirebaseAILogic.SafetySetting, b: FirebaseAILogic.SafetySetting) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct HarmCategory : Swift.Hashable, Swift.Sendable {
   public static let harassment: FirebaseAILogic.HarmCategory
@@ -1202,10 +1226,15 @@ public struct SessionResumptionConfig : Swift.Sendable {
   public init(handle: Swift.String)
   public init()
 }
-@available(watchOS, unavailable)
+public struct SpeakerVoiceConfig : Swift.Sendable {
+  public init(speaker: Swift.String, voiceName: Swift.String)
+}
 public struct SpeechConfig : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(voiceName: Swift.String, languageCode: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(multiSpeakerVoiceConfig: FirebaseAILogic.MultiSpeakerVoiceConfig, languageCode: Swift.String? = nil)
   #endif
 }
 extension FirebaseAILogic.FirebaseAI {
@@ -1272,7 +1301,7 @@ extension FirebaseAILogic.FirebaseAI.SystemLanguageModel {
   }
   final public func supportsLocale(_ locale: Foundation.Locale = Locale.current) -> Swift.Bool
 }
-extension FirebaseAILogic.FirebaseAI.SystemLanguageModel : FirebaseAILogic.LanguageModel {
+extension FirebaseAILogic.FirebaseAI.SystemLanguageModel : FirebaseAILogic.FirebaseAI.LanguageModel {
   final public var _modelName: Swift.String {
     get
   }

@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/RecaptchaInterop.framework/Info.plist</key>
 		<data>
-		roDUxoSnewNX42luEBli9YSIrRo=
+		ma7mjsEVIB27Pb7bFghGrzIQ/rU=
 		</data>
 		<key>ios-arm64/RecaptchaInterop.framework/Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		pWcr4RCBpriY+xy/AjuDOl/8ELY=
+		Py08ymjzvmqr1kRZuAZAZoSq2sA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Headers/RCAActionProtocol.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Info.plist</key>
 		<data>
-		xp5VU8k5CGOLaVs9jR/y6YI2rnY=
+		WGxEjSrhapXSC2cKmQTad8VM3rY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Modules/module.modulemap</key>
 		<data>
@@ -162,11 +162,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			roDUxoSnewNX42luEBli9YSIrRo=
+			ma7mjsEVIB27Pb7bFghGrzIQ/rU=
 			</data>
 			<key>hash2</key>
 			<data>
-			P6nkekttkJKlF+Wu//S2QTR0lBlSNANzbdtiEAwe/nA=
+			bdxALB7KcUf3LSvuiMnC8H9A25kmndoM9vmnBQXoHys=
 			</data>
 		</dict>
 		<key>ios-arm64/RecaptchaInterop.framework/Modules/module.modulemap</key>
@@ -292,11 +292,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pWcr4RCBpriY+xy/AjuDOl/8ELY=
+			Py08ymjzvmqr1kRZuAZAZoSq2sA=
 			</data>
 			<key>hash2</key>
 			<data>
-			et8oZXx9PfegZVj8gjEgDrXbo+yCAzLDAKUfQZuxoUs=
+			KFlP4H0+tBXVV9r3LgiFAWzlVF1xCxjj5tSqCq/blAE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/Current</key>
@@ -363,11 +363,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xp5VU8k5CGOLaVs9jR/y6YI2rnY=
+			WGxEjSrhapXSC2cKmQTad8VM3rY=
 			</data>
 			<key>hash2</key>
 			<data>
-			GG6SecebiF91DtRB+yOl6S3Chlh1xsOEABt7tR9aJrU=
+			TpQvZ1GmMyWZYGPxmNtrquwCcODFmhFd8eRRR70dN7M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Modules/module.modulemap</key>

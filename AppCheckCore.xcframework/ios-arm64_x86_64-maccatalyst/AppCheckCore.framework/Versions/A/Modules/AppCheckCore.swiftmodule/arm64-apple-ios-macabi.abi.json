@@ -1,0 +1,152 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AppCheckCore",
+    "printedName": "AppCheckCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "RecaptchaInterop",
+        "printedName": "RecaptchaInterop",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "FBLPromises",
+        "printedName": "FBLPromises",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "RecaptchaInterop",
+        "printedName": "RecaptchaInterop",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/Public\/AppCheckRecaptchaProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 15,
+      "value": "\"app_check_ios\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/Public\/AppCheckRecaptchaProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5286,
+      "length": 31,
+      "value": "\"RecaptchaEnterprise.RCAAction\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/Public\/AppCheckRecaptchaProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5406,
+      "length": 34,
+      "value": "\"RecaptchaEnterprise.RCARecaptcha\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 28,
+      "value": "\"recaptcha_enterprise_token\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 886,
+      "length": 13,
+      "value": "\"limited_use\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 34,
+      "value": "\"exchangeRecaptchaEnterpriseToken\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1075,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaTokenGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1173,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaTokenGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1438,
+      "length": 3,
+      "value": "100"
+    }
+  ]
+}

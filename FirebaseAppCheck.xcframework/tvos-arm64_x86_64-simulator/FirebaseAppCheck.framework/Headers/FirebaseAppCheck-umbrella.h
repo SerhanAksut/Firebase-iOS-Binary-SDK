@@ -23,6 +23,8 @@
 #import "FIRDeviceCheckProvider.h"
 #import "FIRDeviceCheckProviderFactory.h"
 #import "FirebaseAppCheck.h"
+#import "FIRRecaptchaProvider.h"
+#import "FIRRecaptchaProviderFactory.h"
 
 FOUNDATION_EXPORT double FirebaseAppCheckVersionNumber;
 FOUNDATION_EXPORT const unsigned char FirebaseAppCheckVersionString[];

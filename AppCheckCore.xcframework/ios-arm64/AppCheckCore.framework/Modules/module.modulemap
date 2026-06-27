@@ -6,3 +6,7 @@ module * { export * }
   link framework "SystemConfiguration"
   link "z"
 }
+module AppCheckCore.Swift {
+  header "AppCheckCore-Swift.h"
+  requires objc
+}
