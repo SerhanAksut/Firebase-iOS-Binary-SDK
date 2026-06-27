@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/AppAuth.framework/AppAuthCore_Privacy.bundle/Info.plist</key>
 		<data>
-		vQ7ttowc9Gl0PSTJCQYMhJoho+M=
+		63KdIaFNpw9+snS+u1bsGfqvQVM=
 		</data>
 		<key>ios-arm64/AppAuth.framework/AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>ios-arm64/AppAuth.framework/Info.plist</key>
 		<data>
-		FWF1gqriqi+EI6WgPI6ASwFyTBA=
+		zLOR1ORPVpKid6woH/4gITKguH4=
 		</data>
 		<key>ios-arm64/AppAuth.framework/Modules/module.modulemap</key>
 		<data>
@@ -338,7 +338,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppAuth.framework/Versions/A/Resources/AppAuthCore_Privacy.bundle/Contents/Info.plist</key>
 		<data>
-		klQChQ26MqyovI9M7yAaGd1vE3U=
+		1oYZAHfG1eyKCOk0gYuu5OX5QeE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppAuth.framework/Versions/A/Resources/AppAuthCore_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -346,7 +346,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppAuth.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		xabIJ+u3b7Fl65TVraU7gbKW/Pw=
+		7u9agWuwl5nKL6gNstagHfrw5KU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppAuth.framework/AppAuth</key>
 		<data>
@@ -354,7 +354,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppAuth.framework/AppAuthCore_Privacy.bundle/Info.plist</key>
 		<data>
-		jlRK5/xtn42UB9jSsp0EfBDvYc8=
+		CDB9gs5bdWD6LSmSoqABAj4ZxHM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppAuth.framework/AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -514,7 +514,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppAuth.framework/Info.plist</key>
 		<data>
-		zeqMAYEqa7z7PtxSttdK487XdBo=
+		Mhnuv52RxAS5pvpyLKaeZTorAPU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppAuth.framework/Modules/module.modulemap</key>
 		<data>
@@ -538,11 +538,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vQ7ttowc9Gl0PSTJCQYMhJoho+M=
+			63KdIaFNpw9+snS+u1bsGfqvQVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			je6a7qC+sdEfCYUwNWPtKcl+P8pFGocGKEgetqVJ9FE=
+			qBGyMIcrkpzGHL3o8miGPHcXmPgR0bFQZTA86CMn1o4=
 			</data>
 		</dict>
 		<key>ios-arm64/AppAuth.framework/AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -978,11 +978,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FWF1gqriqi+EI6WgPI6ASwFyTBA=
+			zLOR1ORPVpKid6woH/4gITKguH4=
 			</data>
 			<key>hash2</key>
 			<data>
-			BC2PTWwXcapYo2LXuApmyjaRFyIc0jq6+uHZ2QO3ulU=
+			nul01HfGHofTHboLt9SDQUpGXbVL233KxgYXK6KgNrI=
 			</data>
 		</dict>
 		<key>ios-arm64/AppAuth.framework/Modules/module.modulemap</key>
@@ -1460,11 +1460,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			klQChQ26MqyovI9M7yAaGd1vE3U=
+			1oYZAHfG1eyKCOk0gYuu5OX5QeE=
 			</data>
 			<key>hash2</key>
 			<data>
-			EaheGq24utLsAwepeQB2TKfdc3qxxINRZz86AJqnD9c=
+			KnSFa0i3QhhvEMWaWIiKutheDxIETmfV5SwhgylRGvw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppAuth.framework/Versions/A/Resources/AppAuthCore_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
@@ -1482,11 +1482,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xabIJ+u3b7Fl65TVraU7gbKW/Pw=
+			7u9agWuwl5nKL6gNstagHfrw5KU=
 			</data>
 			<key>hash2</key>
 			<data>
-			YT0WIFIIrzwhJu+eUAPbrQ55RKyDtMlNtTlRJy4U8Wc=
+			kvK359aZsHLRan7ktSwaeHJB87/iiUwYjT/uX+MklNY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppAuth.framework/Versions/Current</key>
@@ -1509,11 +1509,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jlRK5/xtn42UB9jSsp0EfBDvYc8=
+			CDB9gs5bdWD6LSmSoqABAj4ZxHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0MUYw7tlp0fGmvR6EH2nExpH2kCa7GfQY3D5El1mQ60=
+			XVSOY1rvrFLKQdUui36c2SRk7wZ9NYjHPSJguOP6Kec=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppAuth.framework/AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1949,11 +1949,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zeqMAYEqa7z7PtxSttdK487XdBo=
+			Mhnuv52RxAS5pvpyLKaeZTorAPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			v3OXASceUZHgO1fo+5SQHGWBGrI9zZ6U29soRpnla/E=
+			xtniL9nc13X6l+b9bQfrf0Ul5FOsI90dAc8fyi+IHNU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppAuth.framework/Modules/module.modulemap</key>

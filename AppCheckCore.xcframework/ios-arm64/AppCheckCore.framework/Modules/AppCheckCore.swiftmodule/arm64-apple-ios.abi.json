@@ -1,0 +1,614 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AppCheckCore",
+    "printedName": "AppCheckCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "RecaptchaInterop",
+        "printedName": "RecaptchaInterop",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppCheckRecaptchaProvider",
+        "printedName": "AppCheckRecaptchaProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSupported",
+            "printedName": "isSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider(cm)isSupported",
+            "mangledName": "$s12AppCheckCore0aB17RecaptchaProviderC11isSupportedSbyFZ",
+            "moduleName": "AppCheckCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(siteKey:resourceName:APIKey:requestHooks:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppCheckCore.AppCheckRecaptchaProvider?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppCheckRecaptchaProvider",
+                    "printedName": "AppCheckCore.AppCheckRecaptchaProvider",
+                    "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[(Foundation.NSMutableURLRequest) -> ()]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(Foundation.NSMutableURLRequest) -> ()]",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSMutableURLRequest) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSMutableURLRequest",
+                            "printedName": "Foundation.NSMutableURLRequest",
+                            "usr": "c:objc(cs)NSMutableURLRequest"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider(im)initWithSiteKey:resourceName:APIKey:requestHooks:",
+            "mangledName": "$s12AppCheckCore0aB17RecaptchaProviderC7siteKey12resourceName6APIKey12requestHooksACSgSS_S2SSayySo19NSMutableURLRequestCXLGSgtcfc",
+            "moduleName": "AppCheckCore",
+            "objc_name": "initWithSiteKey:resourceName:APIKey:requestHooks:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(siteKey:resourceName:APIKey:requestHooks:actionName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppCheckCore.AppCheckRecaptchaProvider?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppCheckRecaptchaProvider",
+                    "printedName": "AppCheckCore.AppCheckRecaptchaProvider",
+                    "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[(Foundation.NSMutableURLRequest) -> ()]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(Foundation.NSMutableURLRequest) -> ()]",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.NSMutableURLRequest) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSMutableURLRequest",
+                            "printedName": "Foundation.NSMutableURLRequest",
+                            "usr": "c:objc(cs)NSMutableURLRequest"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider(im)initWithSiteKey:resourceName:APIKey:requestHooks:actionName:",
+            "mangledName": "$s12AppCheckCore0aB17RecaptchaProviderC7siteKey12resourceName6APIKey12requestHooks06actionI0ACSgSS_S2SSayySo19NSMutableURLRequestCXLGSgSStcfc",
+            "moduleName": "AppCheckCore",
+            "objc_name": "initWithSiteKey:resourceName:APIKey:requestHooks:actionName:",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "getToken",
+            "printedName": "getToken(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppCheckCore.AppCheckCoreToken?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AppCheckCore.AppCheckCoreToken?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AppCheckCore.AppCheckCoreToken?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AppCheckCoreToken",
+                            "printedName": "AppCheckCore.AppCheckCoreToken",
+                            "usr": "c:objc(cs)GACAppCheckToken"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider(im)getTokenWithCompletion:",
+            "mangledName": "$s12AppCheckCore0aB17RecaptchaProviderC8getToken10completionyySo06GACAppbG0CSg_s5Error_pSgtc_tF",
+            "moduleName": "AppCheckCore",
+            "objc_name": "getTokenWithCompletion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLimitedUseToken",
+            "printedName": "getLimitedUseToken(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppCheckCore.AppCheckCoreToken?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AppCheckCore.AppCheckCoreToken?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AppCheckCore.AppCheckCoreToken?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AppCheckCoreToken",
+                            "printedName": "AppCheckCore.AppCheckCoreToken",
+                            "usr": "c:objc(cs)GACAppCheckToken"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider(im)getLimitedUseTokenWithCompletion:",
+            "mangledName": "$s12AppCheckCore0aB17RecaptchaProviderC18getLimitedUseToken10completionyySo06GACAppbI0CSg_s5Error_pSgtc_tF",
+            "moduleName": "AppCheckCore",
+            "objc_name": "getLimitedUseTokenWithCompletion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppCheckRecaptchaProvider",
+                "printedName": "AppCheckCore.AppCheckRecaptchaProvider",
+                "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider(im)init",
+            "mangledName": "$s12AppCheckCore0aB17RecaptchaProviderCACycfc",
+            "moduleName": "AppCheckCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AppCheckCore@objc(cs)GACRecaptchaProvider",
+        "mangledName": "$s12AppCheckCore0aB17RecaptchaProviderC",
+        "moduleName": "AppCheckCore",
+        "intro_iOS": "15.0",
+        "objc_name": "GACRecaptchaProvider",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "FBLPromises",
+        "printedName": "FBLPromises",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Promises",
+        "printedName": "Promises",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      },
+      {
+        "kind": "Import",
+        "name": "RecaptchaInterop",
+        "printedName": "RecaptchaInterop",
+        "declKind": "Import",
+        "moduleName": "AppCheckCore"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/Public\/AppCheckRecaptchaProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 15,
+      "value": "\"app_check_ios\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/Public\/AppCheckRecaptchaProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5286,
+      "length": 31,
+      "value": "\"RecaptchaEnterprise.RCAAction\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/Public\/AppCheckRecaptchaProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5406,
+      "length": 34,
+      "value": "\"RecaptchaEnterprise.RCARecaptcha\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 28,
+      "value": "\"recaptcha_enterprise_token\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 886,
+      "length": 13,
+      "value": "\"limited_use\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 34,
+      "value": "\"exchangeRecaptchaEnterpriseToken\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaAPIService.swift",
+      "kind": "StringLiteral",
+      "offset": 1075,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaTokenGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1173,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-06-11T05-46-02\/project-ios\/Pods\/AppCheckCore\/AppCheckRecaptchaProvider\/Sources\/RecaptchaTokenGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1438,
+      "length": 3,
+      "value": "100"
+    }
+  ]
+}

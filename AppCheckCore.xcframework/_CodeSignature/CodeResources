@@ -6,15 +6,19 @@
 	<dict>
 		<key>ios-arm64/AppCheckCore.framework/AppCheckCore</key>
 		<data>
-		FHtd1nNh50TK0dViW0DQDaHwI/M=
+		3OzZaJyryhLeknv4CuCqoTnYGqs=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Headers/AppCheckCore-Swift.h</key>
+		<data>
+		tS3oFkWYnIZOEtI0UnsDURkLPPw=
 		</data>
 		<key>ios-arm64/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<data>
-		io6m/zoNImB0vwDk2p2uPRnW2MM=
+		+EgU0tnRidO7qmHrq8DKknHZpXk=
 		</data>
 		<key>ios-arm64/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<data>
-		aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+		jZ9qy13rMug2RcoEwwsJ/yaDu94=
 		</data>
 		<key>ios-arm64/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>ios-arm64/AppCheckCore.framework/Headers/GACAppCheckErrors.h</key>
 		<data>
-		uk1nlK658zjfXxvSCLCy2Bs//C0=
+		3m9I/LOdv9SQpKO8xb321CGylx8=
 		</data>
 		<key>ios-arm64/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
 		<data>
@@ -64,25 +68,65 @@
 		<data>
 		6bSVwfSlB0z/9enIh/YOAvD7URU=
 		</data>
+		<key>ios-arm64/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<data>
+		I1R085C5KAXmTad3erVAw8R8lrE=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<data>
+		2ptBeMZFUoC1yh8PxCw+78SvTq8=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<data>
+		AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<data>
+		zM9kjKlcRVrb8GutuLdRGaF+bFM=
+		</data>
 		<key>ios-arm64/AppCheckCore.framework/Info.plist</key>
 		<data>
-		n3xWngI9S7S6FkQYfAs5YK1PoL4=
+		UvTRukABnmvlrhOH4KCzEMrKjQo=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<data>
+		WjxD2zXa9SFnWypVY6/APL7rrf8=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		lCLSYmS8ap3kprwLlwF4iFxuPbw=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		Xf0D1G+mlLfde/BUC8yF8B8DwrU=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		03Id8aZXjqHFWKymceUV5CfC0/Q=
+		</data>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		Xf0D1G+mlLfde/BUC8yF8B8DwrU=
 		</data>
 		<key>ios-arm64/AppCheckCore.framework/Modules/module.modulemap</key>
 		<data>
-		nFJtuwpV9Rp7ezUYBmj7L6sOVPM=
+		n3pC6Sh5QUPdKijXW7ww/zXNDEE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/AppCheckCore</key>
 		<data>
-		1VXuaopi9dXWyxGPAmbwufOocQ0=
+		gioGmQ2WUj35PtlKA1wUkZv1dA0=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/AppCheckCore-Swift.h</key>
+		<data>
+		Twjsja3mtk8EfqypafzvfyVwdwc=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/AppCheckCore-umbrella.h</key>
 		<data>
-		io6m/zoNImB0vwDk2p2uPRnW2MM=
+		+EgU0tnRidO7qmHrq8DKknHZpXk=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/AppCheckCore.h</key>
 		<data>
-		aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+		jZ9qy13rMug2RcoEwwsJ/yaDu94=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/GACAppAttestProvider.h</key>
 		<data>
@@ -102,7 +146,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/GACAppCheckErrors.h</key>
 		<data>
-		uk1nlK658zjfXxvSCLCy2Bs//C0=
+		3m9I/LOdv9SQpKO8xb321CGylx8=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/GACAppCheckLogger.h</key>
 		<data>
@@ -132,25 +176,85 @@
 		<data>
 		6bSVwfSlB0z/9enIh/YOAvD7URU=
 		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckAPIService.h</key>
+		<data>
+		I1R085C5KAXmTad3erVAw8R8lrE=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<data>
+		2ptBeMZFUoC1yh8PxCw+78SvTq8=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckErrorUtil.h</key>
+		<data>
+		AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/_GACURLSessionDataResponse.h</key>
+		<data>
+		zM9kjKlcRVrb8GutuLdRGaF+bFM=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/Project/arm64-apple-ios-macabi.swiftsourceinfo</key>
+		<data>
+		B+O2c4r87Uy3mPBSnVYnCYiub+c=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
+		<data>
+		LYtPS8miopvENBaIALgqbBw8bQQ=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
+		<data>
+		ADVdpUyKyGMw54OL3Maky+liJU0=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
+		<data>
+		KvMRGcFk8O8CWdwvsYaF6BF6cOo=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
+		<data>
+		q2/W+77t51Mqh/LCL5j18Z1c3OQ=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
+		<data>
+		KvMRGcFk8O8CWdwvsYaF6BF6cOo=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
+		<data>
+		ADVdpUyKyGMw54OL3Maky+liJU0=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
+		<data>
+		/soS5VW/UuRZPvkzHT6J/fO7bbQ=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
+		<data>
+		T+ByOza/4KvTZdMVuQjQfLAnmpQ=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
+		<data>
+		/soS5VW/UuRZPvkzHT6J/fO7bbQ=
+		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		nFJtuwpV9Rp7ezUYBmj7L6sOVPM=
+		n3pC6Sh5QUPdKijXW7ww/zXNDEE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		ILi+nLZDcUkKviNNrG2XdtUEvx0=
+		GvY9ZQce6vLwGsx8KgloUCpMpZ4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/AppCheckCore</key>
 		<data>
-		WR6iJ54QFGAeDfheQN6gxoUwPHs=
+		J1EjfLzwk40L5tv5YLkbzb8a3dA=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore-Swift.h</key>
+		<data>
+		Twjsja3mtk8EfqypafzvfyVwdwc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<data>
-		io6m/zoNImB0vwDk2p2uPRnW2MM=
+		+EgU0tnRidO7qmHrq8DKknHZpXk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<data>
-		aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+		jZ9qy13rMug2RcoEwwsJ/yaDu94=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
 		<data>
@@ -170,7 +274,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckErrors.h</key>
 		<data>
-		uk1nlK658zjfXxvSCLCy2Bs//C0=
+		3m9I/LOdv9SQpKO8xb321CGylx8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
 		<data>
@@ -200,25 +304,81 @@
 		<data>
 		6bSVwfSlB0z/9enIh/YOAvD7URU=
 		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<data>
+		I1R085C5KAXmTad3erVAw8R8lrE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<data>
+		2ptBeMZFUoC1yh8PxCw+78SvTq8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<data>
+		AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<data>
+		zM9kjKlcRVrb8GutuLdRGaF+bFM=
+		</data>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Info.plist</key>
 		<data>
-		reUOq6xF0gohFfFYPbrgm8qzgp0=
+		rUZZ/PtGIm53t4bIg85mTJPZ8M0=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		Gzo8CuAm2NL0tDo047gA7q/0WaQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		dpQePVCNjhSqJ0OAR5OZPU9Tysc=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		lCLSYmS8ap3kprwLlwF4iFxuPbw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		VQPdkmdqRIJG/9q07atyUY+6E4c=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		stJHEIyB25yj6ZH0lystiWuWbw8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		VQPdkmdqRIJG/9q07atyUY+6E4c=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		lCLSYmS8ap3kprwLlwF4iFxuPbw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		UuhM/m2WE1ypM2gWgsPzq6Kv8xM=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		7DSHzeYAR7q2udkM5g17TCLA2Co=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		UuhM/m2WE1ypM2gWgsPzq6Kv8xM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/module.modulemap</key>
 		<data>
-		nFJtuwpV9Rp7ezUYBmj7L6sOVPM=
+		n3pC6Sh5QUPdKijXW7ww/zXNDEE=
 		</data>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/AppCheckCore</key>
 		<data>
-		5tC+T75gqKlxcEhTMcgBig0AFgI=
+		6wG3L4ciSqWz23hNEf9DLJxXP2c=
 		</data>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/AppCheckCore-umbrella.h</key>
 		<data>
-		pjnuodH1ipy8hrYMO07tg11fgUk=
+		huKab/+iLDMNAxdY7UrtG2GEEx8=
 		</data>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/AppCheckCore.h</key>
 		<data>
-		aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+		jZ9qy13rMug2RcoEwwsJ/yaDu94=
 		</data>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/GACAppAttestProvider.h</key>
 		<data>
@@ -238,7 +398,7 @@
 		</data>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/GACAppCheckErrors.h</key>
 		<data>
-		uk1nlK658zjfXxvSCLCy2Bs//C0=
+		3m9I/LOdv9SQpKO8xb321CGylx8=
 		</data>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/GACAppCheckLogger.h</key>
 		<data>
@@ -268,25 +428,41 @@
 		<data>
 		6bSVwfSlB0z/9enIh/YOAvD7URU=
 		</data>
+		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckAPIService.h</key>
+		<data>
+		I1R085C5KAXmTad3erVAw8R8lrE=
+		</data>
+		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<data>
+		2ptBeMZFUoC1yh8PxCw+78SvTq8=
+		</data>
+		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckErrorUtil.h</key>
+		<data>
+		AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+		</data>
+		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/_GACURLSessionDataResponse.h</key>
+		<data>
+		zM9kjKlcRVrb8GutuLdRGaF+bFM=
+		</data>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
 		nFJtuwpV9Rp7ezUYBmj7L6sOVPM=
 		</data>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		XdUoJdp/1KHI/DOSp0ltUpOdy9U=
+		LwHnN0ya5nmFL2x2ukledkRc8zg=
 		</data>
 		<key>tvos-arm64/AppCheckCore.framework/AppCheckCore</key>
 		<data>
-		omeBJiFcFknw9rxLf+OdKJ7+wSA=
+		60rbTnp1ViukRIBvu5VDN185gP4=
 		</data>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<data>
-		io6m/zoNImB0vwDk2p2uPRnW2MM=
+		+EgU0tnRidO7qmHrq8DKknHZpXk=
 		</data>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<data>
-		aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+		jZ9qy13rMug2RcoEwwsJ/yaDu94=
 		</data>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
 		<data>
@@ -306,7 +482,7 @@
 		</data>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/GACAppCheckErrors.h</key>
 		<data>
-		uk1nlK658zjfXxvSCLCy2Bs//C0=
+		3m9I/LOdv9SQpKO8xb321CGylx8=
 		</data>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
 		<data>
@@ -336,9 +512,25 @@
 		<data>
 		6bSVwfSlB0z/9enIh/YOAvD7URU=
 		</data>
+		<key>tvos-arm64/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<data>
+		I1R085C5KAXmTad3erVAw8R8lrE=
+		</data>
+		<key>tvos-arm64/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<data>
+		2ptBeMZFUoC1yh8PxCw+78SvTq8=
+		</data>
+		<key>tvos-arm64/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<data>
+		AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+		</data>
+		<key>tvos-arm64/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<data>
+		zM9kjKlcRVrb8GutuLdRGaF+bFM=
+		</data>
 		<key>tvos-arm64/AppCheckCore.framework/Info.plist</key>
 		<data>
-		58CP/U4zCEgjpINKIGx1uhcWFzA=
+		yPmZbyI4rX3xuCubc7s1xZ8mM5k=
 		</data>
 		<key>tvos-arm64/AppCheckCore.framework/Modules/module.modulemap</key>
 		<data>
@@ -346,15 +538,15 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/AppCheckCore</key>
 		<data>
-		dT6ZJZSDCm4IXPc6Kfi0ylP8sDU=
+		MzE4BSGffTbpVTIilr3rfcbL7n8=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<data>
-		io6m/zoNImB0vwDk2p2uPRnW2MM=
+		+EgU0tnRidO7qmHrq8DKknHZpXk=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<data>
-		aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+		jZ9qy13rMug2RcoEwwsJ/yaDu94=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
 		<data>
@@ -374,7 +566,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckErrors.h</key>
 		<data>
-		uk1nlK658zjfXxvSCLCy2Bs//C0=
+		3m9I/LOdv9SQpKO8xb321CGylx8=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
 		<data>
@@ -404,9 +596,25 @@
 		<data>
 		6bSVwfSlB0z/9enIh/YOAvD7URU=
 		</data>
+		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<data>
+		I1R085C5KAXmTad3erVAw8R8lrE=
+		</data>
+		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<data>
+		2ptBeMZFUoC1yh8PxCw+78SvTq8=
+		</data>
+		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<data>
+		AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+		</data>
+		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<data>
+		zM9kjKlcRVrb8GutuLdRGaF+bFM=
+		</data>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Info.plist</key>
 		<data>
-		LRhMlb5FEAJRpnskOtLJv2R8V+k=
+		4CGqnqpVV0Y8cx9+pAmPH4p4n6o=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Modules/module.modulemap</key>
 		<data>
@@ -414,15 +622,15 @@
 		</data>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/AppCheckCore</key>
 		<data>
-		M0QGMACre93F+6WyLLi53f4j/+g=
+		Vtmaraqrklu39V5tyGW3Fywamcg=
 		</data>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<data>
-		njkbBSu+2JoIfmPyJKXvGLkhGVA=
+		Dy1NRu8PGI7zyKALtOhlp53k5yU=
 		</data>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<data>
-		aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+		jZ9qy13rMug2RcoEwwsJ/yaDu94=
 		</data>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
 		<data>
@@ -442,7 +650,7 @@
 		</data>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/GACAppCheckErrors.h</key>
 		<data>
-		uk1nlK658zjfXxvSCLCy2Bs//C0=
+		3m9I/LOdv9SQpKO8xb321CGylx8=
 		</data>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
 		<data>
@@ -472,9 +680,25 @@
 		<data>
 		6bSVwfSlB0z/9enIh/YOAvD7URU=
 		</data>
+		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<data>
+		I1R085C5KAXmTad3erVAw8R8lrE=
+		</data>
+		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<data>
+		2ptBeMZFUoC1yh8PxCw+78SvTq8=
+		</data>
+		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<data>
+		AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+		</data>
+		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<data>
+		zM9kjKlcRVrb8GutuLdRGaF+bFM=
+		</data>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Info.plist</key>
 		<data>
-		pBkvPzS+f2/taGyhQgQznj74Seg=
+		YKYBCkI3aIXKT0/1W05+9zk0mtw=
 		</data>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Modules/module.modulemap</key>
 		<data>
@@ -482,15 +706,15 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/AppCheckCore</key>
 		<data>
-		qbgUuL7a5tEjMMMjF3O3jUzbtlY=
+		rJeA94efFtKXjVNcAWuHNb5ViVc=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<data>
-		njkbBSu+2JoIfmPyJKXvGLkhGVA=
+		Dy1NRu8PGI7zyKALtOhlp53k5yU=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<data>
-		aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+		jZ9qy13rMug2RcoEwwsJ/yaDu94=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
 		<data>
@@ -510,7 +734,7 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckErrors.h</key>
 		<data>
-		uk1nlK658zjfXxvSCLCy2Bs//C0=
+		3m9I/LOdv9SQpKO8xb321CGylx8=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
 		<data>
@@ -540,9 +764,25 @@
 		<data>
 		6bSVwfSlB0z/9enIh/YOAvD7URU=
 		</data>
+		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<data>
+		I1R085C5KAXmTad3erVAw8R8lrE=
+		</data>
+		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<data>
+		2ptBeMZFUoC1yh8PxCw+78SvTq8=
+		</data>
+		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<data>
+		AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+		</data>
+		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<data>
+		zM9kjKlcRVrb8GutuLdRGaF+bFM=
+		</data>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Info.plist</key>
 		<data>
-		f1ShGOc4AWqi8gRQ5HigWFzuVDo=
+		fWXFHqonWV6Sqehp3+yDrChL+4g=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Modules/module.modulemap</key>
 		<data>
@@ -555,33 +795,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FHtd1nNh50TK0dViW0DQDaHwI/M=
+			3OzZaJyryhLeknv4CuCqoTnYGqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			4zN6aOMA0sRSYvP3DHTIDTxEU84QVRWAdnmTJQqqrco=
+			HrJBIjBbbtIICGei4oJDrp9aBF8ZFVLo8YM2DpycNzM=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Headers/AppCheckCore-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tS3oFkWYnIZOEtI0UnsDURkLPPw=
+			</data>
+			<key>hash2</key>
+			<data>
+			e2QhAw7yH1j8zYO2EsYT5VXoJ6wq/JVWbMDOBvGZ2RI=
 			</data>
 		</dict>
 		<key>ios-arm64/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			io6m/zoNImB0vwDk2p2uPRnW2MM=
+			+EgU0tnRidO7qmHrq8DKknHZpXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ODq0bWeFLej7WX8mFZx3VE5hmnQ3OiS0EujGmOHhGRE=
+			UyGFhIurWBnxgEQKmxtpKWVU28v5jFIo/OVxLvOolHo=
 			</data>
 		</dict>
 		<key>ios-arm64/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+			jZ9qy13rMug2RcoEwwsJ/yaDu94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul2Yz9IdQWfkM517ColMkCWkFU4f24P47g1ukh9GRiQ=
+			UU6dsI/05zKC8BPBv3BUXUpygxvkdA1PzStSfQoQzQM=
 			</data>
 		</dict>
 		<key>ios-arm64/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
@@ -632,11 +883,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1nlK658zjfXxvSCLCy2Bs//C0=
+			3m9I/LOdv9SQpKO8xb321CGylx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tea7EucVmldf1jdv2kSg/0qAHANq0/PyCQtdZiOvI4k=
+			1UHYEZGRbLkdKxH8xpmSdBOyiWmdhxF2AQ7Emtxu0j8=
 			</data>
 		</dict>
 		<key>ios-arm64/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
@@ -716,26 +967,125 @@
 			AG4gN3L0skthMgK5SQ+CJzsiYCajmBLyqFCppURGttM=
 			</data>
 		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1R085C5KAXmTad3erVAw8R8lrE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzyf+xgwKB5uCd9u1ZtI9wJ9sLuR0LLoBQXONijhNJg=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ptBeMZFUoC1yh8PxCw+78SvTq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sO/Ib2lBSRWlgK/0kkjN1b8AYQ6IsaFeAid8L6Dszkk=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cvsNBOW8cH3dfnLIoe0HS8tci/kal1NFGJVRYjZpnY=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9kjKlcRVrb8GutuLdRGaF+bFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPCB/xS48MLTPrmBBu37OsYfIFOwDDiHrDT4suGfPgo=
+			</data>
+		</dict>
 		<key>ios-arm64/AppCheckCore.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n3xWngI9S7S6FkQYfAs5YK1PoL4=
+			UvTRukABnmvlrhOH4KCzEMrKjQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gl3BoMveF73SLbD2NvEJrEPVIcue7aJmt6bL0knBkho=
+			QKaTdVfpFvUbUEt1zH1uWii0hDU4q3bzTSd6/+84psc=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WjxD2zXa9SFnWypVY6/APL7rrf8=
+			</data>
+			<key>hash2</key>
+			<data>
+			zccyYBj0DsPBkbD4muYQgknjLjwff/MOKlBJzijUDlA=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lCLSYmS8ap3kprwLlwF4iFxuPbw=
+			</data>
+			<key>hash2</key>
+			<data>
+			9OkXJlJL7ZQ7H8BW1CDE6UTHBeYwvL6aPTRP5we8CeA=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xf0D1G+mlLfde/BUC8yF8B8DwrU=
+			</data>
+			<key>hash2</key>
+			<data>
+			krxqOmdreBxM5wrjOA/A0CButk2RjH/LSIH5j+fM3FA=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			03Id8aZXjqHFWKymceUV5CfC0/Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			zRnsToyVzfsi6mCEMyCYe3NZuWwLl4Fg7TRm8MlVgGU=
+			</data>
+		</dict>
+		<key>ios-arm64/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xf0D1G+mlLfde/BUC8yF8B8DwrU=
+			</data>
+			<key>hash2</key>
+			<data>
+			krxqOmdreBxM5wrjOA/A0CButk2RjH/LSIH5j+fM3FA=
 			</data>
 		</dict>
 		<key>ios-arm64/AppCheckCore.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nFJtuwpV9Rp7ezUYBmj7L6sOVPM=
+			n3pC6Sh5QUPdKijXW7ww/zXNDEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FZSoVIFmu2+W70cPatL2EJbHBWAix2u++FD40fjbZCU=
+			6LMF4NHLWIdcufWGi+4vcgNTdzeykAqAH5vvTWZEC5U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/AppCheckCore</key>
@@ -762,33 +1112,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1VXuaopi9dXWyxGPAmbwufOocQ0=
+			gioGmQ2WUj35PtlKA1wUkZv1dA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			f88fmtNIHRmGMbkQ8N3sL0IdzvcO9JLBA/NVv3dSI/c=
+			Psg2j2AHU75fcoKS/fiSujgHLlQyY2mEqyhMHpBAe/k=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/AppCheckCore-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Twjsja3mtk8EfqypafzvfyVwdwc=
+			</data>
+			<key>hash2</key>
+			<data>
+			RGLKXFTAVGduhdCrB5Uy6siCtCPYClPUvRCO74NDkiU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/AppCheckCore-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			io6m/zoNImB0vwDk2p2uPRnW2MM=
+			+EgU0tnRidO7qmHrq8DKknHZpXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ODq0bWeFLej7WX8mFZx3VE5hmnQ3OiS0EujGmOHhGRE=
+			UyGFhIurWBnxgEQKmxtpKWVU28v5jFIo/OVxLvOolHo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/AppCheckCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+			jZ9qy13rMug2RcoEwwsJ/yaDu94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul2Yz9IdQWfkM517ColMkCWkFU4f24P47g1ukh9GRiQ=
+			UU6dsI/05zKC8BPBv3BUXUpygxvkdA1PzStSfQoQzQM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/GACAppAttestProvider.h</key>
@@ -839,11 +1200,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1nlK658zjfXxvSCLCy2Bs//C0=
+			3m9I/LOdv9SQpKO8xb321CGylx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tea7EucVmldf1jdv2kSg/0qAHANq0/PyCQtdZiOvI4k=
+			1UHYEZGRbLkdKxH8xpmSdBOyiWmdhxF2AQ7Emtxu0j8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/GACAppCheckLogger.h</key>
@@ -923,26 +1284,180 @@
 			AG4gN3L0skthMgK5SQ+CJzsiYCajmBLyqFCppURGttM=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckAPIService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1R085C5KAXmTad3erVAw8R8lrE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzyf+xgwKB5uCd9u1ZtI9wJ9sLuR0LLoBQXONijhNJg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ptBeMZFUoC1yh8PxCw+78SvTq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sO/Ib2lBSRWlgK/0kkjN1b8AYQ6IsaFeAid8L6Dszkk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckErrorUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cvsNBOW8cH3dfnLIoe0HS8tci/kal1NFGJVRYjZpnY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Headers/_GACURLSessionDataResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9kjKlcRVrb8GutuLdRGaF+bFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPCB/xS48MLTPrmBBu37OsYfIFOwDDiHrDT4suGfPgo=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/Project/arm64-apple-ios-macabi.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B+O2c4r87Uy3mPBSnVYnCYiub+c=
+			</data>
+			<key>hash2</key>
+			<data>
+			Srw5dtaXtccOudpZJoMBhsnAK+NucxqvECEhe8SAc+Y=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LYtPS8miopvENBaIALgqbBw8bQQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			U10rv8RkRFiDGpdBGdBSBHg4Pw2FuSpjpa6XRvydA6c=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ADVdpUyKyGMw54OL3Maky+liJU0=
+			</data>
+			<key>hash2</key>
+			<data>
+			9GKkj3nApatTQrJsgjWjHYUPuSkE3qL6SjrQ0Ve5UB8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KvMRGcFk8O8CWdwvsYaF6BF6cOo=
+			</data>
+			<key>hash2</key>
+			<data>
+			rosemnWJEW3MHK7TyTF1sz0jYyJeglkCwwyCJO+nmlQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q2/W+77t51Mqh/LCL5j18Z1c3OQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			+CbWJpGXxTRTcp1GkchNp/7B1vUdn08pEpZVkuZ8mJA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KvMRGcFk8O8CWdwvsYaF6BF6cOo=
+			</data>
+			<key>hash2</key>
+			<data>
+			rosemnWJEW3MHK7TyTF1sz0jYyJeglkCwwyCJO+nmlQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ADVdpUyKyGMw54OL3Maky+liJU0=
+			</data>
+			<key>hash2</key>
+			<data>
+			9GKkj3nApatTQrJsgjWjHYUPuSkE3qL6SjrQ0Ve5UB8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/soS5VW/UuRZPvkzHT6J/fO7bbQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			dAqEKbL30UoQJ8jT74/wB+Q0Eqq/l0wXJsIHbO/HWmA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T+ByOza/4KvTZdMVuQjQfLAnmpQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			smI5P/VF0q8g/u/fv3yDkRk3jS205dZ1Co3qUm/lAAQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/soS5VW/UuRZPvkzHT6J/fO7bbQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			dAqEKbL30UoQJ8jT74/wB+Q0Eqq/l0wXJsIHbO/HWmA=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nFJtuwpV9Rp7ezUYBmj7L6sOVPM=
+			n3pC6Sh5QUPdKijXW7ww/zXNDEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FZSoVIFmu2+W70cPatL2EJbHBWAix2u++FD40fjbZCU=
+			6LMF4NHLWIdcufWGi+4vcgNTdzeykAqAH5vvTWZEC5U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ILi+nLZDcUkKviNNrG2XdtUEvx0=
+			GvY9ZQce6vLwGsx8KgloUCpMpZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FS/CV9mnYvyX6Wt4Lypcefq4QgEZAbd6Omcvo+yaHgc=
+			sS4F6lLpg+XVH4MNTBMje+5+WP/G/zX7157nuWjluh4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/AppCheckCore.framework/Versions/Current</key>
@@ -954,33 +1469,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WR6iJ54QFGAeDfheQN6gxoUwPHs=
+			J1EjfLzwk40L5tv5YLkbzb8a3dA=
 			</data>
 			<key>hash2</key>
 			<data>
-			y12zF7Req6OnuwHKgHBlWxqbbuGiy2K0SBUPhQZLWKQ=
+			wCmZGDVmEZxBy6+BNalRL427rB7plxNMS/FHQYZazck=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Twjsja3mtk8EfqypafzvfyVwdwc=
+			</data>
+			<key>hash2</key>
+			<data>
+			RGLKXFTAVGduhdCrB5Uy6siCtCPYClPUvRCO74NDkiU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			io6m/zoNImB0vwDk2p2uPRnW2MM=
+			+EgU0tnRidO7qmHrq8DKknHZpXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ODq0bWeFLej7WX8mFZx3VE5hmnQ3OiS0EujGmOHhGRE=
+			UyGFhIurWBnxgEQKmxtpKWVU28v5jFIo/OVxLvOolHo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+			jZ9qy13rMug2RcoEwwsJ/yaDu94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul2Yz9IdQWfkM517ColMkCWkFU4f24P47g1ukh9GRiQ=
+			UU6dsI/05zKC8BPBv3BUXUpygxvkdA1PzStSfQoQzQM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
@@ -1031,11 +1557,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1nlK658zjfXxvSCLCy2Bs//C0=
+			3m9I/LOdv9SQpKO8xb321CGylx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tea7EucVmldf1jdv2kSg/0qAHANq0/PyCQtdZiOvI4k=
+			1UHYEZGRbLkdKxH8xpmSdBOyiWmdhxF2AQ7Emtxu0j8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
@@ -1115,26 +1641,180 @@
 			AG4gN3L0skthMgK5SQ+CJzsiYCajmBLyqFCppURGttM=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1R085C5KAXmTad3erVAw8R8lrE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzyf+xgwKB5uCd9u1ZtI9wJ9sLuR0LLoBQXONijhNJg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ptBeMZFUoC1yh8PxCw+78SvTq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sO/Ib2lBSRWlgK/0kkjN1b8AYQ6IsaFeAid8L6Dszkk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cvsNBOW8cH3dfnLIoe0HS8tci/kal1NFGJVRYjZpnY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9kjKlcRVrb8GutuLdRGaF+bFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPCB/xS48MLTPrmBBu37OsYfIFOwDDiHrDT4suGfPgo=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			reUOq6xF0gohFfFYPbrgm8qzgp0=
+			rUZZ/PtGIm53t4bIg85mTJPZ8M0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vajPRrdh4EgE2M38TkZP3/VXV0cD3V35S6Acy747cAU=
+			XRjOT0uIoYCd9yT+WmQjEe1rCIBebUQB2t3u5dNlME8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gzo8CuAm2NL0tDo047gA7q/0WaQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			eJKR4pADn0FwhfJHxBqbL1ZkCno8AynH0Uy5X7JXwbE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dpQePVCNjhSqJ0OAR5OZPU9Tysc=
+			</data>
+			<key>hash2</key>
+			<data>
+			KxyimnqHK6qDQJg8BPkUyg5OTgzm4DsZSYmvr8VBEoc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lCLSYmS8ap3kprwLlwF4iFxuPbw=
+			</data>
+			<key>hash2</key>
+			<data>
+			9OkXJlJL7ZQ7H8BW1CDE6UTHBeYwvL6aPTRP5we8CeA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VQPdkmdqRIJG/9q07atyUY+6E4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			wL0eYSpnJJiYKT0rCstTn0MAfCQ33KgDAUSnrmHC4w4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			stJHEIyB25yj6ZH0lystiWuWbw8=
+			</data>
+			<key>hash2</key>
+			<data>
+			5xRBIcXG66DyeIdhOBT1HYRsmhQ69kMQ0cfukIetBh8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VQPdkmdqRIJG/9q07atyUY+6E4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			wL0eYSpnJJiYKT0rCstTn0MAfCQ33KgDAUSnrmHC4w4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lCLSYmS8ap3kprwLlwF4iFxuPbw=
+			</data>
+			<key>hash2</key>
+			<data>
+			9OkXJlJL7ZQ7H8BW1CDE6UTHBeYwvL6aPTRP5we8CeA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UuhM/m2WE1ypM2gWgsPzq6Kv8xM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Zi9UM2wqfqyGgmUyJERLOI/TPiz/GNAzAdojC/PnfvM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7DSHzeYAR7q2udkM5g17TCLA2Co=
+			</data>
+			<key>hash2</key>
+			<data>
+			iLBe6hbELiGq9X6IuW342Ltz3theuSuT0BsLhR/eNII=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/AppCheckCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UuhM/m2WE1ypM2gWgsPzq6Kv8xM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Zi9UM2wqfqyGgmUyJERLOI/TPiz/GNAzAdojC/PnfvM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AppCheckCore.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nFJtuwpV9Rp7ezUYBmj7L6sOVPM=
+			n3pC6Sh5QUPdKijXW7ww/zXNDEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FZSoVIFmu2+W70cPatL2EJbHBWAix2u++FD40fjbZCU=
+			6LMF4NHLWIdcufWGi+4vcgNTdzeykAqAH5vvTWZEC5U=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/AppCheckCore</key>
@@ -1161,33 +1841,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5tC+T75gqKlxcEhTMcgBig0AFgI=
+			6wG3L4ciSqWz23hNEf9DLJxXP2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			iDJpHZUXLp+78QoaXoFuNcikkmaQ9VYNrlcSs/paJ4g=
+			GEAqU9wtdWc6O5++8LDLfblMHFTkSwouHyeNGlppAeM=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/AppCheckCore-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pjnuodH1ipy8hrYMO07tg11fgUk=
+			huKab/+iLDMNAxdY7UrtG2GEEx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			VgmlRLZ/i5QvCy9VIV3bvev3PVFtZMYo2hrAQcV58hA=
+			FU9kGGdR+YL3qrbB9G7mqtvL1pEU/58VI7L86QryKN4=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/AppCheckCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+			jZ9qy13rMug2RcoEwwsJ/yaDu94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul2Yz9IdQWfkM517ColMkCWkFU4f24P47g1ukh9GRiQ=
+			UU6dsI/05zKC8BPBv3BUXUpygxvkdA1PzStSfQoQzQM=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/GACAppAttestProvider.h</key>
@@ -1238,11 +1918,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1nlK658zjfXxvSCLCy2Bs//C0=
+			3m9I/LOdv9SQpKO8xb321CGylx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tea7EucVmldf1jdv2kSg/0qAHANq0/PyCQtdZiOvI4k=
+			1UHYEZGRbLkdKxH8xpmSdBOyiWmdhxF2AQ7Emtxu0j8=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/GACAppCheckLogger.h</key>
@@ -1322,6 +2002,50 @@
 			AG4gN3L0skthMgK5SQ+CJzsiYCajmBLyqFCppURGttM=
 			</data>
 		</dict>
+		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckAPIService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1R085C5KAXmTad3erVAw8R8lrE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzyf+xgwKB5uCd9u1ZtI9wJ9sLuR0LLoBQXONijhNJg=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ptBeMZFUoC1yh8PxCw+78SvTq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sO/Ib2lBSRWlgK/0kkjN1b8AYQ6IsaFeAid8L6Dszkk=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/_GACAppCheckErrorUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cvsNBOW8cH3dfnLIoe0HS8tci/kal1NFGJVRYjZpnY=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Headers/_GACURLSessionDataResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9kjKlcRVrb8GutuLdRGaF+bFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPCB/xS48MLTPrmBBu37OsYfIFOwDDiHrDT4suGfPgo=
+			</data>
+		</dict>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -1337,11 +2061,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XdUoJdp/1KHI/DOSp0ltUpOdy9U=
+			LwHnN0ya5nmFL2x2ukledkRc8zg=
 			</data>
 			<key>hash2</key>
 			<data>
-			3KOQi0Qfc9qyjL+hs/vvH+qeEVqF3RqRjHKI1wMzjd0=
+			KnxdK4MonVNlmEHt3Jry54U0LGzuN2OMH29lRxtPmOg=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/AppCheckCore.framework/Versions/Current</key>
@@ -1353,33 +2077,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			omeBJiFcFknw9rxLf+OdKJ7+wSA=
+			60rbTnp1ViukRIBvu5VDN185gP4=
 			</data>
 			<key>hash2</key>
 			<data>
-			/UxaWqnvm/WquCWF05J2YfQZtwQakXRxKJnFiuqqFQ0=
+			dl5mhFX5dTeIgzYtRhga40s+ZoEzutZ71+XtVIykqEE=
 			</data>
 		</dict>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			io6m/zoNImB0vwDk2p2uPRnW2MM=
+			+EgU0tnRidO7qmHrq8DKknHZpXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ODq0bWeFLej7WX8mFZx3VE5hmnQ3OiS0EujGmOHhGRE=
+			UyGFhIurWBnxgEQKmxtpKWVU28v5jFIo/OVxLvOolHo=
 			</data>
 		</dict>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+			jZ9qy13rMug2RcoEwwsJ/yaDu94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul2Yz9IdQWfkM517ColMkCWkFU4f24P47g1ukh9GRiQ=
+			UU6dsI/05zKC8BPBv3BUXUpygxvkdA1PzStSfQoQzQM=
 			</data>
 		</dict>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
@@ -1430,11 +2154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1nlK658zjfXxvSCLCy2Bs//C0=
+			3m9I/LOdv9SQpKO8xb321CGylx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tea7EucVmldf1jdv2kSg/0qAHANq0/PyCQtdZiOvI4k=
+			1UHYEZGRbLkdKxH8xpmSdBOyiWmdhxF2AQ7Emtxu0j8=
 			</data>
 		</dict>
 		<key>tvos-arm64/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
@@ -1514,15 +2238,59 @@
 			AG4gN3L0skthMgK5SQ+CJzsiYCajmBLyqFCppURGttM=
 			</data>
 		</dict>
+		<key>tvos-arm64/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1R085C5KAXmTad3erVAw8R8lrE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzyf+xgwKB5uCd9u1ZtI9wJ9sLuR0LLoBQXONijhNJg=
+			</data>
+		</dict>
+		<key>tvos-arm64/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ptBeMZFUoC1yh8PxCw+78SvTq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sO/Ib2lBSRWlgK/0kkjN1b8AYQ6IsaFeAid8L6Dszkk=
+			</data>
+		</dict>
+		<key>tvos-arm64/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cvsNBOW8cH3dfnLIoe0HS8tci/kal1NFGJVRYjZpnY=
+			</data>
+		</dict>
+		<key>tvos-arm64/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9kjKlcRVrb8GutuLdRGaF+bFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPCB/xS48MLTPrmBBu37OsYfIFOwDDiHrDT4suGfPgo=
+			</data>
+		</dict>
 		<key>tvos-arm64/AppCheckCore.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			58CP/U4zCEgjpINKIGx1uhcWFzA=
+			yPmZbyI4rX3xuCubc7s1xZ8mM5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			4mp9kVHefHzoLnIboJXnxAgkXFIn9vftOUKrPHVY75k=
+			p+/zzAHUGhDwosbg1aLCFTwFKHnodILydUfwaEtlm+g=
 			</data>
 		</dict>
 		<key>tvos-arm64/AppCheckCore.framework/Modules/module.modulemap</key>
@@ -1540,33 +2308,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dT6ZJZSDCm4IXPc6Kfi0ylP8sDU=
+			MzE4BSGffTbpVTIilr3rfcbL7n8=
 			</data>
 			<key>hash2</key>
 			<data>
-			JbDd071RzXdA6/xRRcIlOCL5znB2OXD8eSsGQCaD4lo=
+			8dh67wYzmUPg2GKp73UlINBJapPuV4+nMTV3jq5+wf4=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			io6m/zoNImB0vwDk2p2uPRnW2MM=
+			+EgU0tnRidO7qmHrq8DKknHZpXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ODq0bWeFLej7WX8mFZx3VE5hmnQ3OiS0EujGmOHhGRE=
+			UyGFhIurWBnxgEQKmxtpKWVU28v5jFIo/OVxLvOolHo=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+			jZ9qy13rMug2RcoEwwsJ/yaDu94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul2Yz9IdQWfkM517ColMkCWkFU4f24P47g1ukh9GRiQ=
+			UU6dsI/05zKC8BPBv3BUXUpygxvkdA1PzStSfQoQzQM=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
@@ -1617,11 +2385,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1nlK658zjfXxvSCLCy2Bs//C0=
+			3m9I/LOdv9SQpKO8xb321CGylx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tea7EucVmldf1jdv2kSg/0qAHANq0/PyCQtdZiOvI4k=
+			1UHYEZGRbLkdKxH8xpmSdBOyiWmdhxF2AQ7Emtxu0j8=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
@@ -1701,15 +2469,59 @@
 			AG4gN3L0skthMgK5SQ+CJzsiYCajmBLyqFCppURGttM=
 			</data>
 		</dict>
+		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1R085C5KAXmTad3erVAw8R8lrE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzyf+xgwKB5uCd9u1ZtI9wJ9sLuR0LLoBQXONijhNJg=
+			</data>
+		</dict>
+		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ptBeMZFUoC1yh8PxCw+78SvTq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sO/Ib2lBSRWlgK/0kkjN1b8AYQ6IsaFeAid8L6Dszkk=
+			</data>
+		</dict>
+		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cvsNBOW8cH3dfnLIoe0HS8tci/kal1NFGJVRYjZpnY=
+			</data>
+		</dict>
+		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9kjKlcRVrb8GutuLdRGaF+bFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPCB/xS48MLTPrmBBu37OsYfIFOwDDiHrDT4suGfPgo=
+			</data>
+		</dict>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LRhMlb5FEAJRpnskOtLJv2R8V+k=
+			4CGqnqpVV0Y8cx9+pAmPH4p4n6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			O+05J78YnwLp1GRLg0CxRvrmoEzc8N6reSCQglwoFQ4=
+			L1NGohE2Z3JPI7VF8h7Xufx4SVEca/AwjhP2aTzG28A=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/AppCheckCore.framework/Modules/module.modulemap</key>
@@ -1727,33 +2539,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M0QGMACre93F+6WyLLi53f4j/+g=
+			Vtmaraqrklu39V5tyGW3Fywamcg=
 			</data>
 			<key>hash2</key>
 			<data>
-			0DwfTxFUaHI5zXpiWs0WzOPz0KtdDji+wQHB89TgVSo=
+			9Hd3M5j5LpE4CGJATjD0Q+/lt4wO4rtPOUmtnZZ4KHg=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			njkbBSu+2JoIfmPyJKXvGLkhGVA=
+			Dy1NRu8PGI7zyKALtOhlp53k5yU=
 			</data>
 			<key>hash2</key>
 			<data>
-			PG+a/JTU6gKIJjMN8oYSl9LgsDxOkIbq61xRty4ugWU=
+			LJJ8IIIRXTAPpCNzb7F7r6mD6Fny3V0eW7CaceBaq4c=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+			jZ9qy13rMug2RcoEwwsJ/yaDu94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul2Yz9IdQWfkM517ColMkCWkFU4f24P47g1ukh9GRiQ=
+			UU6dsI/05zKC8BPBv3BUXUpygxvkdA1PzStSfQoQzQM=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
@@ -1804,11 +2616,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1nlK658zjfXxvSCLCy2Bs//C0=
+			3m9I/LOdv9SQpKO8xb321CGylx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tea7EucVmldf1jdv2kSg/0qAHANq0/PyCQtdZiOvI4k=
+			1UHYEZGRbLkdKxH8xpmSdBOyiWmdhxF2AQ7Emtxu0j8=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
@@ -1888,15 +2700,59 @@
 			AG4gN3L0skthMgK5SQ+CJzsiYCajmBLyqFCppURGttM=
 			</data>
 		</dict>
+		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1R085C5KAXmTad3erVAw8R8lrE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzyf+xgwKB5uCd9u1ZtI9wJ9sLuR0LLoBQXONijhNJg=
+			</data>
+		</dict>
+		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ptBeMZFUoC1yh8PxCw+78SvTq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sO/Ib2lBSRWlgK/0kkjN1b8AYQ6IsaFeAid8L6Dszkk=
+			</data>
+		</dict>
+		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cvsNBOW8cH3dfnLIoe0HS8tci/kal1NFGJVRYjZpnY=
+			</data>
+		</dict>
+		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9kjKlcRVrb8GutuLdRGaF+bFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPCB/xS48MLTPrmBBu37OsYfIFOwDDiHrDT4suGfPgo=
+			</data>
+		</dict>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pBkvPzS+f2/taGyhQgQznj74Seg=
+			YKYBCkI3aIXKT0/1W05+9zk0mtw=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Rd0MbYUJGi9Z1sfwKXExM+6uUk5RtTXNdVpIoZnJXc=
+			dZRImFzf/NLArZvPrM8S74QfB2N8/PdXfCAy7ybGXdI=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/AppCheckCore.framework/Modules/module.modulemap</key>
@@ -1914,33 +2770,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qbgUuL7a5tEjMMMjF3O3jUzbtlY=
+			rJeA94efFtKXjVNcAWuHNb5ViVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			fzN0P+V0IfwCfbxDRDiMMDqLlWEGpALDziy624kl3hs=
+			K7d06jYtqEOzCB3Gg4pp/rTp+8XUvG3ENky5a6LX6yM=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			njkbBSu+2JoIfmPyJKXvGLkhGVA=
+			Dy1NRu8PGI7zyKALtOhlp53k5yU=
 			</data>
 			<key>hash2</key>
 			<data>
-			PG+a/JTU6gKIJjMN8oYSl9LgsDxOkIbq61xRty4ugWU=
+			LJJ8IIIRXTAPpCNzb7F7r6mD6Fny3V0eW7CaceBaq4c=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/AppCheckCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPlnxK0s7N//HPGiQQ/QfhVg2yI=
+			jZ9qy13rMug2RcoEwwsJ/yaDu94=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul2Yz9IdQWfkM517ColMkCWkFU4f24P47g1ukh9GRiQ=
+			UU6dsI/05zKC8BPBv3BUXUpygxvkdA1PzStSfQoQzQM=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppAttestProvider.h</key>
@@ -1991,11 +2847,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1nlK658zjfXxvSCLCy2Bs//C0=
+			3m9I/LOdv9SQpKO8xb321CGylx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tea7EucVmldf1jdv2kSg/0qAHANq0/PyCQtdZiOvI4k=
+			1UHYEZGRbLkdKxH8xpmSdBOyiWmdhxF2AQ7Emtxu0j8=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/GACAppCheckLogger.h</key>
@@ -2075,15 +2931,59 @@
 			AG4gN3L0skthMgK5SQ+CJzsiYCajmBLyqFCppURGttM=
 			</data>
 		</dict>
+		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckAPIService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I1R085C5KAXmTad3erVAw8R8lrE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pzyf+xgwKB5uCd9u1ZtI9wJ9sLuR0LLoBQXONijhNJg=
+			</data>
+		</dict>
+		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckBackoffWrapper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ptBeMZFUoC1yh8PxCw+78SvTq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sO/Ib2lBSRWlgK/0kkjN1b8AYQ6IsaFeAid8L6Dszkk=
+			</data>
+		</dict>
+		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACAppCheckErrorUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AxKdwaTbVkl8fNKdRYPWCKhSHOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cvsNBOW8cH3dfnLIoe0HS8tci/kal1NFGJVRYjZpnY=
+			</data>
+		</dict>
+		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Headers/_GACURLSessionDataResponse.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9kjKlcRVrb8GutuLdRGaF+bFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPCB/xS48MLTPrmBBu37OsYfIFOwDDiHrDT4suGfPgo=
+			</data>
+		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f1ShGOc4AWqi8gRQ5HigWFzuVDo=
+			fWXFHqonWV6Sqehp3+yDrChL+4g=
 			</data>
 			<key>hash2</key>
 			<data>
-			LBHwFRK1C8Mu0Chkrmpu1GLkPl3TD3ZPHuzTywx1Vbw=
+			q0eDhKGRl50xKdd9XMHXuySe+RlQPAu+21XElzlGigo=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/AppCheckCore.framework/Modules/module.modulemap</key>
