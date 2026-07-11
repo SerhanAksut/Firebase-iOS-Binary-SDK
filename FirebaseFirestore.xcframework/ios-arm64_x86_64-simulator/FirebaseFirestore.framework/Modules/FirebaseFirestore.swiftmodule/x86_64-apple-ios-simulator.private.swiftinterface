@@ -43,7 +43,6 @@ public enum FirestoreDecodingError : Swift.Error {
 public enum FirestoreEncodingError : Swift.Error {
   case encodingIsNotSupported(Swift.String)
 }
-@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseFirestoreInternal.CollectionReference {
   @discardableResult
   public func addDocument(data: [Swift.String : Any]) async throws -> FirebaseFirestoreInternal.DocumentReference
@@ -126,7 +125,6 @@ extension FirebaseFirestore.DocumentID : Swift.Hashable where Value : Swift.Hash
     get
   }
 }
-@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseFirestoreInternal.DocumentReference {
   @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
   public var snapshots: FirebaseFirestoreInternal.DocumentReference.DocumentSnapshotsSequence {
@@ -163,7 +161,6 @@ extension FirebaseFirestoreInternal.DocumentReference {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getDocument<T>(as type: T.Type, with serverTimestampBehavior: FirebaseFirestoreInternal.ServerTimestampBehavior = .none, decoder: FirebaseFirestoreInternal.Firestore.Decoder = .init(), source: FirebaseFirestoreInternal.FirestoreSource = .default, completion: @escaping (Swift.Result<T, any Swift.Error>) -> Swift.Void) where T : Swift.Decodable
   #endif
-  @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   public func getDocument<T>(as type: T.Type, with serverTimestampBehavior: FirebaseFirestoreInternal.ServerTimestampBehavior = .none, decoder: FirebaseFirestoreInternal.Firestore.Decoder = .init(), source: FirebaseFirestoreInternal.FirestoreSource = .default) async throws -> T where T : Swift.Decodable
 }
 extension FirebaseFirestoreInternal.DocumentReference {
@@ -675,7 +672,6 @@ extension FirebaseFirestoreInternal.FieldValue {
   public static func vector(_ array: [Swift.Double]) -> FirebaseFirestoreInternal.VectorValue
   public static func vector(_ array: [Swift.Float]) -> FirebaseFirestoreInternal.VectorValue
 }
-@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseFirestoreInternal.Firestore {
   public func loadBundle(_ bundleData: Foundation.Data) async throws -> FirebaseFirestoreInternal.LoadBundleTaskProgress
   public func loadBundle(_ bundleStream: Foundation.InputStream) async throws -> FirebaseFirestoreInternal.LoadBundleTaskProgress
@@ -688,7 +684,6 @@ extension FirebaseFirestoreInternal.Firestore {
   #endif
 }
 @objc extension FirebaseFirestoreInternal.Firestore {
-  @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
   @nonobjc public func pipeline() -> FirebaseFirestore.PipelineSource
 }
 public enum DecodingFailureStrategy {
@@ -700,7 +695,7 @@ public enum DecodingFailureStrategy {
     get
   }
 }
-@available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+@available(macOS 11.0, *)
 @propertyWrapper @_Concurrency.MainActor @preconcurrency public struct FirestoreQuery<T> : SwiftUICore.DynamicProperty {
   public struct Configuration {
     public var path: Swift.String
@@ -747,8 +742,7 @@ public struct Direction : Swift.Sendable, Swift.Equatable, Swift.Hashable {
     get
   }
 }
-@_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
-public class Pipeline : @unchecked Swift.Sendable {
+@_hasMissingDesignatedInitializers public class Pipeline : @unchecked Swift.Sendable {
   public struct Snapshot : Swift.Sendable {
     public let results: [FirebaseFirestore.PipelineResult]
     public let executionTime: FirebaseCore.Timestamp
@@ -793,7 +787,6 @@ public class Pipeline : @unchecked Swift.Sendable {
   public func toScalarExpression() -> any FirebaseFirestore.Expression
   @objc deinit
 }
-@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 public struct PipelineResult : @unchecked Swift.Sendable {
   public let ref: FirebaseFirestoreInternal.DocumentReference?
   public let id: Swift.String?
@@ -810,7 +803,6 @@ public struct PipelineResult : @unchecked Swift.Sendable {
   public func get(_ field: FirebaseFirestore.Field) -> (any Swift.Sendable)?
   #endif
 }
-@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 public struct PipelineSource : @unchecked Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
   public func collection(_ path: Swift.String, forceIndex: Swift.String? = nil) -> FirebaseFirestore.Pipeline
@@ -826,7 +818,6 @@ public struct PipelineSource : @unchecked Swift.Sendable {
   public func documents(_ paths: [Swift.String]) -> FirebaseFirestore.Pipeline
   public func create(from query: FirebaseFirestoreInternal.Query) -> FirebaseFirestore.Pipeline
 }
-@available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
 extension FirebaseFirestoreInternal.Query {
   @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
   public var snapshots: FirebaseFirestoreInternal.Query.QuerySnapshotsSequence {
@@ -939,8 +930,7 @@ extension FirebaseFirestore.ServerTimestamp : Swift.Hashable where Value : Swift
 }
 extension FirebaseFirestore.ServerTimestamp : Swift.Sendable where Value : Swift.Sendable {
 }
-@_hasMissingDesignatedInitializers @available(iOS 13, tvOS 13, macOS 10.15, macCatalyst 13, watchOS 7, *)
-public class Subcollection : FirebaseFirestore.Pipeline, @unchecked Swift.Sendable {
+@_hasMissingDesignatedInitializers public class Subcollection : FirebaseFirestore.Pipeline, @unchecked Swift.Sendable {
   public init(_ path: Swift.String)
   @objc deinit
 }
@@ -1067,5 +1057,5 @@ extension FirebaseFirestoreInternal.WriteBatch {
 }
 extension FirebaseFirestore.DecodingFailureStrategy : Swift.Equatable {}
 extension FirebaseFirestore.DecodingFailureStrategy : Swift.Hashable {}
-@available(iOS 14.0, macOS 11.0, macCatalyst 14.0, tvOS 14.0, watchOS 7.0, *)
+@available(macOS 11.0, *)
 extension FirebaseFirestore.FirestoreQuery : Swift.Sendable {}
