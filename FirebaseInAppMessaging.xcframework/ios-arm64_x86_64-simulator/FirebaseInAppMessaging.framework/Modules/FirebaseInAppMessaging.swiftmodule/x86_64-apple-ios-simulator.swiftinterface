@@ -9,35 +9,30 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@available(iOS 13, tvOS 13, *)
 @available(iOSApplicationExtension, unavailable)
 @available(tvOSApplicationExtension, unavailable)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func imageOnlyInAppMessage<Content>(closure: @escaping (FirebaseInAppMessaging.InAppMessagingImageOnlyDisplay, any FirebaseInAppMessaging.InAppMessagingDisplayDelegate) -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
 }
-@available(iOS 13, tvOS 13, *)
 @available(iOSApplicationExtension, unavailable)
 @available(tvOSApplicationExtension, unavailable)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func bannerInAppMessage<Content>(closure: @escaping (FirebaseInAppMessaging.InAppMessagingBannerDisplay, any FirebaseInAppMessaging.InAppMessagingDisplayDelegate) -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
 }
-@available(iOS 13, tvOS 13, *)
 @available(iOSApplicationExtension, unavailable)
 @available(tvOSApplicationExtension, unavailable)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func modalInAppMessage<Content>(closure: @escaping (FirebaseInAppMessaging.InAppMessagingModalDisplay, any FirebaseInAppMessaging.InAppMessagingDisplayDelegate) -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
 }
-@available(iOS 13, tvOS 13, *)
 @available(iOSApplicationExtension, unavailable)
 @available(tvOSApplicationExtension, unavailable)
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func cardInAppMessage<Content>(closure: @escaping (FirebaseInAppMessaging.InAppMessagingCardDisplay, any FirebaseInAppMessaging.InAppMessagingDisplayDelegate) -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
 }
-@available(iOS 13.0, tvOS 13.0, *)
 @available(iOSApplicationExtension, unavailable)
 @available(tvOSApplicationExtension, unavailable)
 public enum InAppMessagingPreviewHelpers {

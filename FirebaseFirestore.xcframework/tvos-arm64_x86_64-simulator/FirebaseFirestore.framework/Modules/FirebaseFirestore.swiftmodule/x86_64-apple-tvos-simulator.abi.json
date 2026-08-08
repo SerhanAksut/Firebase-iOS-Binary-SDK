@@ -30998,371 +30998,371 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/ArrayExpression.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/ArrayExpression.swift",
       "kind": "Array",
       "offset": 1268,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/DistanceMeasure.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/DistanceMeasure.swift",
       "kind": "StringLiteral",
       "offset": 994,
       "length": 13,
       "value": "\"dot_product\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/DocumentID.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/DocumentID.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 24,
       "value": "\"DocumentRefUserInfoKey\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
       "kind": "Dictionary",
       "offset": 1677,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
       "kind": "Dictionary",
       "offset": 3447,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
       "kind": "Array",
       "offset": 6325,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
       "kind": "Array",
       "offset": 7408,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQueryObservable.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQueryObservable.swift",
       "kind": "BooleanLiteral",
       "offset": 1035,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/MapExpression.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/MapExpression.swift",
       "kind": "Array",
       "offset": 1325,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
       "kind": "StringLiteral",
       "offset": 1375,
       "length": 11,
       "value": "\"ascending\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
       "kind": "StringLiteral",
       "offset": 1486,
       "length": 12,
       "value": "\"descending\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/QueryPredicate.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/QueryPredicate.swift",
       "kind": "BooleanLiteral",
       "offset": 3162,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1652,
       "length": 10,
       "value": "\"estimate\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1877,
       "length": 10,
       "value": "\"previous\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1144,
       "length": 12,
       "value": "\"collection\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1708,
       "length": 15,
       "value": "\"subcollection\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1895,
       "length": 18,
       "value": "\"collection_group\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2411,
       "length": 10,
       "value": "\"database\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2691,
       "length": 11,
       "value": "\"documents\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3100,
       "length": 7,
       "value": "\"where\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3515,
       "length": 7,
       "value": "\"limit\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3746,
       "length": 8,
       "value": "\"offset\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3986,
       "length": 12,
       "value": "\"add_fields\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 4590,
       "length": 15,
       "value": "\"remove_fields\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 4954,
       "length": 5,
       "value": "\"let\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 5467,
       "length": 8,
       "value": "\"select\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 6002,
       "length": 10,
       "value": "\"distinct\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 6520,
       "length": 11,
       "value": "\"aggregate\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "Dictionary",
       "offset": 6650,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 7656,
       "length": 14,
       "value": "\"find_nearest\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 8523,
       "length": 8,
       "value": "\"search\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 11375,
       "length": 6,
       "value": "\"sort\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 11629,
       "length": 14,
       "value": "\"replace_with\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 11924,
       "length": 8,
       "value": "\"sample\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 12321,
       "length": 7,
       "value": "\"union\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 12611,
       "length": 8,
       "value": "\"unnest\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 811,
       "length": 14,
       "value": "\"week(monday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 849,
       "length": 15,
       "value": "\"week(tuesday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 17,
       "value": "\"week(wednesday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 932,
       "length": 16,
       "value": "\"week(thursday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 14,
       "value": "\"week(friday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 1010,
       "length": 16,
       "value": "\"week(saturday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 14,
       "value": "\"week(sunday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 11,
       "value": "\"dayofweek\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 822,
       "length": 11,
       "value": "\"dayofyear\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 870,
       "length": 14,
       "value": "\"week(monday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 908,
       "length": 15,
       "value": "\"week(tuesday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 949,
       "length": 17,
       "value": "\"week(wednesday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 16,
       "value": "\"week(thursday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1030,
       "length": 14,
       "value": "\"week(friday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1069,
       "length": 16,
       "value": "\"week(saturday)\""
     },
     {
-      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-01T16-39-15\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/8j\/sfr9qqcj73j4p6nhwcfpr0th0000gn\/T\/ZipRelease\/2026-07-22T05-10-08\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1108,
       "length": 14,

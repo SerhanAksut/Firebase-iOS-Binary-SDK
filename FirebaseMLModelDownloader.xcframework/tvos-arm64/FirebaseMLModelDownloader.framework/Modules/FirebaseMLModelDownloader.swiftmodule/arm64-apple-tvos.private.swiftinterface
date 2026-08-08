@@ -10,6 +10,7 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@available(*, deprecated, message: "Firebase ML is deprecated and will be shut down on June 15, 2027. To host custom models, you must migrate to another solution. You can use Cloud Storage for Firebase as an alternative for hosting custom models. For more info, see https://firebase.google.com/docs/ml/migrate-to-cloud-storage")
 public struct CustomModel : Swift.Hashable {
   public let name: Swift.String
   public let size: Swift.Int
@@ -21,9 +22,11 @@ public struct CustomModel : Swift.Hashable {
     get
   }
 }
+@available(*, deprecated, message: "Firebase ML is deprecated and will be shut down on June 15, 2027. To host custom models, you must migrate to another solution. You can use Cloud Storage for Firebase as an alternative for hosting custom models. For more info, see https://firebase.google.com/docs/ml/migrate-to-cloud-storage")
 public struct ModelDownloadConditions {
   public init(allowsCellularAccess: Swift.Bool = true)
 }
+@available(*, deprecated, message: "Firebase ML is deprecated and will be shut down on June 15, 2027. To host custom models, you must migrate to another solution. You can use Cloud Storage for Firebase as an alternative for hosting custom models. For more info, see https://firebase.google.com/docs/ml/migrate-to-cloud-storage")
 public enum ModelDownloadType {
   case localModel
   case localModelUpdateInBackground
@@ -34,7 +37,8 @@ public enum ModelDownloadType {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class ModelDownloader {
+@_hasMissingDesignatedInitializers @available(*, deprecated, message: "Firebase ML is deprecated and will be shut down on June 15, 2027. To host custom models, you must migrate to another solution. You can use Cloud Storage for Firebase as an alternative for hosting custom models. For more info, see https://firebase.google.com/docs/ml/migrate-to-cloud-storage")
+public class ModelDownloader {
   public static func modelDownloader() -> FirebaseMLModelDownloader.ModelDownloader
   public static func modelDownloader(app: FirebaseCore.FirebaseApp) -> FirebaseMLModelDownloader.ModelDownloader
   #if compiler(>=5.3) && $NonescapableTypes
@@ -48,6 +52,7 @@ public enum ModelDownloadType {
   #endif
   @objc deinit
 }
+@available(*, deprecated, message: "Firebase ML is deprecated and will be shut down on June 15, 2027. To host custom models, you must migrate to another solution. You can use Cloud Storage for Firebase as an alternative for hosting custom models. For more info, see https://firebase.google.com/docs/ml/migrate-to-cloud-storage")
 public enum DownloadError : Swift.Error, Swift.Equatable {
   case notFound
   case permissionDenied
@@ -59,10 +64,13 @@ public enum DownloadError : Swift.Error, Swift.Equatable {
   case internalError(description: Swift.String)
   public static func == (a: FirebaseMLModelDownloader.DownloadError, b: FirebaseMLModelDownloader.DownloadError) -> Swift.Bool
 }
+@available(*, deprecated, message: "Firebase ML is deprecated and will be shut down on June 15, 2027. To host custom models, you must migrate to another solution. You can use Cloud Storage for Firebase as an alternative for hosting custom models. For more info, see https://firebase.google.com/docs/ml/migrate-to-cloud-storage")
 public enum DownloadedModelError : Swift.Error {
   case notFound
   case fileIOError(description: Swift.String)
   case internalError(description: Swift.String)
 }
+@available(*, deprecated, message: "Firebase ML is deprecated and will be shut down on June 15, 2027. To host custom models, you must migrate to another solution. You can use Cloud Storage for Firebase as an alternative for hosting custom models. For more info, see https://firebase.google.com/docs/ml/migrate-to-cloud-storage")
 extension FirebaseMLModelDownloader.ModelDownloadType : Swift.Equatable {}
+@available(*, deprecated, message: "Firebase ML is deprecated and will be shut down on June 15, 2027. To host custom models, you must migrate to another solution. You can use Cloud Storage for Firebase as an alternative for hosting custom models. For more info, see https://firebase.google.com/docs/ml/migrate-to-cloud-storage")
 extension FirebaseMLModelDownloader.ModelDownloadType : Swift.Hashable {}
