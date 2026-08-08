@@ -502,7 +502,7 @@ extension FirebaseAuth.AuthTokenResult : Foundation.NSSecureCoding {
   #if compiler(>=5.3) && $NonescapableTypes
   @objc open class func getCredential(completion: @escaping (FirebaseAuth.AuthCredential?, (any Swift.Error)?) -> Swift.Void)
   #endif
-  @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
+  @available(watchOS 8, *)
   open class func getCredential() async throws -> FirebaseAuth.AuthCredential
   @available(*, unavailable)
   @objc override dynamic public init()

@@ -112,7 +112,7 @@ extension FirebaseStorage.StorageReference {
     get
   }
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(FIRStorageDownloadTask) open class StorageDownloadTask : FirebaseStorage.StorageObservableTask, FirebaseStorage.StorageTaskManagement {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(FIRStorageDownloadTask) open class StorageDownloadTask : FirebaseStorage.StorageObservableTask, FirebaseStorage.StorageTaskManagement, @unchecked Swift.Sendable {
   @objc open func enqueue()
   @objc open func pause()
   @objc open func cancel()
@@ -221,7 +221,7 @@ public enum StorageError : Swift.Error, Foundation.CustomNSError {
   }
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc(FIRStorageObservableTask) open class StorageObservableTask : FirebaseStorage.StorageTask {
+@_hasMissingDesignatedInitializers @objc(FIRStorageObservableTask) open class StorageObservableTask : FirebaseStorage.StorageTask, @unchecked Swift.Sendable {
   @discardableResult
   @objc(observeStatus:handler:) open func observe(_ status: FirebaseStorage.StorageTaskStatus, handler: @escaping (FirebaseStorage.StorageTaskSnapshot) -> Swift.Void) -> Swift.String
   @objc(removeObserverWithHandle:) open func removeObserver(withHandle handle: Swift.String)
@@ -325,6 +325,8 @@ public enum StorageError : Swift.Error, Foundation.CustomNSError {
   @objc optional func cancel()
   @objc optional func resume()
 }
+extension FirebaseStorage.StorageTask : @unchecked Swift.Sendable {
+}
 @_hasMissingDesignatedInitializers @objc(FIRStorageTaskSnapshot) open class StorageTaskSnapshot : ObjectiveC.NSObject {
   @objc final public let task: FirebaseStorage.StorageTask
   @objc final public let metadata: FirebaseStorage.StorageMetadata?
@@ -337,7 +339,7 @@ public enum StorageError : Swift.Error, Foundation.CustomNSError {
   }
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc(FIRStorageUploadTask) open class StorageUploadTask : FirebaseStorage.StorageObservableTask, FirebaseStorage.StorageTaskManagement {
+@_hasMissingDesignatedInitializers @objc(FIRStorageUploadTask) open class StorageUploadTask : FirebaseStorage.StorageObservableTask, FirebaseStorage.StorageTaskManagement, @unchecked Swift.Sendable {
   @objc open func enqueue()
   @objc open func pause()
   @objc open func cancel()

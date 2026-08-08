@@ -49,7 +49,6 @@ extension FirebaseRemoteConfig.RemoteConfig {
   public func setCustomSignals(_ customSignals: [Swift.String : FirebaseRemoteConfig.CustomSignalValue?]) async throws
   #endif
 }
-@available(iOS 13.0.0, macOS 10.15.0, macCatalyst 13.0.0, tvOS 13.0.0, watchOS 7.0.0, *)
 extension FirebaseRemoteConfig.RemoteConfig {
   @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)
   public var configUpdates: FirebaseRemoteConfig.RemoteConfig.RemoteConfigUpdateSequence {

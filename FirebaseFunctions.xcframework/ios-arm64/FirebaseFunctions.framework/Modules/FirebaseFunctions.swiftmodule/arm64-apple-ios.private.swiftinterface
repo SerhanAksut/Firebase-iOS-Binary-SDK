@@ -34,7 +34,7 @@ public enum StreamResponse<Message, Result> : Swift.Decodable, Swift.Sendable wh
   case result(Result)
   public init(from decoder: any Swift.Decoder) throws
 }
-@available(macOS 12.0, iOS 15.0, watchOS 8.0, tvOS 15.0, *)
+@available(macOS 12.0, watchOS 8.0, *)
 extension FirebaseFunctions.Callable where Request : Swift.Sendable, Response : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
   public func stream(_ data: Request? = nil) throws -> _Concurrency.AsyncThrowingStream<Response, any Swift.Error>

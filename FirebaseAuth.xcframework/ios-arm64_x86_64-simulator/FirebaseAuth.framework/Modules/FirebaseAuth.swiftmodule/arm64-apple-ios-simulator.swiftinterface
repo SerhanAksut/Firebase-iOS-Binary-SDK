@@ -114,11 +114,9 @@ extension FirebaseAuth.AdditionalUserInfo : Foundation.NSSecureCoding {
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc deinit
 }
-@available(iOS 13.0, *)
 extension FirebaseAuth.Auth : UIKit.UISceneDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
 }
-@available(iOS 13.0, *)
 extension FirebaseAuth.Auth : UIKit.UIApplicationDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func application(_ application: UIKit.UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Foundation.Data)
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func application(_ application: UIKit.UIApplication, didFailToRegisterForRemoteNotificationsWithError error: any Swift.Error)
@@ -556,7 +554,7 @@ extension FirebaseAuth.AuthTokenResult : Foundation.NSSecureCoding {
 }
 @objc(FIRFederatedAuthProvider) public protocol FederatedAuthProvider : ObjectiveC.NSObjectProtocol {
   #if compiler(>=5.3) && $NonescapableTypes
-  @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
+  @available(watchOS 8, *)
   @objc(getCredentialWithUIDelegate:completion:) func credential(with uiDelegate: (any FirebaseAuth.AuthUIDelegate)?) async throws -> FirebaseAuth.AuthCredential
   #endif
 }
@@ -565,7 +563,7 @@ extension FirebaseAuth.AuthTokenResult : Foundation.NSSecureCoding {
   #if compiler(>=5.3) && $NonescapableTypes
   @objc open class func getCredential(completion: @escaping (FirebaseAuth.AuthCredential?, (any Swift.Error)?) -> Swift.Void)
   #endif
-  @available(iOS 13, tvOS 13, macOS 10.15, watchOS 8, *)
+  @available(watchOS 8, *)
   open class func getCredential() async throws -> FirebaseAuth.AuthCredential
   @available(*, unavailable)
   @objc override dynamic public init()
