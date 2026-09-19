@@ -16,6 +16,25 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
+public struct ActivityDetectionConfig : Swift.Sendable {
+  public enum Sensitivity : Swift.Sendable {
+    case low
+    case high
+    public static func == (a: FirebaseAILogic.ActivityDetectionConfig.Sensitivity, b: FirebaseAILogic.ActivityDetectionConfig.Sensitivity) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(startSensitivity: FirebaseAILogic.ActivityDetectionConfig.Sensitivity? = nil, endSensitivity: FirebaseAILogic.ActivityDetectionConfig.Sensitivity? = nil, prefixPadding: Foundation.TimeInterval? = nil, silenceDuration: Foundation.TimeInterval? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+  public init(startSensitivity: FirebaseAILogic.ActivityDetectionConfig.Sensitivity? = nil, endSensitivity: FirebaseAILogic.ActivityDetectionConfig.Sensitivity? = nil, prefixPadding: Swift.Duration? = nil, silenceDuration: Swift.Duration? = nil)
+  #endif
+  public static func disabled() -> FirebaseAILogic.ActivityDetectionConfig
+}
 @available(watchOS, unavailable)
 public struct AudioTranscriptionConfig : Swift.Sendable {
   public init()
@@ -23,7 +42,7 @@ public struct AudioTranscriptionConfig : Swift.Sendable {
 public struct Backend {
   @available(*, deprecated, message: "Use agentPlatform(location:) instead; note that the default location is now \"global\" instead of \"us-central1\"")
   public static func vertexAI() -> FirebaseAILogic.Backend
-  @available(*, deprecated, renamed: "agentPlatform(location:)", message: "Vertex AI has been renamed to the Gemini Enterprise Agent Platform.")
+  @available(*, deprecated, renamed: "agentPlatform(location:)", message: "Vertex AI has been renamed to the Agent Platform Gemini API.")
   public static func vertexAI(location: Swift.String) -> FirebaseAILogic.Backend
   public static func agentPlatform(location: Swift.String = "global") -> FirebaseAILogic.Backend
   public static func googleAI() -> FirebaseAILogic.Backend
@@ -76,13 +95,7 @@ extension FirebaseAILogic.CountTokensResponse : Swift.Decodable {
   #if compiler(>=5.3) && $NonescapableTypes
   final public func generativeModelSession(model: any FirebaseAILogic.LanguageModelProvider, tools: [any FirebaseAILogic.ToolRepresentable]? = nil, instructions: Swift.String? = nil) -> FirebaseAILogic.GenerativeModelSession
   #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-  final public func imagenModel(modelName: Swift.String, generationConfig: FirebaseAILogic.ImagenGenerationConfig? = nil, safetySettings: FirebaseAILogic.ImagenSafetySettings? = nil, requestOptions: FirebaseAILogic.RequestOptions = RequestOptions()) -> FirebaseAILogic.ImagenModel
-  #endif
   final public func templateGenerativeModel() -> FirebaseAILogic.TemplateGenerativeModel
-  @available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-  final public func templateImagenModel() -> FirebaseAILogic.TemplateImagenModel
   #if compiler(>=5.3) && $NonescapableTypes
   @available(watchOS, unavailable)
   final public func liveModel(modelName: Swift.String, generationConfig: FirebaseAILogic.LiveGenerationConfig? = nil, tools: [FirebaseAILogic.Tool]? = nil, toolConfig: FirebaseAILogic.ToolConfig? = nil, systemInstruction: FirebaseAILogic.ModelContent? = nil, requestOptions: FirebaseAILogic.RequestOptions = RequestOptions()) -> FirebaseAILogic.LiveGenerativeModel
@@ -559,93 +572,6 @@ extension FirebaseAILogic.ImageConfig {
 extension FirebaseAILogic.ImageConfig : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenAspectRatio : Swift.Sendable {
-  public static let square1x1: FirebaseAILogic.ImagenAspectRatio
-  public static let portrait9x16: FirebaseAILogic.ImagenAspectRatio
-  public static let landscape16x9: FirebaseAILogic.ImagenAspectRatio
-  public static let portrait3x4: FirebaseAILogic.ImagenAspectRatio
-  public static let landscape4x3: FirebaseAILogic.ImagenAspectRatio
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenGenerationConfig {
-  public var negativePrompt: Swift.String?
-  public var numberOfImages: Swift.Int?
-  public var aspectRatio: FirebaseAILogic.ImagenAspectRatio?
-  public var imageFormat: FirebaseAILogic.ImagenImageFormat?
-  public var addWatermark: Swift.Bool?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(negativePrompt: Swift.String? = nil, numberOfImages: Swift.Int? = nil, aspectRatio: FirebaseAILogic.ImagenAspectRatio? = nil, imageFormat: FirebaseAILogic.ImagenImageFormat? = nil, addWatermark: Swift.Bool? = nil)
-  #endif
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenGenerationResponse<T> : Swift.Sendable where T : Swift.Sendable {
-  public let images: [T]
-  public let filteredReason: Swift.String?
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-extension FirebaseAILogic.ImagenGenerationResponse : Swift.Decodable where T : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenImageFormat {
-  public static func png() -> FirebaseAILogic.ImagenImageFormat
-  #if compiler(>=5.3) && $NonescapableTypes
-  public static func jpeg(compressionQuality: Swift.Int? = nil) -> FirebaseAILogic.ImagenImageFormat
-  #endif
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenImagesBlockedError : Swift.Error {
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-extension FirebaseAILogic.ImagenImagesBlockedError : Foundation.CustomNSError {
-  public static var errorDomain: Swift.String {
-    get
-  }
-  public var errorCode: Swift.Int {
-    get
-  }
-  public var errorUserInfo: [Swift.String : Any] {
-    get
-  }
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenInlineImage : Swift.Sendable {
-  public let mimeType: Swift.String
-  public let data: Foundation.Data
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-extension FirebaseAILogic.ImagenInlineImage : Swift.Equatable {
-  public static func == (a: FirebaseAILogic.ImagenInlineImage, b: FirebaseAILogic.ImagenInlineImage) -> Swift.Bool
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-extension FirebaseAILogic.ImagenInlineImage : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
-}
-@_hasMissingDesignatedInitializers @available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-final public class ImagenModel {
-  final public func generateImages(prompt: Swift.String) async throws -> FirebaseAILogic.ImagenGenerationResponse<FirebaseAILogic.ImagenInlineImage>
-  @objc deinit
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenPersonFilterLevel {
-  public static let blockAll: FirebaseAILogic.ImagenPersonFilterLevel
-  public static let allowAdult: FirebaseAILogic.ImagenPersonFilterLevel
-  public static let allowAll: FirebaseAILogic.ImagenPersonFilterLevel
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenSafetyFilterLevel : Swift.Sendable {
-  public static let blockLowAndAbove: FirebaseAILogic.ImagenSafetyFilterLevel
-  public static let blockMediumAndAbove: FirebaseAILogic.ImagenSafetyFilterLevel
-  public static let blockOnlyHigh: FirebaseAILogic.ImagenSafetyFilterLevel
-  public static let blockNone: FirebaseAILogic.ImagenSafetyFilterLevel
-}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-public struct ImagenSafetySettings {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(safetyFilterLevel: FirebaseAILogic.ImagenSafetyFilterLevel? = nil, personFilterLevel: FirebaseAILogic.ImagenPersonFilterLevel? = nil)
-  #endif
-}
 public typealias JSONObject = [Swift.String : FirebaseAILogic.JSONValue]
 public enum JSONValue : Swift.Sendable {
   case null
@@ -703,7 +629,7 @@ public struct LiveAudioTranscription : Swift.Sendable {
 @available(watchOS, unavailable)
 public struct LiveGenerationConfig : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(temperature: Swift.Float? = nil, topP: Swift.Float? = nil, topK: Swift.Int? = nil, candidateCount: Swift.Int? = nil, maxOutputTokens: Swift.Int? = nil, presencePenalty: Swift.Float? = nil, frequencyPenalty: Swift.Float? = nil, responseModalities: [FirebaseAILogic.ResponseModality]? = nil, speech: FirebaseAILogic.SpeechConfig? = nil, inputAudioTranscription: FirebaseAILogic.AudioTranscriptionConfig? = nil, outputAudioTranscription: FirebaseAILogic.AudioTranscriptionConfig? = nil, contextWindowCompression: FirebaseAILogic.ContextWindowCompressionConfig? = nil)
+  public init(temperature: Swift.Float? = nil, topP: Swift.Float? = nil, topK: Swift.Int? = nil, candidateCount: Swift.Int? = nil, maxOutputTokens: Swift.Int? = nil, presencePenalty: Swift.Float? = nil, frequencyPenalty: Swift.Float? = nil, responseModalities: [FirebaseAILogic.ResponseModality]? = nil, speech: FirebaseAILogic.SpeechConfig? = nil, inputAudioTranscription: FirebaseAILogic.AudioTranscriptionConfig? = nil, outputAudioTranscription: FirebaseAILogic.AudioTranscriptionConfig? = nil, contextWindowCompression: FirebaseAILogic.ContextWindowCompressionConfig? = nil, realtimeInputConfig: FirebaseAILogic.RealtimeInputConfig? = nil)
   #endif
 }
 @_hasMissingDesignatedInitializers @available(watchOS, unavailable)
@@ -794,6 +720,8 @@ final public class LiveSession : Swift.Sendable {
   final public func sendAudioRealtime(_ audio: Foundation.Data) async
   final public func sendVideoRealtime(_ video: Foundation.Data, mimeType: Swift.String) async
   final public func sendTextRealtime(_ text: Swift.String) async
+  final public func sendStartActivityRealtime() async
+  final public func sendStopActivityRealtime() async
   final public func sendContent(_ content: [FirebaseAILogic.ModelContent], turnComplete: Swift.Bool = false) async
   final public func sendContent(_ parts: any FirebaseAILogic.PartsRepresentable..., turnComplete: Swift.Bool = false) async
   final public func close() async
@@ -1069,6 +997,30 @@ extension CoreImage.CIImage : FirebaseAILogic.PartsRepresentable {
     get
   }
 }
+public struct RealtimeInputConfig : Swift.Sendable {
+  public enum ActivityHandling : Swift.Sendable {
+    case interrupt
+    case noInterrupt
+    public static func == (a: FirebaseAILogic.RealtimeInputConfig.ActivityHandling, b: FirebaseAILogic.RealtimeInputConfig.ActivityHandling) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum TurnCoverage : Swift.Sendable {
+    case onlyActivity
+    case allInput
+    case audioActivityAndAllVideo
+    public static func == (a: FirebaseAILogic.RealtimeInputConfig.TurnCoverage, b: FirebaseAILogic.RealtimeInputConfig.TurnCoverage) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(automaticActivityDetection: FirebaseAILogic.ActivityDetectionConfig? = nil, activityHandling: FirebaseAILogic.RealtimeInputConfig.ActivityHandling? = nil, turnCoverage: FirebaseAILogic.RealtimeInputConfig.TurnCoverage? = nil)
+  #endif
+}
 public struct ResponseGenerationOptions : Swift.Sendable, Swift.Equatable {
   public static func == (a: FirebaseAILogic.ResponseGenerationOptions, b: FirebaseAILogic.ResponseGenerationOptions) -> Swift.Bool
 }
@@ -1333,11 +1285,6 @@ extension FirebaseAILogic.FirebaseAI.SystemLanguageModel : FirebaseAILogic.Fireb
   #endif
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-final public class TemplateImagenModel : Swift.Sendable {
-  final public func generateImages(templateID: Swift.String, inputs: [Swift.String : Any], options: FirebaseAILogic.RequestOptions = RequestOptions()) async throws -> FirebaseAILogic.ImagenGenerationResponse<FirebaseAILogic.ImagenInlineImage>
-  @objc deinit
-}
 public struct TemplateToolConfig : Swift.Sendable, Swift.Encodable {
   public let retrievalConfig: FirebaseAILogic.RetrievalConfig?
   #if compiler(>=5.3) && $NonescapableTypes
@@ -1459,13 +1406,17 @@ public struct URLMetadata : Swift.Sendable, Swift.Hashable {
 extension FirebaseAILogic.URLMetadata : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
+extension FirebaseAILogic.ActivityDetectionConfig.Sensitivity : Swift.Equatable {}
+extension FirebaseAILogic.ActivityDetectionConfig.Sensitivity : Swift.Hashable {}
 extension FirebaseAILogic.FinishReason : Swift.Decodable {}
 extension FirebaseAILogic.PromptFeedback.BlockReason : Swift.Decodable {}
 extension FirebaseAILogic.ImageConfig.AspectRatio : Swift.Encodable {}
 extension FirebaseAILogic.ImageConfig.ImageSize : Swift.Encodable {}
-@available(*, deprecated, message: "All Imagen models are deprecated and will shut down as early as June 2026. As a replacement, you can migrate your apps to use Gemini Image models (the \"Nano Banana\" models).")
-extension FirebaseAILogic.ImagenPersonFilterLevel : Swift.Sendable {}
 extension FirebaseAILogic.ContentModality : Swift.Decodable {}
+extension FirebaseAILogic.RealtimeInputConfig.ActivityHandling : Swift.Equatable {}
+extension FirebaseAILogic.RealtimeInputConfig.ActivityHandling : Swift.Hashable {}
+extension FirebaseAILogic.RealtimeInputConfig.TurnCoverage : Swift.Equatable {}
+extension FirebaseAILogic.RealtimeInputConfig.TurnCoverage : Swift.Hashable {}
 extension FirebaseAILogic.ResponseModality : Swift.Encodable {}
 extension FirebaseAILogic.SafetyRating.HarmProbability : Swift.Decodable {}
 extension FirebaseAILogic.SafetyRating.HarmSeverity : Swift.Decodable {}
