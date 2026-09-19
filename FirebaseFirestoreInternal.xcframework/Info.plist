@@ -37,23 +37,6 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal</string>
-			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
-			<key>LibraryPath</key>
-			<string>FirebaseFirestoreInternal.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
 			<string>FirebaseFirestoreInternal.framework/Versions/A/FirebaseFirestoreInternal</string>
 			<key>LibraryIdentifier</key>
 			<string>macos-arm64_x86_64</string>
@@ -81,6 +64,23 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>tvos</string>
+			<key>SupportedPlatformVariant</key>
+			<string>simulator</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal</string>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64_x86_64-simulator</string>
+			<key>LibraryPath</key>
+			<string>FirebaseFirestoreInternal.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
 		</dict>

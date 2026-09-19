@@ -1171,6 +1171,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FIRAuthErrorCode, "AuthErrorCode", open) {
   FIRAuthErrorCodeRecaptchaSiteKeyMissing = 17209,
 /// Indicates that the reCAPTCHA SDK actions class failed to create.
   FIRAuthErrorCodeRecaptchaActionCreationFailed = 17210,
+/// Indicates that the password does not meet the project’s password policy.
+  FIRAuthErrorCodePasswordDoesNotMeetRequirements = 17211,
 /// Indicates an error occurred while attempting to access the keychain.
   FIRAuthErrorCodeKeychainError = 17995,
 /// Indicates an internal error occurred.
@@ -3116,6 +3118,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FIRAuthErrorCode, "AuthErrorCode", open) {
   FIRAuthErrorCodeRecaptchaSiteKeyMissing = 17209,
 /// Indicates that the reCAPTCHA SDK actions class failed to create.
   FIRAuthErrorCodeRecaptchaActionCreationFailed = 17210,
+/// Indicates that the password does not meet the project’s password policy.
+  FIRAuthErrorCodePasswordDoesNotMeetRequirements = 17211,
 /// Indicates an error occurred while attempting to access the keychain.
   FIRAuthErrorCodeKeychainError = 17995,
 /// Indicates an internal error occurred.

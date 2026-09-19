@@ -420,6 +420,7 @@ extension FirebaseAuth.AuthDataResult : Foundation.NSSecureCoding {
   case recaptchaSDKNotLinked = 17208
   case recaptchaSiteKeyMissing = 17209
   case recaptchaActionCreationFailed = 17210
+  case passwordDoesNotMeetRequirements = 17211
   case keychainError = 17995
   case internalError = 17999
   case malformedJWT = 18000
@@ -784,6 +785,7 @@ extension FirebaseAuth.UserMetadata : Foundation.NSSecureCoding {
 extension FirebaseAuth.ActionCodeOperation : Swift.Equatable {}
 extension FirebaseAuth.ActionCodeOperation : Swift.Hashable {}
 extension FirebaseAuth.ActionCodeOperation : Swift.RawRepresentable {}
+extension UIKit.UIApplication : Swift.Sendable {}
 extension FirebaseAuth.AuthAPNSTokenType : Swift.Equatable {}
 extension FirebaseAuth.AuthAPNSTokenType : Swift.Hashable {}
 extension FirebaseAuth.AuthAPNSTokenType : Swift.RawRepresentable {}
