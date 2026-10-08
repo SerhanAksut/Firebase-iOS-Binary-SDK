@@ -1,5 +1,5 @@
 framework module FirebaseSessions {
-umbrella header "FirebaseSessions-umbrella.h"
+umbrella "."
 export *
 module * { export * }
   link framework "AppKit"

@@ -1,5 +1,5 @@
 framework module FirebaseCrashlytics {
-umbrella header "FirebaseCrashlytics-umbrella.h"
+umbrella header "FirebaseCrashlytics.h"
 export *
 module * { export * }
   link framework "AppKit"

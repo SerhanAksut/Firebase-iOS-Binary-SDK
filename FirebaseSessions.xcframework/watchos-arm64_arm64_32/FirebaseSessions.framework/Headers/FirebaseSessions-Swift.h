@@ -327,6 +327,19 @@ SWIFT_CLASS_NAMED("SessionDetails")
 ///     Synthesizing itself for persisting to disk and logging to GoogleDataTransport
 ///   </li>
 /// </ol>
+/// note:
+/// This type is <code>@unchecked Sendable</code> rather than genuinely thread safe.
+/// It wraps a mutable nanopb struct holding manually managed pointers that are
+/// freed in <code>deinit</code>, so concurrent mutation would corrupt memory. The safety
+/// invariant is that an event instance is only ever <em>handed off</em> between
+/// executors, never shared: it is created on the initiator’s thread, mutated
+/// by exactly one <code>loggedEventCallbackQueue</code> work item, and then handed to
+/// the coordinator, which serializes its own writes. Note that the callback
+/// queue is concurrent by default, so the protection here is single-owner
+/// confinement, not queue serialization: never enqueue a second work item
+/// against an event, and never mutate one from more than one context.
+/// TODO: Make this checked <code>Sendable</code> by making the proto writes internally
+/// synchronized, or by modeling the event as a value type.
 SWIFT_CLASS("_TtC16FirebaseSessions17SessionStartEvent")
 @interface SessionStartEvent : NSObject <GDTCOREventDataObject>
 - (NSData * _Nonnull)transportBytes SWIFT_WARN_UNUSED_RESULT;
@@ -341,6 +354,31 @@ SWIFT_PROTOCOL_NAMED("SessionsProvider")
 @end
 
 @class FIRComponent;
+/// note:
+/// The <code>@unchecked Sendable</code> conformance is required because the
+/// session start path captures <code>self</code> in a <code>Task</code>. Every stored property is
+/// a <code>let</code>, and most are already safe: <code>SessionCoordinatorProtocol</code> and
+/// <code>ApplicationInfoProtocol</code> inherit <code>Sendable</code>, <code>SessionsState</code> is an
+/// actor, <code>SessionGenerator</code> is lock-guarded, and <code>DispatchQueue</code> and
+/// <code>NotificationCenter</code> are <code>Sendable</code>.
+/// Exactly two stored properties block a checked conformance:
+/// <ol>
+///   <li>
+///     <code>settings</code>, because <code>SettingsProtocol</code> does not inherit <code>Sendable</code>.
+///     The production conformer, <code>SessionsSettings</code>, holds only immutable
+///     providers, but the test mock has unsynchronized mutable state, so
+///     marking the protocol <code>Sendable</code> also means annotating that mock.
+///   </li>
+///   <li>
+///     <code>initiator</code>, because <code>SessionInitiator</code> is a non-<code>Sendable</code> class with
+///     mutable state (<code>backgroundTime</code>, <code>initiateSessionStart</code>). It is safe
+///     here only by confinement: it is used once, during <code>init</code>, and its
+///     state is otherwise mutated solely by main-thread lifecycle
+///     notifications. The session start <code>Task</code> never touches it.
+///     TODO: Mark <code>SettingsProtocol: Sendable</code>, make <code>SessionInitiator</code> safe for
+///     concurrency, and turn this into a checked conformance.
+///   </li>
+/// </ol>
 SWIFT_CLASS_NAMED("Sessions")
 @interface FIRSessions : NSObject <FIRLibrary, FIRSessionsProvider>
 - (void)registerWithSubscriber:(id <FIRSessionsSubscriber> _Nonnull)subscriber;
@@ -715,6 +753,19 @@ SWIFT_CLASS_NAMED("SessionDetails")
 ///     Synthesizing itself for persisting to disk and logging to GoogleDataTransport
 ///   </li>
 /// </ol>
+/// note:
+/// This type is <code>@unchecked Sendable</code> rather than genuinely thread safe.
+/// It wraps a mutable nanopb struct holding manually managed pointers that are
+/// freed in <code>deinit</code>, so concurrent mutation would corrupt memory. The safety
+/// invariant is that an event instance is only ever <em>handed off</em> between
+/// executors, never shared: it is created on the initiator’s thread, mutated
+/// by exactly one <code>loggedEventCallbackQueue</code> work item, and then handed to
+/// the coordinator, which serializes its own writes. Note that the callback
+/// queue is concurrent by default, so the protection here is single-owner
+/// confinement, not queue serialization: never enqueue a second work item
+/// against an event, and never mutate one from more than one context.
+/// TODO: Make this checked <code>Sendable</code> by making the proto writes internally
+/// synchronized, or by modeling the event as a value type.
 SWIFT_CLASS("_TtC16FirebaseSessions17SessionStartEvent")
 @interface SessionStartEvent : NSObject <GDTCOREventDataObject>
 - (NSData * _Nonnull)transportBytes SWIFT_WARN_UNUSED_RESULT;
@@ -729,6 +780,31 @@ SWIFT_PROTOCOL_NAMED("SessionsProvider")
 @end
 
 @class FIRComponent;
+/// note:
+/// The <code>@unchecked Sendable</code> conformance is required because the
+/// session start path captures <code>self</code> in a <code>Task</code>. Every stored property is
+/// a <code>let</code>, and most are already safe: <code>SessionCoordinatorProtocol</code> and
+/// <code>ApplicationInfoProtocol</code> inherit <code>Sendable</code>, <code>SessionsState</code> is an
+/// actor, <code>SessionGenerator</code> is lock-guarded, and <code>DispatchQueue</code> and
+/// <code>NotificationCenter</code> are <code>Sendable</code>.
+/// Exactly two stored properties block a checked conformance:
+/// <ol>
+///   <li>
+///     <code>settings</code>, because <code>SettingsProtocol</code> does not inherit <code>Sendable</code>.
+///     The production conformer, <code>SessionsSettings</code>, holds only immutable
+///     providers, but the test mock has unsynchronized mutable state, so
+///     marking the protocol <code>Sendable</code> also means annotating that mock.
+///   </li>
+///   <li>
+///     <code>initiator</code>, because <code>SessionInitiator</code> is a non-<code>Sendable</code> class with
+///     mutable state (<code>backgroundTime</code>, <code>initiateSessionStart</code>). It is safe
+///     here only by confinement: it is used once, during <code>init</code>, and its
+///     state is otherwise mutated solely by main-thread lifecycle
+///     notifications. The session start <code>Task</code> never touches it.
+///     TODO: Mark <code>SettingsProtocol: Sendable</code>, make <code>SessionInitiator</code> safe for
+///     concurrency, and turn this into a checked conformance.
+///   </li>
+/// </ol>
 SWIFT_CLASS_NAMED("Sessions")
 @interface FIRSessions : NSObject <FIRLibrary, FIRSessionsProvider>
 - (void)registerWithSubscriber:(id <FIRSessionsSubscriber> _Nonnull)subscriber;

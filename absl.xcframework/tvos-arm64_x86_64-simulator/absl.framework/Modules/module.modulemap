@@ -1,5 +1,5 @@
 framework module absl {
-umbrella header "abseil-umbrella.h"
+umbrella header "abseil.h"
 export *
 module * { export * }
   link "c++"

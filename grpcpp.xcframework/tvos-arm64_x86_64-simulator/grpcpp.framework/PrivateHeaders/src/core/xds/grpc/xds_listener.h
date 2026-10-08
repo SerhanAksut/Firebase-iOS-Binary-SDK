@@ -24,11 +24,12 @@
 #include <array>
 #include <map>
 #include <memory>
+#include <optional>
 #include <string>
+#include <variant>
 #include <vector>
 
-#include "absl/types/optional.h"
-#include "absl/types/variant.h"
+#include "src/core/filter/filter_args.h"
 #include "src/core/lib/iomgr/resolved_address.h"
 #include "src/core/util/time.h"
 #include "src/core/xds/grpc/xds_common_types.h"
@@ -42,7 +43,7 @@ namespace grpc_core {
 struct XdsListenerResource : public XdsResourceType::ResourceData {
   struct HttpConnectionManager {
     // The RDS resource name or inline RouteConfiguration.
-    absl::variant<std::string, std::shared_ptr<const XdsRouteConfigResource>>
+    std::variant<std::string, std::shared_ptr<const XdsRouteConfigResource>>
         route_config;
 
     // Storing the Http Connection Manager Common Http Protocol Option
@@ -51,10 +52,17 @@ struct XdsListenerResource : public XdsResourceType::ResourceData {
 
     struct HttpFilter {
       std::string name;
-      XdsHttpFilterImpl::FilterConfig config;
+      absl::string_view config_proto_type;
+      Json config;
+      RefCountedPtr<const FilterConfig> filter_config;
 
       bool operator==(const HttpFilter& other) const {
-        return name == other.name && config == other.config;
+        if (name != other.name) return false;
+        if (config_proto_type != other.config_proto_type) return false;
+        if (config != other.config) return false;
+        if (filter_config == nullptr) return other.filter_config == nullptr;
+        if (other.filter_config == nullptr) return false;
+        return *filter_config == *other.filter_config;
       }
 
       std::string ToString() const;
@@ -62,12 +70,12 @@ struct XdsListenerResource : public XdsResourceType::ResourceData {
     std::vector<HttpFilter> http_filters;
 
     bool operator==(const HttpConnectionManager& other) const {
-      if (absl::holds_alternative<std::string>(route_config)) {
+      if (std::holds_alternative<std::string>(route_config)) {
         if (route_config != other.route_config) return false;
       } else {
-        auto& rc1 = absl::get<std::shared_ptr<const XdsRouteConfigResource>>(
+        auto& rc1 = std::get<std::shared_ptr<const XdsRouteConfigResource>>(
             route_config);
-        auto* rc2 = absl::get_if<std::shared_ptr<const XdsRouteConfigResource>>(
+        auto* rc2 = std::get_if<std::shared_ptr<const XdsRouteConfigResource>>(
             &other.route_config);
         if (rc2 == nullptr) return false;
         if (!(*rc1 == **rc2)) return false;
@@ -142,7 +150,7 @@ struct XdsListenerResource : public XdsResourceType::ResourceData {
     };
     using SourcePortsMap = std::map<uint16_t, FilterChainDataSharedPtr>;
     struct SourceIp {
-      absl::optional<CidrRange> prefix_range;
+      std::optional<CidrRange> prefix_range;
       SourcePortsMap ports_map;
 
       bool operator==(const SourceIp& other) const {
@@ -154,7 +162,7 @@ struct XdsListenerResource : public XdsResourceType::ResourceData {
     enum class ConnectionSourceType { kAny = 0, kSameIpOrLoopback, kExternal };
     using ConnectionSourceTypesArray = std::array<SourceIpVector, 3>;
     struct DestinationIp {
-      absl::optional<CidrRange> prefix_range;
+      std::optional<CidrRange> prefix_range;
       // We always fail match on server name, so those filter chains are not
       // included here.
       ConnectionSourceTypesArray source_types_array;
@@ -178,7 +186,7 @@ struct XdsListenerResource : public XdsResourceType::ResourceData {
   struct TcpListener {
     std::string address;  // host:port listening address
     FilterChainMap filter_chain_map;
-    absl::optional<FilterChainData> default_filter_chain;
+    std::optional<FilterChainData> default_filter_chain;
 
     bool operator==(const TcpListener& other) const {
       return address == other.address &&
@@ -189,7 +197,7 @@ struct XdsListenerResource : public XdsResourceType::ResourceData {
     std::string ToString() const;
   };
 
-  absl::variant<HttpConnectionManager, TcpListener> listener;
+  std::variant<HttpConnectionManager, TcpListener> listener;
 
   bool operator==(const XdsListenerResource& other) const {
     return listener == other.listener;

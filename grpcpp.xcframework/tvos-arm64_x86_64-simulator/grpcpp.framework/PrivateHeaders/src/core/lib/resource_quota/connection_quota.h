@@ -20,11 +20,11 @@
 #include <cstddef>
 #include <limits>
 
-#include "absl/base/thread_annotations.h"
 #include "src/core/lib/resource_quota/memory_quota.h"
 #include "src/core/util/ref_counted.h"
 #include "src/core/util/ref_counted_ptr.h"
 #include "src/core/util/sync.h"
+#include "absl/base/thread_annotations.h"
 
 namespace grpc_core {
 
@@ -47,6 +47,10 @@ class ConnectionQuota : public RefCounted<ConnectionQuota> {
 
   // Mark connections as closed.
   void ReleaseConnections(int num_connections);
+
+  int TestOnlyActiveIncomingConnections() const {
+    return active_incoming_connections_;
+  }
 
  private:
   std::atomic<int> active_incoming_connections_{0};

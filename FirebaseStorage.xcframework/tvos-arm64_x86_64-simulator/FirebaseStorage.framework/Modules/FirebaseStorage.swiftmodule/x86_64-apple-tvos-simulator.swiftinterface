@@ -8,7 +8,6 @@ import FirebaseCore
 @_exported import FirebaseStorage
 import Foundation
 import GTMSessionFetcher
-import MobileCoreServices
 import Swift
 import _Concurrency
 import _StringProcessing

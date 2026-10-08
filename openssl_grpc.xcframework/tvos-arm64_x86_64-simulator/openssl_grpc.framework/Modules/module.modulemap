@@ -1,5 +1,5 @@
 framework module openssl_grpc {
-umbrella header "BoringSSL-GRPC-umbrella.h"
+umbrella "."
 export *
 module * { export * }
 }

@@ -1,5 +1,5 @@
 framework module FirebaseAppCheck {
-umbrella header "FirebaseAppCheck-umbrella.h"
+umbrella header "FirebaseAppCheck.h"
 export *
 module * { export * }
   link framework "AppKit"

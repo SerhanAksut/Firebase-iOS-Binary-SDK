@@ -1,5 +1,5 @@
 framework module FirebaseFirestoreInternal {
-umbrella header "FirebaseFirestoreInternal-umbrella.h"
+umbrella "."
 export *
 module * { export * }
   link framework "openssl_grpc"

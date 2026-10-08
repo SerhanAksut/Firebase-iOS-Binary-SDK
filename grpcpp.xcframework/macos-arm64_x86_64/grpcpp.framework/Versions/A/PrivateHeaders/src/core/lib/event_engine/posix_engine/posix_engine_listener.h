@@ -24,16 +24,16 @@
 #include <atomic>
 #include <list>
 #include <memory>
-#include <string>
 #include <utility>
 
+#include "src/core/lib/event_engine/posix.h"
+#include "src/core/lib/event_engine/posix_engine/posix_interface.h"
+#include "src/core/lib/iomgr/port.h"
+#include "src/core/util/sync.h"
 #include "absl/base/thread_annotations.h"
 #include "absl/functional/any_invocable.h"
 #include "absl/status/status.h"
 #include "absl/status/statusor.h"
-#include "src/core/lib/event_engine/posix.h"
-#include "src/core/lib/iomgr/port.h"
-#include "src/core/util/sync.h"
 
 #ifdef GRPC_POSIX_SOCKET_TCP
 #include "src/core/lib/event_engine/posix_engine/event_poller.h"
@@ -43,8 +43,7 @@
 #include "src/core/lib/event_engine/tcp_socket_utils.h"
 #endif
 
-namespace grpc_event_engine {
-namespace experimental {
+namespace grpc_event_engine::experimental {
 
 #ifdef GRPC_POSIX_SOCKET_TCP
 class PosixEngineListenerImpl
@@ -86,7 +85,7 @@ class PosixEngineListenerImpl
           listener_(std::move(listener)),
           socket_(socket),
           handle_(listener_->poller_->CreateHandle(
-              socket_.sock.Fd(),
+              socket_.sock,
               *grpc_event_engine::experimental::
                   ResolvedAddressToNormalizedString(socket_.addr),
               listener_->poller_->CanTrackErrors())),
@@ -106,8 +105,10 @@ class PosixEngineListenerImpl
       }
     }
     ListenerSocketsContainer::ListenerSocket& Socket() { return socket_; }
+    FileDescriptor Fd() { return handle_->WrappedFd(); }
     ~AsyncConnectionAcceptor() {
-      auto address = socket_.sock.LocalAddress();
+      auto address = handle_->Poller()->posix_interface().LocalAddress(
+          handle_->WrappedFd());
       if (address.ok()) {
         // If uds socket, unlink it so that the corresponding file is deleted.
         UnlinkIfUnixDomainSocket(*address);
@@ -141,7 +142,7 @@ class PosixEngineListenerImpl
       acceptors_.push_back(new AsyncConnectionAcceptor(
           listener_->engine_, listener_->shared_from_this(), socket));
       if (on_append_) {
-        on_append_(socket.sock.Fd());
+        on_append_(socket.sock.fd());
       }
     }
 
@@ -278,6 +279,5 @@ class PosixEngineListener : public PosixListenerWithFdSupport {
 
 #endif
 
-}  // namespace experimental
-}  // namespace grpc_event_engine
+}  // namespace grpc_event_engine::experimental
 #endif  // GRPC_SRC_CORE_LIB_EVENT_ENGINE_POSIX_ENGINE_POSIX_ENGINE_LISTENER_H

@@ -23,10 +23,10 @@
 #include <grpc/grpc.h>
 #include <grpc/support/port_platform.h>
 
+#include <optional>
 #include <string>
 
-#include "absl/status/statusor.h"
-#include "absl/types/optional.h"
+#include "src/core/call/call_arena_allocator.h"
 #include "src/core/client_channel/client_channel_filter.h"
 #include "src/core/lib/channel/channel_args.h"
 #include "src/core/lib/channel/channel_fwd.h"
@@ -35,11 +35,11 @@
 #include "src/core/lib/slice/slice.h"
 #include "src/core/lib/surface/channel.h"
 #include "src/core/lib/surface/channel_stack_type.h"
-#include "src/core/lib/transport/call_arena_allocator.h"
 #include "src/core/lib/transport/transport.h"
 #include "src/core/telemetry/stats.h"
 #include "src/core/util/ref_counted_ptr.h"
 #include "src/core/util/time.h"
+#include "absl/status/statusor.h"
 
 namespace grpc_core {
 
@@ -61,8 +61,10 @@ class LegacyChannel final : public Channel {
   grpc_call* CreateCall(grpc_call* parent_call, uint32_t propagation_mask,
                         grpc_completion_queue* cq,
                         grpc_pollset_set* pollset_set_alternative, Slice path,
-                        absl::optional<Slice> authority, Timestamp deadline,
-                        bool registered_method) override;
+                        std::optional<Slice> authority, Timestamp deadline,
+                        bool registered_method,
+                        std::optional<absl::FunctionRef<void(Arena*)>>
+                            arena_init_function) override;
 
   void StartCall(UnstartedCallHandler) override {
     Crash("StartCall() not supported on LegacyChannel");

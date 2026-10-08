@@ -8,13 +8,12 @@ let package = Package(
     platforms: [
         .iOS(.v15),
         .macCatalyst(.v15),
-        .macOS(.v10_15),
+        .macOS(.v11),
         .tvOS(.v15),
-        .watchOS(.v7)
+        .watchOS(.v8)
     ],
     products: [
         .library(name: "absl", targets: ["absl"]),
-        .library(name: "AppAuth", targets: ["AppAuth"]),
         .library(name: "AppCheckCore", targets: ["AppCheckCore"]),
         .library(name: "FBLPromises", targets: ["FBLPromises"]),
         .library(name: "FirebaseABTesting", targets: ["FirebaseABTesting"]),
@@ -37,7 +36,6 @@ let package = Package(
         .library(name: "FirebaseInstallations", targets: ["FirebaseInstallations"]),
         .library(name: "FirebaseMessaging", targets: ["FirebaseMessaging"]),
         .library(name: "FirebaseMessagingInterop", targets: ["FirebaseMessagingInterop"]),
-        .library(name: "FirebaseMLModelDownloader", targets: ["FirebaseMLModelDownloader"]),
         .library(name: "FirebasePerformance", targets: ["FirebasePerformance"]),
         .library(name: "FirebaseRemoteConfig", targets: ["FirebaseRemoteConfig"]),
         .library(name: "FirebaseRemoteConfigInterop", targets: ["FirebaseRemoteConfigInterop"]),
@@ -51,21 +49,17 @@ let package = Package(
             targets: ["GoogleAppMeasurementIdentitySupport"]
         ),
         .library(name: "GoogleDataTransport", targets: ["GoogleDataTransport"]),
-        .library(name: "GoogleSignIn", targets: ["GoogleSignIn"]),
         .library(name: "GoogleUtilities", targets: ["GoogleUtilities"]),
         .library(name: "grpc", targets: ["grpc"]),
         .library(name: "grpcpp", targets: ["grpcpp"]),
-        .library(name: "GTMAppAuth", targets: ["GTMAppAuth"]),
         .library(name: "GTMSessionFetcher", targets: ["GTMSessionFetcher"]),
         .library(name: "leveldb", targets: ["leveldb"]),
         .library(name: "nanopb", targets: ["nanopb"]),
         .library(name: "openssl_grpc", targets: ["openssl_grpc"]),
-        .library(name: "Promises", targets: ["Promises"]),
         .library(name: "RecaptchaInterop", targets: ["RecaptchaInterop"])
     ],
     targets: [
         .binaryTarget(name: "absl", path: "absl.xcframework"),
-        .binaryTarget(name: "AppAuth", path: "AppAuth.xcframework"),
         .binaryTarget(name: "AppCheckCore", path: "AppCheckCore.xcframework"),
         .binaryTarget(name: "FBLPromises", path: "FBLPromises.xcframework"),
         .binaryTarget(name: "FirebaseABTesting", path: "FirebaseABTesting.xcframework"),
@@ -88,7 +82,6 @@ let package = Package(
         .binaryTarget(name: "FirebaseInstallations", path: "FirebaseInstallations.xcframework"),
         .binaryTarget(name: "FirebaseMessaging", path: "FirebaseMessaging.xcframework"),
         .binaryTarget(name: "FirebaseMessagingInterop", path: "FirebaseMessagingInterop.xcframework"),
-        .binaryTarget(name: "FirebaseMLModelDownloader", path: "FirebaseMLModelDownloader.xcframework"),
         .binaryTarget(name: "FirebasePerformance", path: "FirebasePerformance.xcframework"),
         .binaryTarget(name: "FirebaseRemoteConfig", path: "FirebaseRemoteConfig.xcframework"),
         .binaryTarget(name: "FirebaseRemoteConfigInterop", path: "FirebaseRemoteConfigInterop.xcframework"),
@@ -102,16 +95,17 @@ let package = Package(
             path: "GoogleAppMeasurementIdentitySupport.xcframework"
         ),
         .binaryTarget(name: "GoogleDataTransport", path: "GoogleDataTransport.xcframework"),
-        .binaryTarget(name: "GoogleSignIn", path: "GoogleSignIn.xcframework"),
         .binaryTarget(name: "GoogleUtilities", path: "GoogleUtilities.xcframework"),
-        .binaryTarget(name: "grpc", path: "grpc.xcframework"),
+        .binaryTarget(
+            name: "grpc",
+            url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK/releases/download/binaries-13.0.1/grpc.xcframework.zip",
+            checksum: "43bb2e15285ee4c4f556ebf98d56d13991cd0127344d8996751b9242050e15cd"
+        ),
         .binaryTarget(name: "grpcpp", path: "grpcpp.xcframework"),
-        .binaryTarget(name: "GTMAppAuth", path: "GTMAppAuth.xcframework"),
         .binaryTarget(name: "GTMSessionFetcher", path: "GTMSessionFetcher.xcframework"),
         .binaryTarget(name: "leveldb", path: "leveldb.xcframework"),
         .binaryTarget(name: "nanopb", path: "nanopb.xcframework"),
         .binaryTarget(name: "openssl_grpc", path: "openssl_grpc.xcframework"),
-        .binaryTarget(name: "Promises", path: "Promises.xcframework"),
         .binaryTarget(name: "RecaptchaInterop", path: "RecaptchaInterop.xcframework")
     ]
 )

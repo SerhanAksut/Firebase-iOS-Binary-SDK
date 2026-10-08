@@ -12,17 +12,13 @@
 		<data>
 		/ZWNHav8rMaTXBiJ4KAzHhaHdbM=
 		</data>
-		<key>ios-arm64/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<data>
-		yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-		</data>
 		<key>ios-arm64/FirebaseMessagingInterop.framework/Info.plist</key>
 		<data>
-		rFrIkdnAiEcmautd8E4w9Mtk7kE=
+		ffh1fZiN08V0hvAQlr0xnfrN7mI=
 		</data>
 		<key>ios-arm64/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<data>
-		9JK9x6SJUANvUrRVly0qNvF8zVs=
+		GrIg/gyGrYg+blc2P2JeP+mxK+0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/Versions/A/FirebaseMessagingInterop</key>
 		<data>
@@ -32,17 +28,13 @@
 		<data>
 		/ZWNHav8rMaTXBiJ4KAzHhaHdbM=
 		</data>
-		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/Versions/A/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<data>
-		yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		9JK9x6SJUANvUrRVly0qNvF8zVs=
+		GrIg/gyGrYg+blc2P2JeP+mxK+0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		jy2YtpccgL5slygFf0q4NwJGuQU=
+		o52bZXwgKjcuzxJbG2CjzJ95THI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
 		<data>
@@ -52,37 +44,29 @@
 		<data>
 		/ZWNHav8rMaTXBiJ4KAzHhaHdbM=
 		</data>
-		<key>ios-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<data>
-		yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Info.plist</key>
 		<data>
-		m6iJ8pKzzsqOY8PLXlgE1qhMEkg=
+		4PIEnYjkxRnhZ6o05faIzXbXqgo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<data>
-		9JK9x6SJUANvUrRVly0qNvF8zVs=
+		GrIg/gyGrYg+blc2P2JeP+mxK+0=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/FirebaseMessagingInterop</key>
 		<data>
-		ol5EbBjgijEWGQW8M2EGsKTZDBk=
+		YE2KTz2HzOzLCNuN0QyBNvp8HZw=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/Headers/FIRMessagingInterop.h</key>
 		<data>
 		/ZWNHav8rMaTXBiJ4KAzHhaHdbM=
 		</data>
-		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<data>
-		5bIPsmfT7lO//ThYDowTq1+jwKo=
-		</data>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		9JK9x6SJUANvUrRVly0qNvF8zVs=
+		GrIg/gyGrYg+blc2P2JeP+mxK+0=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		A1ExLpUVdFKqP/eINQmbHLuZn+Q=
+		5TdkPTLBr+FPy+d2Nc4gIi0ylAA=
 		</data>
 		<key>tvos-arm64/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
 		<data>
@@ -92,17 +76,13 @@
 		<data>
 		/ZWNHav8rMaTXBiJ4KAzHhaHdbM=
 		</data>
-		<key>tvos-arm64/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<data>
-		yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-		</data>
 		<key>tvos-arm64/FirebaseMessagingInterop.framework/Info.plist</key>
 		<data>
-		QsNtmmtAdY2kU7nxjsXIxv3f6Y4=
+		lV+/eIOCUOLcYHmYA/1Z1kFW6Ns=
 		</data>
 		<key>tvos-arm64/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<data>
-		9JK9x6SJUANvUrRVly0qNvF8zVs=
+		GrIg/gyGrYg+blc2P2JeP+mxK+0=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
 		<data>
@@ -112,57 +92,45 @@
 		<data>
 		/ZWNHav8rMaTXBiJ4KAzHhaHdbM=
 		</data>
-		<key>tvos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<data>
-		yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Info.plist</key>
 		<data>
-		50/CJsx5Th0MLatvB/xOTWt1Gtc=
+		dz7jz94N1mDT2J4FqIpyZr02oCc=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<data>
-		9JK9x6SJUANvUrRVly0qNvF8zVs=
+		GrIg/gyGrYg+blc2P2JeP+mxK+0=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
 		<data>
-		qWV0pVFykTcj5TksKCPnLwjy0rQ=
+		ODVlZTCSUayTfNJ4D2m/2x0sDAM=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/Headers/FIRMessagingInterop.h</key>
 		<data>
 		/ZWNHav8rMaTXBiJ4KAzHhaHdbM=
 		</data>
-		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<data>
-		jZDDCMNIwhl64NrNoAYKQU9VMd0=
-		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/Info.plist</key>
 		<data>
-		k2Vk6zmeosrFbnh2FBUYtzEB6C0=
+		NfmCIryuCXwkvzWwmJu8CubsbXI=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<data>
-		9JK9x6SJUANvUrRVly0qNvF8zVs=
+		GrIg/gyGrYg+blc2P2JeP+mxK+0=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
 		<data>
-		n9iUWeqWRTk/2asmQJUKhx03pAQ=
+		Y6qDx2lX3aKIwjHUvN6fat2421o=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Headers/FIRMessagingInterop.h</key>
 		<data>
 		/ZWNHav8rMaTXBiJ4KAzHhaHdbM=
 		</data>
-		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<data>
-		jZDDCMNIwhl64NrNoAYKQU9VMd0=
-		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Info.plist</key>
 		<data>
-		tQQEkKxVLW2DZuBF7AGj+oY6Ga0=
+		310P5VkzAyQ7Q7/FWxjcwCmeM18=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<data>
-		9JK9x6SJUANvUrRVly0qNvF8zVs=
+		GrIg/gyGrYg+blc2P2JeP+mxK+0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -189,37 +157,26 @@
 			RCAOmj7qkyHU48RiTH0guYuskmUd6kCaEtkUmYSHfIc=
 			</data>
 		</dict>
-		<key>ios-arm64/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-			</data>
-			<key>hash2</key>
-			<data>
-			I7jVdp1kiykxYx7rgzPqxOXSEdtFy5tZOiNiOxOoLks=
-			</data>
-		</dict>
 		<key>ios-arm64/FirebaseMessagingInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rFrIkdnAiEcmautd8E4w9Mtk7kE=
+			ffh1fZiN08V0hvAQlr0xnfrN7mI=
 			</data>
 			<key>hash2</key>
 			<data>
-			s5qtQQBDJ9FJPzRUhCREuiWpxSnDCjNN7bddtEgazqI=
+			h2iiSrJSVVbAhbmZOezQyjtgIXeevGQHtfCCEeNfpfI=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JK9x6SJUANvUrRVly0qNvF8zVs=
+			GrIg/gyGrYg+blc2P2JeP+mxK+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			klG4Unz/uswZkhrfnEe/Tzar5riD7KKsDQyQvJ8MdrE=
+			U2HgSR5RTvHg0tdMna0h+XReVloga2QGpI3/M5GHQCU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
@@ -264,37 +221,26 @@
 			RCAOmj7qkyHU48RiTH0guYuskmUd6kCaEtkUmYSHfIc=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/Versions/A/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-			</data>
-			<key>hash2</key>
-			<data>
-			I7jVdp1kiykxYx7rgzPqxOXSEdtFy5tZOiNiOxOoLks=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JK9x6SJUANvUrRVly0qNvF8zVs=
+			GrIg/gyGrYg+blc2P2JeP+mxK+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			klG4Unz/uswZkhrfnEe/Tzar5riD7KKsDQyQvJ8MdrE=
+			U2HgSR5RTvHg0tdMna0h+XReVloga2QGpI3/M5GHQCU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jy2YtpccgL5slygFf0q4NwJGuQU=
+			o52bZXwgKjcuzxJbG2CjzJ95THI=
 			</data>
 			<key>hash2</key>
 			<data>
-			EfqUyBs0kRWbHPWJ003kqLENF7N7eGbQ2sfxPhJcibE=
+			8mNqGxlQ7Ysu8unod1C8nhs75Qnv/9SO6PF78YO0k+A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseMessagingInterop.framework/Versions/Current</key>
@@ -324,37 +270,26 @@
 			RCAOmj7qkyHU48RiTH0guYuskmUd6kCaEtkUmYSHfIc=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-			</data>
-			<key>hash2</key>
-			<data>
-			I7jVdp1kiykxYx7rgzPqxOXSEdtFy5tZOiNiOxOoLks=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m6iJ8pKzzsqOY8PLXlgE1qhMEkg=
+			4PIEnYjkxRnhZ6o05faIzXbXqgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			lkAHe+Mg2vP8qQ5Xilh1fskeFNjbDPJsC06/BP/JaMs=
+			boIi9QLp4X8hE+8jGQzmtt9S0r9erV9LGRXHh2s6VQs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JK9x6SJUANvUrRVly0qNvF8zVs=
+			GrIg/gyGrYg+blc2P2JeP+mxK+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			klG4Unz/uswZkhrfnEe/Tzar5riD7KKsDQyQvJ8MdrE=
+			U2HgSR5RTvHg0tdMna0h+XReVloga2QGpI3/M5GHQCU=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
@@ -381,11 +316,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ol5EbBjgijEWGQW8M2EGsKTZDBk=
+			YE2KTz2HzOzLCNuN0QyBNvp8HZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			4shqGgq7sq8GJ7VlCSFqY96Hbllu+X5VKPEZki67r3I=
+			uC2KQQaas5a9pfNjDkTKedSOU+RClQCik09aoZO6J24=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/Headers/FIRMessagingInterop.h</key>
@@ -399,37 +334,26 @@
 			RCAOmj7qkyHU48RiTH0guYuskmUd6kCaEtkUmYSHfIc=
 			</data>
 		</dict>
-		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5bIPsmfT7lO//ThYDowTq1+jwKo=
-			</data>
-			<key>hash2</key>
-			<data>
-			cpNo/71mHtA2/f0rfDJajbRLBDiRm/frwghmB/A4eaw=
-			</data>
-		</dict>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JK9x6SJUANvUrRVly0qNvF8zVs=
+			GrIg/gyGrYg+blc2P2JeP+mxK+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			klG4Unz/uswZkhrfnEe/Tzar5riD7KKsDQyQvJ8MdrE=
+			U2HgSR5RTvHg0tdMna0h+XReVloga2QGpI3/M5GHQCU=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A1ExLpUVdFKqP/eINQmbHLuZn+Q=
+			5TdkPTLBr+FPy+d2Nc4gIi0ylAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			AN5P30SmoNYSZ5O06Q50GW2UYGDaHG5kn58HS90QR4c=
+			N/oI1eBmRFdx4jgNiGpCSmHxLfT7hnLtYUrM8/ckQFY=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseMessagingInterop.framework/Versions/Current</key>
@@ -459,37 +383,26 @@
 			RCAOmj7qkyHU48RiTH0guYuskmUd6kCaEtkUmYSHfIc=
 			</data>
 		</dict>
-		<key>tvos-arm64/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-			</data>
-			<key>hash2</key>
-			<data>
-			I7jVdp1kiykxYx7rgzPqxOXSEdtFy5tZOiNiOxOoLks=
-			</data>
-		</dict>
 		<key>tvos-arm64/FirebaseMessagingInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QsNtmmtAdY2kU7nxjsXIxv3f6Y4=
+			lV+/eIOCUOLcYHmYA/1Z1kFW6Ns=
 			</data>
 			<key>hash2</key>
 			<data>
-			ML5/j+7KJUDaqXrtBZUfsIzSRMkQct+ePuEBpSt+jkI=
+			sGmXOcRsixY7OqHDvaYvKwSBJHnZt3JMVRenF2R8FW8=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JK9x6SJUANvUrRVly0qNvF8zVs=
+			GrIg/gyGrYg+blc2P2JeP+mxK+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			klG4Unz/uswZkhrfnEe/Tzar5riD7KKsDQyQvJ8MdrE=
+			U2HgSR5RTvHg0tdMna0h+XReVloga2QGpI3/M5GHQCU=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
@@ -514,48 +427,37 @@
 			RCAOmj7qkyHU48RiTH0guYuskmUd6kCaEtkUmYSHfIc=
 			</data>
 		</dict>
-		<key>tvos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yh+W3Z/cPi7Vs6BZwYJ05kPAy9M=
-			</data>
-			<key>hash2</key>
-			<data>
-			I7jVdp1kiykxYx7rgzPqxOXSEdtFy5tZOiNiOxOoLks=
-			</data>
-		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			50/CJsx5Th0MLatvB/xOTWt1Gtc=
+			dz7jz94N1mDT2J4FqIpyZr02oCc=
 			</data>
 			<key>hash2</key>
 			<data>
-			1AcBkxRNOt4h2qfJCZAwgZs4a71PL9q5qx8yXXZmP40=
+			qhSlJ92yxjlV9C8cqvebIXwCGVm5ioAivLoiZbB83Sk=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JK9x6SJUANvUrRVly0qNvF8zVs=
+			GrIg/gyGrYg+blc2P2JeP+mxK+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			klG4Unz/uswZkhrfnEe/Tzar5riD7KKsDQyQvJ8MdrE=
+			U2HgSR5RTvHg0tdMna0h+XReVloga2QGpI3/M5GHQCU=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qWV0pVFykTcj5TksKCPnLwjy0rQ=
+			ODVlZTCSUayTfNJ4D2m/2x0sDAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6c3oYB70Chg2a/iM5Zn26c2+SLpD/cyCJwLEpRYl830=
+			BCUMoGFGfuIMPadQUp5KxwDgOW5j/Jg6JWNbznYvwPQ=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/Headers/FIRMessagingInterop.h</key>
@@ -569,48 +471,37 @@
 			RCAOmj7qkyHU48RiTH0guYuskmUd6kCaEtkUmYSHfIc=
 			</data>
 		</dict>
-		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jZDDCMNIwhl64NrNoAYKQU9VMd0=
-			</data>
-			<key>hash2</key>
-			<data>
-			AeuoJQibEZE9GEnTovtVnsEo9zT6Jbayv5zhoWH1nxE=
-			</data>
-		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k2Vk6zmeosrFbnh2FBUYtzEB6C0=
+			NfmCIryuCXwkvzWwmJu8CubsbXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Bga74VvTWcnSP3ABLH4Q0yFXN92AsF9D7Y1lIT6J9M=
+			LINRLHcjQp/QrDG3mF0rsZ8G1igZqSaWAMdXm+tH2IA=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JK9x6SJUANvUrRVly0qNvF8zVs=
+			GrIg/gyGrYg+blc2P2JeP+mxK+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			klG4Unz/uswZkhrfnEe/Tzar5riD7KKsDQyQvJ8MdrE=
+			U2HgSR5RTvHg0tdMna0h+XReVloga2QGpI3/M5GHQCU=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n9iUWeqWRTk/2asmQJUKhx03pAQ=
+			Y6qDx2lX3aKIwjHUvN6fat2421o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nizp0jNmIiJd7LSWEuvJCZx4fiwD9krZZbXYBkLgOcw=
+			WOK/Cx2I35k1lZ42DL2btyyp6ZpZXWznQsQnZcJI1z8=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Headers/FIRMessagingInterop.h</key>
@@ -624,37 +515,26 @@
 			RCAOmj7qkyHU48RiTH0guYuskmUd6kCaEtkUmYSHfIc=
 			</data>
 		</dict>
-		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Headers/FirebaseMessagingInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jZDDCMNIwhl64NrNoAYKQU9VMd0=
-			</data>
-			<key>hash2</key>
-			<data>
-			AeuoJQibEZE9GEnTovtVnsEo9zT6Jbayv5zhoWH1nxE=
-			</data>
-		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tQQEkKxVLW2DZuBF7AGj+oY6Ga0=
+			310P5VkzAyQ7Q7/FWxjcwCmeM18=
 			</data>
 			<key>hash2</key>
 			<data>
-			vsv5jeewnxyEjgrtIANNXvwWiG35deR4U+96jMQrw3I=
+			2Hon88wbTVhrZrjFuXX6XaupRzV7A7oavvQtBb8Algg=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseMessagingInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JK9x6SJUANvUrRVly0qNvF8zVs=
+			GrIg/gyGrYg+blc2P2JeP+mxK+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			klG4Unz/uswZkhrfnEe/Tzar5riD7KKsDQyQvJ8MdrE=
+			U2HgSR5RTvHg0tdMna0h+XReVloga2QGpI3/M5GHQCU=
 			</data>
 		</dict>
 	</dict>

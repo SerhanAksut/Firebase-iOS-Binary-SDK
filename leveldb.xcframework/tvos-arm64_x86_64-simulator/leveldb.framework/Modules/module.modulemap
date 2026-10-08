@@ -1,5 +1,5 @@
 framework module leveldb {
-umbrella header "leveldb-library-umbrella.h"
+umbrella "."
 export *
 module * { export * }
   link "c++"

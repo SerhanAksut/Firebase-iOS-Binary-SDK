@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/FirebaseSessions.framework/FirebaseSessions</key>
 		<data>
-		e693xmIWxb1kmFznOCHkrLba9qc=
+		+C39rNM67D6OgjSOt/7mSJX62SQ=
 		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
@@ -16,29 +16,25 @@
 		<data>
 		4ycWTm/kv2qR3PcqOPTRHwUb5Ow=
 		</data>
-		<key>ios-arm64/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<data>
-		X2zj7E8tO6mgXEVxCvdctYUryvU=
-		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<data>
 		GxE3sPnhSbDy9dkXyd8/1HFfWIw=
 		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Info.plist</key>
 		<data>
-		5RyMMLQC7pe4XXNJeyeQXulrLwM=
+		MjvyEQ6yCbH6auGk6amAgBkhGCo=
 		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		LIpMBYn5ABDMwPdc28oicMZ0wKc=
+		IfC68tLCxdNHJzVKBH2dnmlPFsI=
 		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+		ED70VwFcnu5If1vPIBu7euhcZgU=
 		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		GD3RPVW2BndpEyMKpX2F0k71Ipk=
+		l1ysUV7vgzDlHlf1iR1u+avIITM=
 		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,15 +42,15 @@
 		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GD3RPVW2BndpEyMKpX2F0k71Ipk=
+		l1ysUV7vgzDlHlf1iR1u+avIITM=
 		</data>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<data>
-		B7Hq1c0aJFoi2tLONuE+RSjMigY=
+		ef8s4eFv0UPKT2pZWpUcXEBm0eY=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/FirebaseSessions</key>
 		<data>
-		hU/0L99U7Kp355vKiQGySIJBCM0=
+		QHC8rSdWj+iE4RgRSXznPe0aP5Y=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
@@ -64,29 +60,25 @@
 		<data>
 		cg31Y5zMc2TK4bn6N/FiQpDqQIU=
 		</data>
-		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Headers/FirebaseSessions-umbrella.h</key>
-		<data>
-		X2zj7E8tO6mgXEVxCvdctYUryvU=
-		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Headers/sessions.nanopb.h</key>
 		<data>
 		GxE3sPnhSbDy9dkXyd8/1HFfWIw=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-ios-macabi.swiftsourceinfo</key>
 		<data>
-		4GweODXwgODaEbEmVFR/qBIlLPs=
+		9HgJYPPYLOXxICF3b+Flw+Z+iC0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<data>
-		up4FYbev3kK+JJpq+32PESBQHGE=
+		pVxLSLFacJNn3893VNgy7eiU/Gc=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
-		k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+		ED70VwFcnu5If1vPIBu7euhcZgU=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		K/emAo6rxsH/lLcVzyh+MAzeEEY=
+		97Xtj8HNViiviSqwa8yAV2gkbp0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<data>
@@ -94,15 +86,15 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		K/emAo6rxsH/lLcVzyh+MAzeEEY=
+		97Xtj8HNViiviSqwa8yAV2gkbp0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<data>
-		k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+		ED70VwFcnu5If1vPIBu7euhcZgU=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		rIId0LNcZjLEEwSzhmzjbs4rNP4=
+		446/RFDfMZKWhTY5lERozHgnEtM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<data>
@@ -110,19 +102,19 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		rIId0LNcZjLEEwSzhmzjbs4rNP4=
+		446/RFDfMZKWhTY5lERozHgnEtM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		B7Hq1c0aJFoi2tLONuE+RSjMigY=
+		ef8s4eFv0UPKT2pZWpUcXEBm0eY=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		81js1o104houtFuxHlLwyW7RalI=
+		0o2MC5IP2MIT4jpiRKi2+wLFPdQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/FirebaseSessions</key>
 		<data>
-		OcNnXwDmKdFT5Lelvh8frEF0Jz4=
+		wyRoSSUGYhqzFryQeeLdiglK5/c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
@@ -132,33 +124,29 @@
 		<data>
 		cg31Y5zMc2TK4bn6N/FiQpDqQIU=
 		</data>
-		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<data>
-		X2zj7E8tO6mgXEVxCvdctYUryvU=
-		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<data>
 		GxE3sPnhSbDy9dkXyd8/1HFfWIw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Info.plist</key>
 		<data>
-		0CDTOKeXPhnOenU878z7lC0oja4=
+		5O+nj2tbnKym0/5LY0YSo0ETxyU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		bv4LFCAn8kRqy/16sea33szfPqg=
+		in98xcdHf0SDhzxVyqFmHkhyUvk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		vLTPuwrXRMhG1qFVj19TFGlKdv8=
+		/jBxhTvEZfl7ik5ccIzP7eZyCF0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+		ED70VwFcnu5If1vPIBu7euhcZgU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		P3E0pV8vd7obqZ1n8Qhn2CbPfAY=
+		UrDoH9mbw2xC73gM1bqbmW5PjlA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -166,15 +154,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		P3E0pV8vd7obqZ1n8Qhn2CbPfAY=
+		UrDoH9mbw2xC73gM1bqbmW5PjlA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+		ED70VwFcnu5If1vPIBu7euhcZgU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9wR67pttTi1JEmezYx9cS/rB+Eg=
+		QIErpj2t9zjNNjFx5l8VTk9DOWY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -182,15 +170,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9wR67pttTi1JEmezYx9cS/rB+Eg=
+		QIErpj2t9zjNNjFx5l8VTk9DOWY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<data>
-		B7Hq1c0aJFoi2tLONuE+RSjMigY=
+		ef8s4eFv0UPKT2pZWpUcXEBm0eY=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/FirebaseSessions</key>
 		<data>
-		WsBIeeAd0bHtFneQ8KEgYAaCETw=
+		ntM2i+W7mLAIjJY/ZxZWQi7QYT8=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
@@ -200,65 +188,61 @@
 		<data>
 		cg31Y5zMc2TK4bn6N/FiQpDqQIU=
 		</data>
-		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Headers/FirebaseSessions-umbrella.h</key>
-		<data>
-		fwDrG1TNqWBerx7zoQQO0promD4=
-		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Headers/sessions.nanopb.h</key>
 		<data>
 		GxE3sPnhSbDy9dkXyd8/1HFfWIw=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo</key>
 		<data>
-		HhoDW98nl4BwnVxiMsRkiBPmoLg=
+		/42Vy/x4D2N/xzIDaTghyNx/l70=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<data>
-		+ux9TOwGLifUtfAk5DKAuSKlGys=
+		FYh3r8eIFV5qhGZFwP1SMbO6U5Q=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-macos.abi.json</key>
 		<data>
-		ZIICk2PspiglRiuUiAjxJKdBaJU=
+		BkLR4FnCMNXChfDM6DcMB/lr19w=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<data>
-		tjUGCj71LqD9ODCbos7fwo6bQXI=
+		OzDKcRjP2IZq7PQTwB3NI3p6ArA=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<data>
-		HXmZgnqT9PKP0mkMWKbdzjGRhoI=
+		3syBlwtEP/HRbBEDInAWU/GgewY=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<data>
-		tjUGCj71LqD9ODCbos7fwo6bQXI=
+		OzDKcRjP2IZq7PQTwB3NI3p6ArA=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<data>
-		ZIICk2PspiglRiuUiAjxJKdBaJU=
+		BkLR4FnCMNXChfDM6DcMB/lr19w=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<data>
-		B5g+RNy3LoQPkSCfz+iUbMQldm0=
+		Th3oTACYdEARBYjUqxEdsJ3id1k=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<data>
-		vMECqF/4UVtYp220j3YLZak07Cg=
+		3h3YmdViiQ4+l3vfYKh63HOUZHQ=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<data>
-		B5g+RNy3LoQPkSCfz+iUbMQldm0=
+		Th3oTACYdEARBYjUqxEdsJ3id1k=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		f/quFSGNZspL2H75/Tm/UH6cLg4=
+		7zM0u+QPCYNgzXit+POVuNEJB54=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		SAvD4BUFrH5AFXayFUzaJ4khnXY=
+		P+uvCN4rqgrq0QGEzfRD66dXOh8=
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/FirebaseSessions</key>
 		<data>
-		PPGpeguDbOSTGJhdeE5fQOp10F4=
+		QQ6w5sLZvu1kN8VRx6FaNnGjxAA=
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
@@ -268,29 +252,25 @@
 		<data>
 		4ycWTm/kv2qR3PcqOPTRHwUb5Ow=
 		</data>
-		<key>tvos-arm64/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<data>
-		X2zj7E8tO6mgXEVxCvdctYUryvU=
-		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<data>
 		GxE3sPnhSbDy9dkXyd8/1HFfWIw=
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Info.plist</key>
 		<data>
-		3QhSWFBiLpRoPDsUhnzk28Y6nn4=
+		LB8O5XNg1x68UU/l3UVK9c94BcY=
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-tvos.swiftsourceinfo</key>
 		<data>
-		+uTdWoABljViwJzibdKVQHoszEc=
+		EZik68FBWz2KIxzqb4ivHjk00xc=
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		34YpHIqw7vZ+TvvWEsnISZqMZhw=
+		rWsPXYU4mMzBuTVUUuTgfk7I70w=
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
-		1zMblkY6E6UH4mBPWonlnusMsns=
+		0YUi1+3wMmAv50acQcjw/hfP1+w=
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<data>
@@ -298,15 +278,15 @@
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<data>
-		1zMblkY6E6UH4mBPWonlnusMsns=
+		0YUi1+3wMmAv50acQcjw/hfP1+w=
 		</data>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<data>
-		us8pa0vOXmgc/z8hcwXUM/DBqmQ=
+		Cdb+G1j7MTmxumtTlQSSzVMZ0VE=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/FirebaseSessions</key>
 		<data>
-		QMGeNvdnbW+xXG8t54AUFJwkkOU=
+		3x68mqs8GG/AeseKKff+K9aIZW8=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
@@ -316,33 +296,29 @@
 		<data>
 		cg31Y5zMc2TK4bn6N/FiQpDqQIU=
 		</data>
-		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<data>
-		X2zj7E8tO6mgXEVxCvdctYUryvU=
-		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<data>
 		GxE3sPnhSbDy9dkXyd8/1HFfWIw=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Info.plist</key>
 		<data>
-		5X3wh31bnqJM7vHgH0FvoAruBOQ=
+		4xZCXZcOLsoWjQfXuOvGCeG/PDc=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		50XX5oo0hBpm8aP2UVNtVfAfCKE=
+		8Z5QIhjjVPOlSe2MyB54SJRm9f4=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		RZ6gP0R2TzLVEga6lG9tAF1sulc=
+		f10e/25oOrliHPeU4UIIdGEvYQU=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		34YpHIqw7vZ+TvvWEsnISZqMZhw=
+		rWsPXYU4mMzBuTVUUuTgfk7I70w=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		xArPK44hhrWB2IkwKr/PwyzvISg=
+		/o9C7HTuFArRDacraMfoThMue7A=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -350,15 +326,15 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		xArPK44hhrWB2IkwKr/PwyzvISg=
+		/o9C7HTuFArRDacraMfoThMue7A=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		34YpHIqw7vZ+TvvWEsnISZqMZhw=
+		rWsPXYU4mMzBuTVUUuTgfk7I70w=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		MLkE2kOg/gQ8naxHEVno1wY+fHM=
+		kChUwjC6K10wbqjEy8GWVYuNsRw=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -366,15 +342,15 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		MLkE2kOg/gQ8naxHEVno1wY+fHM=
+		kChUwjC6K10wbqjEy8GWVYuNsRw=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<data>
-		us8pa0vOXmgc/z8hcwXUM/DBqmQ=
+		Cdb+G1j7MTmxumtTlQSSzVMZ0VE=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/FirebaseSessions</key>
 		<data>
-		YiBBArBydtwaf7qGdsD9Blub5sI=
+		IDpkl7EVSowFi9JWHVAQwx3PSmk=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
@@ -382,11 +358,7 @@
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Headers/FirebaseSessions-Swift.h</key>
 		<data>
-		Am6WP/EXDbGk1Ys/pkTdii7o7HY=
-		</data>
-		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<data>
-		eBbQTs/VZfo6hfQuISrjfn/6/KY=
+		Uv0Y47+qV/c7m+WdwYUN15r9cnA=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<data>
@@ -394,55 +366,55 @@
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Info.plist</key>
 		<data>
-		H/bgin3+Q3UChvFcawi51ZOyPn8=
+		UWLndCfpFHUPuAOt8pYA+p/yTWY=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-watchos.swiftsourceinfo</key>
 		<data>
-		SVG2JjqxBb98oabIhEKJCkH9jaE=
+		AL5rzkG9k5srW0RuNYOY4jIXJRk=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64_32-apple-watchos.swiftsourceinfo</key>
 		<data>
-		U60pQUMhQZIf2uCZRxAews2NzNM=
+		EzqLNFiatyAP/rYFFMMNZQ4adx0=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
-		vkfIuaclfst1THNLDTnDspaO3v4=
+		j3n3Lscfh/LmQj8nF51ByM8luRY=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<data>
-		d+fiCG+f8puEd3KGUcINDGGg9cs=
+		k3i3x37QwGN2RvyhLclZj4D6stk=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<data>
-		Qwhm85DPvC6QIA6mIzYh0hSaYDg=
+		WhKX7sV/qwl2VNw0ZW7S/NSWbBw=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<data>
-		d+fiCG+f8puEd3KGUcINDGGg9cs=
+		k3i3x37QwGN2RvyhLclZj4D6stk=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<data>
-		vkfIuaclfst1THNLDTnDspaO3v4=
+		j3n3Lscfh/LmQj8nF51ByM8luRY=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<data>
-		ow3KD+qJUTs2BQelCJ1cYszBNQg=
+		BcpeNQ6IF4xTciudMVSvWomw9Kk=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<data>
-		bB8XIboC3SmY+YakanLFiXnNL1M=
+		2IHoqoGMNQI7ZEONZxa4AXa+J0w=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<data>
-		ow3KD+qJUTs2BQelCJ1cYszBNQg=
+		BcpeNQ6IF4xTciudMVSvWomw9Kk=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<data>
-		dMqdCEnM+FZE09UK3i3nbJ5WGw8=
+		kz8Mqrm566sV8UO0gEXzdjstxHE=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/FirebaseSessions</key>
 		<data>
-		sr9ANzVBcbxnBqBMWxTEny/bFxY=
+		9tA6QX9mTsIvygI2WJZw1/KzfGE=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
@@ -450,11 +422,7 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FirebaseSessions-Swift.h</key>
 		<data>
-		6WkaKLZsCDrTGQu7h2u7iKq9muU=
-		</data>
-		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<data>
-		eBbQTs/VZfo6hfQuISrjfn/6/KY=
+		Wh+MSfksfulaLd9L8GZGK5ueCr8=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<data>
@@ -462,51 +430,51 @@
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Info.plist</key>
 		<data>
-		sDQVmIdq4i5Fozf+pSsYwadVAfY=
+		+M1pZJii5mPuhfm93t3xft4w+lU=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		eZ5qCHBoGfysx4tJl642O6QYncg=
+		FsH8E5k/nixJf4WY3YtDqZpYndg=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		WVzyvwFI8AFlxdsCR2kxJrdTk7w=
+		zwQ5OgL2DKTzXZ7f6dzk5HIVLI0=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		vkfIuaclfst1THNLDTnDspaO3v4=
+		j3n3Lscfh/LmQj8nF51ByM8luRY=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		K6kEIrRlT25whgklC5+uUXmLfGs=
+		CgTZ4IPpsojOFBSqxRAdeALwi9c=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		x45i4SVmU97pDZYVHlTZs1B1sgM=
+		hT+GAIpuKLya+0ZFGlNZsdRD7v8=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		K6kEIrRlT25whgklC5+uUXmLfGs=
+		CgTZ4IPpsojOFBSqxRAdeALwi9c=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		vkfIuaclfst1THNLDTnDspaO3v4=
+		j3n3Lscfh/LmQj8nF51ByM8luRY=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		LAm5AjK2agdSWBvu4nrJZ4CHtnY=
+		ehiXCsIsKCXlAmqRID+6Zg31B4E=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		v+xrD8hwBNxre2TUX68jTRtRo5g=
+		xgnkp+R3V6DKra3Da25037F4d20=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		LAm5AjK2agdSWBvu4nrJZ4CHtnY=
+		ehiXCsIsKCXlAmqRID+6Zg31B4E=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<data>
-		dMqdCEnM+FZE09UK3i3nbJ5WGw8=
+		kz8Mqrm566sV8UO0gEXzdjstxHE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -515,11 +483,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e693xmIWxb1kmFznOCHkrLba9qc=
+			+C39rNM67D6OgjSOt/7mSJX62SQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			OYya5LKykuswPzYw/IR2zDpAtsyFUPMNKfdFd9El8uo=
+			V49GYipjSsxNnpI3cLmQMs6SNgDSPQHTVSopgpDvlpk=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
@@ -544,17 +512,6 @@
 			+SEbn1iEIKzzrCu69hJczKH6sYFulLKPdEkE92jVwPM=
 			</data>
 		</dict>
-		<key>ios-arm64/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X2zj7E8tO6mgXEVxCvdctYUryvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			WaZ3r2xvIBvNrCbqQOIbZppFyfgOkX84WlGi3ozG4so=
-			</data>
-		</dict>
 		<key>ios-arm64/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<dict>
 			<key>hash</key>
@@ -570,44 +527,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5RyMMLQC7pe4XXNJeyeQXulrLwM=
+			MjvyEQ6yCbH6auGk6amAgBkhGCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			xn4fX3/uH1fz0dvGcQfCx662vC/sR29iBqWrxbaApjw=
+			UwibMkP/+wkxDZpojw74X/U7vy/NIaffzW7skwddZ7w=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LIpMBYn5ABDMwPdc28oicMZ0wKc=
+			IfC68tLCxdNHJzVKBH2dnmlPFsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8nIV5x3dRdJp5tvf3UWEXsEbWAh17RLO7gejQL3XbYY=
+			C/Ln2MFXeNbJudma0VqR5GMLGGG2dCIrFHNr2fHNg1o=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+			ED70VwFcnu5If1vPIBu7euhcZgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y3xKzYc3NXhbo8MTevLyXv9npkdP3VnneRdkWeFDPEc=
+			lmakP2q9uKNqcA6Q5aQwqe6IDoC6Q59uitM5oH2YkOI=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GD3RPVW2BndpEyMKpX2F0k71Ipk=
+			l1ysUV7vgzDlHlf1iR1u+avIITM=
 			</data>
 			<key>hash2</key>
 			<data>
-			QRi96T5mGfBzmc/HDnTSq4sGxulXn2FyT+mCJg48Axg=
+			3IfuKus7gWtJPH/0294EBnQHMUonT+BILKihp81u4Bk=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -625,22 +582,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GD3RPVW2BndpEyMKpX2F0k71Ipk=
+			l1ysUV7vgzDlHlf1iR1u+avIITM=
 			</data>
 			<key>hash2</key>
 			<data>
-			QRi96T5mGfBzmc/HDnTSq4sGxulXn2FyT+mCJg48Axg=
+			3IfuKus7gWtJPH/0294EBnQHMUonT+BILKihp81u4Bk=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B7Hq1c0aJFoi2tLONuE+RSjMigY=
+			ef8s4eFv0UPKT2pZWpUcXEBm0eY=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ZJLxRkLB4tT+QE1xrSM5MUFgOabA9ZxDHnvIw57sAA=
+			7kHFgmMAZfJzYLufvEY+Mv1bF/aT+A6QiEoVrYr1BQM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/FirebaseSessions</key>
@@ -667,11 +624,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hU/0L99U7Kp355vKiQGySIJBCM0=
+			QHC8rSdWj+iE4RgRSXznPe0aP5Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			aPFOmldfJtsfXSgKsqxe1FkgUWwVhZM7eVwKpibxVJA=
+			FEmmAkf7Jieqql5FIF0C23wn+0EfCLCI8uFjAWNU+Gg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Headers/FIRSESNanoPBHelpers.h</key>
@@ -696,17 +653,6 @@
 			14/CBIpfH5O5zGamWNCwbEsb+uZfzqJoBe3YV9EdMkw=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Headers/FirebaseSessions-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X2zj7E8tO6mgXEVxCvdctYUryvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			WaZ3r2xvIBvNrCbqQOIbZppFyfgOkX84WlGi3ozG4so=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Headers/sessions.nanopb.h</key>
 		<dict>
 			<key>hash</key>
@@ -722,44 +668,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4GweODXwgODaEbEmVFR/qBIlLPs=
+			9HgJYPPYLOXxICF3b+Flw+Z+iC0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZJljhnLT3Fshc2TppqplRS3pT91P1Hy7elB0sVA6kRw=
+			uI8iJK3SmMCutsb03hvVYkNCglTV3We/LPtlzcU2XAk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			up4FYbev3kK+JJpq+32PESBQHGE=
+			pVxLSLFacJNn3893VNgy7eiU/Gc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AG6DbgiY6cUZnYbduAf/wAMXdJtJH6slixyh06ca+4Y=
+			wJep+ENyHaJRAShxvu6mG+e0ffUUBeK/cAf6ujltCNc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+			ED70VwFcnu5If1vPIBu7euhcZgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y3xKzYc3NXhbo8MTevLyXv9npkdP3VnneRdkWeFDPEc=
+			lmakP2q9uKNqcA6Q5aQwqe6IDoC6Q59uitM5oH2YkOI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K/emAo6rxsH/lLcVzyh+MAzeEEY=
+			97Xtj8HNViiviSqwa8yAV2gkbp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			w7aVIuHcWczdeQJGpyjmDWYkIuLsqUWyJNjWHGWpopQ=
+			EGUhHwK6KR3lrBYWKk64vab/DJTQZgD+gKALkXpa0Ak=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -777,33 +723,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K/emAo6rxsH/lLcVzyh+MAzeEEY=
+			97Xtj8HNViiviSqwa8yAV2gkbp0=
 			</data>
 			<key>hash2</key>
 			<data>
-			w7aVIuHcWczdeQJGpyjmDWYkIuLsqUWyJNjWHGWpopQ=
+			EGUhHwK6KR3lrBYWKk64vab/DJTQZgD+gKALkXpa0Ak=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+			ED70VwFcnu5If1vPIBu7euhcZgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y3xKzYc3NXhbo8MTevLyXv9npkdP3VnneRdkWeFDPEc=
+			lmakP2q9uKNqcA6Q5aQwqe6IDoC6Q59uitM5oH2YkOI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rIId0LNcZjLEEwSzhmzjbs4rNP4=
+			446/RFDfMZKWhTY5lERozHgnEtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			v7iELY38rRratWfqbeUgyCclOLyZwSFOecy/UKPBp2M=
+			Xwav83R1YT6UJnqJErN2NBj9wob+KX2+qbzj83XnFg4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -821,33 +767,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rIId0LNcZjLEEwSzhmzjbs4rNP4=
+			446/RFDfMZKWhTY5lERozHgnEtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			v7iELY38rRratWfqbeUgyCclOLyZwSFOecy/UKPBp2M=
+			Xwav83R1YT6UJnqJErN2NBj9wob+KX2+qbzj83XnFg4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B7Hq1c0aJFoi2tLONuE+RSjMigY=
+			ef8s4eFv0UPKT2pZWpUcXEBm0eY=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ZJLxRkLB4tT+QE1xrSM5MUFgOabA9ZxDHnvIw57sAA=
+			7kHFgmMAZfJzYLufvEY+Mv1bF/aT+A6QiEoVrYr1BQM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			81js1o104houtFuxHlLwyW7RalI=
+			0o2MC5IP2MIT4jpiRKi2+wLFPdQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			r3RL22TdXmNsCmalzC/wG/C6nhjYRVMTzhIY3u7uMr8=
+			s28S8SclITP6KJEXSdP2o+pNZoTycLsDtqboosEDNaw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseSessions.framework/Versions/Current</key>
@@ -859,11 +805,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OcNnXwDmKdFT5Lelvh8frEF0Jz4=
+			wyRoSSUGYhqzFryQeeLdiglK5/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			g39MPvFMDi0vR819NpiybGE+8Fy0W3xERxAbezwANyU=
+			WCOIaToZuHv3Bzu636fz3V0C60pgKmhbrr9EPSmexeo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
@@ -888,17 +834,6 @@
 			14/CBIpfH5O5zGamWNCwbEsb+uZfzqJoBe3YV9EdMkw=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X2zj7E8tO6mgXEVxCvdctYUryvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			WaZ3r2xvIBvNrCbqQOIbZppFyfgOkX84WlGi3ozG4so=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<dict>
 			<key>hash</key>
@@ -914,55 +849,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0CDTOKeXPhnOenU878z7lC0oja4=
+			5O+nj2tbnKym0/5LY0YSo0ETxyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			d5aMIcSFGpYS/J7c41Aw2yxJcHd3SeA9mHL1vfUVRVE=
+			WzsubZH4ZuNGnqrdp78+0B1uPuZYwHPFfHjbkqA0RW0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bv4LFCAn8kRqy/16sea33szfPqg=
+			in98xcdHf0SDhzxVyqFmHkhyUvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0QkbgdngZAqIym9/wD1dim3yy7Cwe6GKLSYh0bQfkUE=
+			OVyW3KkcbmzwxV6n8gSMlGCv2YzuHsFVk0wNsWFLE28=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vLTPuwrXRMhG1qFVj19TFGlKdv8=
+			/jBxhTvEZfl7ik5ccIzP7eZyCF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			B6occyBUWV8u7/tZV6QJu/EHvZ7ujvgrlwLAa/7eBZ0=
+			U94qGj7pqOv4iWt4a/f4NlgF4N6NbWhSDlfom3UoZM0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+			ED70VwFcnu5If1vPIBu7euhcZgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y3xKzYc3NXhbo8MTevLyXv9npkdP3VnneRdkWeFDPEc=
+			lmakP2q9uKNqcA6Q5aQwqe6IDoC6Q59uitM5oH2YkOI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P3E0pV8vd7obqZ1n8Qhn2CbPfAY=
+			UrDoH9mbw2xC73gM1bqbmW5PjlA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2NDG2dGFS/wI/joUUqrcDaifZK8H56Em2N2Bt6kUZl0=
+			fMerbx+siLFOWLUpvp7MW8wUkfCeTdCdPTfVEgD0MLI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -980,33 +915,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P3E0pV8vd7obqZ1n8Qhn2CbPfAY=
+			UrDoH9mbw2xC73gM1bqbmW5PjlA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2NDG2dGFS/wI/joUUqrcDaifZK8H56Em2N2Bt6kUZl0=
+			fMerbx+siLFOWLUpvp7MW8wUkfCeTdCdPTfVEgD0MLI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5dc+r4bedXTjxwsFW1sMS2uhQ4=
+			ED70VwFcnu5If1vPIBu7euhcZgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y3xKzYc3NXhbo8MTevLyXv9npkdP3VnneRdkWeFDPEc=
+			lmakP2q9uKNqcA6Q5aQwqe6IDoC6Q59uitM5oH2YkOI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9wR67pttTi1JEmezYx9cS/rB+Eg=
+			QIErpj2t9zjNNjFx5l8VTk9DOWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6s7MguY+X/mwrDuEnDRt6NE1EhoYgHsFGoXbIrippUc=
+			SeGhkn/j3hsvFLjk1iIrtitFSwvfkg3Snd1PIiNYrJY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1024,22 +959,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9wR67pttTi1JEmezYx9cS/rB+Eg=
+			QIErpj2t9zjNNjFx5l8VTk9DOWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6s7MguY+X/mwrDuEnDRt6NE1EhoYgHsFGoXbIrippUc=
+			SeGhkn/j3hsvFLjk1iIrtitFSwvfkg3Snd1PIiNYrJY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B7Hq1c0aJFoi2tLONuE+RSjMigY=
+			ef8s4eFv0UPKT2pZWpUcXEBm0eY=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ZJLxRkLB4tT+QE1xrSM5MUFgOabA9ZxDHnvIw57sAA=
+			7kHFgmMAZfJzYLufvEY+Mv1bF/aT+A6QiEoVrYr1BQM=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/FirebaseSessions</key>
@@ -1066,11 +1001,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WsBIeeAd0bHtFneQ8KEgYAaCETw=
+			ntM2i+W7mLAIjJY/ZxZWQi7QYT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			XbVq6FO5QrHm7PllXprBzRROoWdqSZ+YyN3Dpdg2B3o=
+			LD9TCSn9jC5hMV1Tnbhu9emjVWinA67TwOBK19oqQyE=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Headers/FIRSESNanoPBHelpers.h</key>
@@ -1095,17 +1030,6 @@
 			14/CBIpfH5O5zGamWNCwbEsb+uZfzqJoBe3YV9EdMkw=
 			</data>
 		</dict>
-		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Headers/FirebaseSessions-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fwDrG1TNqWBerx7zoQQO0promD4=
-			</data>
-			<key>hash2</key>
-			<data>
-			/cHkDFcFB76gRlrECaIHh80cnMQGIzVSxOjzsmMW0sQ=
-			</data>
-		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Headers/sessions.nanopb.h</key>
 		<dict>
 			<key>hash</key>
@@ -1121,132 +1045,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HhoDW98nl4BwnVxiMsRkiBPmoLg=
+			/42Vy/x4D2N/xzIDaTghyNx/l70=
 			</data>
 			<key>hash2</key>
 			<data>
-			JqEUa3NWBbfMNRid7x0SkvMCRJu9hfZ0IG/9+PJwRLU=
+			pmxPoH7pabaN2+Ua+/8YELRGrsSRMgpdZOL4is4PLXk=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+ux9TOwGLifUtfAk5DKAuSKlGys=
+			FYh3r8eIFV5qhGZFwP1SMbO6U5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Aiatadfvs4kab9BKBFUdN6QOk1flltLPnj0vj/HzXvw=
+			Z976xHAa9WkpB2+EOFoLwiQMtfAmUp3TsoPFvgC+Y0A=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZIICk2PspiglRiuUiAjxJKdBaJU=
+			BkLR4FnCMNXChfDM6DcMB/lr19w=
 			</data>
 			<key>hash2</key>
 			<data>
-			9jYbrSNqtuJcU4pwPjcKT2AXuVdS3EoycBcG53W+keI=
+			pX/L7eZyGFrlokG9Xx7Dx2P4wK9NLz1IgAv4fkm1+6c=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tjUGCj71LqD9ODCbos7fwo6bQXI=
+			OzDKcRjP2IZq7PQTwB3NI3p6ArA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wieid0oU1rij45lORA8tcdMEdMlGMewn4opY742YmTk=
+			6tUAY/gLE8oqgFj4JFccdep/b3n/I51YjNL+la1lp9c=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HXmZgnqT9PKP0mkMWKbdzjGRhoI=
+			3syBlwtEP/HRbBEDInAWU/GgewY=
 			</data>
 			<key>hash2</key>
 			<data>
-			B7W/Jpvj6XP95yHNDdzAj5N9wH7VwqUGFlaOuH/Rxps=
+			lqAB+mwooSb5TJR+lHN/0gWIgVb2hL13mQpAO2P0Ekk=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tjUGCj71LqD9ODCbos7fwo6bQXI=
+			OzDKcRjP2IZq7PQTwB3NI3p6ArA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wieid0oU1rij45lORA8tcdMEdMlGMewn4opY742YmTk=
+			6tUAY/gLE8oqgFj4JFccdep/b3n/I51YjNL+la1lp9c=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZIICk2PspiglRiuUiAjxJKdBaJU=
+			BkLR4FnCMNXChfDM6DcMB/lr19w=
 			</data>
 			<key>hash2</key>
 			<data>
-			9jYbrSNqtuJcU4pwPjcKT2AXuVdS3EoycBcG53W+keI=
+			pX/L7eZyGFrlokG9Xx7Dx2P4wK9NLz1IgAv4fkm1+6c=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B5g+RNy3LoQPkSCfz+iUbMQldm0=
+			Th3oTACYdEARBYjUqxEdsJ3id1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			yf1j9vNtzUDrfRsybmEB6odImikoSqPEckg4i0fD3qY=
+			XjpBjP4KXYpdkL/+O80PaMjlm03hTPeD+F84sLQwZBI=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vMECqF/4UVtYp220j3YLZak07Cg=
+			3h3YmdViiQ4+l3vfYKh63HOUZHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			9VaWkkH12MWs6Y1hXve5hVzEsHlAAQq8eqwWR4QUI7E=
+			7jWiRIxGcXENoljNFMcac6pemD3P6g1ETLVDoFexJK0=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/FirebaseSessions.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B5g+RNy3LoQPkSCfz+iUbMQldm0=
+			Th3oTACYdEARBYjUqxEdsJ3id1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			yf1j9vNtzUDrfRsybmEB6odImikoSqPEckg4i0fD3qY=
+			XjpBjP4KXYpdkL/+O80PaMjlm03hTPeD+F84sLQwZBI=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f/quFSGNZspL2H75/Tm/UH6cLg4=
+			7zM0u+QPCYNgzXit+POVuNEJB54=
 			</data>
 			<key>hash2</key>
 			<data>
-			OqBhBocVk2BMyMcAVl8UxhO6b7mVqx8FDCxxBMRTE5U=
+			NAs5cpU/e//gT2p1HB/NUPn9jVnpFUpGVwWId18sb70=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SAvD4BUFrH5AFXayFUzaJ4khnXY=
+			P+uvCN4rqgrq0QGEzfRD66dXOh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			H7c4lM0/WJo3bEL6rofsCv7ejdLaKM7kJzEb/UvPM8c=
+			/bpY73rAKfVbiP1+I6XC13LgzoDONYH4MYD/NShHmbk=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseSessions.framework/Versions/Current</key>
@@ -1258,11 +1182,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PPGpeguDbOSTGJhdeE5fQOp10F4=
+			QQ6w5sLZvu1kN8VRx6FaNnGjxAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+a+Eb9Cjcb8NMBpMkef80N43j2uhyegnST6qA6PFaA=
+			+jWrQ5SK9RRNH6def+3x81VpNllGOB9GoKt9BK1ww+s=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
@@ -1287,17 +1211,6 @@
 			+SEbn1iEIKzzrCu69hJczKH6sYFulLKPdEkE92jVwPM=
 			</data>
 		</dict>
-		<key>tvos-arm64/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X2zj7E8tO6mgXEVxCvdctYUryvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			WaZ3r2xvIBvNrCbqQOIbZppFyfgOkX84WlGi3ozG4so=
-			</data>
-		</dict>
 		<key>tvos-arm64/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<dict>
 			<key>hash</key>
@@ -1313,44 +1226,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3QhSWFBiLpRoPDsUhnzk28Y6nn4=
+			LB8O5XNg1x68UU/l3UVK9c94BcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			q1XjvcPoDjsS6BAFtQVP6sraGjJd/IlOiBxgcahG2wk=
+			hHNQCx2VDNJLggvfcYb3AVMqNi5kLEXUvk3i0g0Sztg=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-tvos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+uTdWoABljViwJzibdKVQHoszEc=
+			EZik68FBWz2KIxzqb4ivHjk00xc=
 			</data>
 			<key>hash2</key>
 			<data>
-			FFCTjzvFD+HPm2I0eAojZw0LxkYMDlTVhRi2zvtwj6k=
+			9b8feFqBfzuRiq8JiIEG3yODZU82y9PJp0GAUG+l7w4=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			34YpHIqw7vZ+TvvWEsnISZqMZhw=
+			rWsPXYU4mMzBuTVUUuTgfk7I70w=
 			</data>
 			<key>hash2</key>
 			<data>
-			d255CbOpqS7oobpnqrTTrXt6nrIlXwd+TNJ+VUT4pf8=
+			AoEV0eYv3O8hvhKpjKpwjQGOqlUrJCO5xRT8wQMroNw=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1zMblkY6E6UH4mBPWonlnusMsns=
+			0YUi1+3wMmAv50acQcjw/hfP1+w=
 			</data>
 			<key>hash2</key>
 			<data>
-			7BeEAAUhsVTbFQUWi9F8ahxiGSequGMkVcaL3yf1F3U=
+			0OrTaftFq9C6Envpie0ogBw7rYzOAiEEg3i1X281UFU=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos.swiftdoc</key>
@@ -1368,33 +1281,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1zMblkY6E6UH4mBPWonlnusMsns=
+			0YUi1+3wMmAv50acQcjw/hfP1+w=
 			</data>
 			<key>hash2</key>
 			<data>
-			7BeEAAUhsVTbFQUWi9F8ahxiGSequGMkVcaL3yf1F3U=
+			0OrTaftFq9C6Envpie0ogBw7rYzOAiEEg3i1X281UFU=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			us8pa0vOXmgc/z8hcwXUM/DBqmQ=
+			Cdb+G1j7MTmxumtTlQSSzVMZ0VE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4WkrePA2dkZuQRAqQvGYqsKVq+c9nNdPlWIDFoe+eEQ=
+			N07/1+LSbEEBdoHyi8POp8SXG4iC6K9NrKUu2bkbWJM=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/FirebaseSessions</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QMGeNvdnbW+xXG8t54AUFJwkkOU=
+			3x68mqs8GG/AeseKKff+K9aIZW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			KQPo96Mn3wqLWZcUa1D5GOXH030BiEIhnYt4IKTDc1w=
+			Dz7V/tyXMnNhwhCmnkrpIhMOGb01trn/ZjvMygR9KZk=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
@@ -1419,17 +1332,6 @@
 			14/CBIpfH5O5zGamWNCwbEsb+uZfzqJoBe3YV9EdMkw=
 			</data>
 		</dict>
-		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X2zj7E8tO6mgXEVxCvdctYUryvU=
-			</data>
-			<key>hash2</key>
-			<data>
-			WaZ3r2xvIBvNrCbqQOIbZppFyfgOkX84WlGi3ozG4so=
-			</data>
-		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
 		<dict>
 			<key>hash</key>
@@ -1445,55 +1347,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5X3wh31bnqJM7vHgH0FvoAruBOQ=
+			4xZCXZcOLsoWjQfXuOvGCeG/PDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			PXkVY7k2aei2jRkigElS+n9pWwiU8P/Q0kl1OO3Tht4=
+			OME3yHkyKeaA/uXdDKvWe4JcOlj+oovUYUTHN3blgkY=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			50XX5oo0hBpm8aP2UVNtVfAfCKE=
+			8Z5QIhjjVPOlSe2MyB54SJRm9f4=
 			</data>
 			<key>hash2</key>
 			<data>
-			iJxMs33HqFAZ15SEa2ACukeDW5i2z6PS17x9ADgc970=
+			1iI4w8/qeNp9CmCgyHCI1v5xnmDncNb7AMNyLOQV1pc=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZ6gP0R2TzLVEga6lG9tAF1sulc=
+			f10e/25oOrliHPeU4UIIdGEvYQU=
 			</data>
 			<key>hash2</key>
 			<data>
-			plAQyJzXKiDwrIVXpXGObca3lpQ6gyMKktjgrOQYU+g=
+			zLUy8WagP+kc65gxDvHdK9qICu+lbjDY+UMJJFdkgXY=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			34YpHIqw7vZ+TvvWEsnISZqMZhw=
+			rWsPXYU4mMzBuTVUUuTgfk7I70w=
 			</data>
 			<key>hash2</key>
 			<data>
-			d255CbOpqS7oobpnqrTTrXt6nrIlXwd+TNJ+VUT4pf8=
+			AoEV0eYv3O8hvhKpjKpwjQGOqlUrJCO5xRT8wQMroNw=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xArPK44hhrWB2IkwKr/PwyzvISg=
+			/o9C7HTuFArRDacraMfoThMue7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			y1KXPTCSvwWeCmnwDZ44jzL4li0p0d//I6uhK3O9org=
+			1OrTCoW0eYBXqbWlBFx0ouIGRhxRXADhmEvZTUdGtgM=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
@@ -1511,33 +1413,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xArPK44hhrWB2IkwKr/PwyzvISg=
+			/o9C7HTuFArRDacraMfoThMue7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			y1KXPTCSvwWeCmnwDZ44jzL4li0p0d//I6uhK3O9org=
+			1OrTCoW0eYBXqbWlBFx0ouIGRhxRXADhmEvZTUdGtgM=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			34YpHIqw7vZ+TvvWEsnISZqMZhw=
+			rWsPXYU4mMzBuTVUUuTgfk7I70w=
 			</data>
 			<key>hash2</key>
 			<data>
-			d255CbOpqS7oobpnqrTTrXt6nrIlXwd+TNJ+VUT4pf8=
+			AoEV0eYv3O8hvhKpjKpwjQGOqlUrJCO5xRT8wQMroNw=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MLkE2kOg/gQ8naxHEVno1wY+fHM=
+			kChUwjC6K10wbqjEy8GWVYuNsRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ffxGWam08DIVAxcPJHVubWJ3fuYce7yvrltTzzSHLow=
+			yWpyiBXpOaGaxhaa5BEf3TfIAipKz1F9gGnRdZpeUKo=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
@@ -1555,33 +1457,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MLkE2kOg/gQ8naxHEVno1wY+fHM=
+			kChUwjC6K10wbqjEy8GWVYuNsRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ffxGWam08DIVAxcPJHVubWJ3fuYce7yvrltTzzSHLow=
+			yWpyiBXpOaGaxhaa5BEf3TfIAipKz1F9gGnRdZpeUKo=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			us8pa0vOXmgc/z8hcwXUM/DBqmQ=
+			Cdb+G1j7MTmxumtTlQSSzVMZ0VE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4WkrePA2dkZuQRAqQvGYqsKVq+c9nNdPlWIDFoe+eEQ=
+			N07/1+LSbEEBdoHyi8POp8SXG4iC6K9NrKUu2bkbWJM=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/FirebaseSessions</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YiBBArBydtwaf7qGdsD9Blub5sI=
+			IDpkl7EVSowFi9JWHVAQwx3PSmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			o72pJVto7BBK/4l7L3xF+tZRAUjgNOAADZGN/orwrjM=
+			wo5+3DOkPs+L7rMHI3z/tYdTRZFmGOq/wjuSqO1UHZk=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
@@ -1599,22 +1501,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Am6WP/EXDbGk1Ys/pkTdii7o7HY=
+			Uv0Y47+qV/c7m+WdwYUN15r9cnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			54zjqFB8J9oxIwzA8ooYQMXTRS8QSXXj9F2wn25HDEM=
-			</data>
-		</dict>
-		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eBbQTs/VZfo6hfQuISrjfn/6/KY=
-			</data>
-			<key>hash2</key>
-			<data>
-			tRXd8Br9bBfdzkkYsymhqOtqouMi1bodhumF4vDdZ/c=
+			m7Avlp4sv7vEFNS/9u2DNUVhy1gx9FitZIBFXdL+WSY=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
@@ -1632,143 +1523,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H/bgin3+Q3UChvFcawi51ZOyPn8=
+			UWLndCfpFHUPuAOt8pYA+p/yTWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Uxeuo3FyMyKFlfG6qJ16ysBWLi3uyLFaQ0nGG5nMWCw=
+			IcRr9qKJ7R+B1kPJsNrSDNvBY5GEb1GeRhuFweuAAXw=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-watchos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SVG2JjqxBb98oabIhEKJCkH9jaE=
+			AL5rzkG9k5srW0RuNYOY4jIXJRk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6IpUPwU1t99p9qnl6rI4Y5U0AMOgVqW4LpcEYeV8qcw=
+			yKBEXcJG6U3a887msJFP91Tcol73/cTtV9l5rSAuxOo=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64_32-apple-watchos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U60pQUMhQZIf2uCZRxAews2NzNM=
+			EzqLNFiatyAP/rYFFMMNZQ4adx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			rxkO2BL3aOWdAzy9rr9I1l2vgHSiCCzRBb5jJgISMwY=
+			CJwUczJ2rMEUsQhhxkFhGA1JSXO3eYmJy/6yFRzO01w=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vkfIuaclfst1THNLDTnDspaO3v4=
+			j3n3Lscfh/LmQj8nF51ByM8luRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ftCTpQFFQU5Gcj2qOvqd31OUX0pw5u/u+63DYara8vA=
+			3PJH9uqLfkz9EtLbN9BYT35KAMKvo8Zi7qQ8IglN6/Q=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d+fiCG+f8puEd3KGUcINDGGg9cs=
+			k3i3x37QwGN2RvyhLclZj4D6stk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Atjq1MPLO/OvlMlsj+r/boZVNM1cBcgrdR+wGsZAAZ4=
+			E8GHCBGojO0QZ63o6IswdVWQIPZlRStgnx1eiQbD+PI=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Qwhm85DPvC6QIA6mIzYh0hSaYDg=
+			WhKX7sV/qwl2VNw0ZW7S/NSWbBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			zU9iW3UwcWyrd8Mg6D8kbB3un4zHYIZZ2B/GP1tJ6WQ=
+			chwTKB3pkpqep71Tmq7hHx78TJ8OqNl7d39KwVKqeyg=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d+fiCG+f8puEd3KGUcINDGGg9cs=
+			k3i3x37QwGN2RvyhLclZj4D6stk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Atjq1MPLO/OvlMlsj+r/boZVNM1cBcgrdR+wGsZAAZ4=
+			E8GHCBGojO0QZ63o6IswdVWQIPZlRStgnx1eiQbD+PI=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vkfIuaclfst1THNLDTnDspaO3v4=
+			j3n3Lscfh/LmQj8nF51ByM8luRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ftCTpQFFQU5Gcj2qOvqd31OUX0pw5u/u+63DYara8vA=
+			3PJH9uqLfkz9EtLbN9BYT35KAMKvo8Zi7qQ8IglN6/Q=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ow3KD+qJUTs2BQelCJ1cYszBNQg=
+			BcpeNQ6IF4xTciudMVSvWomw9Kk=
 			</data>
 			<key>hash2</key>
 			<data>
-			31plIdkvIBsyEKotlPjhNN55OwIznF3OYVxnkF8Lza8=
+			kXh6/l82Q7I626DExZuG3j9cyFhDYu6sMlQrtzEbySc=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bB8XIboC3SmY+YakanLFiXnNL1M=
+			2IHoqoGMNQI7ZEONZxa4AXa+J0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			gwTtVtMngmSAICsXHSV1/LT/UE2YXnZ0LhOKf1WzU/k=
+			+tu7wrb+a1lxb4ZTGkh7QrR+wPXPWaoHvrIu9WJu3SI=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ow3KD+qJUTs2BQelCJ1cYszBNQg=
+			BcpeNQ6IF4xTciudMVSvWomw9Kk=
 			</data>
 			<key>hash2</key>
 			<data>
-			31plIdkvIBsyEKotlPjhNN55OwIznF3OYVxnkF8Lza8=
+			kXh6/l82Q7I626DExZuG3j9cyFhDYu6sMlQrtzEbySc=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dMqdCEnM+FZE09UK3i3nbJ5WGw8=
+			kz8Mqrm566sV8UO0gEXzdjstxHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			xa8nzPWmvG3te8EueMAdp7yUPsCwhF0Uxow5EUBpsPE=
+			bgFpHemd1Bw/psxE4w8zUJiNfzd45bLze2MEGBCqt8c=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/FirebaseSessions</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sr9ANzVBcbxnBqBMWxTEny/bFxY=
+			9tA6QX9mTsIvygI2WJZw1/KzfGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			kkXb+AZgYdlPVrF80ChOWMSlRrq7YUMscaFJjeJ5RFU=
+			sBfWnu7W+n8WcSEl5NUnXREjDUbeMj5s4Bun4bK9xmo=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FIRSESNanoPBHelpers.h</key>
@@ -1786,22 +1677,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6WkaKLZsCDrTGQu7h2u7iKq9muU=
+			Wh+MSfksfulaLd9L8GZGK5ueCr8=
 			</data>
 			<key>hash2</key>
 			<data>
-			D5usRN9qf01zQyVTWVfIrUqgt37o4ErHttD2zgDpmV0=
-			</data>
-		</dict>
-		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/FirebaseSessions-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eBbQTs/VZfo6hfQuISrjfn/6/KY=
-			</data>
-			<key>hash2</key>
-			<data>
-			tRXd8Br9bBfdzkkYsymhqOtqouMi1bodhumF4vDdZ/c=
+			PO0XwZtlL3mv2NWQce+RAlnMUaUHFyjttkwziw63DSU=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Headers/sessions.nanopb.h</key>
@@ -1819,132 +1699,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sDQVmIdq4i5Fozf+pSsYwadVAfY=
+			+M1pZJii5mPuhfm93t3xft4w+lU=
 			</data>
 			<key>hash2</key>
 			<data>
-			DcrqB76ksLyhvj6Grbmdh+2BRqEP4vdjpG0Aa8fGlKU=
+			tZoVOQnJABWhOGdkSs1AOsc8o7Opf8fEbz5YQI4hvB4=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eZ5qCHBoGfysx4tJl642O6QYncg=
+			FsH8E5k/nixJf4WY3YtDqZpYndg=
 			</data>
 			<key>hash2</key>
 			<data>
-			G1TG/6DzuB4FrcOzMzqo1p6bGzPrru/V4d0b8mdK9iw=
+			7QG/vSAX4LozXioVYjteXVogAuEOokzdUBO4i16uzBw=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WVzyvwFI8AFlxdsCR2kxJrdTk7w=
+			zwQ5OgL2DKTzXZ7f6dzk5HIVLI0=
 			</data>
 			<key>hash2</key>
 			<data>
-			VSjCes/w+V7n2pGIImUeGKgf+auqzAzG2PUeKBedc7Q=
+			1ql59sw9ThZaBbakaeqLROYHkJeolsgMEDNuKKXCJJs=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vkfIuaclfst1THNLDTnDspaO3v4=
+			j3n3Lscfh/LmQj8nF51ByM8luRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ftCTpQFFQU5Gcj2qOvqd31OUX0pw5u/u+63DYara8vA=
+			3PJH9uqLfkz9EtLbN9BYT35KAMKvo8Zi7qQ8IglN6/Q=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K6kEIrRlT25whgklC5+uUXmLfGs=
+			CgTZ4IPpsojOFBSqxRAdeALwi9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			a8VJBLV1f2qS22aw+g5d+6D8FYz2v4OeH3jFfowSick=
+			gYeYnqNY366ULbsV9j4Tx75LQGyJN7QSzy77xWy+pz0=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x45i4SVmU97pDZYVHlTZs1B1sgM=
+			hT+GAIpuKLya+0ZFGlNZsdRD7v8=
 			</data>
 			<key>hash2</key>
 			<data>
-			qP23WwCtgja5OZuO6lKt8mQxXyiRUIlGcvqmQ4/EAVE=
+			bRiTbykd1C6IfMzH61FmnTRoHEdDKSSvCewOVWkcVL0=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K6kEIrRlT25whgklC5+uUXmLfGs=
+			CgTZ4IPpsojOFBSqxRAdeALwi9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			a8VJBLV1f2qS22aw+g5d+6D8FYz2v4OeH3jFfowSick=
+			gYeYnqNY366ULbsV9j4Tx75LQGyJN7QSzy77xWy+pz0=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vkfIuaclfst1THNLDTnDspaO3v4=
+			j3n3Lscfh/LmQj8nF51ByM8luRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ftCTpQFFQU5Gcj2qOvqd31OUX0pw5u/u+63DYara8vA=
+			3PJH9uqLfkz9EtLbN9BYT35KAMKvo8Zi7qQ8IglN6/Q=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LAm5AjK2agdSWBvu4nrJZ4CHtnY=
+			ehiXCsIsKCXlAmqRID+6Zg31B4E=
 			</data>
 			<key>hash2</key>
 			<data>
-			S8EdrKve4LWahkiMBFB3lVAcXOj56EGvhy1BL0hLzVo=
+			mDNEpEz8LNbkdD7HOCGAnmbVJ4zx7sRnZzFN6bfMekA=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v+xrD8hwBNxre2TUX68jTRtRo5g=
+			xgnkp+R3V6DKra3Da25037F4d20=
 			</data>
 			<key>hash2</key>
 			<data>
-			JUQH2uWRrQdcwXK3EWJ44AcnUKSdkM3MVaPdAYSyKiE=
+			f1/j/YSqv9uq6xgEtP1zYw/lZDlsXk8EUgSQaPW8WZA=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/FirebaseSessions.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LAm5AjK2agdSWBvu4nrJZ4CHtnY=
+			ehiXCsIsKCXlAmqRID+6Zg31B4E=
 			</data>
 			<key>hash2</key>
 			<data>
-			S8EdrKve4LWahkiMBFB3lVAcXOj56EGvhy1BL0hLzVo=
+			mDNEpEz8LNbkdD7HOCGAnmbVJ4zx7sRnZzFN6bfMekA=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseSessions.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dMqdCEnM+FZE09UK3i3nbJ5WGw8=
+			kz8Mqrm566sV8UO0gEXzdjstxHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			xa8nzPWmvG3te8EueMAdp7yUPsCwhF0Uxow5EUBpsPE=
+			bgFpHemd1Bw/psxE4w8zUJiNfzd45bLze2MEGBCqt8c=
 			</data>
 		</dict>
 	</dict>

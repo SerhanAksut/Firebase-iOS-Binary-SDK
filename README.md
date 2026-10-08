@@ -19,11 +19,11 @@ This repository wraps the official Firebase iOS SDK libraries as binary XCFramew
 ## Requirements
 
 - iOS 15.0+
-- macOS 10.15+
+- macOS 11.0+
 - tvOS 15.0+
-- watchOS 7.0+
+- watchOS 8.0+
 - Mac Catalyst 15.0+
-- Xcode 14.0+
+- Xcode 26.2+
 - Swift 5.7+
 
 ## Installation
@@ -48,7 +48,7 @@ If you're using a Package.swift file, add the dependency:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK", from: "12.19.1")
+    .package(url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK", from: "13.0.1")
 ],
 targets: [
     .target(
@@ -86,13 +86,9 @@ This package includes the following Firebase modules as XCFramework binaries:
 - **FirebaseAppDistribution** - App Distribution
 - **FirebaseInAppMessaging** - In-App Messaging
 - **FirebaseInstallations** - Firebase Installations
-- **FirebaseMLModelDownloader** - ML Model Downloader
 
 ### Supporting Libraries
-- **GoogleSignIn** - Google Sign-In SDK
-- **AppAuth** - OAuth and OpenID Connect client
-- **GTMAppAuth** - Google Toolbox for Mac - AppAuth
-- **FBLPromises** / **Promises** - Promises library
+- **FBLPromises** - Promises library
 - **SwiftProtobuf** - Protocol Buffers support
 - **GoogleUtilities** - Google Utilities
 

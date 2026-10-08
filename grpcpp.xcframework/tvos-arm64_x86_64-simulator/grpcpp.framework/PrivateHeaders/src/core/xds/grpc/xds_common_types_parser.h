@@ -17,18 +17,27 @@
 #ifndef GRPC_SRC_CORE_XDS_GRPC_XDS_COMMON_TYPES_PARSER_H
 #define GRPC_SRC_CORE_XDS_GRPC_XDS_COMMON_TYPES_PARSER_H
 
-#include "absl/types/optional.h"
+#include <cstdint>
+#include <optional>
+
+#include "envoy/config/common/mutation_rules/v3/mutation_rules.upb.h"
 #include "envoy/config/core/v3/base.upb.h"
+#include "envoy/config/core/v3/grpc_service.upb.h"
 #include "envoy/extensions/transport_sockets/tls/v3/tls.upb.h"
+#include "envoy/type/matcher/v3/string.upb.h"
+#include "envoy/type/v3/percent.upb.h"
 #include "google/protobuf/any.upb.h"
 #include "google/protobuf/duration.upb.h"
 #include "google/protobuf/struct.upb.h"
 #include "google/protobuf/wrappers.upb.h"
 #include "src/core/lib/iomgr/resolved_address.h"
+#include "src/core/util/matchers.h"
 #include "src/core/util/time.h"
 #include "src/core/util/validation_errors.h"
 #include "src/core/xds/grpc/xds_common_types.h"
+#include "src/core/xds/grpc/xds_server_grpc.h"
 #include "src/core/xds/xds_client/xds_resource_type.h"
+#include "xds/type/matcher/v3/string.upb.h"
 
 namespace grpc_core {
 
@@ -41,21 +50,33 @@ inline bool ParseBoolValue(const google_protobuf_BoolValue* bool_value_proto,
   return google_protobuf_BoolValue_value(bool_value_proto);
 }
 
-inline absl::optional<uint64_t> ParseUInt64Value(
+inline std::optional<uint64_t> ParseUInt64Value(
     const google_protobuf_UInt64Value* proto) {
-  if (proto == nullptr) return absl::nullopt;
+  if (proto == nullptr) return std::nullopt;
   return google_protobuf_UInt64Value_value(proto);
 }
 
-inline absl::optional<uint32_t> ParseUInt32Value(
+inline std::optional<uint32_t> ParseUInt32Value(
     const google_protobuf_UInt32Value* proto) {
-  if (proto == nullptr) return absl::nullopt;
+  if (proto == nullptr) return std::nullopt;
   return google_protobuf_UInt32Value_value(proto);
 }
 
-// Returns the IP address in URI form.
-absl::optional<grpc_resolved_address> ParseXdsAddress(
+// Returns the number per million.
+uint32_t ParseFractionalPercent(
+    const envoy_type_v3_FractionalPercent* fractional_percent);
+
+std::optional<grpc_resolved_address> ParseXdsAddress(
     const envoy_config_core_v3_Address* address, ValidationErrors* errors);
+
+StringMatcher StringMatcherParse(
+    const XdsResourceType::DecodeContext& context,
+    const envoy_type_matcher_v3_StringMatcher* matcher_proto,
+    ValidationErrors* errors);
+StringMatcher StringMatcherParse(
+    const XdsResourceType::DecodeContext& context,
+    const xds_type_matcher_v3_StringMatcher* matcher_proto,
+    ValidationErrors* errors);
 
 CommonTlsContext CommonTlsContextParse(
     const XdsResourceType::DecodeContext& context,
@@ -67,9 +88,34 @@ absl::StatusOr<Json> ParseProtobufStructToJson(
     const XdsResourceType::DecodeContext& context,
     const google_protobuf_Struct* resource);
 
-absl::optional<XdsExtension> ExtractXdsExtension(
+std::optional<XdsExtension> ExtractXdsExtension(
     const XdsResourceType::DecodeContext& context,
     const google_protobuf_Any* any, ValidationErrors* errors);
+
+GrpcXdsServerTarget ParseXdsGrpcService(
+    const XdsResourceType::DecodeContext& context,
+    const envoy_config_core_v3_GrpcService* grpc_service,
+    ValidationErrors* errors);
+
+HeaderMutationRules ParseHeaderMutationRules(
+    const envoy_config_common_mutation_rules_v3_HeaderMutationRules*
+        header_mutation_rules,
+    ValidationErrors* errors);
+
+XdsHeaderValueOption ParseXdsHeaderValueOption(
+    const envoy_config_core_v3_HeaderValueOption* header_value_option_config,
+    ValidationErrors* errors);
+
+// TODO(roth): We would ideally like to use a Slice for the header value, but
+// Slice isn't copyable, which makes it problematic to store here. The down-side
+// of this approach is that we need to make a copy when we apply the header
+// value to each RPC rather than just taking a new ref to the slice. Consider
+// solving this problem by adding a new RefCountedSlice class to represent an
+// immutable, ref-counted slice that can be turned into a Slice and thus added
+// to RPC metadata without a copy.
+std::pair<std::string, std::string> ParseXdsHeader(
+    const envoy_config_core_v3_HeaderValue* header_value,
+    ValidationErrors* errors);
 
 }  // namespace grpc_core
 
