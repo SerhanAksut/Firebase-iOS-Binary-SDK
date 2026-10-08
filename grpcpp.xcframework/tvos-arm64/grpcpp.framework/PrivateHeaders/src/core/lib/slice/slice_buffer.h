@@ -27,8 +27,8 @@
 #include "src/core/lib/slice/slice.h"
 
 // Copy the first n bytes of src into memory pointed to by dst.
-void grpc_slice_buffer_copy_first_into_buffer(grpc_slice_buffer* src, size_t n,
-                                              void* dst);
+void grpc_slice_buffer_copy_first_into_buffer(const grpc_slice_buffer* src,
+                                              size_t n, void* dst);
 
 void grpc_slice_buffer_move_first_no_inline(grpc_slice_buffer* src, size_t n,
                                             grpc_slice_buffer* dst);
@@ -110,6 +110,12 @@ class SliceBuffer {
   /// dst.
   void MoveFirstNBytesIntoBuffer(size_t n, void* dst) {
     grpc_slice_buffer_move_first_into_buffer(&slice_buffer_, n, dst);
+  }
+
+  /// Copy the first n bytes of the SliceBuffer into a memory pointed to by
+  /// dst. The original SliceBuffer remains unchanged.
+  void CopyFirstNBytesIntoBuffer(size_t n, void* dst) {
+    grpc_slice_buffer_copy_first_into_buffer(&slice_buffer_, n, dst);
   }
 
   /// Removes/deletes the last n bytes in the SliceBuffer and add it to the

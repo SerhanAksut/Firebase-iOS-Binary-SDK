@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		9Bh7Lbd3rtTtXZLEgeZuWM3YM3w=
+		vhFv0gJePbHGO4EYh1aKJFbjjw4=
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<data>
-		k5x5PQB36LKE1qU/2zEQS0SYVLc=
+		lwc2FKuGddOc7DH9FqgwlBwcTCs=
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -68,25 +68,21 @@
 		<data>
 		jKw+nOborM3BxfR0jwKjq5CEvn8=
 		</data>
-		<key>ios-arm64/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<data>
-		t0tJXgUFwfcwMxXzHagmtsDUegI=
-		</data>
 		<key>ios-arm64/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<data>
 		Pau0qBXGf1T4ztNxq5VmHicF7OI=
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/Info.plist</key>
 		<data>
-		ZJEygkUY2OzMbcNR1wR0T3ZDEzI=
+		iCqIyMuy78+LXmYN/MMYAvANviE=
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		WNs9/DMFJ3ef1HyVo6UqetsJSSU=
+		3/dL2Agm1vys79J59eUadCZWsW4=
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/f3jegztGe/bPjDKq621vjEglt4=
+		gb83U/H+CZ6f21h67bioxIrdx7c=
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -102,11 +98,11 @@
 		</data>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/module.modulemap</key>
 		<data>
-		aHosSnaomIRkqKirBF72DuDeuuM=
+		Cil28zbmEFOGktqLL+/8DWIV8ms=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/FirebaseAuth</key>
 		<data>
-		7CqHofcnWlGyksO4n2mrxR0MAI8=
+		W0u4GS3/59PpBQoLJSHzyPxP/g8=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Headers/FIRAuth.h</key>
 		<data>
@@ -160,25 +156,21 @@
 		<data>
 		w8CcYGEt/mcY1SfABtevUw3//v8=
 		</data>
-		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Headers/FirebaseAuth-umbrella.h</key>
-		<data>
-		t0tJXgUFwfcwMxXzHagmtsDUegI=
-		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Headers/FirebaseAuth.h</key>
 		<data>
 		Pau0qBXGf1T4ztNxq5VmHicF7OI=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-ios-macabi.swiftsourceinfo</key>
 		<data>
-		MDyZrBoU1UFDMw8BBK3AE7SsXtA=
+		z0R6A6dJ1bKkL823VC9oeuSuqoM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<data>
-		sSNUL6hUiQuaf7TjXfKcnkPmn/c=
+		tl4vefWffsxzwd4PQ6+pre5eTAE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
-		34HyClG2RE5/W+Eo3sZ6Ya34Vh8=
+		dyGGemzrJGSjf6hYAxMnvmWalKw=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
@@ -194,7 +186,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<data>
-		34HyClG2RE5/W+Eo3sZ6Ya34Vh8=
+		dyGGemzrJGSjf6hYAxMnvmWalKw=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
@@ -210,11 +202,11 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		aHosSnaomIRkqKirBF72DuDeuuM=
+		Cil28zbmEFOGktqLL+/8DWIV8ms=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Resources/FirebaseAuth_Privacy.bundle/Contents/Info.plist</key>
 		<data>
-		9W91ZTFMuFgqR2Y7hooY9O3yR1E=
+		a5271qPZZaRe4C6wJ7nASVGLmNc=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Resources/FirebaseAuth_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -222,15 +214,15 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		XDz8lPcSekSn+dK/TozsyHya2Ck=
+		PoKTWxIltnd7qVq4WFM1K1bLwD4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		WluUO6O1DpE7cf1mo0mSnK8WyeQ=
+		n3v0tyyDlhEQQinGvMmGrb57wbY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<data>
-		IfYvDyzS5Z0CzSUkF+uviUg1Gms=
+		1AbW+LjLUmapO4YSsyjICdIjr0Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -288,29 +280,25 @@
 		<data>
 		wfM6m00qKpyiv7/hsmKv9DYalBg=
 		</data>
-		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<data>
-		t0tJXgUFwfcwMxXzHagmtsDUegI=
-		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<data>
 		Pau0qBXGf1T4ztNxq5VmHicF7OI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Info.plist</key>
 		<data>
-		qJZJ25sFnBlrlQ7ne6vcGC5gzEQ=
+		+faVkqiN+zlCoEnjMQ4PYBavh1w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		MYXh1OTI+o6ODsvIiKoYSXIvDnE=
+		qKZv3WuyIQOnvUGjs5dNrmt1MvA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		5+euRIXQwZZuklUgBrW4o3IEd7k=
+		z657njmCLd5isy7pil7pMcspzfY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/f3jegztGe/bPjDKq621vjEglt4=
+		gb83U/H+CZ6f21h67bioxIrdx7c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -326,7 +314,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/f3jegztGe/bPjDKq621vjEglt4=
+		gb83U/H+CZ6f21h67bioxIrdx7c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -342,11 +330,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/module.modulemap</key>
 		<data>
-		aHosSnaomIRkqKirBF72DuDeuuM=
+		Cil28zbmEFOGktqLL+/8DWIV8ms=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/FirebaseAuth</key>
 		<data>
-		yDt+2cx1GY/cc6iDRjaTVUDz6pE=
+		spr/WkahsCtIa5QVGOMnzHVGZkc=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Headers/FIRAuth.h</key>
 		<data>
@@ -400,61 +388,57 @@
 		<data>
 		jLBMDZWlbGe1/EkweTb35AXssTQ=
 		</data>
-		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Headers/FirebaseAuth-umbrella.h</key>
-		<data>
-		gqvK8CS8oi3eN0OSGq5ndv/fcj0=
-		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Headers/FirebaseAuth.h</key>
 		<data>
 		Pau0qBXGf1T4ztNxq5VmHicF7OI=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo</key>
 		<data>
-		gcvoRQJqhqSy8yxHB1gkr64Bfm8=
+		Y7mB06lcYfwbkEojHxuqsbYwQ7Q=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<data>
-		wZnVTbHa8A0Yuz8OkhV9NWEfWgA=
+		cBWNalvZjWKnWrKsarck2ZVH8NA=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-macos.abi.json</key>
 		<data>
-		tmw7Y9j8NporTmO0oEQzZ5G7Snw=
+		tkopXlyXmcwN25kRuGcYZ0gO6gc=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<data>
-		/VPQzLhBy15dMByJDQ5+062XlL8=
+		kd4RJN46zTmStSQ+jdc1+sWpuFU=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<data>
-		idW4EOhETYkEiKoRTwUtrTmdXN8=
+		HA3TMlIo26/1bKj+zhNv6Doqnmo=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<data>
-		/VPQzLhBy15dMByJDQ5+062XlL8=
+		kd4RJN46zTmStSQ+jdc1+sWpuFU=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<data>
-		tmw7Y9j8NporTmO0oEQzZ5G7Snw=
+		tkopXlyXmcwN25kRuGcYZ0gO6gc=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<data>
-		W5IHr5O5XCFDeRNhHVp1Pz89+zk=
+		7wTocGu9svriNaGg6RsfZbEFvSw=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<data>
-		gTcwhkSQbtGldArQJOW7LO9SL4g=
+		+SXVlKpH0i7YqsTD5gnyyydM0Mk=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<data>
-		W5IHr5O5XCFDeRNhHVp1Pz89+zk=
+		7wTocGu9svriNaGg6RsfZbEFvSw=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		PK5cSm/Er4X1AeobMBnsbyB06vo=
+		NSVVGesy91L6FDug090+WTGA8kA=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Resources/FirebaseAuth_Privacy.bundle/Contents/Info.plist</key>
 		<data>
-		Cq/s+oF2vRAfi8kcOEKnjrz+umE=
+		YdB2oGzD3tLTzpPYpNxmvTXnMBo=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Resources/FirebaseAuth_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -462,15 +446,15 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		ze5SWcgPcD75J4uzD4o/LSe9mQg=
+		2inJBcUGQcTRzrKXVKFXWchL89Q=
 		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		XV3SznNaKE4HGV8i6jWmap/JPgQ=
+		bburAHmYgdfG7QH7k+nYot0R/cA=
 		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<data>
-		UqbXs3JbN0cR0ItJ8uDglEkyZL0=
+		J6Gt2hEoeuJnP6kqgTjUOKAuY+M=
 		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -528,25 +512,21 @@
 		<data>
 		xWd8+zrN6KsXANsWoAfMTqErv48=
 		</data>
-		<key>tvos-arm64/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<data>
-		t0tJXgUFwfcwMxXzHagmtsDUegI=
-		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<data>
 		Pau0qBXGf1T4ztNxq5VmHicF7OI=
 		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/Info.plist</key>
 		<data>
-		TIjYRIK+qcOy29xwAKie6LVK85U=
+		ukRPi7HvjdbAiBxl1Sj6tlaVkjw=
 		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-tvos.swiftsourceinfo</key>
 		<data>
-		o+t4KlnZqDJjTw4fctXs175iLkY=
+		sFrQNEDE19vSlEFhXYzf4XkPkuk=
 		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		TXiHcoqYamRec2Cc+aFdtF5E/Zc=
+		gFYIGWsrdx6pP/3scnWZr/2AMeU=
 		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
@@ -562,15 +542,15 @@
 		</data>
 		<key>tvos-arm64/FirebaseAuth.framework/Modules/module.modulemap</key>
 		<data>
-		7mPnpB13jTGh+srBY+dX+vJlf9s=
+		FxRif7C4/h/I7JEYZoMRqpgc8uQ=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		b3vXN4MvOwJ1eFjFwQ0gRtSgkC4=
+		j0E/+AXHCJzOJGy4VX6avoPkCAM=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<data>
-		HZr2W9PMJ/H7EU01d7rDy9lxMh8=
+		HU3K3CBR8sr2ZDjsEIzJISp9dzc=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -628,29 +608,25 @@
 		<data>
 		/Qc22pJHMjD/nIVwyTmLwO49J9U=
 		</data>
-		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<data>
-		t0tJXgUFwfcwMxXzHagmtsDUegI=
-		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<data>
 		Pau0qBXGf1T4ztNxq5VmHicF7OI=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Info.plist</key>
 		<data>
-		PUvogCS5/5B+8ECcFcN04C5pu/g=
+		zOgLX4xbKfo14DuIHNdwJrvpGA8=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		8O/K3MFya2psZ72lVdmwmOCoaVA=
+		XLNd4snMFw8387811hldJ4GCaP8=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		ZaWanG+lLOUM9s4agSZF14DGfpU=
+		Ek8gGdsLaqJF0/GiU+G14Qkmz5I=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		TXiHcoqYamRec2Cc+aFdtF5E/Zc=
+		gFYIGWsrdx6pP/3scnWZr/2AMeU=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -666,7 +642,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		TXiHcoqYamRec2Cc+aFdtF5E/Zc=
+		gFYIGWsrdx6pP/3scnWZr/2AMeU=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -682,15 +658,15 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/module.modulemap</key>
 		<data>
-		7mPnpB13jTGh+srBY+dX+vJlf9s=
+		FxRif7C4/h/I7JEYZoMRqpgc8uQ=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		pxU4CviwtmoFrgcdUgpsniZTFqA=
+		F5xKSYwbtaQ2epWZRjyhdtbnBvI=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<data>
-		ufe7qlSrSvkMn/uXaFf9OifFvmw=
+		xCz5ACvIJi7Nq8HtJ1lSlhlmmoA=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -748,69 +724,65 @@
 		<data>
 		FFq1nlT7ngDILR++ERkDIk5WOGU=
 		</data>
-		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<data>
-		3Dii6a6PUdG1kqBmYCLvDTtbyaY=
-		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<data>
 		Pau0qBXGf1T4ztNxq5VmHicF7OI=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Info.plist</key>
 		<data>
-		yGBZcaOnxdFq+TYh99uO8sndQGg=
+		5xuG99nMqNEneDH9yG+X8BSu1jc=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-watchos.swiftsourceinfo</key>
 		<data>
-		xG3n/ZxGiRwJecQY/NVpapPPX/0=
+		9tQJc9sjosNqkR2LEV9YMM2JmTw=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64_32-apple-watchos.swiftsourceinfo</key>
 		<data>
-		KrBIP48FIMnsumAARTQeBL9Z4zQ=
+		i5c3varqAvrB0k3a9LZbaKVF2b4=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
-		NbC56+aT/AKU62dO57YGRfkUBN0=
+		/TaTVVxmKxmCfjIi817F+2CaPzw=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<data>
-		HjO//D1BCUaXHMBEkJ5FK05XcVo=
+		e4frBEDB+2qYZQ5n8D+1OpILfqQ=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<data>
-		jc/eFPxaYVZECzi83/8qOffgL8E=
+		NZKNpv8jt98mrML08wgi6Fs6Nu4=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<data>
-		HjO//D1BCUaXHMBEkJ5FK05XcVo=
+		e4frBEDB+2qYZQ5n8D+1OpILfqQ=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<data>
-		NbC56+aT/AKU62dO57YGRfkUBN0=
+		/TaTVVxmKxmCfjIi817F+2CaPzw=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<data>
-		Asn/pWM7TGBmlp+M35UsVpkN20I=
+		ccwHhE3uyu5AVS8IavKaBK1d9i4=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<data>
-		Nbs6XUD+a3oAspBpWj4klSUjfd0=
+		wZC2MONgVc0i3w+ZoMTL7Pm5Zks=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<data>
-		Asn/pWM7TGBmlp+M35UsVpkN20I=
+		ccwHhE3uyu5AVS8IavKaBK1d9i4=
 		</data>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/module.modulemap</key>
 		<data>
-		x9osnvcOcSMoO+MLFT7ZbvAH2TM=
+		7Zn2Fn46z8bhlQFXQTy+/4LUkzk=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		GfqKW9n//lbz5Bsd7qOAMpG1kaM=
+		Tik/+7feK0lZ4Yzfud4aKLWWwS0=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<data>
-		rOku46rdgpxgp5iptbghQrJfXUA=
+		i62eqa28M2HvPnFFBfGKC7tvMK0=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -868,61 +840,57 @@
 		<data>
 		iRB7KH9MfpiBQR8rywPv2YdBX5E=
 		</data>
-		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<data>
-		3Dii6a6PUdG1kqBmYCLvDTtbyaY=
-		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<data>
 		Pau0qBXGf1T4ztNxq5VmHicF7OI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Info.plist</key>
 		<data>
-		zLiwaUTlZ4OXrd647b6D4FIjJro=
+		nEEgBiBZOg260o/Acif03r0G4bc=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		PU/l6ibNIH6QWBJuvrl0wnZxXss=
+		Gc2KQiIRfJkZpNEGfuUXPeLLs8M=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<data>
-		XS72Lf0ewtydgpS/Lvlv/oaOTbA=
+		yi6vzHXn6fRmPHXHbXXxUK91K8o=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		NbC56+aT/AKU62dO57YGRfkUBN0=
+		/TaTVVxmKxmCfjIi817F+2CaPzw=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		qMS/cWy7At3FPCGGs3wHpjQOKkM=
+		CTI+iRt4iK3t4u4loMPH/6i8sJI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		dbgaahb7fMl1KyyUtChxLrYngVY=
+		B/yelxGIeTAO8lHNhTQ9ZRarEVM=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		qMS/cWy7At3FPCGGs3wHpjQOKkM=
+		CTI+iRt4iK3t4u4loMPH/6i8sJI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		NbC56+aT/AKU62dO57YGRfkUBN0=
+		/TaTVVxmKxmCfjIi817F+2CaPzw=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		pKSiYoBJ+W18LO9SbkNbAR1zmvg=
+		y9iaylF9PP/i9Bar9XsOShUnwwI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		DyU1TOMlQuilNAWctlWRLm0soic=
+		pM/4d/Or9EQNEu8VKttpGuU1FzA=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		pKSiYoBJ+W18LO9SbkNbAR1zmvg=
+		y9iaylF9PP/i9Bar9XsOShUnwwI=
 		</data>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/module.modulemap</key>
 		<data>
-		x9osnvcOcSMoO+MLFT7ZbvAH2TM=
+		7Zn2Fn46z8bhlQFXQTy+/4LUkzk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -931,22 +899,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9Bh7Lbd3rtTtXZLEgeZuWM3YM3w=
+			vhFv0gJePbHGO4EYh1aKJFbjjw4=
 			</data>
 			<key>hash2</key>
 			<data>
-			vod8UNWstyZTuuwgD05grjeg7TxEPTSBQQV2ZHWhAvw=
+			p6kUv7e69ThiTpz5jk1b0qibzScMJIhBLcmMzolLq8Q=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5x5PQB36LKE1qU/2zEQS0SYVLc=
+			lwc2FKuGddOc7DH9FqgwlBwcTCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			0Qi3+v/nmACg+3Pa0NH+VrsVt3AtQ1aQROjCKL3MqM4=
+			dqygTGiGWTQ4Dhlzj2v61pmwUc2DDcdhfrHLxmNqANE=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1103,17 +1071,6 @@
 			pOrRoxPZPdUajo0cr4lLZzEy9jLkoIhcHP/CfP/WN2s=
 			</data>
 		</dict>
-		<key>ios-arm64/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t0tJXgUFwfcwMxXzHagmtsDUegI=
-			</data>
-			<key>hash2</key>
-			<data>
-			rBxVhk5GeG8NIoWQ1BvMjKXvarvkveXowo52tzI4Yd0=
-			</data>
-		</dict>
 		<key>ios-arm64/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<dict>
 			<key>hash</key>
@@ -1129,33 +1086,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZJEygkUY2OzMbcNR1wR0T3ZDEzI=
+			iCqIyMuy78+LXmYN/MMYAvANviE=
 			</data>
 			<key>hash2</key>
 			<data>
-			tDx+yX1HxjcRxVnoycZKdu7Ca6dqx5t6fOJ/BHcmsvE=
+			xoP8L1O31tU0mvEitPiOj9YVk1QZZDqDpd1eBz0bxzc=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WNs9/DMFJ3ef1HyVo6UqetsJSSU=
+			3/dL2Agm1vys79J59eUadCZWsW4=
 			</data>
 			<key>hash2</key>
 			<data>
-			gdk+Ob4T3092wwh3gMblqeZzXLtCDPDvrqBFRHZLM1c=
+			bvEpb0r0RqFlI/ExLfzMnc5G3i0NgmUzM/tuqLdisS0=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/f3jegztGe/bPjDKq621vjEglt4=
+			gb83U/H+CZ6f21h67bioxIrdx7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			kz8EwmJbMw7NEthvp/W9/pmFpNyNzywoqTnhqxNYT7I=
+			nTi2lXalHUBKLQUOsRlDyK9Ix3YFT+ic4OOCdfcMA6Y=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1195,11 +1152,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aHosSnaomIRkqKirBF72DuDeuuM=
+			Cil28zbmEFOGktqLL+/8DWIV8ms=
 			</data>
 			<key>hash2</key>
 			<data>
-			YOqck5eR7uMU4R3p1/e2tk/MZzFuLtMxsPBdLn7N4qQ=
+			5LPiweTwFLRb31hOiBIOCq2VXhRe24nijVbRFVzdXPM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/FirebaseAuth</key>
@@ -1226,11 +1183,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7CqHofcnWlGyksO4n2mrxR0MAI8=
+			W0u4GS3/59PpBQoLJSHzyPxP/g8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IuQa4fOJob03HeA0fY2IpKPOyhbSBR/x9HBXRxtaGIc=
+			x//5UQnh8LJLRK2KVP5QzDAZTpDfy+CXPIwEGfUjydI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Headers/FIRAuth.h</key>
@@ -1376,17 +1333,6 @@
 			+sROfOT46YhVGC75vppLb94eEyZfjQNFcDtYZSSXBeQ=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Headers/FirebaseAuth-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t0tJXgUFwfcwMxXzHagmtsDUegI=
-			</data>
-			<key>hash2</key>
-			<data>
-			rBxVhk5GeG8NIoWQ1BvMjKXvarvkveXowo52tzI4Yd0=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Headers/FirebaseAuth.h</key>
 		<dict>
 			<key>hash</key>
@@ -1402,33 +1348,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MDyZrBoU1UFDMw8BBK3AE7SsXtA=
+			z0R6A6dJ1bKkL823VC9oeuSuqoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Cu+h1eC0GU6RE3Dev0lX5iwHx9X5d4lQM73eTiqg8Yg=
+			n6aTqwiCb5Gha3rXy6/+p823R07kG/Nj/HhNxo5fN9U=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-ios-macabi.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sSNUL6hUiQuaf7TjXfKcnkPmn/c=
+			tl4vefWffsxzwd4PQ6+pre5eTAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			nTAS08kZ8Ww1P9ew6+GDMYLrsFVHt+grBR87bCTmNkk=
+			tu/zVRr8SNl8b/1wkLYw19mZdsQ5CJsF8MVhBXd10xc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			34HyClG2RE5/W+Eo3sZ6Ya34Vh8=
+			dyGGemzrJGSjf6hYAxMnvmWalKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			JXyZILZqebU01k5TaU+Bk8uMm9P8PwrVJTDYx+ble9w=
+			Nxs6S8EkVxmdFFmGDr9q4buIXYL4JuxhTN8ilIHC91E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
@@ -1468,11 +1414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			34HyClG2RE5/W+Eo3sZ6Ya34Vh8=
+			dyGGemzrJGSjf6hYAxMnvmWalKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			JXyZILZqebU01k5TaU+Bk8uMm9P8PwrVJTDYx+ble9w=
+			Nxs6S8EkVxmdFFmGDr9q4buIXYL4JuxhTN8ilIHC91E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
@@ -1512,22 +1458,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aHosSnaomIRkqKirBF72DuDeuuM=
+			Cil28zbmEFOGktqLL+/8DWIV8ms=
 			</data>
 			<key>hash2</key>
 			<data>
-			YOqck5eR7uMU4R3p1/e2tk/MZzFuLtMxsPBdLn7N4qQ=
+			5LPiweTwFLRb31hOiBIOCq2VXhRe24nijVbRFVzdXPM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Resources/FirebaseAuth_Privacy.bundle/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9W91ZTFMuFgqR2Y7hooY9O3yR1E=
+			a5271qPZZaRe4C6wJ7nASVGLmNc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+zaPuH1H/QjE80heUcJBAa0wYjP34nmAf5To4CGrZAE=
+			j+ygMDKJ8OSHVlZHKpaaX2GB0tttdcfFFRvjVM9pP0w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/A/Resources/FirebaseAuth_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
@@ -1545,11 +1491,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XDz8lPcSekSn+dK/TozsyHya2Ck=
+			PoKTWxIltnd7qVq4WFM1K1bLwD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			MF30hnl6uJwU8wbaXuwbBYlP33uAWkSlYoANEwzpSs8=
+			W367wcihPrZG5LR2y+fWrEsDoH8rFnGKNRABTb5gZR8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseAuth.framework/Versions/Current</key>
@@ -1561,22 +1507,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WluUO6O1DpE7cf1mo0mSnK8WyeQ=
+			n3v0tyyDlhEQQinGvMmGrb57wbY=
 			</data>
 			<key>hash2</key>
 			<data>
-			zCX+1ItXM0LbddovDz3/A/i9SCYG6iWeE7ZYt2UNbV4=
+			s4LHDsEZsNW4Ilm8L+FOu9GyTsr4m5GCmUckWWNKZ84=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IfYvDyzS5Z0CzSUkF+uviUg1Gms=
+			1AbW+LjLUmapO4YSsyjICdIjr0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			fYNz22pzGS35TJcCbiIt5dE362jKegkv2MD5/ocRa9A=
+			J7FJbisqkBTMeCCszsya14rx1Rz/SpODAmSrfDqwXZ4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1733,17 +1679,6 @@
 			U7jqmXh/Va/brKQA+EELWo3xMF6/tAQ26IEHCecCsvg=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t0tJXgUFwfcwMxXzHagmtsDUegI=
-			</data>
-			<key>hash2</key>
-			<data>
-			rBxVhk5GeG8NIoWQ1BvMjKXvarvkveXowo52tzI4Yd0=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<dict>
 			<key>hash</key>
@@ -1759,44 +1694,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qJZJ25sFnBlrlQ7ne6vcGC5gzEQ=
+			+faVkqiN+zlCoEnjMQ4PYBavh1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			XgUXjVx336EI/WfUnl3+pbKN9ksb+m4B7/LgSO4qBoQ=
+			R/tmHuyEPq0TXifJiCMIu1vjpwAbhV8fVg47B7jaR1s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MYXh1OTI+o6ODsvIiKoYSXIvDnE=
+			qKZv3WuyIQOnvUGjs5dNrmt1MvA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bf5z5QeGbHrl3pHuWpKPKhhWhQGae2Hicy8taJjh6Iw=
+			K6Oz31O5hjH+jAzqxXzfv355a9OUod33rV+IDk9VQzo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5+euRIXQwZZuklUgBrW4o3IEd7k=
+			z657njmCLd5isy7pil7pMcspzfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			bBdASHoRdTxm6SOHnjqU1ZVHM05mDS+/2F4bg3NFgh0=
+			tOTaBLfYpYCUXlg+BUStrv0jOkZm4BvhiWoExCuHyV0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/f3jegztGe/bPjDKq621vjEglt4=
+			gb83U/H+CZ6f21h67bioxIrdx7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			kz8EwmJbMw7NEthvp/W9/pmFpNyNzywoqTnhqxNYT7I=
+			nTi2lXalHUBKLQUOsRlDyK9Ix3YFT+ic4OOCdfcMA6Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1836,11 +1771,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/f3jegztGe/bPjDKq621vjEglt4=
+			gb83U/H+CZ6f21h67bioxIrdx7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			kz8EwmJbMw7NEthvp/W9/pmFpNyNzywoqTnhqxNYT7I=
+			nTi2lXalHUBKLQUOsRlDyK9Ix3YFT+ic4OOCdfcMA6Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1880,11 +1815,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aHosSnaomIRkqKirBF72DuDeuuM=
+			Cil28zbmEFOGktqLL+/8DWIV8ms=
 			</data>
 			<key>hash2</key>
 			<data>
-			YOqck5eR7uMU4R3p1/e2tk/MZzFuLtMxsPBdLn7N4qQ=
+			5LPiweTwFLRb31hOiBIOCq2VXhRe24nijVbRFVzdXPM=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/FirebaseAuth</key>
@@ -1911,11 +1846,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yDt+2cx1GY/cc6iDRjaTVUDz6pE=
+			spr/WkahsCtIa5QVGOMnzHVGZkc=
 			</data>
 			<key>hash2</key>
 			<data>
-			myYFcQShqfk5d8zrrmXdh7LbQ+YW2hSKYrKWGUbcEk4=
+			rh3BJ0RFLW2CuFygl7EyiAPO5hACHPT29ZFZxHuq+PQ=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Headers/FIRAuth.h</key>
@@ -2061,17 +1996,6 @@
 			Re+VyYGyrAjUNGEsSjjbSdPbhFrbAjZECAxgnxVSNWI=
 			</data>
 		</dict>
-		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Headers/FirebaseAuth-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gqvK8CS8oi3eN0OSGq5ndv/fcj0=
-			</data>
-			<key>hash2</key>
-			<data>
-			oNvewFn4kCw7JrVAbxYw2osKGXqxOuet1PDcuPrSvlk=
-			</data>
-		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Headers/FirebaseAuth.h</key>
 		<dict>
 			<key>hash</key>
@@ -2087,132 +2011,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gcvoRQJqhqSy8yxHB1gkr64Bfm8=
+			Y7mB06lcYfwbkEojHxuqsbYwQ7Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			mzXJhzmE0yNdiJk/f0KyH7cEoiVT5po1cCX0akqHGUE=
+			Ro/oq+Ucj96bQ7DTLsZbudVVnznFqZrCmfy+sLx0t4M=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wZnVTbHa8A0Yuz8OkhV9NWEfWgA=
+			cBWNalvZjWKnWrKsarck2ZVH8NA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fB54aMUmLzwbmxwjz49mmcxoZ17AZC8o++XvSUCsgEc=
+			8Sj9gXwfc5ljLUd3Bcq6A8hDKrn6EdI4a4VemuRWVrY=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tmw7Y9j8NporTmO0oEQzZ5G7Snw=
+			tkopXlyXmcwN25kRuGcYZ0gO6gc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VTYwKQKar2pg6N2iJUm8lxYyewXGea6qBXW4rTRTec0=
+			Urav/RrOVjSeiaIVEfKgMr031PuGDsXtDx+gBOfcq4o=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/VPQzLhBy15dMByJDQ5+062XlL8=
+			kd4RJN46zTmStSQ+jdc1+sWpuFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rq5FIX2YHWNLm/0diSTDUeB804aEzPJMMhxPV5au5yU=
+			sYF1++ccVdRjTy49mTBBq4CVbe59RsS0mdzcGYYFy6I=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			idW4EOhETYkEiKoRTwUtrTmdXN8=
+			HA3TMlIo26/1bKj+zhNv6Doqnmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			GPv94xeNLYlqPK6XSvs7c6fWu63TIOU47dFfWwvKx4o=
+			lc3ovV58VAZgwWE3bkZ07PkWxYU0OxDJd71zdIfHEJg=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/VPQzLhBy15dMByJDQ5+062XlL8=
+			kd4RJN46zTmStSQ+jdc1+sWpuFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rq5FIX2YHWNLm/0diSTDUeB804aEzPJMMhxPV5au5yU=
+			sYF1++ccVdRjTy49mTBBq4CVbe59RsS0mdzcGYYFy6I=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tmw7Y9j8NporTmO0oEQzZ5G7Snw=
+			tkopXlyXmcwN25kRuGcYZ0gO6gc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VTYwKQKar2pg6N2iJUm8lxYyewXGea6qBXW4rTRTec0=
+			Urav/RrOVjSeiaIVEfKgMr031PuGDsXtDx+gBOfcq4o=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W5IHr5O5XCFDeRNhHVp1Pz89+zk=
+			7wTocGu9svriNaGg6RsfZbEFvSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			HWSvpEXCN6++fKeDf8N099P9Qswmtk376crC2WOfOk8=
+			aZ9P/ZBmmo/hdSxNLslHv0H4ozrtirwcusdjNZwwoeQ=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gTcwhkSQbtGldArQJOW7LO9SL4g=
+			+SXVlKpH0i7YqsTD5gnyyydM0Mk=
 			</data>
 			<key>hash2</key>
 			<data>
-			WetByOLLs+2ABE+xxDVn0uOf71piSKpdYFe0+j3Tx2s=
+			nKmomUy5ew9KDRJnX6cZHlEKwt1/YBMLlhBFEarm5cs=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/FirebaseAuth.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W5IHr5O5XCFDeRNhHVp1Pz89+zk=
+			7wTocGu9svriNaGg6RsfZbEFvSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			HWSvpEXCN6++fKeDf8N099P9Qswmtk376crC2WOfOk8=
+			aZ9P/ZBmmo/hdSxNLslHv0H4ozrtirwcusdjNZwwoeQ=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PK5cSm/Er4X1AeobMBnsbyB06vo=
+			NSVVGesy91L6FDug090+WTGA8kA=
 			</data>
 			<key>hash2</key>
 			<data>
-			aPiU5AM2uMCUgFVh61lnSEQl+A8hwAiecdyfDTvmQqA=
+			MOOSlmNANZYR61AQ+e8+IEZHNAKtLR5rUk6C6TrerdA=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Resources/FirebaseAuth_Privacy.bundle/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Cq/s+oF2vRAfi8kcOEKnjrz+umE=
+			YdB2oGzD3tLTzpPYpNxmvTXnMBo=
 			</data>
 			<key>hash2</key>
 			<data>
-			tNztGgemHeolZ2A4cxQEEi5xLamHOAtWHXzY6TWixSo=
+			Ilgi3N6U1Z6iqdb+v7xkleUkj+vbJU6HhOpu3wiRNv4=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/A/Resources/FirebaseAuth_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
@@ -2230,11 +2154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ze5SWcgPcD75J4uzD4o/LSe9mQg=
+			2inJBcUGQcTRzrKXVKFXWchL89Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			WQ7xgDYpw8zNIvsmzYbPxC02IANncOJMjnd5TQ8CZCM=
+			uV1+TP1a7UsV7s8k3yshpxruq6UBzOEi4m0+KcjDAdQ=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseAuth.framework/Versions/Current</key>
@@ -2246,22 +2170,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XV3SznNaKE4HGV8i6jWmap/JPgQ=
+			bburAHmYgdfG7QH7k+nYot0R/cA=
 			</data>
 			<key>hash2</key>
 			<data>
-			i4AuhWLyOQn9RMhjxyaTB0UfxnG79BP7B4CZtN1aMp8=
+			Kdc//4goApE/LUknfnSwEf/lGsFkdOljQhNFxSCeY7U=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UqbXs3JbN0cR0ItJ8uDglEkyZL0=
+			J6Gt2hEoeuJnP6kqgTjUOKAuY+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ckz2hRiXKEOWAiQeRLnFQltiH17rxEm7EtGdrzL84S4=
+			eXlu33Oetq26LrlaNlreIqL0YObT30Xo9DyDs1W6F9Y=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -2418,17 +2342,6 @@
 			kmRSD8QnQJIVikohfti7X15fRe5xGuofbTVb4e11LhE=
 			</data>
 		</dict>
-		<key>tvos-arm64/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t0tJXgUFwfcwMxXzHagmtsDUegI=
-			</data>
-			<key>hash2</key>
-			<data>
-			rBxVhk5GeG8NIoWQ1BvMjKXvarvkveXowo52tzI4Yd0=
-			</data>
-		</dict>
 		<key>tvos-arm64/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<dict>
 			<key>hash</key>
@@ -2444,33 +2357,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TIjYRIK+qcOy29xwAKie6LVK85U=
+			ukRPi7HvjdbAiBxl1Sj6tlaVkjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			gQvBgKG0m+nnP04O3+73bWTOOacYf2JpXnxFCmhJU4w=
+			MasKT9izvRrn5gjrThFn8OOvw2Dt5vfva6qN2EDHNVs=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-tvos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o+t4KlnZqDJjTw4fctXs175iLkY=
+			sFrQNEDE19vSlEFhXYzf4XkPkuk=
 			</data>
 			<key>hash2</key>
 			<data>
-			emVvLum/EZLRjk66EgxmFCO2yctNKkCDEQTK/pxnZnk=
+			2Rdd672fSvVeRxEZTHqDjPRwUDLUlOV+sc9Oy0F6uGM=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TXiHcoqYamRec2Cc+aFdtF5E/Zc=
+			gFYIGWsrdx6pP/3scnWZr/2AMeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0OiXA68G86+a/g3NK5T1i5YThdQeh0mUo8AjDasQpe4=
+			j0tBGvcH1QepxAF3sFp7CcRgJS4Nhx+WX4h4azL0HJY=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
@@ -2510,33 +2423,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7mPnpB13jTGh+srBY+dX+vJlf9s=
+			FxRif7C4/h/I7JEYZoMRqpgc8uQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			CZ0JuIC1y3MJ0HfHKnPCH4DXWKnIujcygeIzlfu2XHE=
+			nX+YrPYL7Flyfyve0YpP6Cp+P5cmyZ600zJYxc/GdQ4=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b3vXN4MvOwJ1eFjFwQ0gRtSgkC4=
+			j0E/+AXHCJzOJGy4VX6avoPkCAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y9Atpue5RVYI5/yZSsvatCscn2okOvd+uoKh6gxUfWY=
+			l/OTE2nFnMHZIJUs5EeGE0VUoGRuQCwyoYhi3vs/tOI=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HZr2W9PMJ/H7EU01d7rDy9lxMh8=
+			HU3K3CBR8sr2ZDjsEIzJISp9dzc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+SIxppeAVVGzQQ8812kupu3TnXy9GHFilKai+ucAnAI=
+			pAWUEn5m8FA6Qnm7LXSlP1jy7QtPl+ToC4d28EXmZMM=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -2693,17 +2606,6 @@
 			IcPYqAIlY3zAn9A+QNA1OqdtpihN4UwEuZ+HpKNjq0Q=
 			</data>
 		</dict>
-		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t0tJXgUFwfcwMxXzHagmtsDUegI=
-			</data>
-			<key>hash2</key>
-			<data>
-			rBxVhk5GeG8NIoWQ1BvMjKXvarvkveXowo52tzI4Yd0=
-			</data>
-		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<dict>
 			<key>hash</key>
@@ -2719,44 +2621,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PUvogCS5/5B+8ECcFcN04C5pu/g=
+			zOgLX4xbKfo14DuIHNdwJrvpGA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			FFDGPEGKIkoltedvb6NJlqxG+XDXheP+iTP8BA2Wp5o=
+			SLzlrZWqG0O9FqEobyis1yfji4BZnckiGwvpMpSXH+s=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8O/K3MFya2psZ72lVdmwmOCoaVA=
+			XLNd4snMFw8387811hldJ4GCaP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			pbiPJeGbOaoudFbv2hOuavWVUDNNsxRFVi5H4APXTq4=
+			yEWDG4oYVCn5RROGpmGerLm0rLwH3UXX6dyt1jzAyQg=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZaWanG+lLOUM9s4agSZF14DGfpU=
+			Ek8gGdsLaqJF0/GiU+G14Qkmz5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			3+tcMNsrRxwKNAfBbOehA4dpyuL3t2ATBzjO0tPBIaY=
+			Y+j3vHg3w2zUhbI6ikJSYk7jr9SUYZq29/G7Vue1a4I=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TXiHcoqYamRec2Cc+aFdtF5E/Zc=
+			gFYIGWsrdx6pP/3scnWZr/2AMeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0OiXA68G86+a/g3NK5T1i5YThdQeh0mUo8AjDasQpe4=
+			j0tBGvcH1QepxAF3sFp7CcRgJS4Nhx+WX4h4azL0HJY=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -2796,11 +2698,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TXiHcoqYamRec2Cc+aFdtF5E/Zc=
+			gFYIGWsrdx6pP/3scnWZr/2AMeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0OiXA68G86+a/g3NK5T1i5YThdQeh0mUo8AjDasQpe4=
+			j0tBGvcH1QepxAF3sFp7CcRgJS4Nhx+WX4h4azL0HJY=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -2840,33 +2742,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7mPnpB13jTGh+srBY+dX+vJlf9s=
+			FxRif7C4/h/I7JEYZoMRqpgc8uQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			CZ0JuIC1y3MJ0HfHKnPCH4DXWKnIujcygeIzlfu2XHE=
+			nX+YrPYL7Flyfyve0YpP6Cp+P5cmyZ600zJYxc/GdQ4=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/FirebaseAuth</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pxU4CviwtmoFrgcdUgpsniZTFqA=
+			F5xKSYwbtaQ2epWZRjyhdtbnBvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			DGqIrucE85CWi6GWXVUW2wLK8KqgE6Y7LJe9VKx5TSM=
+			DAT2NV+wdaMQqji8WAnhej14c148IU5urhOY+zxWJaw=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ufe7qlSrSvkMn/uXaFf9OifFvmw=
+			xCz5ACvIJi7Nq8HtJ1lSlhlmmoA=
 			</data>
 			<key>hash2</key>
 			<data>
-			29Pcm18cCW/lt9ML0438c5YYhN/7GVDTjFdom0hQLaA=
+			D5yTEjaznoYPfM9kSsPPijyor0Uh/W6WEHVUpftm1dA=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -3023,17 +2925,6 @@
 			yrpOd1FEKDChZee+LfsZP+7Qm0CXc7pPays+8/oP9zA=
 			</data>
 		</dict>
-		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3Dii6a6PUdG1kqBmYCLvDTtbyaY=
-			</data>
-			<key>hash2</key>
-			<data>
-			orzihoHUKaWT29BXKQB6ntHsmM+23PI6DK7I6MXvcjw=
-			</data>
-		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<dict>
 			<key>hash</key>
@@ -3049,154 +2940,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yGBZcaOnxdFq+TYh99uO8sndQGg=
+			5xuG99nMqNEneDH9yG+X8BSu1jc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AEvL2PvFf67Kjyfi0fUKJNw9nPjcJPTAdrKCiwKsfAw=
+			mt8hSs+XNo4NAmN3dLnciw4HwZxXLJMzqWCxzP/ve04=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-watchos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xG3n/ZxGiRwJecQY/NVpapPPX/0=
+			9tQJc9sjosNqkR2LEV9YMM2JmTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qBEEQV+chOpcjgLTkSFq9Y7mrMIJUbL2izTdbp0skC4=
+			/bXOQErkzIwQXNe/yq233IPBEYQxiYBfQt3Q1ld2OWs=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64_32-apple-watchos.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KrBIP48FIMnsumAARTQeBL9Z4zQ=
+			i5c3varqAvrB0k3a9LZbaKVF2b4=
 			</data>
 			<key>hash2</key>
 			<data>
-			tTKwm+yUyLXO+kI3eFiHmJQixGJq8OGb98HOfJA5aM4=
+			U3ljAnJFjJaUKyRUIaUrFI9w40Di5cAes1DIC64IWJQ=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NbC56+aT/AKU62dO57YGRfkUBN0=
+			/TaTVVxmKxmCfjIi817F+2CaPzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8/XXuYI6DtS/YlzAfRrw+TLIYdysjK2A2g0nH9L1Q9Q=
+			F0/5Htyy94BI1nApfv9zUK7rdMQIW4jOvsS0ba5h8mw=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HjO//D1BCUaXHMBEkJ5FK05XcVo=
+			e4frBEDB+2qYZQ5n8D+1OpILfqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Uk5yvq6GtuwX3cThjcrr0vsVi1WZGfnJdrFGq6Qulk=
+			GOu8wF7uTw7n8JKHMgIGuCVD8kjHvGEkiw8PMcdhgiI=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jc/eFPxaYVZECzi83/8qOffgL8E=
+			NZKNpv8jt98mrML08wgi6Fs6Nu4=
 			</data>
 			<key>hash2</key>
 			<data>
-			YCJfxMuu9chpHbQIEnekEWIMtjQywVaB13NPwwJGT0I=
+			OjB+jJTYB0+ZaLYVoOxXFl0bQMND3G8a8XuHNi8MZZw=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HjO//D1BCUaXHMBEkJ5FK05XcVo=
+			e4frBEDB+2qYZQ5n8D+1OpILfqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Uk5yvq6GtuwX3cThjcrr0vsVi1WZGfnJdrFGq6Qulk=
+			GOu8wF7uTw7n8JKHMgIGuCVD8kjHvGEkiw8PMcdhgiI=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NbC56+aT/AKU62dO57YGRfkUBN0=
+			/TaTVVxmKxmCfjIi817F+2CaPzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8/XXuYI6DtS/YlzAfRrw+TLIYdysjK2A2g0nH9L1Q9Q=
+			F0/5Htyy94BI1nApfv9zUK7rdMQIW4jOvsS0ba5h8mw=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Asn/pWM7TGBmlp+M35UsVpkN20I=
+			ccwHhE3uyu5AVS8IavKaBK1d9i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			q3EVpgIxLVXOSZ0puKDRGaWwcTgEqWvEmUpLfmQIN4k=
+			gzipxXzuSTv9DACDE6cVxGG5EPTPCUF0zfp6Yghz++g=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nbs6XUD+a3oAspBpWj4klSUjfd0=
+			wZC2MONgVc0i3w+ZoMTL7Pm5Zks=
 			</data>
 			<key>hash2</key>
 			<data>
-			FSwORIO5ZDhgzSq145BVR6Kggjyu9yDgG9YmvS2bSU4=
+			+ULf+vvoksesV0mMNNfdCz0sNrYJfvvGjNC2o3AghK8=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Asn/pWM7TGBmlp+M35UsVpkN20I=
+			ccwHhE3uyu5AVS8IavKaBK1d9i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			q3EVpgIxLVXOSZ0puKDRGaWwcTgEqWvEmUpLfmQIN4k=
+			gzipxXzuSTv9DACDE6cVxGG5EPTPCUF0zfp6Yghz++g=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32/FirebaseAuth.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x9osnvcOcSMoO+MLFT7ZbvAH2TM=
+			7Zn2Fn46z8bhlQFXQTy+/4LUkzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			AFwNcHpOMbOeCjT1gWK3fWhePvrX6H5TmLkE7ukv1Sk=
+			Pn7i97QZGKkjvdfzdHYjISbzyDWlRLzBoyeCWy3aunk=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GfqKW9n//lbz5Bsd7qOAMpG1kaM=
+			Tik/+7feK0lZ4Yzfud4aKLWWwS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			h/NH4nyyVkXRFXma4u0sh1ltNksb56zVjVDe1wFJMsg=
+			gId7yqmndJtHSjE0ei0F5JEWgntYFTrBcI89ynOH2RI=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rOku46rdgpxgp5iptbghQrJfXUA=
+			i62eqa28M2HvPnFFBfGKC7tvMK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cF+WaIw4ef3KgHWx1N2mTMcuf2EeFodZ0fPdWIRR/H4=
+			nOCRWY3zqSaykiApNZOZyBLDkhcs3viwBkGM0ORK1wo=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/FirebaseAuth_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -3353,17 +3244,6 @@
 			JtwSuacqHYlRqrf1p/W4El+8hOe851pBc4RcJaNjRTI=
 			</data>
 		</dict>
-		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3Dii6a6PUdG1kqBmYCLvDTtbyaY=
-			</data>
-			<key>hash2</key>
-			<data>
-			orzihoHUKaWT29BXKQB6ntHsmM+23PI6DK7I6MXvcjw=
-			</data>
-		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Headers/FirebaseAuth.h</key>
 		<dict>
 			<key>hash</key>
@@ -3379,132 +3259,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zLiwaUTlZ4OXrd647b6D4FIjJro=
+			nEEgBiBZOg260o/Acif03r0G4bc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yFbeJEnacV0W9Rm6BdxiHbtOJTcC8UF+sK14gnW7ynQ=
+			NO5UknGz19zHkq6nxxgBKuhExsMBWYdgeciYNLk8lSA=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PU/l6ibNIH6QWBJuvrl0wnZxXss=
+			Gc2KQiIRfJkZpNEGfuUXPeLLs8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			JKewvYlGsnHU7oqEZ++bvn3dkjsm4R5kAmOJhPIbuWg=
+			ukxwLusgRI0z7IHsPknjtOuJG8gkkT2HomMPecXi8YE=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XS72Lf0ewtydgpS/Lvlv/oaOTbA=
+			yi6vzHXn6fRmPHXHbXXxUK91K8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			JOovqJcTFrl7tydy7X0NnW1k6joZi3Vj/3ZX0u0JR94=
+			gZ2Nz9FE8TSjuKp8r3CZtPL51fVx1kcGkyk8j8ZyoCU=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NbC56+aT/AKU62dO57YGRfkUBN0=
+			/TaTVVxmKxmCfjIi817F+2CaPzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8/XXuYI6DtS/YlzAfRrw+TLIYdysjK2A2g0nH9L1Q9Q=
+			F0/5Htyy94BI1nApfv9zUK7rdMQIW4jOvsS0ba5h8mw=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qMS/cWy7At3FPCGGs3wHpjQOKkM=
+			CTI+iRt4iK3t4u4loMPH/6i8sJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			btqql2rFSLicEKl9l6mYpfIDCErRYcHrzzDIebbrCZc=
+			CWvAo+6MKmENC+h9BmSWbPBgFRynGGPkIYT93nPclN4=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dbgaahb7fMl1KyyUtChxLrYngVY=
+			B/yelxGIeTAO8lHNhTQ9ZRarEVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vG8g+G0pjxMz7EOzhNPMwcChrARPSDD6MUSjhoMJY1s=
+			A67xUIDP8w65vTtjxc/FJTfQbE2TRdLMJVhb71gMiyc=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qMS/cWy7At3FPCGGs3wHpjQOKkM=
+			CTI+iRt4iK3t4u4loMPH/6i8sJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			btqql2rFSLicEKl9l6mYpfIDCErRYcHrzzDIebbrCZc=
+			CWvAo+6MKmENC+h9BmSWbPBgFRynGGPkIYT93nPclN4=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NbC56+aT/AKU62dO57YGRfkUBN0=
+			/TaTVVxmKxmCfjIi817F+2CaPzw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8/XXuYI6DtS/YlzAfRrw+TLIYdysjK2A2g0nH9L1Q9Q=
+			F0/5Htyy94BI1nApfv9zUK7rdMQIW4jOvsS0ba5h8mw=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pKSiYoBJ+W18LO9SbkNbAR1zmvg=
+			y9iaylF9PP/i9Bar9XsOShUnwwI=
 			</data>
 			<key>hash2</key>
 			<data>
-			dXmuYXHl56Z91JNe6Wa5hzt01pGi1liRNqKPAC8xsXQ=
+			YPdBfNtu6u1HqtVLlr93XlkKUWsGRwkPQqh8BjAEayQ=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DyU1TOMlQuilNAWctlWRLm0soic=
+			pM/4d/Or9EQNEu8VKttpGuU1FzA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ftkqF2wRgQXVJOOd45GpT0VabvRhDAyYm5J3c0+1GZk=
+			Flfz0DczePX/IBvwaQvgCPN/LK3P5VuBf3AwQXdi9QM=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/FirebaseAuth.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pKSiYoBJ+W18LO9SbkNbAR1zmvg=
+			y9iaylF9PP/i9Bar9XsOShUnwwI=
 			</data>
 			<key>hash2</key>
 			<data>
-			dXmuYXHl56Z91JNe6Wa5hzt01pGi1liRNqKPAC8xsXQ=
+			YPdBfNtu6u1HqtVLlr93XlkKUWsGRwkPQqh8BjAEayQ=
 			</data>
 		</dict>
 		<key>watchos-arm64_x86_64-simulator/FirebaseAuth.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x9osnvcOcSMoO+MLFT7ZbvAH2TM=
+			7Zn2Fn46z8bhlQFXQTy+/4LUkzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			AFwNcHpOMbOeCjT1gWK3fWhePvrX6H5TmLkE7ukv1Sk=
+			Pn7i97QZGKkjvdfzdHYjISbzyDWlRLzBoyeCWy3aunk=
 			</data>
 		</dict>
 	</dict>

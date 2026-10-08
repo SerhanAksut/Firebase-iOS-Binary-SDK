@@ -1,5 +1,5 @@
 framework module FirebaseAppDistribution {
-umbrella header "FirebaseAppDistribution-umbrella.h"
+umbrella header "FirebaseAppDistribution.h"
 export *
 module * { export * }
   link framework "Foundation"

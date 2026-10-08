@@ -21,13 +21,12 @@
 #include <string>
 #include <utility>
 
-#include "absl/container/flat_hash_map.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
 #include "src/core/util/down_cast.h"
 #include "src/core/util/json/json.h"
 #include "src/core/util/json/json_writer.h"
 #include "src/core/util/validation_errors.h"
+#include "absl/container/flat_hash_map.h"
+#include "absl/strings/string_view.h"
 
 namespace grpc_core {
 
@@ -60,6 +59,14 @@ class XdsMetadataMap {
 
   const XdsMetadataValue* Find(absl::string_view key) const;
 
+  template <typename T>
+  const T* FindType(absl::string_view key) const {
+    auto it = map_.find(key);
+    if (it == map_.end()) return nullptr;
+    if (it->second->type() != T::Type()) return nullptr;
+    return DownCast<const T*>(it->second.get());
+  }
+
   bool empty() const { return map_.empty(); }
   size_t size() const { return map_.size(); }
 
@@ -82,9 +89,7 @@ class XdsStructMetadataValue : public XdsMetadataValue {
 
   const Json& json() const { return json_; }
 
-  std::string ToString() const override {
-    return absl::StrCat(type(), "{", JsonDump(json_), "}");
-  }
+  std::string ToString() const override;
 
  private:
   bool Equals(const XdsMetadataValue& other) const override {
@@ -108,9 +113,7 @@ class XdsGcpAuthnAudienceMetadataValue : public XdsMetadataValue {
 
   const std::string& url() const { return url_; }
 
-  std::string ToString() const override {
-    return absl::StrCat(type(), "{url=\"", url_, "\"}");
-  }
+  std::string ToString() const override;
 
  private:
   bool Equals(const XdsMetadataValue& other) const override {
@@ -133,9 +136,7 @@ class XdsAddressMetadataValue : public XdsMetadataValue {
 
   const std::string& address() const { return address_; }
 
-  std::string ToString() const override {
-    return absl::StrCat(type(), "{address=\"", address_, "\"}");
-  }
+  std::string ToString() const override;
 
  private:
   bool Equals(const XdsMetadataValue& other) const override {

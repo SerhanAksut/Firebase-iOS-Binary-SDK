@@ -1,7 +1,11 @@
 framework module AppCheckCore {
-umbrella header "AppCheckCore-umbrella.h"
+umbrella header "AppCheckCore.h"
 export *
 module * { export * }
   link framework "Security"
   link "z"
+}
+module AppCheckCore.Swift {
+  header "AppCheckCore-Swift.h"
+  requires objc
 }

@@ -4,7 +4,6 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 @_exported import FirebaseSessions
 import Foundation
-import Promises
 import Swift
 import UIKit
 import _Concurrency

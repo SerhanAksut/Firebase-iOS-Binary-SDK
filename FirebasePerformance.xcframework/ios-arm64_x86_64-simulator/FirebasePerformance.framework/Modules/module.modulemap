@@ -1,5 +1,5 @@
 framework module FirebasePerformance {
-umbrella header "FirebasePerformance-umbrella.h"
+umbrella header "FirebasePerformance.h"
 export *
 module * { export * }
   link framework "CoreTelephony"

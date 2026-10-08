@@ -21,22 +21,22 @@
 #include <cstring>
 #include <map>
 #include <memory>
+#include <optional>
 #include <string>
 #include <vector>
 
-#include "absl/meta/type_traits.h"
-#include "absl/status/status.h"
-#include "absl/status/statusor.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
 #include "src/core/util/json/json.h"
 #include "src/core/util/json/json_args.h"
 #include "src/core/util/no_destruct.h"
 #include "src/core/util/ref_counted_ptr.h"
 #include "src/core/util/time.h"
 #include "src/core/util/validation_errors.h"
+#include "absl/meta/type_traits.h"
+#include "absl/status/status.h"
+#include "absl/status/statusor.h"
+#include "absl/strings/numbers.h"
+#include "absl/strings/str_cat.h"
+#include "absl/strings/string_view.h"
 
 // Provides a means to load JSON objects into C++ objects, with the aim of
 // minimizing object code size.
@@ -373,11 +373,11 @@ class AutoLoader<std::vector<bool>> final : public LoaderInterface {
 };
 
 // Specializations of AutoLoader for maps.
-template <typename T>
-class AutoLoader<std::map<std::string, T>> final : public LoadMap {
+template <typename T, typename C>
+class AutoLoader<std::map<std::string, T, C>> final : public LoadMap {
  private:
   void* Insert(const std::string& name, void* dst) const final {
-    return &static_cast<std::map<std::string, T>*>(dst)
+    return &static_cast<std::map<std::string, T, C>*>(dst)
                 ->emplace(name, T())
                 .first->second;
   };
@@ -388,15 +388,15 @@ class AutoLoader<std::map<std::string, T>> final : public LoadMap {
   ~AutoLoader() = default;
 };
 
-// Specializations of AutoLoader for absl::optional<>.
+// Specializations of AutoLoader for std::optional<>.
 template <typename T>
-class AutoLoader<absl::optional<T>> final : public LoadWrapped {
+class AutoLoader<std::optional<T>> final : public LoadWrapped {
  public:
   void* Emplace(void* dst) const final {
-    return &static_cast<absl::optional<T>*>(dst)->emplace();
+    return &static_cast<std::optional<T>*>(dst)->emplace();
   }
   void Reset(void* dst) const final {
-    static_cast<absl::optional<T>*>(dst)->reset();
+    static_cast<std::optional<T>*>(dst)->reset();
   }
   const LoaderInterface* ElementLoader() const final {
     return LoaderForType<T>();
@@ -623,19 +623,19 @@ T LoadFromJson(const Json& json, const JsonArgs& args,
 }
 
 template <typename T>
-absl::optional<T> LoadJsonObjectField(const Json::Object& json,
-                                      const JsonArgs& args,
-                                      absl::string_view field,
-                                      ValidationErrors* errors,
-                                      bool required = true) {
+std::optional<T> LoadJsonObjectField(const Json::Object& json,
+                                     const JsonArgs& args,
+                                     absl::string_view field,
+                                     ValidationErrors* errors,
+                                     bool required = true) {
   ValidationErrors::ScopedField error_field(errors, absl::StrCat(".", field));
   const Json* field_json =
       json_detail::GetJsonObjectField(json, field, errors, required);
-  if (field_json == nullptr) return absl::nullopt;
+  if (field_json == nullptr) return std::nullopt;
   T result{};
   size_t starting_error_size = errors->size();
   json_detail::LoaderForType<T>()->LoadInto(*field_json, args, &result, errors);
-  if (errors->size() > starting_error_size) return absl::nullopt;
+  if (errors->size() > starting_error_size) return std::nullopt;
   return std::move(result);
 }
 

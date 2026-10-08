@@ -22,8 +22,7 @@
 #include "absl/status/statusor.h"
 #include "absl/strings/string_view.h"
 
-namespace grpc_event_engine {
-namespace experimental {
+namespace grpc_event_engine::experimental {
 
 class EndpointSupportsFdExtension {
  public:
@@ -108,16 +107,16 @@ class EventEngineSupportsFdExtension {
   /// file descriptor. \a config - Additional configuration to applied to the
   /// endpoint. \a memory_allocator - The endpoint may use the provided memory
   /// allocator to track memory allocations.
-  virtual std::unique_ptr<EventEngine::Endpoint> CreatePosixEndpointFromFd(
-      int fd, const EndpointConfig& config,
-      MemoryAllocator memory_allocator) = 0;
+  virtual absl::StatusOr<std::unique_ptr<EventEngine::Endpoint>>
+  CreatePosixEndpointFromFd(int fd, const EndpointConfig& config,
+                            MemoryAllocator memory_allocator) = 0;
 
   /// Creates an EventEngine::Endpoint from an fd which is already assumed to be
   /// connected to a remote peer. See \a CreatePosixEndpointFromFd for details.
   /// This has the same behavior, but the \a memory_allocator is taken from the
   /// EndpointConfig's resource quota.
-  virtual std::unique_ptr<EventEngine::Endpoint> CreateEndpointFromFd(
-      int fd, const EndpointConfig& config) = 0;
+  virtual absl::StatusOr<std::unique_ptr<EventEngine::Endpoint>>
+  CreateEndpointFromFd(int fd, const EndpointConfig& config) = 0;
 
   /// Creates an EventEngine::Endpoint from a file descriptor that is configured
   /// and bound locally but not yet connected to a remote peer. Returns a
@@ -177,7 +176,6 @@ class EventEngineSupportsFdExtension {
       std::unique_ptr<MemoryAllocatorFactory> memory_allocator_factory) = 0;
 };
 
-}  // namespace experimental
-}  // namespace grpc_event_engine
+}  // namespace grpc_event_engine::experimental
 
 #endif  // GRPC_SRC_CORE_LIB_EVENT_ENGINE_EXTENSIONS_SUPPORTS_FD_H

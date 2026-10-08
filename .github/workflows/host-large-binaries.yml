@@ -1,0 +1,86 @@
+name: Host large binaries
+
+# GitHub rejects files over 100 MB, so any XCFramework from the official
+# Firebase.zip that contains such a file is published as a zipped release
+# asset (release tag "binaries-<version>") and referenced from Package.swift
+# with `.binaryTarget(name:url:checksum:)`.
+#
+# Runs on pushes to release branches named v<version> (for example v13.0.1),
+# or manually with a version input. Existing assets are never replaced, so
+# checksums already recorded in Package.swift stay valid.
+
+on:
+  push:
+    branches: ["v[0-9]*"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Firebase version, for example 13.0.1"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: host-large-binaries-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  host:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      LIMIT_BYTES: "99614720" # 95 MiB, safely under GitHub's 100 MB limit
+    steps:
+      - name: Resolve version
+        id: v
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            V="${{ inputs.version }}"
+          else
+            V="${GITHUB_REF_NAME#v}"
+          fi
+          if ! echo "$V" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+            echo "Not a release version: $V"; exit 1
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "tag=binaries-$V" >> "$GITHUB_OUTPUT"
+
+      - name: Download Firebase.zip
+        run: |
+          curl -fsSL -o Firebase.zip \
+            "https://github.com/firebase/firebase-ios-sdk/releases/download/${{ steps.v.outputs.version }}/Firebase.zip"
+          mkdir unz
+          unzip -q Firebase.zip -d unz
+
+      - name: Zip XCFrameworks with files over the limit
+        run: |
+          mkdir out
+          for x in $(find unz/Firebase -mindepth 2 -maxdepth 2 -name '*.xcframework' -type d | sort); do
+            name=$(basename "$x")
+            [ -e "out/$name.zip" ] && continue
+            if [ -n "$(find "$x" -type f -size +"${LIMIT_BYTES}"c -print -quit)" ]; then
+              (cd "$(dirname "$x")" && zip -qry "$GITHUB_WORKSPACE/out/$name.zip" "$name")
+              echo "$name.zip  sha256=$(sha256sum "out/$name.zip" | cut -d' ' -f1)"
+            fi
+          done
+          ls -l out
+
+      - name: Upload release assets
+        run: |
+          TAG="${{ steps.v.outputs.tag }}"
+          if [ -z "$(ls out)" ]; then echo "Nothing over the limit."; exit 0; fi
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --prerelease --target "$GITHUB_SHA" \
+              --title "Binaries for ${{ steps.v.outputs.version }}" \
+              --notes "XCFrameworks from Firebase ${{ steps.v.outputs.version }} that exceed GitHub's 100 MB file limit. Referenced from Package.swift by URL and checksum; do not modify or replace these assets."
+          fi
+          existing=$(gh release view "$TAG" --json assets --jq '.assets[].name')
+          for f in out/*.zip; do
+            if echo "$existing" | grep -qx "$(basename "$f")"; then
+              echo "Keeping existing asset $(basename "$f")"
+            else
+              gh release upload "$TAG" "$f"
+            fi
+          done

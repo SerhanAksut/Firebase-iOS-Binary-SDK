@@ -16,21 +16,17 @@
 		<data>
 		XRc8rWRINVF/fDxJKsyJbM4hjJE=
 		</data>
-		<key>ios-arm64/RecaptchaInterop.framework/Headers/RecaptchaInterop-umbrella.h</key>
-		<data>
-		7TQVM87fBATI0j8B7TtWefVimFI=
-		</data>
 		<key>ios-arm64/RecaptchaInterop.framework/Headers/RecaptchaInterop.h</key>
 		<data>
 		Thc5ZCKdMl/TgrouZY05Lpq6608=
 		</data>
 		<key>ios-arm64/RecaptchaInterop.framework/Info.plist</key>
 		<data>
-		sRtx5fg7ST890ZaLzArS90NexFg=
+		I+CHbd9XovBR8OCB85Enlm00LuU=
 		</data>
 		<key>ios-arm64/RecaptchaInterop.framework/Modules/module.modulemap</key>
 		<data>
-		5pj2/TG+qwdbRqJZnr2bvntGDlQ=
+		+dEvpzDpgb0EX2lQxE5+zyf+Keg=
 		</data>
 		<key>ios-arm64/RecaptchaInterop.framework/RecaptchaInterop</key>
 		<data>
@@ -48,17 +44,13 @@
 		<data>
 		XRc8rWRINVF/fDxJKsyJbM4hjJE=
 		</data>
-		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/Headers/RecaptchaInterop-umbrella.h</key>
-		<data>
-		7TQVM87fBATI0j8B7TtWefVimFI=
-		</data>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/Headers/RecaptchaInterop.h</key>
 		<data>
 		Thc5ZCKdMl/TgrouZY05Lpq6608=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		5pj2/TG+qwdbRqJZnr2bvntGDlQ=
+		+dEvpzDpgb0EX2lQxE5+zyf+Keg=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/RecaptchaInterop</key>
 		<data>
@@ -66,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		RSt7MjiriIjzPW7QSVnFPgHVWfk=
+		dJ49CqREyP1ZqbzN4EwE0AvSFys=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Headers/RCAActionProtocol.h</key>
 		<data>
@@ -80,21 +72,17 @@
 		<data>
 		XRc8rWRINVF/fDxJKsyJbM4hjJE=
 		</data>
-		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Headers/RecaptchaInterop-umbrella.h</key>
-		<data>
-		7TQVM87fBATI0j8B7TtWefVimFI=
-		</data>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Headers/RecaptchaInterop.h</key>
 		<data>
 		Thc5ZCKdMl/TgrouZY05Lpq6608=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Info.plist</key>
 		<data>
-		jDx4mIr2qqSD1hOy/GHDcqJYDUQ=
+		iJX91/D1mG+jbJ3DsfHc6v0hMyg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Modules/module.modulemap</key>
 		<data>
-		5pj2/TG+qwdbRqJZnr2bvntGDlQ=
+		+dEvpzDpgb0EX2lQxE5+zyf+Keg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/RecaptchaInterop</key>
 		<data>
@@ -136,17 +124,6 @@
 			yMmPYPxjU7kG/HaavMr/Yvpqx42/SakpQK1hWwdf9s8=
 			</data>
 		</dict>
-		<key>ios-arm64/RecaptchaInterop.framework/Headers/RecaptchaInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7TQVM87fBATI0j8B7TtWefVimFI=
-			</data>
-			<key>hash2</key>
-			<data>
-			ognmVz2XO5o44SbzejxX9iyjaCpJwMCzbxq3lGx1INY=
-			</data>
-		</dict>
 		<key>ios-arm64/RecaptchaInterop.framework/Headers/RecaptchaInterop.h</key>
 		<dict>
 			<key>hash</key>
@@ -162,22 +139,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sRtx5fg7ST890ZaLzArS90NexFg=
+			I+CHbd9XovBR8OCB85Enlm00LuU=
 			</data>
 			<key>hash2</key>
 			<data>
-			r3+ntprfN4T2QYb2SYzfm1rPhY6bLOIpNidzVMoEpKM=
+			ob2A8W+kGOKdx2isiqVAZMjP6DitMNS3F9rdZ3FNxtc=
 			</data>
 		</dict>
 		<key>ios-arm64/RecaptchaInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5pj2/TG+qwdbRqJZnr2bvntGDlQ=
+			+dEvpzDpgb0EX2lQxE5+zyf+Keg=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+LctdT2OhWGB9Y9rBF2QE2DdBwmv0wOQly7anV4owE=
+			oMCj7rfpl7a01qcqoq477BRx/f50Z36/zPqhuWlo3r0=
 			</data>
 		</dict>
 		<key>ios-arm64/RecaptchaInterop.framework/RecaptchaInterop</key>
@@ -244,17 +221,6 @@
 			yMmPYPxjU7kG/HaavMr/Yvpqx42/SakpQK1hWwdf9s8=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/Headers/RecaptchaInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7TQVM87fBATI0j8B7TtWefVimFI=
-			</data>
-			<key>hash2</key>
-			<data>
-			ognmVz2XO5o44SbzejxX9iyjaCpJwMCzbxq3lGx1INY=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/Headers/RecaptchaInterop.h</key>
 		<dict>
 			<key>hash</key>
@@ -270,11 +236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5pj2/TG+qwdbRqJZnr2bvntGDlQ=
+			+dEvpzDpgb0EX2lQxE5+zyf+Keg=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+LctdT2OhWGB9Y9rBF2QE2DdBwmv0wOQly7anV4owE=
+			oMCj7rfpl7a01qcqoq477BRx/f50Z36/zPqhuWlo3r0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/A/RecaptchaInterop</key>
@@ -292,11 +258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RSt7MjiriIjzPW7QSVnFPgHVWfk=
+			dJ49CqREyP1ZqbzN4EwE0AvSFys=
 			</data>
 			<key>hash2</key>
 			<data>
-			2rgV7Q51/cPNBKyDjCELevuR1LuyhP5Pa5jZeuByHl0=
+			/d2AI2PnrXJDA85h06BIB9sBJPOd3jcP2ApXSOIy5FM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/RecaptchaInterop.framework/Versions/Current</key>
@@ -337,17 +303,6 @@
 			yMmPYPxjU7kG/HaavMr/Yvpqx42/SakpQK1hWwdf9s8=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Headers/RecaptchaInterop-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7TQVM87fBATI0j8B7TtWefVimFI=
-			</data>
-			<key>hash2</key>
-			<data>
-			ognmVz2XO5o44SbzejxX9iyjaCpJwMCzbxq3lGx1INY=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Headers/RecaptchaInterop.h</key>
 		<dict>
 			<key>hash</key>
@@ -363,22 +318,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jDx4mIr2qqSD1hOy/GHDcqJYDUQ=
+			iJX91/D1mG+jbJ3DsfHc6v0hMyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			G0IBB6mnKdTA1Q6Bmyecjd0OF8jYgjZuza11BeRuEkQ=
+			V6zq+BHeGb6Kb4c4jldLl8s52VUZ78K8Btb5omjr4Zw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5pj2/TG+qwdbRqJZnr2bvntGDlQ=
+			+dEvpzDpgb0EX2lQxE5+zyf+Keg=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+LctdT2OhWGB9Y9rBF2QE2DdBwmv0wOQly7anV4owE=
+			oMCj7rfpl7a01qcqoq477BRx/f50Z36/zPqhuWlo3r0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RecaptchaInterop.framework/RecaptchaInterop</key>

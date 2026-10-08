@@ -19,11 +19,10 @@
 #include <grpc/support/port_platform.h>
 #include <stdint.h>
 
-#include "absl/strings/string_view.h"
 #include "src/core/util/orphanable.h"
+#include "absl/strings/string_view.h"
 
-namespace grpc_event_engine {
-namespace experimental {
+namespace grpc_event_engine::experimental {
 
 class RefCountedDNSResolverInterface
     : public grpc_core::InternallyRefCounted<RefCountedDNSResolverInterface> {
@@ -46,7 +45,6 @@ class RefCountedDNSResolverInterface
       absl::string_view name) = 0;
 };
 
-}  // namespace experimental
-}  // namespace grpc_event_engine
+}  // namespace grpc_event_engine::experimental
 
 #endif  // GRPC_SRC_CORE_LIB_EVENT_ENGINE_REF_COUNTED_DNS_RESOLVER_INTERFACE_H

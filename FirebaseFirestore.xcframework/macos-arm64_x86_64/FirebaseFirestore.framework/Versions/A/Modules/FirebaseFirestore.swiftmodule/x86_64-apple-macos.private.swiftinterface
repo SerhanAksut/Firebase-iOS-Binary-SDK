@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target x86_64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseFirestore
+// swift-module-flags: -target x86_64-apple-macos11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseFirestore
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 @_exported import FirebaseCore/*.Timestamp*/
 @_exported import FirebaseFirestore
@@ -25,6 +25,8 @@ public class ArrayExpression : FirebaseFirestore.FunctionExpression, @unchecked 
   public init(_ elements: [any Swift.Sendable])
   @objc deinit
 }
+extension FirebaseFirestoreInternal.Blob : @retroactive Swift.Codable {
+}
 public protocol BooleanExpression : FirebaseFirestore.Expression {
 }
 public func && (lhs: any FirebaseFirestore.BooleanExpression, rhs: @autoclosure () throws -> any FirebaseFirestore.BooleanExpression) rethrows -> any FirebaseFirestore.BooleanExpression
@@ -35,6 +37,10 @@ public func nor(_ condition: any FirebaseFirestore.BooleanExpression, _ conditio
 public func nor(_ conditions: [any FirebaseFirestore.BooleanExpression]) -> any FirebaseFirestore.BooleanExpression
 extension FirebaseFirestore.BooleanExpression {
   public func countIf() -> FirebaseFirestore.AggregateFunction
+}
+extension FirebaseFirestoreInternal.BSONObjectId : @retroactive Swift.Codable {
+}
+extension FirebaseFirestoreInternal.BSONTimestamp : @retroactive Swift.Codable {
 }
 public enum FirestoreDecodingError : Swift.Error {
   case decodingIsNotSupported(Swift.String)
@@ -81,6 +87,8 @@ public struct CurrentDocument : FirebaseFirestore.Expression {
 public class CurrentTimestamp : FirebaseFirestore.FunctionExpression, @unchecked Swift.Sendable {
   public init()
   @objc deinit
+}
+extension FirebaseFirestoreInternal.Decimal128Value : @retroactive Swift.Codable {
 }
 public struct DistanceMeasure : Swift.Sendable, Swift.Equatable, Swift.Hashable {
   public static let euclidean: FirebaseFirestore.DistanceMeasure
@@ -175,7 +183,7 @@ extension FirebaseFirestoreInternal.DocumentReference {
   #endif
 }
 public struct DocumentMatches : FirebaseFirestore.BooleanExpression, @unchecked Swift.Sendable {
-  public let bridge: FirebaseFirestoreInternal.ExprBridge
+  public let bridge: FirebaseFirestoreInternal.__ExprBridge
   public init(_ query: Swift.String)
 }
 extension FirebaseFirestoreInternal.DocumentSnapshot {
@@ -726,9 +734,15 @@ public class FunctionExpression : FirebaseFirestore.Expression, @unchecked Swift
 }
 extension FirebaseFirestoreInternal.GeoPoint : @retroactive Swift.Codable {
 }
+extension FirebaseFirestoreInternal.Int32Value : @retroactive Swift.Codable {
+}
 public class MapExpression : FirebaseFirestore.FunctionExpression, @unchecked Swift.Sendable {
   public init(_ elements: [Swift.String : any Swift.Sendable])
   @objc deinit
+}
+extension FirebaseFirestoreInternal.MaxKey : @retroactive Swift.Codable {
+}
+extension FirebaseFirestoreInternal.MinKey : @retroactive Swift.Codable {
 }
 public struct Ordering : @unchecked Swift.Sendable {
   public let expression: any FirebaseFirestore.Expression
@@ -888,8 +902,10 @@ public class RandomExpression : FirebaseFirestore.FunctionExpression, @unchecked
   @objc deinit
 }
 public func rand() -> FirebaseFirestore.RandomExpression
+extension FirebaseFirestoreInternal.RegexValue : @retroactive Swift.Codable {
+}
 public struct Score : FirebaseFirestore.Expression, @unchecked Swift.Sendable {
-  public let bridge: FirebaseFirestoreInternal.ExprBridge
+  public let bridge: FirebaseFirestoreInternal.__ExprBridge
   public init()
 }
 public protocol Selectable : Swift.Sendable {

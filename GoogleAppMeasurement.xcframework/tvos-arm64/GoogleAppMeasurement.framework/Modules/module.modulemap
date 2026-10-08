@@ -1,5 +1,5 @@
 framework module GoogleAppMeasurement {
-umbrella header "GoogleAppMeasurement-umbrella.h"
+umbrella header "GoogleAppMeasurement.h"
 export *
 module * { export * }
   link framework "Security"
