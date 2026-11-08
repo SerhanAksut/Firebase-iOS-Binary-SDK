@@ -757,16 +757,11 @@ public struct Direction : Swift.Sendable, Swift.Equatable, Swift.Hashable {
   }
 }
 @_hasMissingDesignatedInitializers public class Pipeline : @unchecked Swift.Sendable {
-  public struct ExecuteOptions : Swift.Sendable {
-    public var isAtomic: Swift.Bool
-    public init(isAtomic: Swift.Bool = false)
-  }
   public struct Snapshot : Swift.Sendable {
     public let results: [FirebaseFirestore.PipelineResult]
     public let executionTime: FirebaseCore.Timestamp
   }
   public func execute() async throws -> FirebaseFirestore.Pipeline.Snapshot
-  public func execute(options: FirebaseFirestore.Pipeline.ExecuteOptions) async throws -> FirebaseFirestore.Pipeline.Snapshot
   public func addFields(_ selectables: [any FirebaseFirestore.Selectable]) -> FirebaseFirestore.Pipeline
   public func removeFields(_ fields: [FirebaseFirestore.Field]) -> FirebaseFirestore.Pipeline
   public func removeFields(_ fields: [Swift.String]) -> FirebaseFirestore.Pipeline
@@ -804,17 +799,6 @@ public struct Direction : Swift.Sendable, Swift.Equatable, Swift.Hashable {
   #endif
   public func toArrayExpression() -> any FirebaseFirestore.Expression
   public func toScalarExpression() -> any FirebaseFirestore.Expression
-  public func delete() -> FirebaseFirestore.Pipeline
-  public func update(_ fields: any FirebaseFirestore.Selectable...) -> FirebaseFirestore.Pipeline
-  public func update(_ fields: [any FirebaseFirestore.Selectable]) -> FirebaseFirestore.Pipeline
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func insert(collectionPath: Swift.String? = nil, documentIdExpression: (any FirebaseFirestore.Expression)? = nil) -> FirebaseFirestore.Pipeline
-  #endif
-  public func upsert(_ additionalFields: any FirebaseFirestore.Selectable...) -> FirebaseFirestore.Pipeline
-  public func upsert(_ additionalFields: [any FirebaseFirestore.Selectable]) -> FirebaseFirestore.Pipeline
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func upsert(collectionPath: Swift.String, documentIdExpression: (any FirebaseFirestore.Expression)? = nil, additionalFields: [any FirebaseFirestore.Selectable] = []) -> FirebaseFirestore.Pipeline
-  #endif
   @objc deinit
 }
 public struct PipelineResult : @unchecked Swift.Sendable {
@@ -847,8 +831,6 @@ public struct PipelineSource : @unchecked Swift.Sendable {
   public func documents(_ docs: [FirebaseFirestoreInternal.DocumentReference]) -> FirebaseFirestore.Pipeline
   public func documents(_ paths: [Swift.String]) -> FirebaseFirestore.Pipeline
   public func create(from query: FirebaseFirestoreInternal.Query) -> FirebaseFirestore.Pipeline
-  public func literals(_ data: [[Swift.String : any Swift.Sendable]]) -> FirebaseFirestore.Pipeline
-  public func literals(_ document: [Swift.String : any Swift.Sendable], _ additionalDocuments: [Swift.String : any Swift.Sendable]...) -> FirebaseFirestore.Pipeline
 }
 extension FirebaseFirestoreInternal.Query {
   @available(macOS 15.0, iOS 18.0, watchOS 11.0, tvOS 18.0, visionOS 2.0, *)

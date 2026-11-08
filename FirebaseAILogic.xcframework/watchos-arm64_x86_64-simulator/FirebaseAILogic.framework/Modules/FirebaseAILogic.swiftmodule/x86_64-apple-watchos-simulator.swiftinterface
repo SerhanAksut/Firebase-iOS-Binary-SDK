@@ -40,6 +40,8 @@ public struct AudioTranscriptionConfig : Swift.Sendable {
   public init()
 }
 public struct Backend {
+  public static func enterprise(location: Swift.String = "global") -> FirebaseAILogic.Backend
+  @available(*, deprecated, renamed: "enterprise(location:)", message: "The Agent Platform Gemini API has been renamed to the Gemini Enterprise API.")
   public static func agentPlatform(location: Swift.String = "global") -> FirebaseAILogic.Backend
   public static func googleAI() -> FirebaseAILogic.Backend
 }
@@ -459,11 +461,6 @@ public struct LiveServerContent : Swift.Sendable {
     get
   }
   #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var voiceActivity: FirebaseAILogic.LiveServerVoiceActivity? {
-    get
-  }
-  #endif
 }
 @available(watchOS, unavailable)
 public struct LiveServerGoingAwayNotice : Swift.Sendable {
@@ -501,28 +498,6 @@ public struct LiveServerToolCall : Swift.Sendable {
 public struct LiveServerToolCallCancellation : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
   public var ids: [Swift.String]? {
-    get
-  }
-  #endif
-}
-@available(watchOS, unavailable)
-public struct VoiceActivityType : Swift.Hashable, Swift.Sendable {
-  public static let unknown: FirebaseAILogic.VoiceActivityType
-  public static let activityStart: FirebaseAILogic.VoiceActivityType
-  public static let activityEnd: FirebaseAILogic.VoiceActivityType
-  public static func == (a: FirebaseAILogic.VoiceActivityType, b: FirebaseAILogic.VoiceActivityType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@available(watchOS, unavailable)
-public struct LiveServerVoiceActivity : Swift.Sendable {
-  public var type: FirebaseAILogic.VoiceActivityType {
-    get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var audioOffset: Foundation.TimeInterval? {
     get
   }
   #endif
@@ -635,9 +610,6 @@ public struct TextPart : FirebaseAILogic.Part {
     get
   }
   public init(_ text: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(_ text: Swift.String, speechMetadata: FirebaseAILogic.SpeechMetadata? = nil)
-  #endif
   public static func == (a: FirebaseAILogic.TextPart, b: FirebaseAILogic.TextPart) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -987,20 +959,6 @@ public struct SpeechConfig : Swift.Sendable {
   public init(multiSpeakerVoiceConfig: FirebaseAILogic.MultiSpeakerVoiceConfig, languageCode: Swift.String? = nil)
   #endif
 }
-public struct SpeechMetadata : Swift.Sendable, Swift.Equatable, Swift.Hashable {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(speaker: Swift.String? = nil, style: Swift.String? = nil)
-  #endif
-  public static func == (a: FirebaseAILogic.SpeechMetadata, b: FirebaseAILogic.SpeechMetadata) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension FirebaseAILogic.SpeechMetadata : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 @_hasMissingDesignatedInitializers final public class TemplateChat : Swift.Sendable {
   final public var history: [FirebaseAILogic.ModelContent] {
     get
@@ -1148,8 +1106,6 @@ extension FirebaseAILogic.FinishReason : Swift.Decodable {}
 extension FirebaseAILogic.PromptFeedback.BlockReason : Swift.Decodable {}
 extension FirebaseAILogic.ImageConfig.AspectRatio : Swift.Encodable {}
 extension FirebaseAILogic.ImageConfig.ImageSize : Swift.Encodable {}
-@available(watchOS, unavailable)
-extension FirebaseAILogic.VoiceActivityType : Swift.Decodable {}
 extension FirebaseAILogic.ContentModality : Swift.Decodable {}
 extension FirebaseAILogic.RealtimeInputConfig.ActivityHandling : Swift.Equatable {}
 extension FirebaseAILogic.RealtimeInputConfig.ActivityHandling : Swift.Hashable {}

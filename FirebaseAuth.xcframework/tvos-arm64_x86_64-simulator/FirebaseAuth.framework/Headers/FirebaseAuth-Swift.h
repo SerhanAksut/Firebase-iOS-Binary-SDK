@@ -853,8 +853,6 @@ SWIFT_CLASS_NAMED("Auth")
 /// making sure the block does not inadvertently retain objects which should not be retained by
 /// the long-lived block. The block itself will be retained by <code>Auth</code> until it is
 /// unregistered or until the <code>Auth</code> instance is otherwise deallocated.
-/// If <code>Auth</code> is still loading the persisted user at startup, the initial invocation happens
-/// after loading has finished.
 /// \param listener The block to be invoked. The block is always invoked asynchronously on
 /// the main thread, even for it’s initial invocation after having been added as a listener.
 ///
@@ -887,8 +885,6 @@ SWIFT_CLASS_NAMED("Auth")
 /// making sure the block does not inadvertently retain objects which should not be retained by
 /// the long-lived block. The block itself will be retained by <code>Auth</code> until it is
 /// unregistered or until the <code>Auth</code> instance is otherwise deallocated.
-/// If <code>Auth</code> is still loading the persisted user at startup, the initial invocation happens
-/// after loading has finished.
 /// \param listener The block to be invoked. The block is always invoked asynchronously on
 /// the main thread, even for it’s initial invocation after having been added as a listener.
 ///
@@ -2804,8 +2800,6 @@ SWIFT_CLASS_NAMED("Auth")
 /// making sure the block does not inadvertently retain objects which should not be retained by
 /// the long-lived block. The block itself will be retained by <code>Auth</code> until it is
 /// unregistered or until the <code>Auth</code> instance is otherwise deallocated.
-/// If <code>Auth</code> is still loading the persisted user at startup, the initial invocation happens
-/// after loading has finished.
 /// \param listener The block to be invoked. The block is always invoked asynchronously on
 /// the main thread, even for it’s initial invocation after having been added as a listener.
 ///
@@ -2838,8 +2832,6 @@ SWIFT_CLASS_NAMED("Auth")
 /// making sure the block does not inadvertently retain objects which should not be retained by
 /// the long-lived block. The block itself will be retained by <code>Auth</code> until it is
 /// unregistered or until the <code>Auth</code> instance is otherwise deallocated.
-/// If <code>Auth</code> is still loading the persisted user at startup, the initial invocation happens
-/// after loading has finished.
 /// \param listener The block to be invoked. The block is always invoked asynchronously on
 /// the main thread, even for it’s initial invocation after having been added as a listener.
 ///

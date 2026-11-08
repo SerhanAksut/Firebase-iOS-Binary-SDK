@@ -627,6 +627,36 @@
         "children": [
           {
             "kind": "Function",
+            "name": "enterprise",
+            "printedName": "enterprise(location:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Backend",
+                "printedName": "FirebaseAILogic.Backend",
+                "usr": "s:15FirebaseAILogic7BackendV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FirebaseAILogic7BackendV10enterprise8locationACSS_tFZ",
+            "mangledName": "$s15FirebaseAILogic7BackendV10enterprise8locationACSS_tFZ",
+            "moduleName": "FirebaseAILogic",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "agentPlatform",
             "printedName": "agentPlatform(location:)",
             "children": [
@@ -649,8 +679,10 @@
             "mangledName": "$s15FirebaseAILogic7BackendV13agentPlatform8locationACSS_tFZ",
             "moduleName": "FirebaseAILogic",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -702,16 +734,6 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FirebaseAILogic",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -13413,63 +13435,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Var",
-            "name": "voiceActivity",
-            "printedName": "voiceActivity",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FirebaseAILogic.LiveServerVoiceActivity?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LiveServerVoiceActivity",
-                    "printedName": "FirebaseAILogic.LiveServerVoiceActivity",
-                    "usr": "s:15FirebaseAILogic23LiveServerVoiceActivityV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15FirebaseAILogic17LiveServerContentV13voiceActivityAA0cd5VoiceG0VSgvp",
-            "mangledName": "$s15FirebaseAILogic17LiveServerContentV13voiceActivityAA0cd5VoiceG0VSgvp",
-            "moduleName": "FirebaseAILogic",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FirebaseAILogic.LiveServerVoiceActivity?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LiveServerVoiceActivity",
-                        "printedName": "FirebaseAILogic.LiveServerVoiceActivity",
-                        "usr": "s:15FirebaseAILogic23LiveServerVoiceActivityV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15FirebaseAILogic17LiveServerContentV13voiceActivityAA0cd5VoiceG0VSgvg",
-                "mangledName": "$s15FirebaseAILogic17LiveServerContentV13voiceActivityAA0cd5VoiceG0VSgvg",
-                "moduleName": "FirebaseAILogic",
-                "accessorKind": "get"
-              }
-            ]
           }
         ],
         "declKind": "Struct",
@@ -14284,467 +14249,6 @@
         "declKind": "Struct",
         "usr": "s:15FirebaseAILogic30LiveServerToolCallCancellationV",
         "mangledName": "$s15FirebaseAILogic30LiveServerToolCallCancellationV",
-        "moduleName": "FirebaseAILogic",
-        "declAttributes": [
-          "AccessControl",
-          "Available",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FirebaseAILogic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "VoiceActivityType",
-        "printedName": "VoiceActivityType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "unknown",
-            "printedName": "unknown",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VoiceActivityType",
-                "printedName": "FirebaseAILogic.VoiceActivityType",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15FirebaseAILogic17VoiceActivityTypeV7unknownACvpZ",
-            "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV7unknownACvpZ",
-            "moduleName": "FirebaseAILogic",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VoiceActivityType",
-                    "printedName": "FirebaseAILogic.VoiceActivityType",
-                    "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV7unknownACvgZ",
-                "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV7unknownACvgZ",
-                "moduleName": "FirebaseAILogic",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "activityStart",
-            "printedName": "activityStart",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VoiceActivityType",
-                "printedName": "FirebaseAILogic.VoiceActivityType",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15FirebaseAILogic17VoiceActivityTypeV13activityStartACvpZ",
-            "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV13activityStartACvpZ",
-            "moduleName": "FirebaseAILogic",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VoiceActivityType",
-                    "printedName": "FirebaseAILogic.VoiceActivityType",
-                    "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV13activityStartACvgZ",
-                "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV13activityStartACvgZ",
-                "moduleName": "FirebaseAILogic",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "activityEnd",
-            "printedName": "activityEnd",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VoiceActivityType",
-                "printedName": "FirebaseAILogic.VoiceActivityType",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15FirebaseAILogic17VoiceActivityTypeV11activityEndACvpZ",
-            "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV11activityEndACvpZ",
-            "moduleName": "FirebaseAILogic",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VoiceActivityType",
-                    "printedName": "FirebaseAILogic.VoiceActivityType",
-                    "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV11activityEndACvgZ",
-                "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV11activityEndACvgZ",
-                "moduleName": "FirebaseAILogic",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15FirebaseAILogic17VoiceActivityTypeV9hashValueSivp",
-            "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV9hashValueSivp",
-            "moduleName": "FirebaseAILogic",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV9hashValueSivg",
-                "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV9hashValueSivg",
-                "moduleName": "FirebaseAILogic",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15FirebaseAILogic17VoiceActivityTypeV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV4hash4intoys6HasherVz_tF",
-            "moduleName": "FirebaseAILogic",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "VoiceActivityType",
-                "printedName": "FirebaseAILogic.VoiceActivityType",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "VoiceActivityType",
-                "printedName": "FirebaseAILogic.VoiceActivityType",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15FirebaseAILogic17VoiceActivityTypeV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV2eeoiySbAC_ACtFZ",
-            "moduleName": "FirebaseAILogic",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:15FirebaseAILogic17VoiceActivityTypeV",
-        "mangledName": "$s15FirebaseAILogic17VoiceActivityTypeV",
-        "moduleName": "FirebaseAILogic",
-        "declAttributes": [
-          "AccessControl",
-          "Available",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LiveServerVoiceActivity",
-        "printedName": "LiveServerVoiceActivity",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "type",
-            "printedName": "type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VoiceActivityType",
-                "printedName": "FirebaseAILogic.VoiceActivityType",
-                "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15FirebaseAILogic23LiveServerVoiceActivityV4typeAA0eF4TypeVvp",
-            "mangledName": "$s15FirebaseAILogic23LiveServerVoiceActivityV4typeAA0eF4TypeVvp",
-            "moduleName": "FirebaseAILogic",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VoiceActivityType",
-                    "printedName": "FirebaseAILogic.VoiceActivityType",
-                    "usr": "s:15FirebaseAILogic17VoiceActivityTypeV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15FirebaseAILogic23LiveServerVoiceActivityV4typeAA0eF4TypeVvg",
-                "mangledName": "$s15FirebaseAILogic23LiveServerVoiceActivityV4typeAA0eF4TypeVvg",
-                "moduleName": "FirebaseAILogic",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "audioOffset",
-            "printedName": "audioOffset",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15FirebaseAILogic23LiveServerVoiceActivityV11audioOffsetSdSgvp",
-            "mangledName": "$s15FirebaseAILogic23LiveServerVoiceActivityV11audioOffsetSdSgvp",
-            "moduleName": "FirebaseAILogic",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15FirebaseAILogic23LiveServerVoiceActivityV11audioOffsetSdSgvg",
-                "mangledName": "$s15FirebaseAILogic23LiveServerVoiceActivityV11audioOffsetSdSgvg",
-                "moduleName": "FirebaseAILogic",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:15FirebaseAILogic23LiveServerVoiceActivityV",
-        "mangledName": "$s15FirebaseAILogic23LiveServerVoiceActivityV",
         "moduleName": "FirebaseAILogic",
         "declAttributes": [
           "AccessControl",
@@ -17373,51 +16877,7 @@
             "mangledName": "$s15FirebaseAILogic8TextPartVyACSScfc",
             "moduleName": "FirebaseAILogic",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:speechMetadata:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TextPart",
-                "printedName": "FirebaseAILogic.TextPart",
-                "usr": "s:15FirebaseAILogic8TextPartV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FirebaseAILogic.SpeechMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SpeechMetadata",
-                    "printedName": "FirebaseAILogic.SpeechMetadata",
-                    "usr": "s:15FirebaseAILogic14SpeechMetadataV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15FirebaseAILogic8TextPartV_14speechMetadataACSS_AA06SpeechF0VSgtcfc",
-            "mangledName": "$s15FirebaseAILogic8TextPartV_14speechMetadataACSS_AA06SpeechF0VSgtcfc",
-            "moduleName": "FirebaseAILogic",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -26687,280 +26147,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "SpeechMetadata",
-        "printedName": "SpeechMetadata",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(speaker:style:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SpeechMetadata",
-                "printedName": "FirebaseAILogic.SpeechMetadata",
-                "usr": "s:15FirebaseAILogic14SpeechMetadataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15FirebaseAILogic14SpeechMetadataV7speaker5styleACSSSg_AFtcfc",
-            "mangledName": "$s15FirebaseAILogic14SpeechMetadataV7speaker5styleACSSSg_AFtcfc",
-            "moduleName": "FirebaseAILogic",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SpeechMetadata",
-                "printedName": "FirebaseAILogic.SpeechMetadata",
-                "usr": "s:15FirebaseAILogic14SpeechMetadataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SpeechMetadata",
-                "printedName": "FirebaseAILogic.SpeechMetadata",
-                "usr": "s:15FirebaseAILogic14SpeechMetadataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15FirebaseAILogic14SpeechMetadataV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s15FirebaseAILogic14SpeechMetadataV2eeoiySbAC_ACtFZ",
-            "moduleName": "FirebaseAILogic",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15FirebaseAILogic14SpeechMetadataV9hashValueSivp",
-            "mangledName": "$s15FirebaseAILogic14SpeechMetadataV9hashValueSivp",
-            "moduleName": "FirebaseAILogic",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15FirebaseAILogic14SpeechMetadataV9hashValueSivg",
-                "mangledName": "$s15FirebaseAILogic14SpeechMetadataV9hashValueSivg",
-                "moduleName": "FirebaseAILogic",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15FirebaseAILogic14SpeechMetadataV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s15FirebaseAILogic14SpeechMetadataV4hash4intoys6HasherVz_tF",
-            "moduleName": "FirebaseAILogic",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SpeechMetadata",
-                "printedName": "FirebaseAILogic.SpeechMetadata",
-                "usr": "s:15FirebaseAILogic14SpeechMetadataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15FirebaseAILogic14SpeechMetadataV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s15FirebaseAILogic14SpeechMetadataV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "FirebaseAILogic",
-            "implicit": true,
-            "isFromExtension": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15FirebaseAILogic14SpeechMetadataV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15FirebaseAILogic14SpeechMetadataV6encode2toys7Encoder_p_tKF",
-            "moduleName": "FirebaseAILogic",
-            "implicit": true,
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:15FirebaseAILogic14SpeechMetadataV",
-        "mangledName": "$s15FirebaseAILogic14SpeechMetadataV",
-        "moduleName": "FirebaseAILogic",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -31968,1673 +31154,1645 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1069,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
       "offset": 1106,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1186,
+      "offset": 1183,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1264,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1306,
+      "offset": 1303,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1342,
+      "offset": 1339,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1416,
+      "offset": 1413,
       "length": 4,
       "value": "2000"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1457,
+      "offset": 1454,
       "length": 4,
       "value": "2001"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1505,
+      "offset": 1502,
       "length": 4,
       "value": "2002"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1552,
+      "offset": 1549,
       "length": 4,
       "value": "2003"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1606,
+      "offset": 1603,
       "length": 4,
       "value": "2004"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1680,
+      "offset": 1677,
       "length": 4,
       "value": "3000"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1736,
+      "offset": 1733,
       "length": 4,
       "value": "3001"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1800,
+      "offset": 1797,
       "length": 4,
       "value": "3002"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1863,
+      "offset": 1860,
       "length": 4,
       "value": "3003"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1929,
+      "offset": 1926,
       "length": 4,
       "value": "3004"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1996,
+      "offset": 1993,
       "length": 4,
       "value": "3005"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2060,
+      "offset": 2057,
       "length": 4,
       "value": "3006"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2124,
+      "offset": 2121,
       "length": 4,
       "value": "3007"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2168,
+      "offset": 2165,
       "length": 4,
       "value": "3008"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2213,
+      "offset": 2210,
       "length": 4,
       "value": "3009"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2256,
+      "offset": 2253,
       "length": 4,
       "value": "3010"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2310,
+      "offset": 2307,
       "length": 4,
       "value": "3011"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2377,
+      "offset": 2374,
       "length": 4,
       "value": "3012"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2420,
+      "offset": 2417,
       "length": 4,
       "value": "3014"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2475,
+      "offset": 2472,
       "length": 4,
       "value": "3015"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2526,
+      "offset": 2523,
       "length": 4,
       "value": "3016"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2560,
+      "offset": 2557,
       "length": 4,
       "value": "3017"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2618,
+      "offset": 2615,
       "length": 4,
       "value": "3018"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2664,
+      "offset": 2661,
       "length": 4,
       "value": "3019"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2717,
+      "offset": 2714,
       "length": 4,
       "value": "3020"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2772,
+      "offset": 2769,
       "length": 4,
       "value": "3021"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2834,
+      "offset": 2831,
       "length": 4,
       "value": "3022"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2887,
+      "offset": 2884,
       "length": 4,
       "value": "3023"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2933,
+      "offset": 2930,
       "length": 4,
       "value": "3024"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2974,
+      "offset": 2971,
       "length": 4,
       "value": "3025"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3019,
+      "offset": 3016,
       "length": 4,
       "value": "3026"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3069,
+      "offset": 3066,
       "length": 4,
       "value": "3027"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3119,
+      "offset": 3116,
       "length": 4,
       "value": "3028"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3170,
+      "offset": 3167,
       "length": 4,
       "value": "3029"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3225,
+      "offset": 3222,
       "length": 4,
       "value": "3030"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3282,
-      "length": 4,
-      "value": "3031"
-    },
-    {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3359,
+      "offset": 3299,
       "length": 4,
       "value": "4000"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3405,
+      "offset": 3345,
       "length": 4,
       "value": "4001"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3446,
+      "offset": 3386,
       "length": 4,
       "value": "4002"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3501,
+      "offset": 3441,
       "length": 4,
       "value": "4003"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3537,
+      "offset": 3477,
       "length": 4,
       "value": "4004"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3587,
+      "offset": 3527,
       "length": 4,
       "value": "4005"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3616,
+      "offset": 3556,
       "length": 4,
       "value": "4006"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "IntegerLiteral",
-      "offset": 3664,
-      "length": 4,
-      "value": "4007"
-    },
-    {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3732,
+      "offset": 3624,
       "length": 4,
       "value": "5000"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "StringLiteral",
-      "offset": 3820,
+      "offset": 3712,
       "length": 21,
       "value": "\"com.google.firebase\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "StringLiteral",
-      "offset": 3970,
+      "offset": 3862,
       "length": 14,
       "value": "\"[FirebaseAI]\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/AILog.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 4148,
       "length": 18,
       "value": "\"-FIRDebugEnabled\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/APIConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/APIConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2709,
+      "offset": 2691,
       "length": 41,
       "value": "\"https:\/\/firebasevertexai.googleapis.com\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/AsyncWebSocket.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/AsyncWebSocket.swift",
       "kind": "BooleanLiteral",
       "offset": 1317,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Backend.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Backend.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
+      "offset": 1222,
       "length": 8,
       "value": "\"global\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Backend.swift",
+      "kind": "StringLiteral",
+      "offset": 1971,
+      "length": 8,
+      "value": "\"global\""
+    },
+    {
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
       "kind": "StringLiteral",
       "offset": 715,
       "length": 31,
       "value": "\"START_SENSITIVITY_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
       "kind": "StringLiteral",
       "offset": 763,
       "length": 24,
       "value": "\"START_SENSITIVITY_HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
       "kind": "StringLiteral",
       "offset": 803,
       "length": 23,
       "value": "\"START_SENSITIVITY_LOW\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
       "kind": "StringLiteral",
       "offset": 898,
       "length": 29,
       "value": "\"END_SENSITIVITY_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
       "kind": "StringLiteral",
       "offset": 944,
       "length": 22,
       "value": "\"END_SENSITIVITY_HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiActivityDetectionConfig.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 21,
       "value": "\"END_SENSITIVITY_LOW\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
       "kind": "StringLiteral",
       "offset": 707,
       "length": 27,
       "value": "\"TURN_COVERAGE_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 29,
       "value": "\"TURN_INCLUDES_ONLY_ACTIVITY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
       "kind": "StringLiteral",
       "offset": 809,
       "length": 25,
       "value": "\"TURN_INCLUDES_ALL_INPUT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
       "kind": "StringLiteral",
       "offset": 871,
       "length": 44,
       "value": "\"TURN_INCLUDES_AUDIO_ACTIVITY_AND_ALL_VIDEO\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
       "kind": "StringLiteral",
       "offset": 989,
       "length": 31,
       "value": "\"ACTIVITY_HANDLING_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
       "kind": "StringLiteral",
       "offset": 1050,
       "length": 30,
       "value": "\"START_OF_ACTIVITY_INTERRUPTS\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Live\/BidiRealtimeInputConfig.swift",
       "kind": "StringLiteral",
       "offset": 1107,
       "length": 17,
       "value": "\"NO_INTERRUPTION\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 794,
       "length": 12,
       "value": "\"gl-swift\/5\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 27,
       "value": "\"fire\/\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 931,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1547,
       "length": 32,
       "value": "\"com.google.firebase.firebaseai\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 768,
       "length": 8,
       "value": "\"STRING\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 830,
       "length": 8,
       "value": "\"NUMBER\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 880,
       "length": 9,
       "value": "\"INTEGER\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 930,
       "length": 9,
       "value": "\"BOOLEAN\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 977,
       "length": 7,
       "value": "\"ARRAY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/DataType.swift",
       "kind": "StringLiteral",
       "offset": 1024,
       "length": 8,
       "value": "\"OBJECT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Errors\/EmptyContentError.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/Errors\/EmptyContentError.swift",
       "kind": "StringLiteral",
       "offset": 678,
       "length": 55,
       "value": "\"Invalid Candidate: empty content and no finish reason\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 42,
       "value": "\"type.googleapis.com\/google.rpc.ErrorInfo\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 1505,
+      "offset": 1510,
       "length": 7,
       "value": "\"@type\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 2331,
+      "offset": 2336,
       "length": 4,
       "value": "\"OK\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 2415,
+      "offset": 2420,
       "length": 11,
       "value": "\"CANCELLED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 2465,
+      "offset": 2470,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 2548,
+      "offset": 2553,
       "length": 18,
       "value": "\"INVALID_ARGUMENT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 2657,
+      "offset": 2662,
       "length": 19,
       "value": "\"DEADLINE_EXCEEDED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 2764,
+      "offset": 2769,
       "length": 11,
       "value": "\"NOT_FOUND\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 2892,
+      "offset": 2897,
       "length": 16,
       "value": "\"ALREADY_EXISTS\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3013,
+      "offset": 3018,
       "length": 19,
       "value": "\"PERMISSION_DENIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3142,
+      "offset": 3147,
       "length": 17,
       "value": "\"UNAUTHENTICATED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3309,
+      "offset": 3314,
       "length": 20,
       "value": "\"RESOURCE_EXHAUSTED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3473,
+      "offset": 3478,
       "length": 21,
       "value": "\"FAILED_PRECONDITION\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3643,
+      "offset": 3648,
       "length": 9,
       "value": "\"ABORTED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3729,
+      "offset": 3734,
       "length": 14,
       "value": "\"OUT_OF_RANGE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3851,
+      "offset": 3856,
       "length": 15,
       "value": "\"UNIMPLEMENTED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3913,
+      "offset": 3918,
       "length": 10,
       "value": "\"INTERNAL\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 3989,
+      "offset": 3994,
       "length": 13,
       "value": "\"UNAVAILABLE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 4066,
+      "offset": 4071,
       "length": 11,
       "value": "\"DATA_LOSS\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/FirebaseAI.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/FirebaseAI.swift",
       "kind": "BooleanLiteral",
       "offset": 2361,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/FirebaseAI.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/FirebaseAI.swift",
       "kind": "Dictionary",
       "offset": 9670,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Extensions\/Internal\/FirebaseInfo+Headers.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Extensions\/Internal\/FirebaseInfo+Headers.swift",
       "kind": "Array",
       "offset": 1366,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Extensions\/Internal\/FirebaseInfo+Headers.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Extensions\/Internal\/FirebaseInfo+Headers.swift",
       "kind": "Array",
       "offset": 3665,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 3142,
       "length": 23,
       "value": "\"unknown-model-version\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10562,
       "length": 6,
       "value": "\"STOP\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10590,
       "length": 12,
       "value": "\"MAX_TOKENS\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10621,
       "length": 8,
       "value": "\"SAFETY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10652,
       "length": 12,
       "value": "\"RECITATION\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10682,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10711,
       "length": 11,
       "value": "\"BLOCKLIST\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10752,
       "length": 20,
       "value": "\"PROHIBITED_CONTENT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10789,
       "length": 6,
       "value": "\"SPII\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10829,
       "length": 25,
       "value": "\"MALFORMED_FUNCTION_CALL\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10878,
       "length": 14,
       "value": "\"IMAGE_SAFETY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10927,
       "length": 26,
       "value": "\"IMAGE_PROHIBITED_CONTENT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 10976,
       "length": 13,
       "value": "\"IMAGE_OTHER\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 11009,
       "length": 10,
       "value": "\"NO_IMAGE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 11047,
       "length": 18,
       "value": "\"IMAGE_RECITATION\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 11086,
       "length": 10,
       "value": "\"LANGUAGE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 11127,
       "length": 22,
       "value": "\"UNEXPECTED_TOOL_CALL\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 11178,
       "length": 21,
       "value": "\"TOO_MANY_TOOL_CALLS\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 11235,
       "length": 27,
       "value": "\"MISSING_THOUGHT_SIGNATURE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 11292,
       "length": 20,
       "value": "\"MALFORMED_RESPONSE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 14779,
       "length": 8,
       "value": "\"SAFETY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 14807,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 14838,
       "length": 11,
       "value": "\"BLOCKLIST\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
       "offset": 14881,
       "length": 20,
       "value": "\"PROHIBITED_CONTENT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerateContentResponse.swift",
       "kind": "StringLiteral",
-      "offset": 21305,
+      "offset": 21297,
       "length": 12,
       "value": "\"responseId\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerationConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerationConfig.swift",
       "kind": "StringLiteral",
       "offset": 12117,
       "length": 18,
       "value": "\"responseMimeType\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIRequest.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeAIRequest.swift",
       "kind": "FloatLiteral",
       "offset": 1240,
       "length": 5,
       "value": "180.0"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
       "kind": "StringLiteral",
       "offset": 940,
       "length": 9,
       "value": "\"gemini-\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
       "kind": "StringLiteral",
       "offset": 1037,
       "length": 8,
       "value": "\"gemma-\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/GenerativeModel.swift",
       "kind": "Array",
-      "offset": 8524,
+      "offset": 8520,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Tools\/GoogleMaps.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Tools\/GoogleMaps.swift",
       "kind": "StringLiteral",
       "offset": 1283,
       "length": 5,
       "value": "\"uri\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Tools\/GoogleMaps.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Tools\/GoogleMaps.swift",
       "kind": "StringLiteral",
       "offset": 1368,
       "length": 9,
       "value": "\"placeId\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/History.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/History.swift",
       "kind": "Array",
       "offset": 738,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 5956,
       "length": 5,
       "value": "\"1:1\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 5986,
       "length": 6,
       "value": "\"9:16\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6018,
       "length": 6,
       "value": "\"16:9\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6048,
       "length": 5,
       "value": "\"3:4\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6078,
       "length": 5,
       "value": "\"4:3\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6107,
       "length": 5,
       "value": "\"2:3\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6137,
       "length": 5,
       "value": "\"3:2\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6166,
       "length": 5,
       "value": "\"4:5\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6196,
       "length": 5,
       "value": "\"5:4\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6225,
       "length": 5,
       "value": "\"1:4\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6255,
       "length": 5,
       "value": "\"4:1\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6284,
       "length": 5,
       "value": "\"1:8\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6314,
       "length": 5,
       "value": "\"8:1\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6345,
       "length": 6,
       "value": "\"21:9\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6454,
       "length": 5,
       "value": "\"512\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6478,
       "length": 4,
       "value": "\"1K\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6501,
       "length": 4,
       "value": "\"2K\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ImageConfig.swift",
       "kind": "StringLiteral",
       "offset": 6524,
       "length": 4,
       "value": "\"4K\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 1052,
       "length": 9,
       "value": "\"fileUri\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 1732,
       "length": 22,
       "value": "\"LANGUAGE_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 1775,
       "length": 8,
       "value": "\"PYTHON\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2240,
       "length": 21,
       "value": "\"OUTCOME_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2278,
       "length": 12,
       "value": "\"OUTCOME_OK\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2311,
       "length": 16,
       "value": "\"OUTCOME_FAILED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "StringLiteral",
       "offset": 2358,
       "length": 27,
       "value": "\"OUTCOME_DEADLINE_EXCEEDED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Internal\/InternalPart.swift",
       "kind": "BooleanLiteral",
       "offset": 2752,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveServerVoiceActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 874,
-      "length": 18,
-      "value": "\"TYPE_UNSPECIFIED\""
-    },
-    {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveServerVoiceActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 918,
-      "length": 16,
-      "value": "\"ACTIVITY_START\""
-    },
-    {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveServerVoiceActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 958,
-      "length": 14,
-      "value": "\"ACTIVITY_END\""
-    },
-    {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveSession.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveSession.swift",
       "kind": "BooleanLiteral",
       "offset": 6282,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveSession.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Live\/LiveSession.swift",
       "kind": "BooleanLiteral",
       "offset": 7289,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1009,
       "length": 6,
       "value": "\"TEXT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1033,
       "length": 7,
       "value": "\"IMAGE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1058,
       "length": 7,
       "value": "\"VIDEO\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1083,
       "length": 7,
       "value": "\"AUDIO\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModalityTokenCount.swift",
       "kind": "StringLiteral",
       "offset": 1111,
       "length": 10,
       "value": "\"DOCUMENT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
       "kind": "StringLiteral",
-      "offset": 4659,
+      "offset": 3868,
       "length": 6,
       "value": "\"user\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
       "kind": "StringLiteral",
-      "offset": 7473,
+      "offset": 5582,
       "length": 6,
       "value": "\"user\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
       "kind": "StringLiteral",
-      "offset": 7858,
+      "offset": 5967,
       "length": 7,
       "value": "\"parts\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/ModelContent.swift",
       "kind": "StringLiteral",
-      "offset": 8260,
+      "offset": 6369,
       "length": 9,
       "value": "\"thought\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/PartsRepresentable+Image.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/PartsRepresentable+Image.swift",
       "kind": "FloatLiteral",
       "offset": 806,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
       "kind": "StringLiteral",
       "offset": 1254,
       "length": 6,
       "value": "\"TEXT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
       "kind": "StringLiteral",
       "offset": 1278,
       "length": 7,
       "value": "\"IMAGE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ResponseModality.swift",
       "kind": "StringLiteral",
       "offset": 1303,
       "length": 7,
       "value": "\"AUDIO\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3257,
       "length": 30,
       "value": "\"HARM_PROBABILITY_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3312,
       "length": 12,
       "value": "\"NEGLIGIBLE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3342,
       "length": 5,
       "value": "\"LOW\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3368,
       "length": 8,
       "value": "\"MEDIUM\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 3395,
       "length": 6,
       "value": "\"HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 4585,
       "length": 27,
       "value": "\"HARM_SEVERITY_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 4637,
       "length": 26,
       "value": "\"HARM_SEVERITY_NEGLIGIBLE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 4681,
       "length": 19,
       "value": "\"HARM_SEVERITY_LOW\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 4721,
       "length": 22,
       "value": "\"HARM_SEVERITY_MEDIUM\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 4762,
       "length": 20,
       "value": "\"HARM_SEVERITY_HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 6100,
       "length": 21,
       "value": "\"BLOCK_LOW_AND_ABOVE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 6155,
       "length": 24,
       "value": "\"BLOCK_MEDIUM_AND_ABOVE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 6207,
       "length": 17,
       "value": "\"BLOCK_ONLY_HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 6248,
       "length": 12,
       "value": "\"BLOCK_NONE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 6278,
       "length": 5,
       "value": "\"OFF\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 7192,
       "length": 10,
       "value": "\"SEVERITY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 7228,
       "length": 13,
       "value": "\"PROBABILITY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 7572,
       "length": 10,
       "value": "\"category\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 8941,
       "length": 27,
       "value": "\"HARM_CATEGORY_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 8991,
       "length": 26,
       "value": "\"HARM_CATEGORY_HARASSMENT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 9040,
       "length": 27,
       "value": "\"HARM_CATEGORY_HATE_SPEECH\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 9096,
       "length": 33,
       "value": "\"HARM_CATEGORY_SEXUALLY_EXPLICIT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 9158,
       "length": 33,
       "value": "\"HARM_CATEGORY_DANGEROUS_CONTENT\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Safety.swift",
       "kind": "StringLiteral",
       "offset": 9218,
       "length": 31,
       "value": "\"HARM_CATEGORY_CIVIC_INTEGRITY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
       "offset": 7854,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
       "offset": 9307,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
       "offset": 10779,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
       "offset": 12148,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
       "offset": 14273,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
       "offset": 15406,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
       "offset": 16805,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "Array",
       "offset": 18889,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "BooleanLiteral",
       "offset": 19079,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "StringLiteral",
       "offset": 21192,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "StringLiteral",
       "offset": 21291,
       "length": 6,
       "value": "\"enum\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/Schema.swift",
       "kind": "StringLiteral",
       "offset": 21448,
       "length": 10,
       "value": "\"required\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TaskLocals.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TaskLocals.swift",
       "kind": "BooleanLiteral",
       "offset": 1056,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerateContentRequest.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerateContentRequest.swift",
       "kind": "StringLiteral",
       "offset": 2059,
       "length": 4,
       "value": "\"\/:\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
       "kind": "Dictionary",
       "offset": 3611,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
       "kind": "Dictionary",
       "offset": 4812,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
       "kind": "Dictionary",
       "offset": 6345,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/TemplateGenerativeModel.swift",
       "kind": "Array",
       "offset": 6400,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
       "kind": "StringLiteral",
       "offset": 4571,
       "length": 9,
       "value": "\"MINIMAL\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
       "kind": "StringLiteral",
       "offset": 4598,
       "length": 5,
       "value": "\"LOW\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
       "kind": "StringLiteral",
       "offset": 4624,
       "length": 8,
       "value": "\"MEDIUM\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/ThinkingConfig.swift",
       "kind": "StringLiteral",
       "offset": 4651,
       "length": 6,
       "value": "\"HIGH\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "Array",
       "offset": 1753,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "StringLiteral",
-      "offset": 3968,
+      "offset": 3964,
       "length": 6,
       "value": "\"AUTO\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "StringLiteral",
-      "offset": 3990,
+      "offset": 3986,
       "length": 5,
       "value": "\"ANY\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "StringLiteral",
-      "offset": 4012,
+      "offset": 4008,
       "length": 6,
       "value": "\"NONE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Tool.swift",
       "kind": "StringLiteral",
-      "offset": 7347,
+      "offset": 7343,
       "length": 8,
       "value": "\"latLng\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 898,
       "length": 34,
       "value": "\"URL_RETRIEVAL_STATUS_UNSPECIFIED\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 954,
       "length": 30,
       "value": "\"URL_RETRIEVAL_STATUS_SUCCESS\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 28,
       "value": "\"URL_RETRIEVAL_STATUS_ERROR\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1054,
       "length": 30,
       "value": "\"URL_RETRIEVAL_STATUS_PAYWALL\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1105,
       "length": 29,
       "value": "\"URL_RETRIEVAL_STATUS_UNSAFE\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 2256,
       "length": 14,
       "value": "\"retrievedUrl\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/FirebaseAILogic\/FirebaseAI\/Sources\/Types\/Public\/URLMetadata.swift",
       "kind": "StringLiteral",
       "offset": 2298,
       "length": 20,

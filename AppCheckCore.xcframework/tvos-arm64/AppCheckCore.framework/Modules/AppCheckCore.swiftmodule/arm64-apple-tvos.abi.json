@@ -8871,651 +8871,651 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCore.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCore.swift",
       "kind": "IntegerLiteral",
       "offset": 4641,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCore.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCore.swift",
       "kind": "IntegerLiteral",
       "offset": 4645,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreAPIService.swift",
       "kind": "StringLiteral",
       "offset": 639,
       "length": 16,
       "value": "\"X-Goog-Api-Key\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreAPIService.swift",
       "kind": "StringLiteral",
       "offset": 683,
       "length": 25,
       "value": "\"X-Ios-Bundle-Identifier\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreAPIService.swift",
       "kind": "StringLiteral",
       "offset": 736,
       "length": 44,
       "value": "\"https:\/\/firebaseappcheck.googleapis.com\/v1\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1578,
       "length": 9,
       "value": "\"NSBlock\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 28,
       "value": "\"generateAppAttestChallenge\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 739,
       "length": 30,
       "value": "\"exchangeAppAttestAttestation\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 820,
       "length": 28,
       "value": "\"exchangeAppAttestAssertion\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 886,
       "length": 10,
       "value": "\"artifact\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 934,
       "length": 11,
       "value": "\"assertion\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 983,
       "length": 11,
       "value": "\"challenge\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1028,
       "length": 8,
       "value": "\"key_id\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1076,
       "length": 23,
       "value": "\"attestation_statement\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1138,
       "length": 13,
       "value": "\"limited_use\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1182,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1277,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestArtifactStorage.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestArtifactStorage.swift",
       "kind": "StringLiteral",
       "offset": 1248,
       "length": 52,
       "value": "\"com.firebase.app_check.app_attest_artifact_storage\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAttestationResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAttestationResponse.swift",
       "kind": "StringLiteral",
       "offset": 654,
       "length": 15,
       "value": "\"appCheckToken\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAttestationResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/API\/AppCheckCoreAppAttestAttestationResponse.swift",
       "kind": "StringLiteral",
       "offset": 707,
       "length": 10,
       "value": "\"artifact\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestKeyIDStorage.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestKeyIDStorage.swift",
       "kind": "StringLiteral",
       "offset": 1263,
       "length": 39,
       "value": "\"com.firebase.GACAppAttestKeyIDStorage\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/AppCheckCoreAppAttestProvider.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/AppCheckCoreAppAttestProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 1298,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/AppCheckCoreAppAttestProviderState.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/AppCheckCoreAppAttestProviderState.swift",
       "kind": "IntegerLiteral",
       "offset": 684,
       "length": 16,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/AppCheckCoreAppAttestProviderState.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/AppCheckCoreAppAttestProviderState.swift",
       "kind": "IntegerLiteral",
       "offset": 708,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/AppCheckCoreAppAttestProviderState.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/AppCheckCoreAppAttestProviderState.swift",
       "kind": "IntegerLiteral",
       "offset": 728,
       "length": 13,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
       "kind": "StringLiteral",
       "offset": 632,
       "length": 7,
       "value": "\"keyID\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 10,
       "value": "\"artifact\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
       "kind": "StringLiteral",
       "offset": 711,
       "length": 16,
       "value": "\"storageVersion\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
       "kind": "IntegerLiteral",
       "offset": 759,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/AppAttestProvider\/Storage\/AppCheckCoreAppAttestStoredArtifact.swift",
       "kind": "BooleanLiteral",
       "offset": 1364,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 913,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 927,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 1514,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 1519,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 1524,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 1563,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 1626,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 1630,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Backoff\/AppCheckCoreBackoffWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 1635,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProvider.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProvider.swift",
       "kind": "StringLiteral",
       "offset": 731,
       "length": 20,
       "value": "\"AppCheckDebugToken\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProvider.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProvider.swift",
       "kind": "StringLiteral",
       "offset": 792,
       "length": 24,
       "value": "\"FIRAAppCheckDebugToken\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProvider.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProvider.swift",
       "kind": "StringLiteral",
       "offset": 1184,
       "length": 23,
       "value": "\"GACAppCheckDebugToken\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProvider.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProvider.swift",
       "kind": "StringLiteral",
       "offset": 1501,
       "length": 33,
       "value": "\"GACAppCheckDebugTokenRegistered\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProviderAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProviderAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1007,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProviderAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProviderAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1061,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProviderAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProviderAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1119,
       "length": 13,
       "value": "\"debug_token\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProviderAPIService.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/DebugProvider\/AppCheckCoreDebugProviderAPIService.swift",
       "kind": "StringLiteral",
       "offset": 1172,
       "length": 13,
       "value": "\"limited_use\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 27,
       "value": "\"com.google.app_check_core\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 1559,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 1623,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 1821,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 1926,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2046,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2545,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2593,
       "length": 4,
       "value": "2002"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2626,
       "length": 4,
       "value": "2003"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2659,
       "length": 4,
       "value": "3001"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2692,
       "length": 4,
       "value": "3002"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2743,
       "length": 4,
       "value": "4001"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2787,
       "length": 4,
       "value": "4002"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2842,
       "length": 4,
       "value": "4003"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2884,
       "length": 4,
       "value": "4004"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2946,
       "length": 4,
       "value": "7001"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 2980,
       "length": 4,
       "value": "7002"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 3012,
       "length": 4,
       "value": "7003"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrorUtil.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Errors\/AppCheckCoreErrorUtil.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 146,
       "value": "\"The reCAPTCHA Enterprise SDK is not linked. See https:\/\/firebase.google.com\/docs\/app-check\/ios\/recaptcha-enterprise-provider#prepare-environment\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 690,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 706,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 725,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 742,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 759,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreSettings.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreSettings.swift",
       "kind": "BooleanLiteral",
       "offset": 919,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStorage.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStorage.swift",
       "kind": "StringLiteral",
       "offset": 1243,
       "length": 41,
       "value": "\"com.google.app_check_core.token_storage\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
       "kind": "StringLiteral",
       "offset": 937,
       "length": 7,
       "value": "\"token\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
       "kind": "StringLiteral",
       "offset": 987,
       "length": 16,
       "value": "\"expirationDate\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
       "kind": "StringLiteral",
       "offset": 1046,
       "length": 16,
       "value": "\"receivedAtDate\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
       "kind": "StringLiteral",
       "offset": 1105,
       "length": 16,
       "value": "\"storageVersion\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
       "kind": "IntegerLiteral",
       "offset": 1167,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/Storage\/AppCheckCoreStoredToken.swift",
       "kind": "BooleanLiteral",
       "offset": 1366,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreToken+APIResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreToken+APIResponse.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 7,
       "value": "\"token\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreToken+APIResponse.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/APIService\/AppCheckCoreToken+APIResponse.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 5,
       "value": "\"ttl\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
       "kind": "IntegerLiteral",
       "offset": 1159,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
       "kind": "IntegerLiteral",
       "offset": 1227,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
       "kind": "IntegerLiteral",
       "offset": 1232,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
       "kind": "IntegerLiteral",
       "offset": 1297,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
       "kind": "FloatLiteral",
       "offset": 1355,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
       "kind": "StringLiteral",
       "offset": 1410,
       "length": 41,
       "value": "\"com.firebase.AppCheckCoreTokenRefresher\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefresher.swift",
       "kind": "IntegerLiteral",
       "offset": 1642,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefreshResult.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefreshResult.swift",
       "kind": "IntegerLiteral",
       "offset": 703,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefreshResult.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefreshResult.swift",
       "kind": "IntegerLiteral",
       "offset": 722,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefreshResult.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/TokenRefresh\/AppCheckCoreTokenRefreshResult.swift",
       "kind": "IntegerLiteral",
       "offset": 741,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreTokenResult.swift",
+      "filePath": "\/var\/folders\/36\/tjdph2t965j8snz9_vkdnw0r0000gn\/T\/ZipRelease\/2026-10-02T19-23-19\/project-tvos\/Pods\/AppCheckCore\/AppCheckCore\/Sources\/Core\/AppCheckCoreTokenResult.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 38,
