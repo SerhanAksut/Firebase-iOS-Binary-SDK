@@ -58,7 +58,7 @@ jobs:
           if [ -z "$asset_url" ]; then
             echo "Firebase.zip not found in firebase-ios-sdk release $V"; exit 1
           fi
-          curl -fSL --retry 5 --retry-delay 10 --retry-all-errors \
+          curl -fSL --retry 20 --retry-delay 30 --retry-max-time 900 --retry-all-errors \
             -H "Accept: application/octet-stream" -o Firebase.zip "$asset_url"
           mkdir unz
           unzip -q Firebase.zip -d unz
