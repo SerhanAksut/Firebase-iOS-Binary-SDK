@@ -103,3 +103,6 @@ jobs:
               gh release upload "$TAG" "$f"
             fi
           done
+
+      - name: "TEMPORARY: publish Firebase.zip for the update session"
+        run: gh release upload "${{ steps.v.outputs.tag }}" Firebase.zip --clobber
