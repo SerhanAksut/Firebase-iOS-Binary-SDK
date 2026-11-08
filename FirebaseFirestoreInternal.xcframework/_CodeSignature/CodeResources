@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal</key>
 		<data>
-		C+qWAw9nv3ZJ0YsCWOLZj7oEmJs=
+		8naoD+gOKYjdY0WGkkqk22LJWvU=
 		</data>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/Info.plist</key>
 		<data>
-		E/lFE40/ZcnTM7KYO+8EOo/WQYs=
+		vT4xwa8JJ8e+OyxfWNIvYr9sSuU=
 		</data>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/Headers/FIRPipelineBridge.h</key>
 		<data>
-		v0WvodEgwsVHuSr/sLjEeC/NjHw=
+		/5anXB1234cYnqDfQaKS8OksKZc=
 		</data>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/Headers/FIRQuery.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/Info.plist</key>
 		<data>
-		MM85eGeyMxWxD4Xt4qRi/FMuNSU=
+		QrPgDo1W08RuX2pTnV8GT6gZngo=
 		</data>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/Modules/module.modulemap</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/FirebaseFirestoreInternal</key>
 		<data>
-		jAceD9mh60F0P0KkFg2pMXrX514=
+		reXcWXYJA1IIqfFeoHLNtIkgr0Q=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRAggregateField.h</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRPipelineBridge.h</key>
 		<data>
-		v0WvodEgwsVHuSr/sLjEeC/NjHw=
+		/5anXB1234cYnqDfQaKS8OksKZc=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRQuery.h</key>
 		<data>
@@ -338,7 +338,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Resources/FirebaseFirestoreInternal_Privacy.bundle/Contents/Info.plist</key>
 		<data>
-		ACY76J0LhJHmDqnYk5Jgd8IWbdc=
+		L6CN5/AKtNVm/3mSyrIn3MAtOz0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Resources/FirebaseFirestoreInternal_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -346,15 +346,15 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		RMKuVQrIDsrVkHD1OokjEIaSOPQ=
+		EBGB0ORupV8lJGkUcnkrCq13Rek=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal</key>
 		<data>
-		Exd2SO3bLKE5ig/iVxdEVLL6OrM=
+		BIESFxm0ZQnIQunVCPxsddvqau4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/Info.plist</key>
 		<data>
-		i20edRQ1Wx8q/wwxN1lYySMP2K4=
+		CCYXEjIkV4JrfJE1OOaH69TGtrE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -470,7 +470,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Headers/FIRPipelineBridge.h</key>
 		<data>
-		v0WvodEgwsVHuSr/sLjEeC/NjHw=
+		/5anXB1234cYnqDfQaKS8OksKZc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Headers/FIRQuery.h</key>
 		<data>
@@ -514,7 +514,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Info.plist</key>
 		<data>
-		NG6HRa7qGk3RCQLg8Ylr9m21MQg=
+		xeQXtxYCEQXjzNfO8bgn+Yb1nXM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Modules/module.modulemap</key>
 		<data>
@@ -522,7 +522,7 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/FirebaseFirestoreInternal</key>
 		<data>
-		ndgbY/Pv9/wh1oUWJ04Y3+fF+ZY=
+		EN8AhHR0SEVODsF9dggILk2L380=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRAggregateField.h</key>
 		<data>
@@ -634,7 +634,7 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRPipelineBridge.h</key>
 		<data>
-		v0WvodEgwsVHuSr/sLjEeC/NjHw=
+		/5anXB1234cYnqDfQaKS8OksKZc=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRQuery.h</key>
 		<data>
@@ -682,7 +682,7 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Resources/FirebaseFirestoreInternal_Privacy.bundle/Contents/Info.plist</key>
 		<data>
-		Gs0WVwzRnjv6+VhSFYqoWTSyGmc=
+		N+bgG41Hz4ugBD4n7m7Ef3TVYUQ=
 		</data>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Resources/FirebaseFirestoreInternal_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -690,15 +690,15 @@
 		</data>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		mSG10H4A8uic1ZU6yjtYRUKc8VU=
+		pTDyrElqqYD4bvRRWn22K6XEryY=
 		</data>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal</key>
 		<data>
-		UmqK5fQkQD4TDLq0DFoMuI6Ftd0=
+		PPY2AD9U8hOhI3DiyxHHhR5ITWA=
 		</data>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/Info.plist</key>
 		<data>
-		mTMvXCxcUBnTlLJZfDFzCvbsxUA=
+		hNb6J8eKS5Rak5BgurXz5oJ9Z58=
 		</data>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -814,7 +814,7 @@
 		</data>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/Headers/FIRPipelineBridge.h</key>
 		<data>
-		v0WvodEgwsVHuSr/sLjEeC/NjHw=
+		/5anXB1234cYnqDfQaKS8OksKZc=
 		</data>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/Headers/FIRQuery.h</key>
 		<data>
@@ -858,7 +858,7 @@
 		</data>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/Info.plist</key>
 		<data>
-		FnwBO0iexHX9VfwY4ngk19KzHMc=
+		V4hSjZyV1SyKH1uwRuWuMkUOE2I=
 		</data>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/Modules/module.modulemap</key>
 		<data>
@@ -866,11 +866,11 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal</key>
 		<data>
-		Q0322PpKpidbwz5GsAOYUZ+NbXA=
+		RfEp1NOuHjM0Mdmv+PJidBwaumw=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/Info.plist</key>
 		<data>
-		Ijq2OiyPImcxmdqwQthUgjxYDOI=
+		DlX8R8SHIqnbiDtXZmveDJPmRe8=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -986,7 +986,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Headers/FIRPipelineBridge.h</key>
 		<data>
-		v0WvodEgwsVHuSr/sLjEeC/NjHw=
+		/5anXB1234cYnqDfQaKS8OksKZc=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Headers/FIRQuery.h</key>
 		<data>
@@ -1030,7 +1030,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Info.plist</key>
 		<data>
-		0aAQUyPj0TgrdWesimVfxrNVE7g=
+		qGm8CTQNiybbQfkHX8LqTubJMns=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Modules/module.modulemap</key>
 		<data>
@@ -1043,22 +1043,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C+qWAw9nv3ZJ0YsCWOLZj7oEmJs=
+			8naoD+gOKYjdY0WGkkqk22LJWvU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BsLql0NBrNxHCa8l5Urr8zckjWuKvCLLMK99GMmWtPk=
+			QdfhFQkqVluqmConf6ehZ2ySBt61+mm42NhwmLw5fDw=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E/lFE40/ZcnTM7KYO+8EOo/WQYs=
+			vT4xwa8JJ8e+OyxfWNIvYr9sSuU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2KvPOnOl/XInVMbs9psY8wMmS+OgNzM2IQNitKWb5XM=
+			LXvUcdB0bgKR5lC7FsRe2wa0h7X2VC5yMNmQGmBqhok=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1373,11 +1373,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v0WvodEgwsVHuSr/sLjEeC/NjHw=
+			/5anXB1234cYnqDfQaKS8OksKZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sT19oEvf/tbbmAMvU0AGTG62gGuH3Fis11XqQw503UE=
+			5c3HP3t4pFvW4q+VzuO0okFYvdqYvElQ+EpsD4lB/Ak=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/Headers/FIRQuery.h</key>
@@ -1494,11 +1494,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MM85eGeyMxWxD4Xt4qRi/FMuNSU=
+			QrPgDo1W08RuX2pTnV8GT6gZngo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ch9uUWNGoujmw8sfkvklSLu+fVEm0dfUtAE4kzySYlU=
+			85iaz0Tn59f5tReG4TAesxuz5sjsMdMG1oOcr50eURI=
 			</data>
 		</dict>
 		<key>ios-arm64/FirebaseFirestoreInternal.framework/Modules/module.modulemap</key>
@@ -1536,11 +1536,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jAceD9mh60F0P0KkFg2pMXrX514=
+			reXcWXYJA1IIqfFeoHLNtIkgr0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			FALnEX7keaOmNTz7DGJxbsdcaoLJUwzoID3lWjRmE+o=
+			CUHKnEZLWjlEJ+AIhwdZRBRHX6EOOYJUoLv4VmtoUos=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRAggregateField.h</key>
@@ -1844,11 +1844,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v0WvodEgwsVHuSr/sLjEeC/NjHw=
+			/5anXB1234cYnqDfQaKS8OksKZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sT19oEvf/tbbmAMvU0AGTG62gGuH3Fis11XqQw503UE=
+			5c3HP3t4pFvW4q+VzuO0okFYvdqYvElQ+EpsD4lB/Ak=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRQuery.h</key>
@@ -1976,11 +1976,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ACY76J0LhJHmDqnYk5Jgd8IWbdc=
+			L6CN5/AKtNVm/3mSyrIn3MAtOz0=
 			</data>
 			<key>hash2</key>
 			<data>
-			eovKQnLAllO1ii+wsMKjSMK9VzK100Nf3ofF9C0yk1w=
+			E+wzgfMbAQ8LYaYUW9X61yj10rjnDuCDT9I/omz7WcQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/A/Resources/FirebaseFirestoreInternal_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
@@ -1998,11 +1998,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RMKuVQrIDsrVkHD1OokjEIaSOPQ=
+			EBGB0ORupV8lJGkUcnkrCq13Rek=
 			</data>
 			<key>hash2</key>
 			<data>
-			WIfx01WYNjcko/TRSZ0qSO16rcVgLuc3Vc1E/F9AFPA=
+			o4zbHDf8D5pMnd+t0STynJ7JxaFunFPnu4uLdTlkLBY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FirebaseFirestoreInternal.framework/Versions/Current</key>
@@ -2014,22 +2014,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Exd2SO3bLKE5ig/iVxdEVLL6OrM=
+			BIESFxm0ZQnIQunVCPxsddvqau4=
 			</data>
 			<key>hash2</key>
 			<data>
-			mQeSqSxIN5uEHZg9B/8NpRP0CTvP+B700a/odh/UgSs=
+			wbZ9wjFE6642FCcM3fho4KsRzjgzNEuDVDAO52zqtmA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i20edRQ1Wx8q/wwxN1lYySMP2K4=
+			CCYXEjIkV4JrfJE1OOaH69TGtrE=
 			</data>
 			<key>hash2</key>
 			<data>
-			SzabIUy3X63CgxqI/wKqNGyBPG0KtHXHmHhKn7ZoGCw=
+			rv3DGFScDrnodCwGm3IkVFlbOn2pr8JO4zpidZfferc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -2344,11 +2344,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v0WvodEgwsVHuSr/sLjEeC/NjHw=
+			/5anXB1234cYnqDfQaKS8OksKZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sT19oEvf/tbbmAMvU0AGTG62gGuH3Fis11XqQw503UE=
+			5c3HP3t4pFvW4q+VzuO0okFYvdqYvElQ+EpsD4lB/Ak=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Headers/FIRQuery.h</key>
@@ -2465,11 +2465,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NG6HRa7qGk3RCQLg8Ylr9m21MQg=
+			xeQXtxYCEQXjzNfO8bgn+Yb1nXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			5jXvArAKddQciMjnJ0WqpLCNOD4FTczPjmhn/a7ygJQ=
+			MiKyreFavNgNj/IZNwuxvGO7k/LXupqfDQl3XlUxT6w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Modules/module.modulemap</key>
@@ -2507,11 +2507,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ndgbY/Pv9/wh1oUWJ04Y3+fF+ZY=
+			EN8AhHR0SEVODsF9dggILk2L380=
 			</data>
 			<key>hash2</key>
 			<data>
-			PIkSJ9geuAsI8ZHsutGCKd5xOb5neW1UckjjEQb/W1s=
+			qBAj4RrJUiKsySrImKwRheAMTd/Kt3CmQHfvxr2NOfM=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRAggregateField.h</key>
@@ -2815,11 +2815,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v0WvodEgwsVHuSr/sLjEeC/NjHw=
+			/5anXB1234cYnqDfQaKS8OksKZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sT19oEvf/tbbmAMvU0AGTG62gGuH3Fis11XqQw503UE=
+			5c3HP3t4pFvW4q+VzuO0okFYvdqYvElQ+EpsD4lB/Ak=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Headers/FIRQuery.h</key>
@@ -2947,11 +2947,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Gs0WVwzRnjv6+VhSFYqoWTSyGmc=
+			N+bgG41Hz4ugBD4n7m7Ef3TVYUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ja63cl/JCGWTp0mmiRvoRVGi8EZ1aKzQ8XulkfAG5Og=
+			LHQEULvpwkd7qaLD6PNolWf44GUAF/4TzdmN+dNvFw8=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/A/Resources/FirebaseFirestoreInternal_Privacy.bundle/Contents/Resources/PrivacyInfo.xcprivacy</key>
@@ -2969,11 +2969,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mSG10H4A8uic1ZU6yjtYRUKc8VU=
+			pTDyrElqqYD4bvRRWn22K6XEryY=
 			</data>
 			<key>hash2</key>
 			<data>
-			EO+pOJBiWVeYSjfrREFcwXD96ZdcA/KxZmnScNcg6iQ=
+			Ddw3sQAbs0chlZt175eO9twH0e8oNcHeOGRo7lt/060=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/FirebaseFirestoreInternal.framework/Versions/Current</key>
@@ -2985,22 +2985,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UmqK5fQkQD4TDLq0DFoMuI6Ftd0=
+			PPY2AD9U8hOhI3DiyxHHhR5ITWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			pbxTsjBxHJJ2rPSmP83dooti5RK3MLs0eNzy5252Lv8=
+			vdYhnKZmxXEjLSVuYtz6+6NvEZsZdkARD2okRuCZtq8=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mTMvXCxcUBnTlLJZfDFzCvbsxUA=
+			hNb6J8eKS5Rak5BgurXz5oJ9Z58=
 			</data>
 			<key>hash2</key>
 			<data>
-			TYL4bzhrc7XQ5HBT0WX37vqM+O2kjVxMz1cffNF/Tfw=
+			tDhPdhDK9gYuT4vhLsXG/vXIbfAPi6ig9mwDlVMCM18=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -3315,11 +3315,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v0WvodEgwsVHuSr/sLjEeC/NjHw=
+			/5anXB1234cYnqDfQaKS8OksKZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sT19oEvf/tbbmAMvU0AGTG62gGuH3Fis11XqQw503UE=
+			5c3HP3t4pFvW4q+VzuO0okFYvdqYvElQ+EpsD4lB/Ak=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/Headers/FIRQuery.h</key>
@@ -3436,11 +3436,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FnwBO0iexHX9VfwY4ngk19KzHMc=
+			V4hSjZyV1SyKH1uwRuWuMkUOE2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			t4r4YeOFV+YWvIZgeZ4UyTUj4Et2yzBX0PkID2BOqGU=
+			qxxcIpVasdP9T33EK75F2cdbH6RTVCT2oapIsyG1wcw=
 			</data>
 		</dict>
 		<key>tvos-arm64/FirebaseFirestoreInternal.framework/Modules/module.modulemap</key>
@@ -3458,22 +3458,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q0322PpKpidbwz5GsAOYUZ+NbXA=
+			RfEp1NOuHjM0Mdmv+PJidBwaumw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dNLPmU9/OrQxQcSxWicx0bo8vcnlda+VqWp6CF8py54=
+			o2bYTBir4XFxf2sf0RkBQ24UEsG/QHifD/p5bWCIeSo=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ijq2OiyPImcxmdqwQthUgjxYDOI=
+			DlX8R8SHIqnbiDtXZmveDJPmRe8=
 			</data>
 			<key>hash2</key>
 			<data>
-			g1vxFP5CJXUw5v8bAWtymq89ft5agkTRqKZu2lVI4a0=
+			xJRlhHVxP+7ojRSYKW9wVB28UPnjwcs0OErC6uxGySY=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/FirebaseFirestoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -3788,11 +3788,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v0WvodEgwsVHuSr/sLjEeC/NjHw=
+			/5anXB1234cYnqDfQaKS8OksKZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sT19oEvf/tbbmAMvU0AGTG62gGuH3Fis11XqQw503UE=
+			5c3HP3t4pFvW4q+VzuO0okFYvdqYvElQ+EpsD4lB/Ak=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Headers/FIRQuery.h</key>
@@ -3909,11 +3909,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0aAQUyPj0TgrdWesimVfxrNVE7g=
+			qGm8CTQNiybbQfkHX8LqTubJMns=
 			</data>
 			<key>hash2</key>
 			<data>
-			7gJUGczj4uH9ruDDz31EVM0ZumQ+jR0jbfJeupEKB/M=
+			ApZHnTCsXzVhe+NDbthgcmMpAy3tMpDnzJHehYvY8X8=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/FirebaseFirestoreInternal.framework/Modules/module.modulemap</key>
