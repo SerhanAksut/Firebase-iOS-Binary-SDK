@@ -49,10 +49,29 @@ jobs:
 
       - name: Download Firebase.zip
         run: |
-          curl -fsSL -o Firebase.zip \
-            "https://github.com/firebase/firebase-ios-sdk/releases/download/${{ steps.v.outputs.version }}/Firebase.zip"
+          # Download through the REST API asset endpoint rather than
+          # github.com/<repo>/releases/download/, which can return 502/504
+          # for large assets while the asset CDN itself is healthy.
+          V="${{ steps.v.outputs.version }}"
+          asset_url=$(gh api "repos/firebase/firebase-ios-sdk/releases/tags/$V" \
+            --jq '.assets[] | select(.name == "Firebase.zip") | .url')
+          if [ -z "$asset_url" ]; then
+            echo "Firebase.zip not found in firebase-ios-sdk release $V"; exit 1
+          fi
+          curl -fSL --retry 5 --retry-delay 10 --retry-all-errors \
+            -H "Accept: application/octet-stream" -o Firebase.zip "$asset_url"
           mkdir unz
           unzip -q Firebase.zip -d unz
+
+      - name: Keep Firebase.zip as a short-lived artifact
+        # Lets the repository update be prepared from environments that
+        # can reach this repository but not firebase-ios-sdk's release assets.
+        uses: actions/upload-artifact@v4
+        with:
+          name: Firebase-${{ steps.v.outputs.version }}
+          path: Firebase.zip
+          compression-level: 0
+          retention-days: 3
 
       - name: Zip XCFrameworks with files over the limit
         run: |
