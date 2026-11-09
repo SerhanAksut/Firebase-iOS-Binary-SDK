@@ -98,7 +98,7 @@ let package = Package(
         .binaryTarget(name: "GoogleUtilities", path: "GoogleUtilities.xcframework"),
         .binaryTarget(
             name: "grpc",
-            url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK/releases/download/binaries-13.1.1/grpc.xcframework.zip",
+            url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK/releases/download/13.1.1/grpc.xcframework.zip",
             checksum: "18a7e1454dbc3fc2b692622ba6b4d5481e9f3443b5ffd7ec214ae2516e00c141"
         ),
         .binaryTarget(name: "grpcpp", path: "grpcpp.xcframework"),
