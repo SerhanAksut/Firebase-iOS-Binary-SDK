@@ -2,8 +2,14 @@ name: Host large binaries
 
 # GitHub rejects files over 100 MB, so any XCFramework from the official
 # Firebase.zip that contains such a file is published as a zipped release
-# asset (release tag "binaries-<version>") and referenced from Package.swift
-# with `.binaryTarget(name:url:checksum:)`.
+# asset of a draft release named after the version (release "<version>") and
+# referenced from Package.swift with `.binaryTarget(name:url:checksum:)`.
+#
+# The release is created as a draft, so its tag does not exist yet. Publish it
+# with the tag "<version>" targeting the commit that Package.swift ships in
+# (the merge commit on main). Publishing keeps the attached assets, so the
+# URL in Package.swift (releases/download/<version>/<name>.zip) starts working.
+# Do not rename the release or its tag afterwards.
 #
 # Runs on pushes to release branches named v<version> (for example v13.0.1),
 # or manually with a version input. Existing assets are never replaced, so
@@ -45,7 +51,7 @@ jobs:
             echo "Not a release version: $V"; exit 1
           fi
           echo "version=$V" >> "$GITHUB_OUTPUT"
-          echo "tag=binaries-$V" >> "$GITHUB_OUTPUT"
+          echo "tag=$V" >> "$GITHUB_OUTPUT"
 
       - name: Download Firebase.zip
         run: |
@@ -90,16 +96,28 @@ jobs:
         run: |
           TAG="${{ steps.v.outputs.tag }}"
           if [ -z "$(ls out)" ]; then echo "Nothing over the limit."; exit 0; fi
-          if ! gh release view "$TAG" >/dev/null 2>&1; then
-            gh release create "$TAG" --prerelease --target "$GITHUB_SHA" \
-              --title "Binaries for ${{ steps.v.outputs.version }}" \
-              --notes "XCFrameworks from Firebase ${{ steps.v.outputs.version }} that exceed GitHub's 100 MB file limit. Referenced from Package.swift by URL and checksum; do not modify or replace these assets."
+          # Look the release up through the list endpoint: drafts have no tag
+          # yet, so "gh release view <tag>" cannot find them.
+          ID=$(gh api "repos/$GH_REPO/releases" --paginate \
+            --jq ".[] | select(.tag_name == \"$TAG\") | .id" | head -n1)
+          if [ -z "$ID" ]; then
+            ID=$(gh api "repos/$GH_REPO/releases" -f tag_name="$TAG" \
+              -f target_commitish="$GITHUB_SHA" -f name="v$TAG" -F draft=true \
+              -f body="XCFrameworks from Firebase $TAG that exceed GitHub's 100 MB file limit. Referenced from Package.swift by URL and checksum; do not modify or replace these assets." \
+              --jq .id)
           fi
-          existing=$(gh release view "$TAG" --json assets --jq '.assets[].name')
+          existing=$(gh api "repos/$GH_REPO/releases/$ID" --jq '.assets[].name')
           for f in out/*.zip; do
-            if echo "$existing" | grep -qx "$(basename "$f")"; then
-              echo "Keeping existing asset $(basename "$f")"
+            name=$(basename "$f")
+            if echo "$existing" | grep -qx "$name"; then
+              echo "Keeping existing asset $name"
             else
-              gh release upload "$TAG" "$f"
+              curl -fsS -X POST -H "Authorization: Bearer $GH_TOKEN" \
+                -H "Content-Type: application/zip" --data-binary @"$f" \
+                "https://uploads.github.com/repos/$GH_REPO/releases/$ID/assets?name=$name" \
+                > /dev/null
+              echo "Uploaded $name"
             fi
           done
+          gh api "repos/$GH_REPO/releases/$ID" \
+            --jq '.assets[] | "\(.name)  \(.digest)  \(.size) bytes"'
