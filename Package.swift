@@ -99,7 +99,7 @@ let package = Package(
         .binaryTarget(
             name: "grpc",
             url: "https://github.com/SerhanAksut/Firebase-iOS-Binary-SDK/releases/download/13.1.1/grpc.xcframework.zip",
-            checksum: "18a7e1454dbc3fc2b692622ba6b4d5481e9f3443b5ffd7ec214ae2516e00c141"
+            checksum: "74e76edb088f6eaf45553d3fed14fe7227164f6c24a351782a3f0d95a3cbd640"
         ),
         .binaryTarget(name: "grpcpp", path: "grpcpp.xcframework"),
         .binaryTarget(name: "GTMSessionFetcher", path: "GTMSessionFetcher.xcframework"),
