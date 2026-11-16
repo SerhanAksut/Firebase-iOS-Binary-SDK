@@ -624,7 +624,7 @@ extension FirebaseAuth.User : Foundation.NSSecureCoding {
     @objc get
   }
   @objc public var metadata: FirebaseAuth.UserMetadata {
-    get
+    @objc get
   }
   @objc public var tenantID: Swift.String? {
     get
