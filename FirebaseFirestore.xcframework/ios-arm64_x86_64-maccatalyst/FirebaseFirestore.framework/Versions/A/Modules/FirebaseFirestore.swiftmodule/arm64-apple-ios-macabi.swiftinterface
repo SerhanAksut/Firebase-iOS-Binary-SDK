@@ -14,12 +14,15 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public class AggregateFunction : @unchecked Swift.Sendable {
   public init(functionName: Swift.String, args: [any FirebaseFirestore.Expression])
+  public func over(_ window: FirebaseFirestore.WindowSpec) -> FirebaseFirestore.WindowFunction
   public func `as`(_ name: Swift.String) -> FirebaseFirestore.AliasedAggregate
   @objc deinit
 }
-public struct AliasedAggregate {
+public struct AliasedAggregate : FirebaseFirestore.WindowField, Swift.Sendable {
 }
 public struct AliasedExpression : FirebaseFirestore.Selectable, Swift.Sendable {
+}
+public struct AliasedWindowFunction : FirebaseFirestore.WindowField, Swift.Sendable {
 }
 public class ArrayExpression : FirebaseFirestore.FunctionExpression, @unchecked Swift.Sendable {
   public init(_ elements: [any Swift.Sendable])
@@ -768,6 +771,9 @@ public struct Direction : Swift.Sendable, Swift.Equatable, Swift.Hashable {
   public func execute() async throws -> FirebaseFirestore.Pipeline.Snapshot
   public func execute(options: FirebaseFirestore.Pipeline.ExecuteOptions) async throws -> FirebaseFirestore.Pipeline.Snapshot
   public func addFields(_ selectables: [any FirebaseFirestore.Selectable]) -> FirebaseFirestore.Pipeline
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func addWindowFields(window: FirebaseFirestore.WindowSpec = WindowSpec(), fields: [any FirebaseFirestore.WindowField], options: [Swift.String : any Swift.Sendable]? = nil) -> FirebaseFirestore.Pipeline
+  #endif
   public func removeFields(_ fields: [FirebaseFirestore.Field]) -> FirebaseFirestore.Pipeline
   public func removeFields(_ fields: [Swift.String]) -> FirebaseFirestore.Pipeline
   public func select(_ selections: [any FirebaseFirestore.Selectable]) -> FirebaseFirestore.Pipeline
@@ -920,6 +926,10 @@ public class RandomExpression : FirebaseFirestore.FunctionExpression, @unchecked
   @objc deinit
 }
 public func rand() -> FirebaseFirestore.RandomExpression
+@_hasMissingDesignatedInitializers public class Rank : FirebaseFirestore.WindowFunction, @unchecked Swift.Sendable {
+  public init()
+  @objc deinit
+}
 extension FirebaseFirestoreInternal.RegexValue : @retroactive Swift.Codable {
 }
 public struct Score : FirebaseFirestore.Expression, @unchecked Swift.Sendable {
@@ -1077,6 +1087,75 @@ extension FirebaseFirestoreInternal.VectorValue {
   public var array: [Swift.Double] {
     get
   }
+}
+public protocol WindowField : Swift.Sendable {
+}
+@_hasMissingDesignatedInitializers public class WindowFunction : @unchecked Swift.Sendable {
+  public func `as`(_ name: Swift.String) -> FirebaseFirestore.AliasedWindowFunction
+  @objc deinit
+}
+public struct WindowBound : Swift.ExpressibleByIntegerLiteral, Swift.ExpressibleByFloatLiteral, Swift.Sendable {
+  public enum Value : Swift.Sendable {
+    case unbounded
+    case current
+    case integer(Swift.Int)
+    case double(Swift.Double)
+    case expression(any FirebaseFirestore.Expression)
+  }
+  public let rawValue: FirebaseFirestore.WindowBound.Value
+  public static let unbounded: FirebaseFirestore.WindowBound
+  public static let current: FirebaseFirestore.WindowBound
+  public init(_ value: FirebaseFirestore.WindowBound.Value)
+  public init(_ expression: any FirebaseFirestore.Expression)
+  public init(_ int: Swift.Int)
+  public init(_ double: Swift.Double)
+  public init(integerLiteral value: Swift.Int)
+  public init(floatLiteral value: Swift.Double)
+  public typealias FloatLiteralType = Swift.Double
+  public typealias IntegerLiteralType = Swift.Int
+}
+public struct WindowSpec : Swift.Sendable {
+  public init()
+  public func partition(_ groups: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.WindowSpec
+  public func partition(_ groups: [Swift.String]) -> FirebaseFirestore.WindowSpec
+  public func sort(_ sort: FirebaseFirestore.Ordering) -> FirebaseFirestore.WindowSpec
+  public func sort(_ sort: [FirebaseFirestore.Ordering]) -> FirebaseFirestore.WindowSpec
+  public func documents(preceding: FirebaseFirestore.WindowBound, following: FirebaseFirestore.WindowBound) -> FirebaseFirestore.WindowSpec
+  public func documents(preceding: any FirebaseFirestore.Expression, following: any FirebaseFirestore.Expression) -> FirebaseFirestore.WindowSpec
+  public func documents(preceding: any FirebaseFirestore.Expression, following: FirebaseFirestore.WindowBound) -> FirebaseFirestore.WindowSpec
+  public func documents(preceding: FirebaseFirestore.WindowBound, following: any FirebaseFirestore.Expression) -> FirebaseFirestore.WindowSpec
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func range(preceding: FirebaseFirestore.WindowBound, following: FirebaseFirestore.WindowBound, unit: (any Swift.Sendable)? = nil) -> FirebaseFirestore.WindowSpec
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func range(preceding: any FirebaseFirestore.Expression, following: any FirebaseFirestore.Expression, unit: (any Swift.Sendable)? = nil) -> FirebaseFirestore.WindowSpec
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func range(preceding: any FirebaseFirestore.Expression, following: FirebaseFirestore.WindowBound, unit: (any Swift.Sendable)? = nil) -> FirebaseFirestore.WindowSpec
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func range(preceding: FirebaseFirestore.WindowBound, following: any FirebaseFirestore.Expression, unit: (any Swift.Sendable)? = nil) -> FirebaseFirestore.WindowSpec
+  #endif
+  public static func partition(_ groups: [any FirebaseFirestore.Expression]) -> FirebaseFirestore.WindowSpec
+  public static func partition(_ groups: [Swift.String]) -> FirebaseFirestore.WindowSpec
+  public static func sort(_ sort: FirebaseFirestore.Ordering) -> FirebaseFirestore.WindowSpec
+  public static func sort(_ sort: [FirebaseFirestore.Ordering]) -> FirebaseFirestore.WindowSpec
+  public static func documents(preceding: FirebaseFirestore.WindowBound, following: FirebaseFirestore.WindowBound) -> FirebaseFirestore.WindowSpec
+  public static func documents(preceding: any FirebaseFirestore.Expression, following: any FirebaseFirestore.Expression) -> FirebaseFirestore.WindowSpec
+  public static func documents(preceding: any FirebaseFirestore.Expression, following: FirebaseFirestore.WindowBound) -> FirebaseFirestore.WindowSpec
+  public static func documents(preceding: FirebaseFirestore.WindowBound, following: any FirebaseFirestore.Expression) -> FirebaseFirestore.WindowSpec
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func range(preceding: FirebaseFirestore.WindowBound, following: FirebaseFirestore.WindowBound, unit: (any Swift.Sendable)? = nil) -> FirebaseFirestore.WindowSpec
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func range(preceding: any FirebaseFirestore.Expression, following: any FirebaseFirestore.Expression, unit: (any Swift.Sendable)? = nil) -> FirebaseFirestore.WindowSpec
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func range(preceding: any FirebaseFirestore.Expression, following: FirebaseFirestore.WindowBound, unit: (any Swift.Sendable)? = nil) -> FirebaseFirestore.WindowSpec
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func range(preceding: FirebaseFirestore.WindowBound, following: any FirebaseFirestore.Expression, unit: (any Swift.Sendable)? = nil) -> FirebaseFirestore.WindowSpec
+  #endif
 }
 extension FirebaseFirestoreInternal.WriteBatch {
   @discardableResult

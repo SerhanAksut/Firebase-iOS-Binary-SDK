@@ -507,9 +507,8 @@ public struct LiveServerToolCallCancellation : Swift.Sendable {
 }
 @available(watchOS, unavailable)
 public struct VoiceActivityType : Swift.Hashable, Swift.Sendable {
-  public static let unknown: FirebaseAILogic.VoiceActivityType
-  public static let activityStart: FirebaseAILogic.VoiceActivityType
-  public static let activityEnd: FirebaseAILogic.VoiceActivityType
+  public static let start: FirebaseAILogic.VoiceActivityType
+  public static let end: FirebaseAILogic.VoiceActivityType
   public static func == (a: FirebaseAILogic.VoiceActivityType, b: FirebaseAILogic.VoiceActivityType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -521,11 +520,9 @@ public struct LiveServerVoiceActivity : Swift.Sendable {
   public var type: FirebaseAILogic.VoiceActivityType {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var audioOffset: Foundation.TimeInterval? {
+  public var audioOffset: Foundation.TimeInterval {
     get
   }
-  #endif
 }
 @_hasMissingDesignatedInitializers @available(watchOS, unavailable)
 final public class LiveSession : Swift.Sendable {

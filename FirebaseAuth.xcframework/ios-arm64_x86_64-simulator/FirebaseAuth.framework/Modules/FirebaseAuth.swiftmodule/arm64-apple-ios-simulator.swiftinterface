@@ -793,13 +793,13 @@ extension FirebaseAuth.User : Foundation.NSSecureCoding {
     @objc get
   }
   @objc public var metadata: FirebaseAuth.UserMetadata {
-    get
+    @objc get
   }
   @objc public var tenantID: Swift.String? {
     get
   }
   @objc public var multiFactor: FirebaseAuth.MultiFactor {
-    get
+    @objc get
   }
   #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "`updateEmail` is deprecated and will be removed in a future release. Use sendEmailVerification(beforeUpdatingEmail:) instead.")

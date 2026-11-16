@@ -53,6 +53,34 @@
           },
           {
             "kind": "Function",
+            "name": "over",
+            "printedName": "over(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowFunction",
+                "printedName": "FirebaseFirestore.WindowFunction",
+                "usr": "s:17FirebaseFirestore14WindowFunctionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore17AggregateFunctionC4overyAA06WindowD0CAA0F4SpecVF",
+            "mangledName": "$s17FirebaseFirestore17AggregateFunctionC4overyAA06WindowD0CAA0F4SpecVF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "as",
             "printedName": "as(_:)",
             "children": [
@@ -145,6 +173,27 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "WindowField",
+            "printedName": "WindowField",
+            "usr": "s:17FirebaseFirestore11WindowFieldP",
+            "mangledName": "$s17FirebaseFirestore11WindowFieldP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -181,6 +230,56 @@
             "printedName": "Selectable",
             "usr": "s:17FirebaseFirestore10SelectableP",
             "mangledName": "$s17FirebaseFirestore10SelectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AliasedWindowFunction",
+        "printedName": "AliasedWindowFunction",
+        "declKind": "Struct",
+        "usr": "s:17FirebaseFirestore21AliasedWindowFunctionV",
+        "mangledName": "$s17FirebaseFirestore21AliasedWindowFunctionV",
+        "moduleName": "FirebaseFirestore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "WindowField",
+            "printedName": "WindowField",
+            "usr": "s:17FirebaseFirestore11WindowFieldP",
+            "mangledName": "$s17FirebaseFirestore11WindowFieldP"
           },
           {
             "kind": "Conformance",
@@ -18421,6 +18520,78 @@
           },
           {
             "kind": "Function",
+            "name": "addWindowFields",
+            "printedName": "addWindowFields(window:fields:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Pipeline",
+                "printedName": "FirebaseFirestore.Pipeline",
+                "usr": "s:17FirebaseFirestore8PipelineC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "hasDefaultArg": true,
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any FirebaseFirestore.WindowField]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WindowField",
+                    "printedName": "any FirebaseFirestore.WindowField",
+                    "usr": "s:17FirebaseFirestore11WindowFieldP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : any Swift.Sendable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : any Swift.Sendable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "any Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore8PipelineC15addWindowFields6window6fields7optionsAcA0E4SpecV_SayAA0E5Field_pGSDySSs8Sendable_pGSgtF",
+            "mangledName": "$s17FirebaseFirestore8PipelineC15addWindowFields6window6fields7optionsAcA0E4SpecV_SayAA0E5Field_pGSDySSs8Sendable_pGSgtF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "removeFields",
             "printedName": "removeFields(_:)",
             "children": [
@@ -22478,6 +22649,78 @@
         "funcSelfKind": "NonMutating"
       },
       {
+        "kind": "TypeDecl",
+        "name": "Rank",
+        "printedName": "Rank",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Rank",
+                "printedName": "FirebaseFirestore.Rank",
+                "usr": "s:17FirebaseFirestore4RankC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FirebaseFirestore4RankCACycfc",
+            "mangledName": "$s17FirebaseFirestore4RankCACycfc",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17FirebaseFirestore4RankC",
+        "mangledName": "$s17FirebaseFirestore4RankC",
+        "moduleName": "FirebaseFirestore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:17FirebaseFirestore14WindowFunctionC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "FirebaseFirestore.WindowFunction"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "FirebaseFirestoreInternal",
         "printedName": "FirebaseFirestoreInternal",
@@ -26262,6 +26505,1825 @@
         "moduleName": "FirebaseFirestore",
         "declAttributes": [
           "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WindowField",
+        "printedName": "WindowField",
+        "declKind": "Protocol",
+        "usr": "s:17FirebaseFirestore11WindowFieldP",
+        "mangledName": "$s17FirebaseFirestore11WindowFieldP",
+        "moduleName": "FirebaseFirestore",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WindowFunction",
+        "printedName": "WindowFunction",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "as",
+            "printedName": "as(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AliasedWindowFunction",
+                "printedName": "FirebaseFirestore.AliasedWindowFunction",
+                "usr": "s:17FirebaseFirestore21AliasedWindowFunctionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore14WindowFunctionC2asyAA07AliasedcD0VSSF",
+            "mangledName": "$s17FirebaseFirestore14WindowFunctionC2asyAA07AliasedcD0VSSF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17FirebaseFirestore14WindowFunctionC",
+        "mangledName": "$s17FirebaseFirestore14WindowFunctionC",
+        "moduleName": "FirebaseFirestore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FirebaseFirestore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseFirestoreInternal",
+        "printedName": "FirebaseFirestoreInternal",
+        "declKind": "Import",
+        "moduleName": "FirebaseFirestore",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WindowBound",
+        "printedName": "WindowBound",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Value",
+            "printedName": "Value",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "unbounded",
+                "printedName": "unbounded",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FirebaseFirestore.WindowBound.Value.Type) -> FirebaseFirestore.WindowBound.Value",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Value",
+                        "printedName": "FirebaseFirestore.WindowBound.Value",
+                        "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FirebaseFirestore.WindowBound.Value.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Value",
+                            "printedName": "FirebaseFirestore.WindowBound.Value",
+                            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO9unboundedyA2EmF",
+                "mangledName": "$s17FirebaseFirestore11WindowBoundV5ValueO9unboundedyA2EmF",
+                "moduleName": "FirebaseFirestore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "current",
+                "printedName": "current",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FirebaseFirestore.WindowBound.Value.Type) -> FirebaseFirestore.WindowBound.Value",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Value",
+                        "printedName": "FirebaseFirestore.WindowBound.Value",
+                        "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FirebaseFirestore.WindowBound.Value.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Value",
+                            "printedName": "FirebaseFirestore.WindowBound.Value",
+                            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO7currentyA2EmF",
+                "mangledName": "$s17FirebaseFirestore11WindowBoundV5ValueO7currentyA2EmF",
+                "moduleName": "FirebaseFirestore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "integer",
+                "printedName": "integer",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FirebaseFirestore.WindowBound.Value.Type) -> (Swift.Int) -> FirebaseFirestore.WindowBound.Value",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int) -> FirebaseFirestore.WindowBound.Value",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Value",
+                            "printedName": "FirebaseFirestore.WindowBound.Value",
+                            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FirebaseFirestore.WindowBound.Value.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Value",
+                            "printedName": "FirebaseFirestore.WindowBound.Value",
+                            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO7integeryAESicAEmF",
+                "mangledName": "$s17FirebaseFirestore11WindowBoundV5ValueO7integeryAESicAEmF",
+                "moduleName": "FirebaseFirestore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "double",
+                "printedName": "double",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FirebaseFirestore.WindowBound.Value.Type) -> (Swift.Double) -> FirebaseFirestore.WindowBound.Value",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double) -> FirebaseFirestore.WindowBound.Value",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Value",
+                            "printedName": "FirebaseFirestore.WindowBound.Value",
+                            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FirebaseFirestore.WindowBound.Value.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Value",
+                            "printedName": "FirebaseFirestore.WindowBound.Value",
+                            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO6doubleyAESdcAEmF",
+                "mangledName": "$s17FirebaseFirestore11WindowBoundV5ValueO6doubleyAESdcAEmF",
+                "moduleName": "FirebaseFirestore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "expression",
+                "printedName": "expression",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FirebaseFirestore.WindowBound.Value.Type) -> (any FirebaseFirestore.Expression) -> FirebaseFirestore.WindowBound.Value",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any FirebaseFirestore.Expression) -> FirebaseFirestore.WindowBound.Value",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Value",
+                            "printedName": "FirebaseFirestore.WindowBound.Value",
+                            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Expression",
+                            "printedName": "any FirebaseFirestore.Expression",
+                            "usr": "s:17FirebaseFirestore10ExpressionP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FirebaseFirestore.WindowBound.Value.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Value",
+                            "printedName": "FirebaseFirestore.WindowBound.Value",
+                            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO10expressionyAeA10Expression_pcAEmF",
+                "mangledName": "$s17FirebaseFirestore11WindowBoundV5ValueO10expressionyAeA10Expression_pcAEmF",
+                "moduleName": "FirebaseFirestore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundV5ValueO",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Value",
+                "printedName": "FirebaseFirestore.WindowBound.Value",
+                "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FirebaseFirestore11WindowBoundV8rawValueAC0F0Ovp",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundV8rawValueAC0F0Ovp",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Value",
+                    "printedName": "FirebaseFirestore.WindowBound.Value",
+                    "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FirebaseFirestore11WindowBoundV8rawValueAC0F0Ovg",
+                "mangledName": "$s17FirebaseFirestore11WindowBoundV8rawValueAC0F0Ovg",
+                "moduleName": "FirebaseFirestore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unbounded",
+            "printedName": "unbounded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FirebaseFirestore11WindowBoundV9unboundedACvpZ",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundV9unboundedACvpZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WindowBound",
+                    "printedName": "FirebaseFirestore.WindowBound",
+                    "usr": "s:17FirebaseFirestore11WindowBoundV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FirebaseFirestore11WindowBoundV9unboundedACvgZ",
+                "mangledName": "$s17FirebaseFirestore11WindowBoundV9unboundedACvgZ",
+                "moduleName": "FirebaseFirestore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "current",
+            "printedName": "current",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FirebaseFirestore11WindowBoundV7currentACvpZ",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundV7currentACvpZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WindowBound",
+                    "printedName": "FirebaseFirestore.WindowBound",
+                    "usr": "s:17FirebaseFirestore11WindowBoundV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FirebaseFirestore11WindowBoundV7currentACvgZ",
+                "mangledName": "$s17FirebaseFirestore11WindowBoundV7currentACvgZ",
+                "moduleName": "FirebaseFirestore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Value",
+                "printedName": "FirebaseFirestore.WindowBound.Value",
+                "usr": "s:17FirebaseFirestore11WindowBoundV5ValueO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FirebaseFirestore11WindowBoundVyA2C5ValueOcfc",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundVyA2C5ValueOcfc",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FirebaseFirestore11WindowBoundVyAcA10Expression_pcfc",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundVyAcA10Expression_pcfc",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FirebaseFirestore11WindowBoundVyACSicfc",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundVyACSicfc",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FirebaseFirestore11WindowBoundVyACSdcfc",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundVyACSdcfc",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(integerLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FirebaseFirestore11WindowBoundV14integerLiteralACSi_tcfc",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundV14integerLiteralACSi_tcfc",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(floatLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FirebaseFirestore11WindowBoundV12floatLiteralACSd_tcfc",
+            "mangledName": "$s17FirebaseFirestore11WindowBoundV12floatLiteralACSd_tcfc",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17FirebaseFirestore11WindowBoundV",
+        "mangledName": "$s17FirebaseFirestore11WindowBoundV",
+        "moduleName": "FirebaseFirestore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByFloatLiteral",
+            "printedName": "ExpressibleByFloatLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "FloatLiteralType",
+                "printedName": "FloatLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByFloatLiteralP",
+            "mangledName": "$ss25ExpressibleByFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WindowSpec",
+        "printedName": "WindowSpec",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FirebaseFirestore10WindowSpecVACycfc",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecVACycfc",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "partition",
+            "printedName": "partition(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any FirebaseFirestore.Expression]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Expression",
+                    "printedName": "any FirebaseFirestore.Expression",
+                    "usr": "s:17FirebaseFirestore10ExpressionP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9partitionyACSayAA10Expression_pGF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9partitionyACSayAA10Expression_pGF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "partition",
+            "printedName": "partition(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9partitionyACSaySSGF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9partitionyACSaySSGF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sort",
+            "printedName": "sort(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Ordering",
+                "printedName": "FirebaseFirestore.Ordering",
+                "usr": "s:17FirebaseFirestore8OrderingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV4sortyAcA8OrderingVF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV4sortyAcA8OrderingVF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sort",
+            "printedName": "sort(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FirebaseFirestore.Ordering]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Ordering",
+                    "printedName": "FirebaseFirestore.Ordering",
+                    "usr": "s:17FirebaseFirestore8OrderingV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV4sortyACSayAA8OrderingVGF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV4sortyACSayAA8OrderingVGF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documents",
+            "printedName": "documents(preceding:following:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA0C5BoundV_AHtF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA0C5BoundV_AHtF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documents",
+            "printedName": "documents(preceding:following:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA10Expression_p_AaG_ptF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA10Expression_p_AaG_ptF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documents",
+            "printedName": "documents(preceding:following:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA10Expression_p_AA0C5BoundVtF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA10Expression_p_AA0C5BoundVtF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documents",
+            "printedName": "documents(preceding:following:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA0C5BoundV_AA10Expression_ptF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA0C5BoundV_AA10Expression_ptF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(preceding:following:unit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA0C5BoundV_AIs8Sendable_pSgtF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA0C5BoundV_AIs8Sendable_pSgtF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(preceding:following:unit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA10Expression_p_AaH_ps8Sendable_pSgtF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA10Expression_p_AaH_ps8Sendable_pSgtF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(preceding:following:unit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA10Expression_p_AA0C5BoundVs8Sendable_pSgtF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA10Expression_p_AA0C5BoundVs8Sendable_pSgtF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(preceding:following:unit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA0C5BoundV_AA10Expression_ps8Sendable_pSgtF",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA0C5BoundV_AA10Expression_ps8Sendable_pSgtF",
+            "moduleName": "FirebaseFirestore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "partition",
+            "printedName": "partition(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any FirebaseFirestore.Expression]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Expression",
+                    "printedName": "any FirebaseFirestore.Expression",
+                    "usr": "s:17FirebaseFirestore10ExpressionP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9partitionyACSayAA10Expression_pGFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9partitionyACSayAA10Expression_pGFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "partition",
+            "printedName": "partition(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9partitionyACSaySSGFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9partitionyACSaySSGFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sort",
+            "printedName": "sort(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Ordering",
+                "printedName": "FirebaseFirestore.Ordering",
+                "usr": "s:17FirebaseFirestore8OrderingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV4sortyAcA8OrderingVFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV4sortyAcA8OrderingVFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sort",
+            "printedName": "sort(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FirebaseFirestore.Ordering]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Ordering",
+                    "printedName": "FirebaseFirestore.Ordering",
+                    "usr": "s:17FirebaseFirestore8OrderingV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV4sortyACSayAA8OrderingVGFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV4sortyACSayAA8OrderingVGFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documents",
+            "printedName": "documents(preceding:following:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA0C5BoundV_AHtFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA0C5BoundV_AHtFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documents",
+            "printedName": "documents(preceding:following:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA10Expression_p_AaG_ptFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA10Expression_p_AaG_ptFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documents",
+            "printedName": "documents(preceding:following:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA10Expression_p_AA0C5BoundVtFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA10Expression_p_AA0C5BoundVtFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "documents",
+            "printedName": "documents(preceding:following:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA0C5BoundV_AA10Expression_ptFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV9documents9preceding9followingAcA0C5BoundV_AA10Expression_ptFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(preceding:following:unit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA0C5BoundV_AIs8Sendable_pSgtFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA0C5BoundV_AIs8Sendable_pSgtFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(preceding:following:unit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA10Expression_p_AaH_ps8Sendable_pSgtFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA10Expression_p_AaH_ps8Sendable_pSgtFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(preceding:following:unit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA10Expression_p_AA0C5BoundVs8Sendable_pSgtFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA10Expression_p_AA0C5BoundVs8Sendable_pSgtFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(preceding:following:unit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WindowSpec",
+                "printedName": "FirebaseFirestore.WindowSpec",
+                "usr": "s:17FirebaseFirestore10WindowSpecV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WindowBound",
+                "printedName": "FirebaseFirestore.WindowBound",
+                "usr": "s:17FirebaseFirestore11WindowBoundV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Expression",
+                "printedName": "any FirebaseFirestore.Expression",
+                "usr": "s:17FirebaseFirestore10ExpressionP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA0C5BoundV_AA10Expression_ps8Sendable_pSgtFZ",
+            "mangledName": "$s17FirebaseFirestore10WindowSpecV5range9preceding9following4unitAcA0C5BoundV_AA10Expression_ps8Sendable_pSgtFZ",
+            "moduleName": "FirebaseFirestore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17FirebaseFirestore10WindowSpecV",
+        "mangledName": "$s17FirebaseFirestore10WindowSpecV",
+        "moduleName": "FirebaseFirestore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
         ]
       },
       {
@@ -32574,431 +34636,445 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/ArrayExpression.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/ArrayExpression.swift",
       "kind": "Array",
       "offset": 1268,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/DistanceMeasure.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/DistanceMeasure.swift",
       "kind": "StringLiteral",
       "offset": 994,
       "length": 13,
       "value": "\"dot_product\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/DocumentID.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/DocumentID.swift",
       "kind": "StringLiteral",
       "offset": 906,
       "length": 24,
       "value": "\"DocumentRefUserInfoKey\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
       "kind": "Dictionary",
       "offset": 1677,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Codable\/EncoderDecoder.swift",
       "kind": "Dictionary",
       "offset": 3447,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
       "kind": "Array",
       "offset": 6325,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQuery.swift",
       "kind": "Array",
       "offset": 7408,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQueryObservable.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/FirestoreQueryObservable.swift",
       "kind": "BooleanLiteral",
       "offset": 1035,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/MapExpression.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Expressions\/FunctionExpressions\/MapExpression.swift",
       "kind": "Array",
       "offset": 1325,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
       "kind": "StringLiteral",
       "offset": 1379,
       "length": 11,
       "value": "\"ascending\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Ordering.swift",
       "kind": "StringLiteral",
       "offset": 1490,
       "length": 12,
       "value": "\"descending\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Pipeline.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Pipeline.swift",
       "kind": "BooleanLiteral",
       "offset": 3556,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Pipeline.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/Pipeline.swift",
       "kind": "Array",
-      "offset": 53541,
+      "offset": 54634,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/QueryPredicate.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/PropertyWrapper\/QueryPredicate.swift",
       "kind": "BooleanLiteral",
       "offset": 3162,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1425,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1652,
       "length": 10,
       "value": "\"estimate\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/RealtimePipeline.swift",
       "kind": "StringLiteral",
       "offset": 1877,
       "length": 10,
       "value": "\"previous\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1146,
       "length": 12,
       "value": "\"collection\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1716,
       "length": 15,
       "value": "\"subcollection\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 1907,
       "length": 18,
       "value": "\"collection_group\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2429,
       "length": 10,
       "value": "\"database\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 2715,
       "length": 11,
       "value": "\"documents\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 3139,
       "length": 10,
       "value": "\"literals\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 4246,
       "length": 7,
       "value": "\"where\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 4667,
       "length": 7,
       "value": "\"limit\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 4904,
       "length": 8,
       "value": "\"offset\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
       "offset": 5150,
       "length": 12,
       "value": "\"add_fields\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 5760,
+      "offset": 5758,
+      "length": 19,
+      "value": "\"add_window_fields\""
+    },
+    {
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "kind": "StringLiteral",
+      "offset": 6840,
       "length": 15,
       "value": "\"remove_fields\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 6130,
+      "offset": 7210,
       "length": 5,
       "value": "\"let\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 6649,
+      "offset": 7729,
       "length": 8,
       "value": "\"select\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 7190,
+      "offset": 8270,
       "length": 10,
       "value": "\"distinct\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 7714,
+      "offset": 8794,
       "length": 11,
       "value": "\"aggregate\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "Dictionary",
-      "offset": 7846,
+      "offset": 8926,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 8858,
+      "offset": 9861,
       "length": 14,
       "value": "\"find_nearest\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 9731,
+      "offset": 10734,
       "length": 8,
       "value": "\"search\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 12595,
+      "offset": 13598,
       "length": 6,
       "value": "\"sort\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 12855,
+      "offset": 13858,
       "length": 14,
       "value": "\"replace_with\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 13154,
+      "offset": 14157,
       "length": 8,
       "value": "\"sample\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 13557,
+      "offset": 14560,
       "length": 7,
       "value": "\"union\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 13851,
+      "offset": 14854,
       "length": 8,
       "value": "\"unnest\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 15104,
+      "offset": 16107,
       "length": 8,
       "value": "\"delete\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 15242,
+      "offset": 16245,
       "length": 8,
       "value": "\"update\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 15705,
+      "offset": 16708,
       "length": 8,
       "value": "\"insert\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "StringLiteral",
-      "offset": 16363,
+      "offset": 17366,
       "length": 8,
       "value": "\"upsert\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/Stages.swift",
       "kind": "Array",
-      "offset": 16469,
+      "offset": 17472,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 811,
       "length": 14,
       "value": "\"week(monday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 849,
       "length": 15,
       "value": "\"week(tuesday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 17,
       "value": "\"week(wednesday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 932,
       "length": 16,
       "value": "\"week(thursday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 14,
       "value": "\"week(friday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 1010,
       "length": 16,
       "value": "\"week(saturday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimeGranularity.swift",
       "kind": "StringLiteral",
       "offset": 1049,
       "length": 14,
       "value": "\"week(sunday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 11,
       "value": "\"dayofweek\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 822,
       "length": 11,
       "value": "\"dayofyear\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 870,
       "length": 14,
       "value": "\"week(monday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 908,
       "length": 15,
       "value": "\"week(tuesday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 949,
       "length": 17,
       "value": "\"week(wednesday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 16,
       "value": "\"week(thursday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1030,
       "length": 14,
       "value": "\"week(friday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1069,
       "length": 16,
       "value": "\"week(saturday)\""
     },
     {
-      "filePath": "\/var\/folders\/n6\/hn37q6pj7sj_9dmqqc2113800000gn\/T\/ZipRelease\/2026-10-22T06-50-29\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/TimePart.swift",
       "kind": "StringLiteral",
       "offset": 1108,
       "length": 14,
       "value": "\"week(sunday)\""
+    },
+    {
+      "filePath": "\/var\/folders\/h5\/t85nd63d71x27_8gl5gw3l_w0000gn\/T\/ZipRelease\/2026-11-08T04-14-24\/project-tvos\/Pods\/FirebaseFirestore\/Firestore\/Swift\/Source\/SwiftAPI\/Pipeline\/WindowSpec.swift",
+      "kind": "Array",
+      "offset": 5004,
+      "length": 2,
+      "value": "[]"
     }
   ]
 }

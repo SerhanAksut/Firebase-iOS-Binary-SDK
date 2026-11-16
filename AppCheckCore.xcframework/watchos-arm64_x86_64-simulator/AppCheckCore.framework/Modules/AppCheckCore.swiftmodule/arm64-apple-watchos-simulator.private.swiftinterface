@@ -95,9 +95,40 @@ public protocol AppCheckCoreBackoffWrapperProtocol : ObjectiveC.NSObjectProtocol
   @objc override dynamic public init()
   @objc deinit
 }
+#if compiler(>=5.3) && $NonexhaustiveAttribute
+@nonexhaustive @objc(GACAppCheckDebugTokenSource) public enum AppCheckCoreDebugTokenSource : Swift.Int, Swift.Sendable {
+  case local = 0
+  case environmentVariable = 1
+  case provided = 2
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+#else
+@objc(GACAppCheckDebugTokenSource) public enum AppCheckCoreDebugTokenSource : Swift.Int, Swift.Sendable {
+  case local = 0
+  case environmentVariable = 1
+  case provided = 2
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+#endif
 @_hasMissingDesignatedInitializers @objc(GACAppCheckDebugProvider) public class AppCheckCoreDebugProvider : ObjectiveC.NSObject, AppCheckCore.AppCheckCoreProvider {
+  @objc final public let debugTokenSource: AppCheckCore.AppCheckCoreDebugTokenSource
   #if compiler(>=5.3) && $NonescapableTypes
   @objc(initWithServiceName:resourceName:baseURL:APIKey:requestHooks:) convenience public init(serviceName: Swift.String, resourceName: Swift.String, baseURL: Swift.String?, apiKey: Swift.String, requestHooks: [Any]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(initWithServiceName:resourceName:baseURL:APIKey:requestHooks:debugToken:) convenience public init(serviceName: Swift.String, resourceName: Swift.String, baseURL: Swift.String?, apiKey: Swift.String, requestHooks: [Any]?, debugToken: Swift.String?)
   #endif
   @objc public func localDebugToken() -> Swift.String
   @objc public func currentDebugToken() -> Swift.String
@@ -176,6 +207,7 @@ extension AppCheckCore.AppCheckCoreErrorCode : Foundation._ObjectiveCBridgeableE
   case environmentVariableDebugToken = 4002
   case debugProviderFirebaseEnvironmentVariable = 4003
   case debugProviderFailedExchange = 4004
+  case providedDebugToken = 4005
   case appAttestNotSupported = 7001
   case attestationRejected = 7002
   case assertionRejected = 7003
@@ -325,6 +357,9 @@ public func withSafeCheckedThrowingContinuation<T>(_ body: (AppCheckCore.SafeCon
 extension AppCheckCore.AppCheckCoreBackoffType : Swift.Equatable {}
 extension AppCheckCore.AppCheckCoreBackoffType : Swift.Hashable {}
 extension AppCheckCore.AppCheckCoreBackoffType : Swift.RawRepresentable {}
+extension AppCheckCore.AppCheckCoreDebugTokenSource : Swift.Equatable {}
+extension AppCheckCore.AppCheckCoreDebugTokenSource : Swift.Hashable {}
+extension AppCheckCore.AppCheckCoreDebugTokenSource : Swift.RawRepresentable {}
 extension AppCheckCore.AppCheckCoreErrorCode : Swift.Equatable {}
 extension AppCheckCore.AppCheckCoreErrorCode : Swift.Hashable {}
 extension AppCheckCore.AppCheckCoreErrorCode : Swift.RawRepresentable {}
